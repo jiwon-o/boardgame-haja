@@ -1,33 +1,54 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useReducer } from "react";
 import axios from "axios";
+import { Game, State, Action } from "../types";
 
-interface Game {
-  id: number;
-  name: string;
-  image: string;
+function reducer(state: State, action: Action) {
+  switch (action.type) {
+    case "LOADING":
+      return {
+        loading: true,
+        data: null,
+        error: null,
+      };
+    case "SUCCESS":
+      return {
+        loading: false,
+        data: action.data,
+        error: null,
+      };
+    case "ERROR":
+      return {
+        loading: false,
+        data: null,
+        error: action.error,
+      };
+    default:
+      return state;
+  }
 }
 
 export default function Boardgames() {
-  const [games, setGames] = useState<Game[] | null>(null);
-  const [loading, setLoading] = useState<boolean>(false);
-  const [error, setError] = useState<Error | null>(null);
+  const [state, dispatch] = useReducer(reducer, {
+    loading: false,
+    data: null,
+    error: null,
+  });
+
+  const fetchGames = async () => {
+    dispatch({ type: "LOADING" });
+    try {
+      const response = await axios.get<Game[]>("http://localhost:3001/game");
+      dispatch({ type: "SUCCESS", data: response.data });
+    } catch (e: any) {
+      dispatch({ type: "ERROR", error: e });
+    }
+  };
 
   useEffect(() => {
-    const fetchData = async () => {
-      try {
-        setError(null);
-        setGames(null);
-        // loading 상태를 true 로 바꿉니다.
-        setLoading(true);
-        const response = await axios.get<Game[]>("http://localhost:3001/game");
-        setGames(response.data);
-      } catch (e: any) {
-        setError(e);
-      }
-      setLoading(false);
-    };
-    fetchData();
+    fetchGames();
   }, []);
+
+  const { loading, data: games, error } = state;
 
   if (loading) return <div>로딩중..</div>;
   if (error) return <div>에러가 발생했습니다</div>;
@@ -43,7 +64,7 @@ export default function Boardgames() {
           ))}
         </ul>
       ) : (
-        <p>No data available.</p>
+        <p>보드게임이 아직 없습니다.</p>
       )}
     </div>
   );
