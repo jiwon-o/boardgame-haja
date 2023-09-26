@@ -1,9 +1,11 @@
+import { useState, useEffect } from "react";
 import "./App.css";
+import Boardgames from "./components/Boardgames";
 
 function App() {
   return (
     <div className="App">
-      <h1>hello</h1>
+      <Boardgames />
     </div>
   );
 }
