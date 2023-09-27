@@ -173,7 +173,7 @@ export default function Boardgames() {
                 <GameImg src={game.image} alt={game.name} />
                 <GameTitle>
                   {game.name}
-                  <GameRate>{game.rate}</GameRate>
+                  <GameRate>{Number(game.rate).toFixed(1)}</GameRate>
                 </GameTitle>
               </Card>
             </CardContainer>
