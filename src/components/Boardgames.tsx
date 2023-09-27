@@ -3,6 +3,13 @@ import useAsync from "../hooks/useAsync";
 import styled from "styled-components";
 import Masonry from "react-masonry-css";
 import { useEffect, useState } from "react";
+import { GameRankProps } from "../types";
+
+const rankColors: { [key: number]: string } = {
+  1: "#d83f31",
+  2: "#ee9322",
+  3: "#ee9322",
+};
 
 const GamesLayout = styled.div`
   min-width: 390px;
@@ -18,6 +25,7 @@ const MasonryContainer = styled(Masonry)`
 `;
 
 const CardContainer = styled.div`
+  position: relative;
   background-color: #353a75;
   border-radius: 6px;
   cursor: pointer;
@@ -28,6 +36,7 @@ const CardContainer = styled.div`
 `;
 
 const Card = styled.div`
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -38,8 +47,39 @@ const Card = styled.div`
   border-radius: 6px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 
-  ${CardContainer}:hover & {
+  &::before {
+    content: "";
+    position: absolute;
+    background-color: #353a75;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+  ${CardContainer}:hover &::before {
     opacity: 0.4;
+  }
+`;
+
+const GameRank = styled.span<GameRankProps>`
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-size: 1.8rem;
+  color: white;
+  opacity: 0;
+  background-color: ${(props) => rankColors[props.ranking] || "#e9b824"};
+
+  ${CardContainer}:hover & {
+    opacity: 1;
   }
 `;
 
@@ -129,6 +169,7 @@ export default function Boardgames() {
           {games.map((game) => (
             <CardContainer key={game.id}>
               <Card>
+                <GameRank ranking={game.ranking}>{game.ranking}</GameRank>
                 <GameImg src={game.image} alt={game.name} />
                 <GameTitle>
                   {game.name}

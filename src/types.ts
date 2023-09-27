@@ -3,6 +3,11 @@ export interface Game {
   name: string;
   image: string;
   rate: number;
+  ranking: number;
+}
+
+export interface GameRankProps {
+  ranking: number;
 }
 
 export type State = {
