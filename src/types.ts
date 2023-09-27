@@ -2,6 +2,7 @@ export interface Game {
   id: number;
   name: string;
   image: string;
+  rate: number;
 }
 
 export type State = {
