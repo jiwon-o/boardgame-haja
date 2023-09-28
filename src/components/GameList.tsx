@@ -3,7 +3,9 @@ import useAsync from "../hooks/useAsync";
 import styled from "styled-components";
 import Masonry from "react-masonry-css";
 import { useEffect, useState } from "react";
-import { GameRankProps } from "../types";
+import { Game, GameRankProps } from "../types";
+import Input from "./Input";
+import Header from "./Header";
 
 const rankColors: { [key: number]: string } = {
   1: "#d83f31",
@@ -108,7 +110,7 @@ async function getGames() {
   return response.data;
 }
 
-export default function Boardgames() {
+export default function GameList() {
   const state = useAsync(getGames, []);
 
   const { loading, data: games, error } = state;
@@ -155,18 +157,34 @@ export default function Boardgames() {
     };
   }, []);
 
+  const [searchTerm, setSearchTerm] = useState("");
+  const [filteredGames, setFilteredGames] = useState<Game[]>([]);
+
+  const handleSearch = (term: string) => {
+    setSearchTerm(term);
+  };
+
+  useEffect(() => {
+    // games 배열을 검색어에 따라 필터링
+    const filtered = games?.filter((game) =>
+      game.name.toLowerCase().includes(searchTerm.toLowerCase())
+    );
+    setFilteredGames(filtered || []);
+  }, [games, searchTerm]);
+
   if (loading) return <div>로딩중..</div>;
   if (error) return <div>에러가 발생했습니다</div>;
   if (!games) return null;
   return (
     <GamesLayout>
-      {games && games.length > 0 ? (
+      <Header onSearch={handleSearch} />
+      {filteredGames && filteredGames.length > 0 ? (
         <MasonryContainer
           breakpointCols={columns}
           className="list"
           columnClassName="column"
         >
-          {games.map((game) => (
+          {filteredGames.map((game) => (
             <CardContainer key={game.id}>
               <Card>
                 <GameRank ranking={game.ranking}>{game.ranking}</GameRank>
