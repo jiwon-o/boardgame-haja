@@ -10,10 +10,14 @@ const HeaderWrapper = styled.header`
   padding: 0 1.6rem;
 `;
 
-export default function header() {
+interface Props {
+  onSearch(term: string): void;
+}
+
+export default function header(props: Props) {
   return (
     <HeaderWrapper>
-      <Input />
+      <Input onSearch={props.onSearch} />
     </HeaderWrapper>
   );
 }

@@ -110,7 +110,11 @@ async function getGames() {
   return response.data;
 }
 
-export default function GameList() {
+interface Props {
+  searchGame: string;
+}
+
+export default function GameList(props: Props) {
   const state = useAsync(getGames, []);
 
   const { loading, data: games, error } = state;
@@ -157,27 +161,15 @@ export default function GameList() {
     };
   }, []);
 
-  const [searchTerm, setSearchTerm] = useState("");
-  const [filteredGames, setFilteredGames] = useState<Game[]>([]);
-
-  const handleSearch = (term: string) => {
-    setSearchTerm(term);
-  };
-
-  useEffect(() => {
-    // games 배열을 검색어에 따라 필터링
-    const filtered = games?.filter((game) =>
-      game.name.toLowerCase().includes(searchTerm.toLowerCase())
-    );
-    setFilteredGames(filtered || []);
-  }, [games, searchTerm]);
+  const filteredGames = games?.filter((game) =>
+    game.name.toLowerCase().includes(props.searchGame.toLowerCase())
+  );
 
   if (loading) return <div>로딩중..</div>;
   if (error) return <div>에러가 발생했습니다</div>;
   if (!games) return null;
   return (
     <GamesLayout>
-      <Header onSearch={handleSearch} />
       {filteredGames && filteredGames.length > 0 ? (
         <MasonryContainer
           breakpointCols={columns}

@@ -1,13 +1,11 @@
-import Boardgames from "./components/Boardgames";
 import GlobalStyle from "./styles/GlobalStyle";
-import Header from "./components/Header";
+import Home from "./pages/Home";
 
 function App() {
   return (
     <div className="App">
       <GlobalStyle />
-      <Header />
-      <Boardgames />
+      <Home />
     </div>
   );
 }
