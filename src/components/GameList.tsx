@@ -4,6 +4,7 @@ import { GameRankProps } from "../types";
 import useColumns from "../hooks/useColumns";
 import { Game } from "./../types";
 import useSearch from "../hooks/useSearch";
+import useScroll from "../hooks/useScroll";
 
 const rankColors: { [key: number]: string } = {
   1: "#d83f31",
@@ -113,23 +114,25 @@ interface Props {
 export default function GameList({ loading, error, games, searchGame }: Props) {
   const columns = useColumns();
   const searchGames = useSearch();
+  const dataCount = useScroll(20);
 
   const filteredGames = games?.filter((game) => {
     return searchGames(searchGame, game.name);
   });
+
+  const pagedGames = filteredGames?.slice(0, dataCount);
 
   if (loading) return <div>로딩중..</div>;
   if (error) return <div>에러가 발생했습니다</div>;
   if (!games) return null;
   return (
     <GamesLayout>
-      {filteredGames && filteredGames.length > 0 ? (
+      {pagedGames && pagedGames.length > 0 ? (
         <MasonryContainer
           breakpointCols={columns}
           className="list"
-          columnClassName="column"
-        >
-          {filteredGames.map((game) => (
+          columnClassName="column">
+          {pagedGames.map((game) => (
             <CardContainer key={game.id}>
               <Card>
                 <GameRank ranking={game.ranking}>{game.ranking}</GameRank>
