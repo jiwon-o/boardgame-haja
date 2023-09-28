@@ -1,10 +1,8 @@
-import axios from "axios";
-import useAsync from "../hooks/useAsync";
 import styled from "styled-components";
 import Masonry from "react-masonry-css";
-import { useEffect, useState } from "react";
 import { GameRankProps } from "../types";
 import useColumns from "../hooks/useColumns";
+import { Game } from "./../types";
 
 const rankColors: { [key: number]: string } = {
   1: "#d83f31",
@@ -140,19 +138,14 @@ const pattern = (ch: string) => {
   return `(${r})`;
 };
 
-async function getGames() {
-  const response = await axios.get("http://localhost:3001/game");
-  return response.data;
-}
-
 interface Props {
+  loading: boolean;
+  error: Error | null;
+  games: Game[] | null;
   searchGame: string;
 }
 
-export default function GameList(props: Props) {
-  const state = useAsync(getGames, []);
-  const { loading, data: games, error } = state;
-
+export default function GameList({ loading, error, games, searchGame }: Props) {
   const columns = useColumns();
 
   // 검색 기능
@@ -163,7 +156,7 @@ export default function GameList(props: Props) {
   };
 
   const filteredGames = games?.filter((game) => {
-    return isChosungMatch(props.searchGame, game.name);
+    return isChosungMatch(searchGame, game.name);
   });
 
   if (loading) return <div>로딩중..</div>;
