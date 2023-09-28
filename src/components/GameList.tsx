@@ -3,9 +3,8 @@ import useAsync from "../hooks/useAsync";
 import styled from "styled-components";
 import Masonry from "react-masonry-css";
 import { useEffect, useState } from "react";
-import { Game, GameRankProps } from "../types";
-import Input from "./Input";
-import Header from "./Header";
+import { GameRankProps } from "../types";
+import useColumns from "../hooks/useColumns";
 
 const rankColors: { [key: number]: string } = {
   1: "#d83f31",
@@ -152,50 +151,9 @@ interface Props {
 
 export default function GameList(props: Props) {
   const state = useAsync(getGames, []);
-
   const { loading, data: games, error } = state;
 
-  const [columns, setColumns] = useState<number>(() => {
-    const width = window.innerWidth;
-    if (width >= 1400) {
-      return 6;
-    } else if (width >= 1200) {
-      return 5;
-    } else if (width >= 992) {
-      return 4;
-    } else if (width >= 768) {
-      return 3;
-    } else if (width >= 480) {
-      return 2;
-    } else {
-      return 1;
-    }
-  });
-
-  useEffect(() => {
-    function handleResize() {
-      const width = window.innerWidth;
-      if (width >= 1400) {
-        setColumns(6);
-      } else if (width >= 1200) {
-        setColumns(5);
-      } else if (width >= 992) {
-        setColumns(4);
-      } else if (width >= 768) {
-        setColumns(3);
-      } else if (width >= 480) {
-        setColumns(2);
-      } else {
-        setColumns(1);
-      }
-    }
-
-    window.addEventListener("resize", handleResize);
-
-    return () => {
-      window.removeEventListener("resize", handleResize);
-    };
-  }, []);
+  const columns = useColumns();
 
   // 검색 기능
   const isChosungMatch = (query: string, target: string) => {
