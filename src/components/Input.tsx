@@ -7,6 +7,7 @@ const InputWrapper = styled.form`
   border: 1px solid #57606a;
   border-radius: 32px;
   width: calc(100% - 480px);
+  min-width: 320px;
   background: url(${SearchIcon}) no-repeat left 1.3em center / 1.7em;
   background-color: #282f46;
 
