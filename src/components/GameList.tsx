@@ -122,6 +122,15 @@ export default function GameList({ loading, error, games, searchGame }: Props) {
 
   const pagedGames = filteredGames?.slice(0, dataCount);
 
+  const generateImageUrl = (imageUrl: string, size: number) => {
+    if (imageUrl.endsWith(".jpg")) {
+      return imageUrl.replace(".jpg", `_N_${size}x${size}_100_5_.jpg`);
+    } else if (imageUrl.endsWith(".png")) {
+      return imageUrl.replace(".png", `_N_${size}x${size}_100_5_.png`);
+    }
+    return imageUrl;
+  };
+
   if (loading) return <div>로딩중..</div>;
   if (error) return <div>에러가 발생했습니다</div>;
   if (!games) return null;
@@ -131,19 +140,24 @@ export default function GameList({ loading, error, games, searchGame }: Props) {
         <MasonryContainer
           breakpointCols={columns}
           className="list"
-          columnClassName="column">
-          {pagedGames.map((game) => (
-            <CardContainer key={game.id}>
-              <Card>
-                <GameRank ranking={game.ranking}>{game.ranking}</GameRank>
-                <GameImg src={game.image} alt={game.name} />
-                <GameTitle>
-                  {game.name}
-                  <GameRate>{Number(game.rate).toFixed(1)}</GameRate>
-                </GameTitle>
-              </Card>
-            </CardContainer>
-          ))}
+          columnClassName="column"
+        >
+          {pagedGames.map((game) => {
+            const imageUrl = generateImageUrl(game.image, 200);
+
+            return (
+              <CardContainer key={game.id}>
+                <Card>
+                  <GameRank ranking={game.ranking}>{game.ranking}</GameRank>
+                  <GameImg src={imageUrl} alt={game.name} />
+                  <GameTitle>
+                    {game.name}
+                    <GameRate>{Number(game.rate).toFixed(1)}</GameRate>
+                  </GameTitle>
+                </Card>
+              </CardContainer>
+            );
+          })}
         </MasonryContainer>
       ) : (
         <p>보드게임이 아직 없습니다.</p>
