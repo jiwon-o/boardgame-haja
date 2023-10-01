@@ -3,7 +3,7 @@
     {
       "id": 1,
       "name": "글룸헤이븐",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/01/29/1611914795-315436_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/01/29/1611914795-315436.jpg",
       "min_player": "1",
       "max_player": "4",
       "play_time": "60-120분",
@@ -16,7 +16,7 @@
     {
       "id": 2,
       "name": "테라포밍 마스",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/01/29/1611915054-873621_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/01/29/1611915054-873621.jpg",
       "min_player": "1",
       "max_player": "5",
       "play_time": "120분",
@@ -29,7 +29,7 @@
     {
       "id": 3,
       "name": "메이지 나이트",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2020/04/02/1585818380-709746_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2020/04/02/1585818380-709746.jpg",
       "min_player": "1",
       "max_player": "4",
       "play_time": "60-240분",
@@ -42,7 +42,7 @@
     {
       "id": 4,
       "name": "가이아 프로젝트",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/03/09/1615274670-490381_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/03/09/1615274670-490381.jpg",
       "min_player": "1",
       "max_player": "4",
       "play_time": "60-150분",
@@ -55,7 +55,7 @@
     {
       "id": 5,
       "name": "팬데믹 레거시: 시즌 1",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2020/04/02/1585818479-857227_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2020/04/02/1585818479-857227.png",
       "min_player": "2",
       "max_player": "4",
       "play_time": "60분",
@@ -68,7 +68,7 @@
     {
       "id": 6,
       "name": "쓰루 디 에이지스: 문명에 관한 새로운 이야기",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/10/27/1666802454773680_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/10/27/1666802454773680_lg.jpg",
       "min_player": "2",
       "max_player": "4",
       "play_time": "120분",
@@ -81,7 +81,7 @@
     {
       "id": 7,
       "name": "브라스: 버밍엄",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/02/13/1644738474034685_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/02/13/1644738474034685_lg.jpg",
       "min_player": "2",
       "max_player": "4",
       "play_time": "60-120분",
@@ -94,7 +94,7 @@
     {
       "id": 8,
       "name": "황혼의 투쟁",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/02/03/1612344501-765004_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/02/03/1612344501-765004.jpg",
       "min_player": "2",
       "max_player": "2",
       "play_time": "120-150분",
@@ -107,7 +107,7 @@
     {
       "id": 9,
       "name": "7 원더스: 대결",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/03/09/1615276187-302156_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/03/09/1615276187-302156.png",
       "min_player": "2",
       "max_player": "2",
       "play_time": "30분",
@@ -120,7 +120,7 @@
     {
       "id": 10,
       "name": "푸에르토 리코",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/12/24/1640328882-556458_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/12/24/1640328882-556458.jpg",
       "min_player": "3",
       "max_player": "5",
       "play_time": "90-150분",
@@ -133,7 +133,7 @@
     {
       "id": 11,
       "name": "아그리콜라",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/12/24/1640329018-317029_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/12/24/1640329018-317029.png",
       "min_player": "1",
       "max_player": "5",
       "play_time": "30-150분",
@@ -146,7 +146,7 @@
     {
       "id": 12,
       "name": "아컴 호러: 카드 게임",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/07/18/1658093520711797_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/07/18/1658093520711797_lg.jpg",
       "min_player": "1",
       "max_player": "2",
       "play_time": "60-120분",
@@ -159,7 +159,7 @@
     {
       "id": 13,
       "name": "버건디의 성",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2020/04/02/1585818831-183512_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2020/04/02/1585818831-183512.jpg",
       "min_player": "2",
       "max_player": "4",
       "play_time": "30-90분",
@@ -172,7 +172,7 @@
     {
       "id": 14,
       "name": "메이지 나이트: 얼티밋 에디션",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/12/24/1640329191-62264_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/12/24/1640329191-62264.jpg",
       "min_player": "1",
       "max_player": "5",
       "play_time": "150분",
@@ -185,7 +185,7 @@
     {
       "id": 15,
       "name": "테라 미스티카 빅 박스",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/12/24/1640329073-893153_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/12/24/1640329073-893153.jpg",
       "min_player": "2",
       "max_player": "5",
       "play_time": "60-150분",
@@ -198,7 +198,7 @@
     {
       "id": 16,
       "name": "버라지",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/04/26/1650902133768524_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/04/26/1650902133768524_lg.jpg",
       "min_player": "1",
       "max_player": "4",
       "play_time": "60-120분",
@@ -211,7 +211,7 @@
     {
       "id": 17,
       "name": "도미니언",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2023/02/18/1676654751697874_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2023/02/18/1676654751697874_lg.jpg",
       "min_player": "2",
       "max_player": "4",
       "play_time": "30분",
@@ -224,7 +224,7 @@
     {
       "id": 18,
       "name": "정령섬",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2023/04/10/1681061357444_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2023/04/10/1681061357444_lg.jpg",
       "min_player": "1",
       "max_player": "4",
       "play_time": "90-120분",
@@ -237,7 +237,7 @@
     {
       "id": 19,
       "name": "더 갤러리스트",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/16/1642264092333367_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/16/1642264092333367_lg.jpg",
       "min_player": "1",
       "max_player": "4",
       "play_time": "60-150분",
@@ -250,7 +250,7 @@
     {
       "id": 20,
       "name": "안드로이드: 넷러너",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/04/01/1648822880778532_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/04/01/1648822880778532_lg.jpg",
       "min_player": "2",
       "max_player": "2",
       "play_time": "45분",
@@ -263,7 +263,7 @@
     {
       "id": 21,
       "name": "촐킨: 마야의 달력",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/02/03/1612346336-782738_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/02/03/1612346336-782738.jpg",
       "min_player": "2",
       "max_player": "4",
       "play_time": "90분",
@@ -276,7 +276,7 @@
     {
       "id": 22,
       "name": "르아브르",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/12/24/1640329356-468430_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/12/24/1640329356-468430.png",
       "min_player": "1",
       "max_player": "5",
       "play_time": "30-150분",
@@ -289,7 +289,7 @@
     {
       "id": 23,
       "name": "오딘을 위하여",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/12/24/1640329574-996804_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/12/24/1640329574-996804.png",
       "min_player": "1",
       "max_player": "4",
       "play_time": "30-120분",
@@ -302,7 +302,7 @@
     {
       "id": 24,
       "name": "그랜드 오스트리아 호텔",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/09/06/1662468056141295_lg_N_170x170_100_5_.jpeg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/09/06/1662468056141295_lg.jpeg",
       "min_player": "2",
       "max_player": "4",
       "play_time": "60-120분",
@@ -315,7 +315,7 @@
     {
       "id": 25,
       "name": "테라 미스티카",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/12/24/1640329478-974134_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/12/24/1640329478-974134.jpg",
       "min_player": "2",
       "max_player": "5",
       "play_time": "60-150분",
@@ -328,7 +328,7 @@
     {
       "id": 26,
       "name": "아크 노바",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/02/01/1643694411778845_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/02/01/1643694411778845_lg.jpg",
       "min_player": "1",
       "max_player": "4",
       "play_time": "90-150분",
@@ -341,7 +341,7 @@
     {
       "id": 27,
       "name": "레지스탕스: 아발론",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2022/01/02/1641052726-191444_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2022/01/02/1641052726-191444.png",
       "min_player": "5",
       "max_player": "10",
       "play_time": "30분",
@@ -354,7 +354,7 @@
     {
       "id": 28,
       "name": "스플렌더",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/12/24/1640329799-345514_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/12/24/1640329799-345514.png",
       "min_player": "2",
       "max_player": "4",
       "play_time": "30분",
@@ -367,7 +367,7 @@
     {
       "id": 29,
       "name": "브래스",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/12/24/1640329424-901592_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/12/24/1640329424-901592.jpg",
       "min_player": "3",
       "max_player": "4",
       "play_time": "60-120분",
@@ -380,7 +380,7 @@
     {
       "id": 30,
       "name": "티츄",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2022/01/02/1641052786-66356_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2022/01/02/1641052786-66356.jpg",
       "min_player": "4",
       "max_player": "4",
       "play_time": "60분",
@@ -393,7 +393,7 @@
     {
       "id": 31,
       "name": "스컬킹",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2023/04/23/1682242965437675_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2023/04/23/1682242965437675_lg.jpg",
       "min_player": "2",
       "max_player": "6",
       "play_time": "30분",
@@ -406,7 +406,7 @@
     {
       "id": 32,
       "name": "위대한 로렌초",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2022/01/02/1641053047-261202_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2022/01/02/1641053047-261202.jpg",
       "min_player": "2",
       "max_player": "4",
       "play_time": "60-120분",
@@ -419,7 +419,7 @@
     {
       "id": 33,
       "name": "사이드",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/14/164209067354874_lg_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/14/164209067354874_lg.png",
       "min_player": "1",
       "max_player": "5",
       "play_time": "90-115분",
@@ -432,7 +432,7 @@
     {
       "id": 34,
       "name": "카베르나: 동굴 속 농부들",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2022/01/02/1641052902-574172_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2022/01/02/1641052902-574172.png",
       "min_player": "1",
       "max_player": "7",
       "play_time": "30-210분",
@@ -445,7 +445,7 @@
     {
       "id": 35,
       "name": "테라포밍 마스: 서곡",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2022/01/02/1641054235-671890_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2022/01/02/1641054235-671890.png",
       "min_player": "1",
       "max_player": "5",
       "play_time": "90-120분",
@@ -458,7 +458,7 @@
     {
       "id": 36,
       "name": "트라야누스",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2023/04/26/1682441562945688_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2023/04/26/1682441562945688_lg.jpg",
       "min_player": "2",
       "max_player": "4",
       "play_time": "60-120분",
@@ -471,7 +471,7 @@
     {
       "id": 37,
       "name": "스타워즈: 리벨리온",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/11/01/1667252975515689_lg_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/11/01/1667252975515689_lg.png",
       "min_player": "2",
       "max_player": "4",
       "play_time": "180-240분",
@@ -484,7 +484,7 @@
     {
       "id": 38,
       "name": "브라스: 랭커셔",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/02/13/1644738734859248_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/02/13/1644738734859248_lg.jpg",
       "min_player": "2",
       "max_player": "4",
       "play_time": "60-120분",
@@ -497,7 +497,7 @@
     {
       "id": 39,
       "name": "라스베가스",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/06/16/1655381471867279_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/06/16/1655381471867279_lg.jpg",
       "min_player": "2",
       "max_player": "5",
       "play_time": "30분",
@@ -510,7 +510,7 @@
     {
       "id": 40,
       "name": "텔레스트레이션",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/02/08/1612776506-940790_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/02/08/1612776506-940790.jpg",
       "min_player": "4",
       "max_player": "8",
       "play_time": "30분",
@@ -523,7 +523,7 @@
     {
       "id": 41,
       "name": "광기의 저택 (2판)",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/01/29/1611914705-283075_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/01/29/1611914705-283075.png",
       "min_player": "1",
       "max_player": "5",
       "play_time": "120-180분",
@@ -536,7 +536,7 @@
     {
       "id": 42,
       "name": "그레이트 웨스턴 트레일",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/02/03/1612343099-763945_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/02/03/1612343099-763945.jpg",
       "min_player": "2",
       "max_player": "4",
       "play_time": "75-150분",
@@ -549,7 +549,7 @@
     {
       "id": 43,
       "name": "도미니언: 장막뒤의 사람들",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/02/09/1612857636-254801_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/02/09/1612857636-254801.jpg",
       "min_player": "2",
       "max_player": "6",
       "play_time": "30분",
@@ -562,7 +562,7 @@
     {
       "id": 44,
       "name": "마르코 폴로",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2022/01/02/1641053223-571422_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2022/01/02/1641053223-571422.png",
       "min_player": "2",
       "max_player": "4",
       "play_time": "40-100분",
@@ -575,7 +575,7 @@
     {
       "id": 45,
       "name": "반지 전쟁 (2판)",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/02/24/1645698686644301_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/02/24/1645698686644301_lg.jpg",
       "min_player": "2",
       "max_player": "4",
       "play_time": "150-180분",
@@ -588,7 +588,7 @@
     {
       "id": 46,
       "name": "요코하마",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2022/01/02/1641053597-108589_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2022/01/02/1641053597-108589.png",
       "min_player": "2",
       "max_player": "4",
       "play_time": "90분",
@@ -601,7 +601,7 @@
     {
       "id": 47,
       "name": "엘드리치 호러",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/02/09/1612856228-607951_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/02/09/1612856228-607951.jpg",
       "min_player": "1",
       "max_player": "8",
       "play_time": "120-240분",
@@ -614,7 +614,7 @@
     {
       "id": 48,
       "name": "증기의 시대",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/14/1642087800898375_lg_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/14/1642087800898375_lg.png",
       "min_player": "3",
       "max_player": "6",
       "play_time": "120분",
@@ -627,7 +627,7 @@
     {
       "id": 49,
       "name": "로빈슨 크루소 : 저주받은 섬에서의 모험",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2022/01/02/1641053447-871683_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2022/01/02/1641053447-871683.jpg",
       "min_player": "1",
       "max_player": "4",
       "play_time": "60-120분",
@@ -640,7 +640,7 @@
     {
       "id": 50,
       "name": "데드 오브 윈터 : 크로스로드 게임",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/02/17/1613556418-228159_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/02/17/1613556418-228159.jpg",
       "min_player": "2",
       "max_player": "5",
       "play_time": "60-120분",
@@ -653,7 +653,7 @@
     {
       "id": 51,
       "name": "팬데믹 레거시: 시즌 2",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/29/1643448054499515_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/29/1643448054499515_lg.jpg",
       "min_player": "2",
       "max_player": "4",
       "play_time": "60분",
@@ -666,7 +666,7 @@
     {
       "id": 52,
       "name": "버건디의 성 (확장 포함)",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/164192508426221_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/164192508426221_lg.jpg",
       "min_player": "1",
       "max_player": "4",
       "play_time": "60-100분",
@@ -679,7 +679,7 @@
     {
       "id": 53,
       "name": "윙스팬",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/13/1642061418457210_lg_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/13/1642061418457210_lg.png",
       "min_player": "1",
       "max_player": "5",
       "play_time": "40-70분",
@@ -692,7 +692,7 @@
     {
       "id": 54,
       "name": "도미넌트 스피시즈",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2022/01/02/1641053998-43749_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2022/01/02/1641053998-43749.png",
       "min_player": "2",
       "max_player": "6",
       "play_time": "120-240분",
@@ -705,7 +705,7 @@
     {
       "id": 55,
       "name": "파워 그리드",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2022/01/02/1641053821-17008_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2022/01/02/1641053821-17008.png",
       "min_player": "2",
       "max_player": "6",
       "play_time": "120분",
@@ -718,7 +718,7 @@
     {
       "id": 56,
       "name": "푸드 체인 거물",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/01/29/1611915854-134520_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/01/29/1611915854-134520.jpg",
       "min_player": "2",
       "max_player": "5",
       "play_time": "120-240분",
@@ -731,7 +731,7 @@
     {
       "id": 57,
       "name": "클랜 오브 칼레도니아",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/03/09/1615279663-425228_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/03/09/1615279663-425228.png",
       "min_player": "1",
       "max_player": "4",
       "play_time": "30-120분",
@@ -744,7 +744,7 @@
     {
       "id": 58,
       "name": "스페이스 크루",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy_reg/2020/09/28/1601282966-492612_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy_reg/2020/09/28/1601282966-492612.jpg",
       "min_player": "2",
       "max_player": "5",
       "play_time": "20분",
@@ -757,7 +757,7 @@
     {
       "id": 59,
       "name": "비티컬처 에센셜 에디션",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2022/01/02/1641054846-206172_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2022/01/02/1641054846-206172.jpg",
       "min_player": "1",
       "max_player": "6",
       "play_time": "45-90분",
@@ -770,7 +770,7 @@
     {
       "id": 60,
       "name": "마블 챔피언스: 카드 게임",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/31/1643562183322878_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/31/1643562183322878_lg.jpg",
       "min_player": "1",
       "max_player": "4",
       "play_time": "45-90분",
@@ -783,7 +783,7 @@
     {
       "id": 61,
       "name": "비뉴스 디럭스 에디션",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2022/01/02/1641055038-36239_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2022/01/02/1641055038-36239.png",
       "min_player": "1",
       "max_player": "4",
       "play_time": "60-135분",
@@ -796,7 +796,7 @@
     {
       "id": 62,
       "name": "알케미스트",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/02/15/16448614209349_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/02/15/16448614209349_lg.jpg",
       "min_player": "2",
       "max_player": "4",
       "play_time": "120분",
@@ -809,7 +809,7 @@
     {
       "id": 63,
       "name": "다섯 부족",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/02/08/1644308529331100_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/02/08/1644308529331100_lg.jpg",
       "min_player": "2",
       "max_player": "4",
       "play_time": "40-80분",
@@ -822,7 +822,7 @@
     {
       "id": 64,
       "name": "7 원더스",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/02/17/1613556513-747211_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/02/17/1613556513-747211.jpg",
       "min_player": "2",
       "max_player": "7",
       "play_time": "30분",
@@ -835,7 +835,7 @@
     {
       "id": 65,
       "name": "반지의 제왕: 가운데땅 여정",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/01/25/1611517151-581782_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/01/25/1611517151-581782.jpg",
       "min_player": "1",
       "max_player": "5",
       "play_time": "60-120분",
@@ -848,7 +848,7 @@
     {
       "id": 66,
       "name": "테오티우아칸: 신들의 도시",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/02/03/1612343751-953565_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/02/03/1612343751-953565.jpg",
       "min_player": "1",
       "max_player": "4",
       "play_time": "90-120분",
@@ -861,7 +861,7 @@
     {
       "id": 67,
       "name": "마작",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2023/05/03/1683055492171703_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2023/05/03/1683055492171703_lg.jpg",
       "min_player": "4",
       "max_player": "4",
       "play_time": "120분",
@@ -874,7 +874,7 @@
     {
       "id": 68,
       "name": "케일러스",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2022/01/02/1641054374-740103_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2022/01/02/1641054374-740103.jpg",
       "min_player": "2",
       "max_player": "5",
       "play_time": "60-150분",
@@ -887,7 +887,7 @@
     {
       "id": 69,
       "name": "칸반 EV",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/14/1642151421199203_lg_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/14/1642151421199203_lg.png",
       "min_player": "1",
       "max_player": "4",
       "play_time": "60-180분",
@@ -900,7 +900,7 @@
     {
       "id": 70,
       "name": "벚꽃 내리는 시대에 결투를",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/02/02/164373890429022_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/02/02/164373890429022_lg.jpg",
       "min_player": "2",
       "max_player": "2",
       "play_time": "20분",
@@ -913,7 +913,7 @@
     {
       "id": 71,
       "name": "모던아트",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2022/01/02/1641054304-233607_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2022/01/02/1641054304-233607.png",
       "min_player": "3",
       "max_player": "5",
       "play_time": "45분",
@@ -926,7 +926,7 @@
     {
       "id": 72,
       "name": "시즌스",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2023/03/25/16796820191154_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2023/03/25/16796820191154_lg.jpg",
       "min_player": "2",
       "max_player": "4",
       "play_time": "60분",
@@ -939,7 +939,7 @@
     {
       "id": 73,
       "name": "아르낙의 잊혀진 유적",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/16/1642262795257928_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/16/1642262795257928_lg.jpg",
       "min_player": "1",
       "max_player": "4",
       "play_time": "30-120분",
@@ -952,7 +952,7 @@
     {
       "id": 74,
       "name": "러시안 레일로드",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2022/01/02/1641054676-650342_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2022/01/02/1641054676-650342.jpg",
       "min_player": "2",
       "max_player": "4",
       "play_time": "90-120분",
@@ -965,7 +965,7 @@
     {
       "id": 75,
       "name": "뤄양의 사람들",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2022/01/02/1641054947-429146_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2022/01/02/1641054947-429146.png",
       "min_player": "1",
       "max_player": "4",
       "play_time": "60-120분",
@@ -978,7 +978,7 @@
     {
       "id": 76,
       "name": "빌리지",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/14/1642094339684963_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/14/1642094339684963_lg.jpg",
       "min_player": "2",
       "max_player": "4",
       "play_time": "60-90분",
@@ -991,7 +991,7 @@
     {
       "id": 77,
       "name": "글룸헤이븐 : 사자의 턱",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/25/1643040683132329_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/25/1643040683132329_lg.jpg",
       "min_player": "1",
       "max_player": "4",
       "play_time": "30-120분",
@@ -1004,7 +1004,7 @@
     {
       "id": 78,
       "name": "오를레앙",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/31/1643613546919342_lg_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/31/1643613546919342_lg.png",
       "min_player": "2",
       "max_player": "4",
       "play_time": "90분",
@@ -1017,7 +1017,7 @@
     {
       "id": 79,
       "name": "모던아트",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2022/01/02/1641054431-214126_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2022/01/02/1641054431-214126.png",
       "min_player": "3",
       "max_player": "5",
       "play_time": "45분",
@@ -1030,7 +1030,7 @@
     {
       "id": 80,
       "name": "에이언즈 엔드",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/14/1642095022152217_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/14/1642095022152217_lg.jpg",
       "min_player": "1",
       "max_player": "4",
       "play_time": "60분",
@@ -1043,7 +1043,7 @@
     {
       "id": 81,
       "name": "루트",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/05/23/1653309124252399_lg_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/05/23/1653309124252399_lg.png",
       "min_player": "2",
       "max_player": "4",
       "play_time": "60-90분",
@@ -1056,7 +1056,7 @@
     {
       "id": 82,
       "name": "에버델",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/03/09/1615275807-288666_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/03/09/1615275807-288666.jpg",
       "min_player": "1",
       "max_player": "4",
       "play_time": "40-80분",
@@ -1069,7 +1069,7 @@
     {
       "id": 83,
       "name": "워 체스트",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/02/10/1644486843821327_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/02/10/1644486843821327_lg.jpg",
       "min_player": "2",
       "max_player": "4",
       "play_time": "30분",
@@ -1082,7 +1082,7 @@
     {
       "id": 84,
       "name": "콩코르디아",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2022/01/02/1641055279-463639_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2022/01/02/1641055279-463639.png",
       "min_player": "2",
       "max_player": "5",
       "play_time": "100분",
@@ -1095,7 +1095,7 @@
     {
       "id": 85,
       "name": "카네기",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/02/02/164374088326170_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/02/02/164374088326170_lg.jpg",
       "min_player": "1",
       "max_player": "4",
       "play_time": "120-180분",
@@ -1108,7 +1108,7 @@
     {
       "id": 86,
       "name": "티켓 투 라이드: 유럽",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2022/01/02/1641055353-524302_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2022/01/02/1641055353-524302.png",
       "min_player": "2",
       "max_player": "5",
       "play_time": "30-60분",
@@ -1121,7 +1121,7 @@
     {
       "id": 87,
       "name": "트루아",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/02/20/1645289631987801_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/02/20/1645289631987801_lg.jpg",
       "min_player": "1",
       "max_player": "4",
       "play_time": "90분",
@@ -1134,7 +1134,7 @@
     {
       "id": 88,
       "name": "레이스 포 더 갤럭시",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/06/03/1654190373398977_lg_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/06/03/1654190373398977_lg.png",
       "min_player": "2",
       "max_player": "4",
       "play_time": "30-60분",
@@ -1147,7 +1147,7 @@
     {
       "id": 89,
       "name": "코드네임",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/31/164356810346560_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/31/164356810346560_lg.jpg",
       "min_player": "2",
       "max_player": "8",
       "play_time": "15분",
@@ -1160,7 +1160,7 @@
     {
       "id": 90,
       "name": "카르카손",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2022/01/02/1641106324-75566_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2022/01/02/1641106324-75566.png",
       "min_player": "2",
       "max_player": "5",
       "play_time": "30-45분",
@@ -1173,7 +1173,7 @@
     {
       "id": 91,
       "name": "스탁파일",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2023/04/16/1681633697149912_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2023/04/16/1681633697149912_lg.jpg",
       "min_player": "2",
       "max_player": "5",
       "play_time": "45분",
@@ -1186,7 +1186,7 @@
     {
       "id": 92,
       "name": "크베들린부르크의 돌팔이 약장수",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/01/25/1611516824-522927_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/01/25/1611516824-522927.png",
       "min_player": "2",
       "max_player": "4",
       "play_time": "45분",
@@ -1199,7 +1199,7 @@
     {
       "id": 93,
       "name": "캐스캐디아",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/25/1643045818346173_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/25/1643045818346173_lg.jpg",
       "min_player": "1",
       "max_player": "4",
       "play_time": "30-45분",
@@ -1212,7 +1212,7 @@
     {
       "id": 94,
       "name": "듄: 임페리움",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/02/03/1612343874-711697_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/02/03/1612343874-711697.jpg",
       "min_player": "1",
       "max_player": "4",
       "play_time": "60-120분",
@@ -1225,7 +1225,7 @@
     {
       "id": 95,
       "name": "디센트 : 어둠속의 여정 (2판)",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/14/164216945982040_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/14/164216945982040_lg.jpg",
       "min_player": "1",
       "max_player": "5",
       "play_time": "120분",
@@ -1238,7 +1238,7 @@
     {
       "id": 96,
       "name": "어콰이어",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2023/05/20/1684518011048307_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2023/05/20/1684518011048307_lg.jpg",
       "min_player": "2",
       "max_player": "6",
       "play_time": "90분",
@@ -1251,7 +1251,7 @@
     {
       "id": 97,
       "name": "카탄의 개척자",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/02/03/1612346505-465859_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/02/03/1612346505-465859.jpg",
       "min_player": "3",
       "max_player": "4",
       "play_time": "60-120분",
@@ -1264,7 +1264,7 @@
     {
       "id": 98,
       "name": "왕좌의 게임 (2판)",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/02/09/1612859046-710503_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/02/09/1612859046-710503.jpg",
       "min_player": "3",
       "max_player": "6",
       "play_time": "120-240분",
@@ -1277,7 +1277,7 @@
     {
       "id": 99,
       "name": "티칼",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/01/25/1611516638-786996_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/01/25/1611516638-786996.jpg",
       "min_player": "2",
       "max_player": "4",
       "play_time": "90분",
@@ -1290,7 +1290,7 @@
     {
       "id": 100,
       "name": "하트 오브 크라운",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/02/08/1644313210022749_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/02/08/1644313210022749_lg.jpg",
       "min_player": "2",
       "max_player": "4",
       "play_time": "30-60분",
@@ -1303,7 +1303,7 @@
     {
       "id": 101,
       "name": "오딘을 위하여: 노르웨이인들",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/02/03/1612343846-269497_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/02/03/1612343846-269497.png",
       "min_player": "1",
       "max_player": "4",
       "play_time": "30-120분",
@@ -1316,7 +1316,7 @@
     {
       "id": 102,
       "name": "바둑",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2023/01/21/167423147607891_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2023/01/21/167423147607891_lg.jpg",
       "min_player": "2",
       "max_player": "2",
       "play_time": "30-180분",
@@ -1329,7 +1329,7 @@
     {
       "id": 103,
       "name": "리스보아",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641922090074952_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641922090074952_lg.jpg",
       "min_player": "1",
       "max_player": "4",
       "play_time": "60-120분",
@@ -1342,7 +1342,7 @@
     {
       "id": 104,
       "name": "태양신 라",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/15/1642178217594563_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/15/1642178217594563_lg.jpg",
       "min_player": "2",
       "max_player": "5",
       "play_time": "45-60분",
@@ -1355,7 +1355,7 @@
     {
       "id": 105,
       "name": "에이언즈 엔드 한국어판",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/08/22/1661169986716749_lg_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/08/22/1661169986716749_lg.png",
       "min_player": "1",
       "max_player": "4",
       "play_time": "60분",
@@ -1368,7 +1368,7 @@
     {
       "id": 106,
       "name": "네이션스",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2022/01/02/1641106237-816591_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2022/01/02/1641106237-816591.png",
       "min_player": "1",
       "max_player": "5",
       "play_time": "40-200분",
@@ -1381,7 +1381,7 @@
     {
       "id": 107,
       "name": "디셉션: 홍콩 살인사건",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/02/13/1644739370727473_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/02/13/1644739370727473_lg.jpg",
       "min_player": "4",
       "max_player": "12",
       "play_time": "20분",
@@ -1394,7 +1394,7 @@
     {
       "id": 108,
       "name": "상트 페테르부르크 (2판)",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2022/01/02/1641106530-171030_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2022/01/02/1641106530-171030.png",
       "min_player": "2",
       "max_player": "5",
       "play_time": "60분",
@@ -1407,7 +1407,7 @@
     {
       "id": 109,
       "name": "마르코 폴로 2: 위대한 칸의 이름으로",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641925043221720_lg_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641925043221720_lg.png",
       "min_player": "2",
       "max_player": "4",
       "play_time": "60-120분",
@@ -1420,7 +1420,7 @@
     {
       "id": 110,
       "name": "트릭케리언: 레전드 오브 일루전",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/15/1642180458043968_lg_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/15/1642180458043968_lg.png",
       "min_player": "2",
       "max_player": "4",
       "play_time": "60-180분",
@@ -1433,7 +1433,7 @@
     {
       "id": 111,
       "name": "워터게이트",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/01/25/1611517185-576200_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/01/25/1611517185-576200.jpg",
       "min_player": "2",
       "max_player": "2",
       "play_time": "30-60분",
@@ -1446,7 +1446,7 @@
     {
       "id": 112,
       "name": "화이트채플에서 온 편지",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/02/03/1612346275-323237_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/02/03/1612346275-323237.jpg",
       "min_player": "2",
       "max_player": "6",
       "play_time": "90분",
@@ -1459,7 +1459,7 @@
     {
       "id": 113,
       "name": "세키가하라 : 일본의 통일",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2022/01/02/1641106041-78433_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2022/01/02/1641106041-78433.jpg",
       "min_player": "2",
       "max_player": "2",
       "play_time": "180분",
@@ -1472,7 +1472,7 @@
     {
       "id": 114,
       "name": "티그리스 유프라테스",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/15/1642180754174076_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/15/1642180754174076_lg.jpg",
       "min_player": "2",
       "max_player": "4",
       "play_time": "90분",
@@ -1485,7 +1485,7 @@
     {
       "id": 115,
       "name": "팬데믹",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/29/16434381802314_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/29/16434381802314_lg.jpg",
       "min_player": "2",
       "max_player": "4",
       "play_time": "45분",
@@ -1498,7 +1498,7 @@
     {
       "id": 116,
       "name": "반지의 제왕: 대결",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/02/17/1613554957-485283_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/02/17/1613554957-485283.jpg",
       "min_player": "2",
       "max_player": "2",
       "play_time": "30분",
@@ -1511,7 +1511,7 @@
     {
       "id": 117,
       "name": "타임 스토리즈",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/09/14/1663159406489489_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/09/14/1663159406489489_lg.jpg",
       "min_player": "2",
       "max_player": "4",
       "play_time": "90분",
@@ -1524,7 +1524,7 @@
     {
       "id": 118,
       "name": "워터딥의 군주들",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641921890144437_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641921890144437_lg.jpg",
       "min_player": "2",
       "max_player": "5",
       "play_time": "60-120분",
@@ -1537,7 +1537,7 @@
     {
       "id": 119,
       "name": "언더워터 시티즈",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/02/05/1643997426982108_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/02/05/1643997426982108_lg.jpg",
       "min_player": "1",
       "max_player": "4",
       "play_time": "80-150분",
@@ -1550,7 +1550,7 @@
     {
       "id": 120,
       "name": "아줄",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/03/18/1616026481-610481_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/03/18/1616026481-610481.jpg",
       "min_player": "2",
       "max_player": "4",
       "play_time": "30-45분",
@@ -1563,7 +1563,7 @@
     {
       "id": 121,
       "name": "롤 포 더 갤럭시",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/02/09/1612857859-326618_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/02/09/1612857859-326618.jpg",
       "min_player": "2",
       "max_player": "5",
       "play_time": "45분",
@@ -1576,7 +1576,7 @@
     {
       "id": 122,
       "name": "이클립스",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641921789064775_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641921789064775_lg.jpg",
       "min_player": "2",
       "max_player": "6",
       "play_time": "60-180분",
@@ -1589,7 +1589,7 @@
     {
       "id": 123,
       "name": "매직 더 개더링",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641922785089306_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641922785089306_lg.jpg",
       "min_player": "2",
       "max_player": "2",
       "play_time": "20분",
@@ -1602,7 +1602,7 @@
     {
       "id": 124,
       "name": "딕싯",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/02/08/1612776654-58068_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/02/08/1612776654-58068.jpg",
       "min_player": "3",
       "max_player": "6",
       "play_time": "30분",
@@ -1615,7 +1615,7 @@
     {
       "id": 125,
       "name": "인쉬",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2022/01/02/1641106493-140845_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2022/01/02/1641106493-140845.png",
       "min_player": "2",
       "max_player": "2",
       "play_time": "30-60분",
@@ -1628,7 +1628,7 @@
     {
       "id": 126,
       "name": "네메시스",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/02/09/1612858754-186444_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/02/09/1612858754-186444.jpg",
       "min_player": "1",
       "max_player": "5",
       "play_time": "90-180분",
@@ -1641,7 +1641,7 @@
     {
       "id": 127,
       "name": "버라지: 레이흐바터르 프로젝트",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/04/26/1650902478889666_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/04/26/1650902478889666_lg.jpg",
       "min_player": "1",
       "max_player": "4",
       "play_time": "60-120분",
@@ -1654,7 +1654,7 @@
     {
       "id": 128,
       "name": "디스 워 오브 마인: 보드게임",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/03/09/1615273983-915760_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/03/09/1615273983-915760.jpg",
       "min_player": "1",
       "max_player": "6",
       "play_time": "45-120분",
@@ -1667,7 +1667,7 @@
     {
       "id": 129,
       "name": "아를의 평원",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641922221263194_lg_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641922221263194_lg.png",
       "min_player": "1",
       "max_player": "2",
       "play_time": "60-120분",
@@ -1680,7 +1680,7 @@
     {
       "id": 130,
       "name": "오를레앙 디럭스 에디션",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641922274333156_lg_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641922274333156_lg.png",
       "min_player": "2",
       "max_player": "5",
       "play_time": "90분",
@@ -1693,7 +1693,7 @@
     {
       "id": 131,
       "name": "광기의 저택",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2013/06/12/1370969992-561851_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2013/06/12/1370969992-561851.jpg",
       "min_player": "2",
       "max_player": "5",
       "play_time": "120-180분",
@@ -1706,7 +1706,7 @@
     {
       "id": 132,
       "name": "차이나타운",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2023/04/05/1680625785414191_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2023/04/05/1680625785414191_lg.jpg",
       "min_player": "3",
       "max_player": "5",
       "play_time": "60분",
@@ -1719,7 +1719,7 @@
     {
       "id": 133,
       "name": "패치워크",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/10/02/1664646461313493_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/10/02/1664646461313493_lg.jpg",
       "min_player": "2",
       "max_player": "2",
       "play_time": "15-30분",
@@ -1732,7 +1732,7 @@
     {
       "id": 134,
       "name": "패스파인더 어드벤쳐 카드 게임: 룬로드의 부활 - 기본 세트",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641922559755210_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641922559755210_lg.jpg",
       "min_player": "2",
       "max_player": "4",
       "play_time": "90분",
@@ -1745,7 +1745,7 @@
     {
       "id": 135,
       "name": "블러드 레이지",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/03/18/1616024679-354768_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/03/18/1616024679-354768.png",
       "min_player": "2",
       "max_player": "4",
       "play_time": "60-90분",
@@ -1758,7 +1758,7 @@
     {
       "id": 136,
       "name": "좀비사이드",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2023/04/27/1682531436975531_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2023/04/27/1682531436975531_lg.jpg",
       "min_player": "1",
       "max_player": "6",
       "play_time": "60분",
@@ -1771,7 +1771,7 @@
     {
       "id": 137,
       "name": "엔데버: 대항해시대",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2023/05/07/1683391913357822_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2023/05/07/1683391913357822_lg.jpg",
       "min_player": "2",
       "max_player": "5",
       "play_time": "60-90분",
@@ -1784,7 +1784,7 @@
     {
       "id": 138,
       "name": "루트비히의 성",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/02/03/1612345986-688645_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/02/03/1612345986-688645.jpg",
       "min_player": "1",
       "max_player": "4",
       "play_time": "90분",
@@ -1797,7 +1797,7 @@
     {
       "id": 139,
       "name": "한밤의 늑대인간",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/31/1643577984726039_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/31/1643577984726039_lg.jpg",
       "min_player": "3",
       "max_player": "10",
       "play_time": "10분",
@@ -1810,7 +1810,7 @@
     {
       "id": 140,
       "name": "이스탄불",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641922666221460_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641922666221460_lg.jpg",
       "min_player": "2",
       "max_player": "5",
       "play_time": "40-60분",
@@ -1823,7 +1823,7 @@
     {
       "id": 141,
       "name": "위대한 달무티",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/164192202871398_lg_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/164192202871398_lg.png",
       "min_player": "4",
       "max_player": "8",
       "play_time": "60분",
@@ -1836,7 +1836,7 @@
     {
       "id": 142,
       "name": "이클립스: 두 번째 여명",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/16/164227178047073_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/16/164227178047073_lg.jpg",
       "min_player": "2",
       "max_player": "6",
       "play_time": "60-200분",
@@ -1849,7 +1849,7 @@
     {
       "id": 143,
       "name": "엘 그란데",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/10/23/166650985229854_lg_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/10/23/166650985229854_lg.png",
       "min_player": "2",
       "max_player": "5",
       "play_time": "60-120분",
@@ -1862,7 +1862,7 @@
     {
       "id": 144,
       "name": "디크립토",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/02/24/1645642525686075_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/02/24/1645642525686075_lg.jpg",
       "min_player": "3",
       "max_player": "8",
       "play_time": "15-45분",
@@ -1875,7 +1875,7 @@
     {
       "id": 145,
       "name": "아컴 호러",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/02/09/1612856169-771940_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/02/09/1612856169-771940.jpg",
       "min_player": "1",
       "max_player": "8",
       "play_time": "120-240분",
@@ -1888,7 +1888,7 @@
     {
       "id": 146,
       "name": "러브 레터",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/164192291465539_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/164192291465539_lg.jpg",
       "min_player": "2",
       "max_player": "4",
       "play_time": "20분",
@@ -1901,7 +1901,7 @@
     {
       "id": 147,
       "name": "서쪽 왕국의 건축가",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641924354188527_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641924354188527_lg.jpg",
       "min_player": "1",
       "max_player": "5",
       "play_time": "60-80분",
@@ -1914,7 +1914,7 @@
     {
       "id": 148,
       "name": "브룸 서비스",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641922336056316_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641922336056316_lg.jpg",
       "min_player": "2",
       "max_player": "5",
       "play_time": "30-75분",
@@ -1927,7 +1927,7 @@
     {
       "id": 149,
       "name": "마닐라",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/29/1643440969431353_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/29/1643440969431353_lg.jpg",
       "min_player": "3",
       "max_player": "5",
       "play_time": "60분",
@@ -1940,7 +1940,7 @@
     {
       "id": 150,
       "name": "라 그랑하",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2023/04/14/168147861884684_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2023/04/14/168147861884684_lg.jpg",
       "min_player": "1",
       "max_player": "4",
       "play_time": "90-120분",
@@ -1953,7 +1953,7 @@
     {
       "id": 151,
       "name": "테인티드 그레일: 아발론의 몰락",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/29/1643447919273474_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/29/1643447919273474_lg.jpg",
       "min_player": "1",
       "max_player": "4",
       "play_time": "60-120분",
@@ -1966,7 +1966,7 @@
     {
       "id": 152,
       "name": "기도하고 일하라",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641922743145808_lg_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641922743145808_lg.png",
       "min_player": "1",
       "max_player": "4",
       "play_time": "60-180분",
@@ -1979,7 +1979,7 @@
     {
       "id": 153,
       "name": "서버비아",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/25/164304982367824_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/25/164304982367824_lg.jpg",
       "min_player": "1",
       "max_player": "4",
       "play_time": "60-90분",
@@ -1992,7 +1992,7 @@
     {
       "id": 154,
       "name": "배틀 라인",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641923063166094_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641923063166094_lg.jpg",
       "min_player": "2",
       "max_player": "2",
       "play_time": "30분",
@@ -2005,7 +2005,7 @@
     {
       "id": 155,
       "name": "어콰이어",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/29/164344864361411_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/29/164344864361411_lg.jpg",
       "min_player": "2",
       "max_player": "6",
       "play_time": "90분",
@@ -2018,7 +2018,7 @@
     {
       "id": 156,
       "name": "스몰 월드",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/25/1643048159622218_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/25/1643048159622218_lg.jpg",
       "min_player": "2",
       "max_player": "5",
       "play_time": "40-80분",
@@ -2031,7 +2031,7 @@
     {
       "id": 157,
       "name": "코임브라",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/02/13/1644738911431325_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/02/13/1644738911431325_lg.jpg",
       "min_player": "2",
       "max_player": "4",
       "play_time": "60-90분",
@@ -2044,7 +2044,7 @@
     {
       "id": 158,
       "name": "에이지 오브 스팀: 딜럭스 에디션",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy_reg/2019/03/22/1553193404-653337_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy_reg/2019/03/22/1553193404-653337.jpg",
       "min_player": "1",
       "max_player": "6",
       "play_time": "120분",
@@ -2057,7 +2057,7 @@
     {
       "id": 159,
       "name": "기즈모",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/02/03/1612347045-512394_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/02/03/1612347045-512394.png",
       "min_player": "2",
       "max_player": "4",
       "play_time": "40-50분",
@@ -2070,7 +2070,7 @@
     {
       "id": 160,
       "name": "피렌체의 제후",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2023/04/10/1681105083054124_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2023/04/10/1681105083054124_lg.jpg",
       "min_player": "2",
       "max_player": "5",
       "play_time": "75-100분",
@@ -2083,7 +2083,7 @@
     {
       "id": 161,
       "name": "여명의 제국 (4판)",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/02/01/1643694887781223_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/02/01/1643694887781223_lg.jpg",
       "min_player": "3",
       "max_player": "6",
       "play_time": "240-480분",
@@ -2096,7 +2096,7 @@
     {
       "id": 162,
       "name": "키플라워",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/03/09/1646758152021733_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/03/09/1646758152021733_lg.jpg",
       "min_player": "2",
       "max_player": "6",
       "play_time": "90-120분",
@@ -2109,7 +2109,7 @@
     {
       "id": 163,
       "name": "디텍티브: 모던 크라임",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/01/29/1611914970-201334_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/01/29/1611914970-201334.png",
       "min_player": "1",
       "max_player": "5",
       "play_time": "120-180분",
@@ -2122,7 +2122,7 @@
     {
       "id": 164,
       "name": "왓슨 & 홈즈",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/02/16/1613461798-290537_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/02/16/1613461798-290537.jpg",
       "min_player": "2",
       "max_player": "7",
       "play_time": "45-75분",
@@ -2135,7 +2135,7 @@
     {
       "id": 165,
       "name": "한자 토이토니카",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641923330933240_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641923330933240_lg.jpg",
       "min_player": "2",
       "max_player": "5",
       "play_time": "45-90분",
@@ -2148,7 +2148,7 @@
     {
       "id": 166,
       "name": "서바이브: 아틀란티스 섬으로부터의 탈출!",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/06/06/1654516600213421_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/06/06/1654516600213421_lg.jpg",
       "min_player": "2",
       "max_player": "4",
       "play_time": "45-60분",
@@ -2161,7 +2161,7 @@
     {
       "id": 167,
       "name": "석기시대",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/07/19/1658158647026942_lg_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/07/19/1658158647026942_lg.png",
       "min_player": "2",
       "max_player": "4",
       "play_time": "60-90분",
@@ -2174,7 +2174,7 @@
     {
       "id": 168,
       "name": "온 마스",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/05/05/1651749259156740_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/05/05/1651749259156740_lg.jpg",
       "min_player": "2",
       "max_player": "4",
       "play_time": "90-150분",
@@ -2187,7 +2187,7 @@
     {
       "id": 169,
       "name": "칸반: 오토모티브 레볼루션",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641922611742042_lg_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641922611742042_lg.png",
       "min_player": "2",
       "max_player": "4",
       "play_time": "90-120분",
@@ -2200,7 +2200,7 @@
     {
       "id": 170,
       "name": "고아",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641923532122489_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641923532122489_lg.jpg",
       "min_player": "2",
       "max_player": "4",
       "play_time": "90분",
@@ -2213,7 +2213,7 @@
     {
       "id": 171,
       "name": "아컴 호러 (3판)",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/01/29/1611914856-309602_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/01/29/1611914856-309602.jpg",
       "min_player": "1",
       "max_player": "6",
       "play_time": "120-180분",
@@ -2226,7 +2226,7 @@
     {
       "id": 172,
       "name": "보난자",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641923933289906_lg_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641923933289906_lg.png",
       "min_player": "2",
       "max_player": "7",
       "play_time": "45분",
@@ -2239,7 +2239,7 @@
     {
       "id": 173,
       "name": "네비가도르",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641924023932949_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641924023932949_lg.jpg",
       "min_player": "2",
       "max_player": "5",
       "play_time": "60-90분",
@@ -2252,7 +2252,7 @@
     {
       "id": 174,
       "name": "몰타의 관문",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641923445595137_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641923445595137_lg.jpg",
       "min_player": "2",
       "max_player": "5",
       "play_time": "45분",
@@ -2265,7 +2265,7 @@
     {
       "id": 175,
       "name": "퍼스트 클래스",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641923562453173_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641923562453173_lg.jpg",
       "min_player": "2",
       "max_player": "4",
       "play_time": "40-80분",
@@ -2278,7 +2278,7 @@
     {
       "id": 176,
       "name": "젝스님트",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/164192365785581_lg_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/164192365785581_lg.png",
       "min_player": "2",
       "max_player": "10",
       "play_time": "45분",
@@ -2291,7 +2291,7 @@
     {
       "id": 177,
       "name": "패스 오브 글로리",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2023/03/10/1678386705627097_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2023/03/10/1678386705627097_lg.jpg",
       "min_player": "2",
       "max_player": "2",
       "play_time": "480분",
@@ -2304,7 +2304,7 @@
     {
       "id": 178,
       "name": "언락!",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641924153338089_lg_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641924153338089_lg.png",
       "min_player": "1",
       "max_player": "6",
       "play_time": "45-75분",
@@ -2317,7 +2317,7 @@
     {
       "id": 179,
       "name": "스타 렐름",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641923751051035_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641923751051035_lg.jpg",
       "min_player": "2",
       "max_player": "2",
       "play_time": "20분",
@@ -2330,7 +2330,7 @@
     {
       "id": 180,
       "name": "상트페테르부르크",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641924107751797_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641924107751797_lg.jpg",
       "min_player": "2",
       "max_player": "4",
       "play_time": "45-60분",
@@ -2343,7 +2343,7 @@
     {
       "id": 181,
       "name": "어콰이어",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/29/16434487579303_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/29/16434487579303_lg.jpg",
       "min_player": "3",
       "max_player": "6",
       "play_time": "90-120분",
@@ -2356,7 +2356,7 @@
     {
       "id": 182,
       "name": "센추리: 향신료의 길",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/03/09/1615275295-754301_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/03/09/1615275295-754301.png",
       "min_player": "2",
       "max_player": "5",
       "play_time": "30-45분",
@@ -2369,7 +2369,7 @@
     {
       "id": 183,
       "name": "파워 그리드 디럭스: 유럽/북 아메리카",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641924076095366_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641924076095366_lg.jpg",
       "min_player": "2",
       "max_player": "6",
       "play_time": "120분",
@@ -2382,7 +2382,7 @@
     {
       "id": 184,
       "name": "더마인드",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641924434338035_lg_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641924434338035_lg.png",
       "min_player": "2",
       "max_player": "4",
       "play_time": "20분",
@@ -2395,7 +2395,7 @@
     {
       "id": 185,
       "name": "뉴턴",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641924310316502_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641924310316502_lg.jpg",
       "min_player": "1",
       "max_player": "4",
       "play_time": "90분",
@@ -2408,7 +2408,7 @@
     {
       "id": 186,
       "name": "천국과 맥주",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/25/1643051968195496_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/25/1643051968195496_lg.jpg",
       "min_player": "2",
       "max_player": "4",
       "play_time": "60-90분",
@@ -2421,7 +2421,7 @@
     {
       "id": 187,
       "name": "좀비사이드: 흑사병",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/07/09/1657301530953379_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/07/09/1657301530953379_lg.jpg",
       "min_player": "1",
       "max_player": "6",
       "play_time": "60-180분",
@@ -2434,7 +2434,7 @@
     {
       "id": 188,
       "name": "천일야화",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641923835225129_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641923835225129_lg.jpg",
       "min_player": "1",
       "max_player": "6",
       "play_time": "120분",
@@ -2447,7 +2447,7 @@
     {
       "id": 189,
       "name": "크툴루: 죽음마저 죽으리니",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/15/1642182279891279_lg_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/15/1642182279891279_lg.png",
       "min_player": "1",
       "max_player": "5",
       "play_time": "60-180분",
@@ -2460,7 +2460,7 @@
     {
       "id": 190,
       "name": "렉시오",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/02/24/1645642679314943_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/02/24/1645642679314943_lg.jpg",
       "min_player": "3",
       "max_player": "5",
       "play_time": "20분",
@@ -2473,7 +2473,7 @@
     {
       "id": 191,
       "name": "블랙 프라이데이",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/15/1642181801041925_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/15/1642181801041925_lg.jpg",
       "min_player": "2",
       "max_player": "5",
       "play_time": "55분",
@@ -2486,7 +2486,7 @@
     {
       "id": 192,
       "name": "사무라이",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641924597447234_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641924597447234_lg.jpg",
       "min_player": "2",
       "max_player": "4",
       "play_time": "30-60분",
@@ -2499,7 +2499,7 @@
     {
       "id": 193,
       "name": "타르기",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/02/03/1612343500-580798_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/02/03/1612343500-580798.png",
       "min_player": "2",
       "max_player": "2",
       "play_time": "60분",
@@ -2512,7 +2512,7 @@
     {
       "id": 194,
       "name": "배틀스타 갤럭티카 - 보드게임",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2023/02/14/1676307615676530_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2023/02/14/1676307615676530_lg.jpg",
       "min_player": "3",
       "max_player": "6",
       "play_time": "120-180분",
@@ -2525,7 +2525,7 @@
     {
       "id": 195,
       "name": "센추리: 골렘 에디션",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641925498031265_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641925498031265_lg.jpg",
       "min_player": "2",
       "max_player": "5",
       "play_time": "30-45분",
@@ -2538,7 +2538,7 @@
     {
       "id": 196,
       "name": "스팀",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641924650213081_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641924650213081_lg.jpg",
       "min_player": "3",
       "max_player": "5",
       "play_time": "90분",
@@ -2551,7 +2551,7 @@
     {
       "id": 197,
       "name": "러브 레터 (켄 니무라 에디션)",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/02/24/1645642579934542_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/02/24/1645642579934542_lg.jpg",
       "min_player": "2",
       "max_player": "4",
       "play_time": "20분",
@@ -2564,7 +2564,7 @@
     {
       "id": 198,
       "name": "1830 : 철도 회사와 강도남작",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641924198681793_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641924198681793_lg.jpg",
       "min_player": "2",
       "max_player": "7",
       "play_time": "180-360분",
@@ -2577,7 +2577,7 @@
     {
       "id": 199,
       "name": "위너스 서클 다국어판",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641923980497360_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641923980497360_lg.jpg",
       "min_player": "2",
       "max_player": "6",
       "play_time": "45-60분",
@@ -2590,7 +2590,7 @@
     {
       "id": 200,
       "name": "시크릿 히틀러",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641927905717698_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641927905717698_lg.jpg",
       "min_player": "5",
       "max_player": "10",
       "play_time": "45분",
@@ -2603,7 +2603,7 @@
     {
       "id": 201,
       "name": "우봉고 3D 프로",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/02/09/1612857200-229169_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/02/09/1612857200-229169.jpg",
       "min_player": "2",
       "max_player": "4",
       "play_time": "30분",
@@ -2616,7 +2616,7 @@
     {
       "id": 202,
       "name": "리코셰 로봇",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/02/16/1644937359486047_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/02/16/1644937359486047_lg.jpg",
       "min_player": "1",
       "max_player": "99",
       "play_time": "30분",
@@ -2629,7 +2629,7 @@
     {
       "id": 203,
       "name": "티켓 투 라이드",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641924483868554_lg_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641924483868554_lg.png",
       "min_player": "2",
       "max_player": "5",
       "play_time": "30-60분",
@@ -2642,7 +2642,7 @@
     {
       "id": 204,
       "name": "라스베가스 로얄",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/14/1642089121363109_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/14/1642089121363109_lg.jpg",
       "min_player": "2",
       "max_player": "5",
       "play_time": "45-60분",
@@ -2655,7 +2655,7 @@
     {
       "id": 205,
       "name": "일곱번째 대륙",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641924719224197_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641924719224197_lg.jpg",
       "min_player": "1",
       "max_player": "4",
       "play_time": "5-1000분",
@@ -2668,7 +2668,7 @@
     {
       "id": 206,
       "name": "몸바사",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/25/1643055255911366_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/25/1643055255911366_lg.jpg",
       "min_player": "2",
       "max_player": "4",
       "play_time": "75-150분",
@@ -2681,7 +2681,7 @@
     {
       "id": 207,
       "name": "자이푸르",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/02/01/1643698739648616_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/02/01/1643698739648616_lg.jpg",
       "min_player": "2",
       "max_player": "2",
       "play_time": "30분",
@@ -2694,7 +2694,7 @@
     {
       "id": 208,
       "name": "아임 더 보스!",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/02/18/1613639394-414195_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/02/18/1613639394-414195.jpg",
       "min_player": "3",
       "max_player": "6",
       "play_time": "60분",
@@ -2707,7 +2707,7 @@
     {
       "id": 209,
       "name": "트레지디 루퍼",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/09/18/1663432209299535_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/09/18/1663432209299535_lg.jpg",
       "min_player": "2",
       "max_player": "4",
       "play_time": "120분",
@@ -2720,7 +2720,7 @@
     {
       "id": 210,
       "name": "카를로스 마그너스",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/25/1643051768246646_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/25/1643051768246646_lg.jpg",
       "min_player": "2",
       "max_player": "4",
       "play_time": "60분",
@@ -2732,7 +2732,7 @@
     {
       "id": 211,
       "name": "클랭크!",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/02/17/1613555866-875197_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/02/17/1613555866-875197.png",
       "min_player": "2",
       "max_player": "4",
       "play_time": "30-60분",
@@ -2745,7 +2745,7 @@
     {
       "id": 212,
       "name": "루미큐브",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641924552637329_lg_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641924552637329_lg.png",
       "min_player": "2",
       "max_player": "4",
       "play_time": "60분",
@@ -2758,7 +2758,7 @@
     {
       "id": 213,
       "name": "엔데버",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/25/1643053340535858_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/25/1643053340535858_lg.jpg",
       "min_player": "3",
       "max_player": "5",
       "play_time": "90분",
@@ -2771,7 +2771,7 @@
     {
       "id": 214,
       "name": "필름을 감아!",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/31/1643562441924072_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/31/1643562441924072_lg.jpg",
       "min_player": "2",
       "max_player": "4",
       "play_time": "20분",
@@ -2784,7 +2784,7 @@
     {
       "id": 215,
       "name": "노트르담",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641923791512785_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641923791512785_lg.jpg",
       "min_player": "2",
       "max_player": "5",
       "play_time": "45-75분",
@@ -2797,7 +2797,7 @@
     {
       "id": 216,
       "name": "그레이트 웨스턴 트레일 : 북부행 철로",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/02/26/1645874412949445_lg_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/02/26/1645874412949445_lg.png",
       "min_player": "2",
       "max_player": "4",
       "play_time": "75-150분",
@@ -2810,7 +2810,7 @@
     {
       "id": 217,
       "name": "맹그로비아",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/25/1643051567475771_lg_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/25/1643051567475771_lg.png",
       "min_player": "2",
       "max_player": "5",
       "play_time": "75분",
@@ -2823,7 +2823,7 @@
     {
       "id": 218,
       "name": "셀레스티아",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2023/04/24/1682273768949746_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2023/04/24/1682273768949746_lg.jpg",
       "min_player": "2",
       "max_player": "6",
       "play_time": "30분",
@@ -2836,7 +2836,7 @@
     {
       "id": 219,
       "name": "공룡섬",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/25/1643053702228452_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/25/1643053702228452_lg.jpg",
       "min_player": "1",
       "max_player": "4",
       "play_time": "90-120분",
@@ -2849,7 +2849,7 @@
     {
       "id": 220,
       "name": "투 매니 본즈",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2023/05/06/168330130784821_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2023/05/06/168330130784821_lg.jpg",
       "min_player": "1",
       "max_player": "4",
       "play_time": "75분",
@@ -2862,7 +2862,7 @@
     {
       "id": 221,
       "name": "베런파크",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641924260886424_lg_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641924260886424_lg.png",
       "min_player": "2",
       "max_player": "4",
       "play_time": "30-45분",
@@ -2875,7 +2875,7 @@
     {
       "id": 222,
       "name": "엑시트: 더 게임 - 버려진 오두막",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641926305483711_lg_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641926305483711_lg.png",
       "min_player": "1",
       "max_player": "6",
       "play_time": "60-120분",
@@ -2888,7 +2888,7 @@
     {
       "id": 223,
       "name": "안도르의 전설",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/02/08/1612776267-683576_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/02/08/1612776267-683576.jpg",
       "min_player": "2",
       "max_player": "4",
       "play_time": "60-90분",
@@ -2901,7 +2901,7 @@
     {
       "id": 224,
       "name": "언더다크의 폭군들",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641925738576196_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641925738576196_lg.jpg",
       "min_player": "2",
       "max_player": "4",
       "play_time": "60분",
@@ -2914,7 +2914,7 @@
     {
       "id": 225,
       "name": "메이지 워즈 아레나",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2023/03/26/167980673487051_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2023/03/26/167980673487051_lg.jpg",
       "min_player": "2",
       "max_player": "2",
       "play_time": "90분",
@@ -2927,7 +2927,7 @@
     {
       "id": 226,
       "name": "랭카스터",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/25/1643039493272170_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/25/1643039493272170_lg.jpg",
       "min_player": "2",
       "max_player": "5",
       "play_time": "60분",
@@ -2940,7 +2940,7 @@
     {
       "id": 227,
       "name": "핀카",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/02/16/1613461489-964313_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/02/16/1613461489-964313.png",
       "min_player": "2",
       "max_player": "4",
       "play_time": "45분",
@@ -2953,7 +2953,7 @@
     {
       "id": 228,
       "name": "산 후앙",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/164192577097592_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/164192577097592_lg.jpg",
       "min_player": "2",
       "max_player": "4",
       "play_time": "45-60분",
@@ -2966,7 +2966,7 @@
     {
       "id": 229,
       "name": "영리한 여우",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641925413479412_lg_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641925413479412_lg.png",
       "min_player": "1",
       "max_player": "4",
       "play_time": "30분",
@@ -2979,7 +2979,7 @@
     {
       "id": 230,
       "name": "팬데믹: 이베리아",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/09/09/1662711799627500_lg_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/09/09/1662711799627500_lg.png",
       "min_player": "2",
       "max_player": "5",
       "play_time": "45분",
@@ -2992,7 +2992,7 @@
     {
       "id": 231,
       "name": "마라카이보",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/01/25/1611516422-960270_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/01/25/1611516422-960270.png",
       "min_player": "1",
       "max_player": "4",
       "play_time": "30-120분",
@@ -3005,7 +3005,7 @@
     {
       "id": 232,
       "name": "웰컴 투 ...",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/02/03/1643829584541029_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/02/03/1643829584541029_lg.jpg",
       "min_player": "1",
       "max_player": "100",
       "play_time": "25분",
@@ -3018,7 +3018,7 @@
     {
       "id": 233,
       "name": "비티컬처",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641925628142010_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641925628142010_lg.jpg",
       "min_player": "2",
       "max_player": "6",
       "play_time": "90분",
@@ -3031,7 +3031,7 @@
     {
       "id": 234,
       "name": "사그라다",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/12/27/1640546589-413539_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/12/27/1640546589-413539.jpg",
       "min_player": "1",
       "max_player": "4",
       "play_time": "30-45분",
@@ -3044,7 +3044,7 @@
     {
       "id": 235,
       "name": "스타 워즈: X-윙 미니어처 게임",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/02/26/1645855376658542_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/02/26/1645855376658542_lg.jpg",
       "min_player": "2",
       "max_player": "2",
       "play_time": "30-45분",
@@ -3057,7 +3057,7 @@
     {
       "id": 236,
       "name": "티츄 이탈리아 버전",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/164192662554643_lg_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/164192662554643_lg.png",
       "min_player": "3",
       "max_player": "6",
       "play_time": "60분",
@@ -3070,7 +3070,7 @@
     {
       "id": 237,
       "name": "텀블링 다이스",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2023/04/28/1682621549893039_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2023/04/28/1682621549893039_lg.jpg",
       "min_player": "2",
       "max_player": "4",
       "play_time": "20-45분",
@@ -3083,7 +3083,7 @@
     {
       "id": 238,
       "name": "티너스 트레일",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641926010271664_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641926010271664_lg.jpg",
       "min_player": "3",
       "max_player": "4",
       "play_time": "60-90분",
@@ -3096,7 +3096,7 @@
     {
       "id": 239,
       "name": "카멜롯의 그림자",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/15/1642182104995927_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/15/1642182104995927_lg.jpg",
       "min_player": "3",
       "max_player": "7",
       "play_time": "60-80분",
@@ -3109,7 +3109,7 @@
     {
       "id": 240,
       "name": "이스탄불: 주사위 게임",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/02/05/1644052201166486_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/02/05/1644052201166486_lg.jpg",
       "min_player": "2",
       "max_player": "4",
       "play_time": "20-40분",
@@ -3122,7 +3122,7 @@
     {
       "id": 241,
       "name": "펭귄 파티",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/11/13/1668311872461566_lg_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/11/13/1668311872461566_lg.png",
       "min_player": "2",
       "max_player": "6",
       "play_time": "15분",
@@ -3135,7 +3135,7 @@
     {
       "id": 242,
       "name": "루이스 앤 클라크",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641926678334071_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641926678334071_lg.jpg",
       "min_player": "1",
       "max_player": "5",
       "play_time": "120분",
@@ -3148,7 +3148,7 @@
     {
       "id": 243,
       "name": "크툴루를 건드리지마라",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641925450875237_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641925450875237_lg.jpg",
       "min_player": "4",
       "max_player": "6",
       "play_time": "1-30분",
@@ -3161,7 +3161,7 @@
     {
       "id": 244,
       "name": "아일 오브 스카이: 족장에서 왕까지",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641924942659895_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641924942659895_lg.jpg",
       "min_player": "2",
       "max_player": "5",
       "play_time": "30-50분",
@@ -3174,7 +3174,7 @@
     {
       "id": 245,
       "name": "반지의 제왕: 카드게임",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/15/1642182144276582_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/15/1642182144276582_lg.jpg",
       "min_player": "1",
       "max_player": "2",
       "play_time": "30-60분",
@@ -3187,7 +3187,7 @@
     {
       "id": 246,
       "name": "테케누: 태양의 오벨리스크",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/31/1643562353853250_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/31/1643562353853250_lg.jpg",
       "min_player": "1",
       "max_player": "4",
       "play_time": "60-120분",
@@ -3200,7 +3200,7 @@
     {
       "id": 247,
       "name": "마이스 앤 미스틱",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2023/03/14/16787295211479_lg_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2023/03/14/16787295211479_lg.png",
       "min_player": "1",
       "max_player": "4",
       "play_time": "60-90분",
@@ -3213,7 +3213,7 @@
     {
       "id": 248,
       "name": "아나크로니",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641926232936098_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641926232936098_lg.jpg",
       "min_player": "1",
       "max_player": "4",
       "play_time": "30-120분",
@@ -3226,7 +3226,7 @@
     {
       "id": 249,
       "name": "보라 보라",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/164192529774935_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/164192529774935_lg.jpg",
       "min_player": "2",
       "max_player": "4",
       "play_time": "60-120분",
@@ -3239,7 +3239,7 @@
     {
       "id": 250,
       "name": "참새작",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/12/06/1670333416378095_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/12/06/1670333416378095_lg.jpg",
       "min_player": "2",
       "max_player": "5",
       "play_time": "30분",
@@ -3252,7 +3252,7 @@
     {
       "id": 251,
       "name": "에볼루션",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/15/1642181559249314_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/15/1642181559249314_lg.jpg",
       "min_player": "2",
       "max_player": "6",
       "play_time": "60분",
@@ -3265,7 +3265,7 @@
     {
       "id": 252,
       "name": "카멜업",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/16/1642264614182828_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/16/1642264614182828_lg.jpg",
       "min_player": "2",
       "max_player": "8",
       "play_time": "20-30분",
@@ -3278,7 +3278,7 @@
     {
       "id": 253,
       "name": "마리아",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/15/1642183391148355_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/15/1642183391148355_lg.jpg",
       "min_player": "2",
       "max_player": "3",
       "play_time": "210분",
@@ -3291,7 +3291,7 @@
     {
       "id": 254,
       "name": "롱샷",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/15/1642181841059018_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/15/1642181841059018_lg.jpg",
       "min_player": "3",
       "max_player": "8",
       "play_time": "60분",
@@ -3304,7 +3304,7 @@
     {
       "id": 255,
       "name": "북해의 침략자",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2023/01/25/1674648633641043_lg_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2023/01/25/1674648633641043_lg.png",
       "min_player": "2",
       "max_player": "4",
       "play_time": "60-80분",
@@ -3317,7 +3317,7 @@
     {
       "id": 256,
       "name": "아를의 평원 빅 박스",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy_reg/2019/08/30/1567095897-102897_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy_reg/2019/08/30/1567095897-102897.png",
       "min_player": "1",
       "max_player": "3",
       "play_time": "60-120분",
@@ -3330,7 +3330,7 @@
     {
       "id": 257,
       "name": "셰익스피어",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/15/1642181622623281_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/15/1642181622623281_lg.jpg",
       "min_player": "1",
       "max_player": "4",
       "play_time": "20-90분",
@@ -3343,7 +3343,7 @@
     {
       "id": 258,
       "name": "징코폴리스",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/03/09/1615273739-403620_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/03/09/1615273739-403620.jpg",
       "min_player": "1",
       "max_player": "5",
       "play_time": "45분",
@@ -3356,7 +3356,7 @@
     {
       "id": 259,
       "name": "화이트홀 미스테리",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/02/03/1612346310-98004_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/02/03/1612346310-98004.png",
       "min_player": "2",
       "max_player": "4",
       "play_time": "90분",
@@ -3369,7 +3369,7 @@
     {
       "id": 260,
       "name": "토레스",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2023/02/19/167674860501992_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2023/02/19/167674860501992_lg.jpg",
       "min_player": "2",
       "max_player": "4",
       "play_time": "60분",
@@ -3382,7 +3382,7 @@
     {
       "id": 261,
       "name": "시타델",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2023/01/16/1673860366278157_lg_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2023/01/16/1673860366278157_lg.png",
       "min_player": "2",
       "max_player": "8",
       "play_time": "30-60분",
@@ -3395,7 +3395,7 @@
     {
       "id": 262,
       "name": "로빈슨 크루소: 저주받은 섬의 모험 (2판)",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/16/1642273323082421_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/16/1642273323082421_lg.jpg",
       "min_player": "1",
       "max_player": "4",
       "play_time": "60-120분",
@@ -3408,7 +3408,7 @@
     {
       "id": 263,
       "name": "위저드 익스트림",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/09/04/1662282036084529_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/09/04/1662282036084529_lg.jpg",
       "min_player": "3",
       "max_player": "5",
       "play_time": "30분",
@@ -3421,7 +3421,7 @@
     {
       "id": 264,
       "name": "체스",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2023/01/10/1673349694542476_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2023/01/10/1673349694542476_lg.jpg",
       "min_player": "2",
       "max_player": "2",
       "play_time": "60분",
@@ -3434,7 +3434,7 @@
     {
       "id": 265,
       "name": "태양신 라",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641927076723982_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641927076723982_lg.jpg",
       "min_player": "2",
       "max_player": "5",
       "play_time": "45-60분",
@@ -3447,7 +3447,7 @@
     {
       "id": 266,
       "name": "7 원더스: 대결 - 아고라",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/31/1643561558733610_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/31/1643561558733610_lg.jpg",
       "min_player": "2",
       "max_player": "2",
       "play_time": "30분",
@@ -3460,7 +3460,7 @@
     {
       "id": 267,
       "name": "윙스팬: 유럽 확장",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/16/1642342786489120_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/16/1642342786489120_lg.jpg",
       "min_player": "1",
       "max_player": "5",
       "play_time": "40-70분",
@@ -3473,7 +3473,7 @@
     {
       "id": 268,
       "name": "테라포밍 마스: 개척기지",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy_reg/2018/10/23/1540238180-6695_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy_reg/2018/10/23/1540238180-6695.png",
       "min_player": "1",
       "max_player": "5",
       "play_time": "120분",
@@ -3486,7 +3486,7 @@
     {
       "id": 269,
       "name": "티켓 투 라이드: 노르딕",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/31/1643576313621021_lg_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/31/1643576313621021_lg.png",
       "min_player": "2",
       "max_player": "3",
       "play_time": "30-60분",
@@ -3499,7 +3499,7 @@
     {
       "id": 270,
       "name": "마지막 유언",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641926409614922_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641926409614922_lg.jpg",
       "min_player": "2",
       "max_player": "5",
       "play_time": "45-75분",
@@ -3512,7 +3512,7 @@
     {
       "id": 271,
       "name": "워해머 언더월드: 나이트볼트",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641926473311062_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641926473311062_lg.jpg",
       "min_player": "2",
       "max_player": "2",
       "play_time": "30-60분",
@@ -3525,7 +3525,7 @@
     {
       "id": 272,
       "name": "랩터",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/26/16431302247670_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/26/16431302247670_lg.jpg",
       "min_player": "2",
       "max_player": "2",
       "play_time": "30분",
@@ -3538,7 +3538,7 @@
     {
       "id": 273,
       "name": "히어로 렐름",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641925667315890_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641925667315890_lg.jpg",
       "min_player": "2",
       "max_player": "4",
       "play_time": "20-30분",
@@ -3551,7 +3551,7 @@
     {
       "id": 274,
       "name": "에이지 오브 르네상스",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/15/1642183176432382_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/15/1642183176432382_lg.jpg",
       "min_player": "3",
       "max_player": "6",
       "play_time": "120-300분",
@@ -3564,7 +3564,7 @@
     {
       "id": 275,
       "name": "아카디아 퀘스트",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/02/16/1613461365-791610_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/02/16/1613461365-791610.png",
       "min_player": "2",
       "max_player": "4",
       "play_time": "60분",
@@ -3577,7 +3577,7 @@
     {
       "id": 276,
       "name": "레전더리 인카운터: 에일리언 덱 빌딩 게임",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/15/1642182042844860_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/15/1642182042844860_lg.jpg",
       "min_player": "1",
       "max_player": "5",
       "play_time": "30-60분",
@@ -3590,7 +3590,7 @@
     {
       "id": 277,
       "name": "카카오",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641925945913897_lg_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641925945913897_lg.png",
       "min_player": "2",
       "max_player": "4",
       "play_time": "45분",
@@ -3603,7 +3603,7 @@
     {
       "id": 278,
       "name": "플래시 포인트: 화재 구조",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641927376262562_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641927376262562_lg.jpg",
       "min_player": "2",
       "max_player": "6",
       "play_time": "45분",
@@ -3616,7 +3616,7 @@
     {
       "id": 279,
       "name": "아그리콜라: 크고 작은 생물들",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/15/1642182327636534_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/15/1642182327636534_lg.jpg",
       "min_player": "2",
       "max_player": "2",
       "play_time": "30분",
@@ -3629,7 +3629,7 @@
     {
       "id": 280,
       "name": "로코코",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/15/1642182190996030_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/15/1642182190996030_lg.jpg",
       "min_player": "2",
       "max_player": "5",
       "play_time": "60-120분",
@@ -3642,7 +3642,7 @@
     {
       "id": 281,
       "name": "디 마허",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641928742566850_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641928742566850_lg.jpg",
       "min_player": "3",
       "max_player": "5",
       "play_time": "240분",
@@ -3655,7 +3655,7 @@
     {
       "id": 282,
       "name": "캘리코",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/01/21/1611206540-236776_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/01/21/1611206540-236776.jpg",
       "min_player": "1",
       "max_player": "4",
       "play_time": "30-45분",
@@ -3668,7 +3668,7 @@
     {
       "id": 283,
       "name": "크라스 카리어트",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641927503747380_lg_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641927503747380_lg.png",
       "min_player": "3",
       "max_player": "5",
       "play_time": "30분",
@@ -3681,7 +3681,7 @@
     {
       "id": 284,
       "name": "불릿♥",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2023/04/11/1681144402877815_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2023/04/11/1681144402877815_lg.jpg",
       "min_player": "1",
       "max_player": "4",
       "play_time": "10-20분",
@@ -3694,7 +3694,7 @@
     {
       "id": 285,
       "name": "어센션: 덱빌딩 게임",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641926190444126_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641926190444126_lg.jpg",
       "min_player": "1",
       "max_player": "4",
       "play_time": "30분",
@@ -3707,7 +3707,7 @@
     {
       "id": 286,
       "name": "팬데믹: 더 큐어",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641927996258777_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641927996258777_lg.jpg",
       "min_player": "2",
       "max_player": "5",
       "play_time": "30분",
@@ -3720,7 +3720,7 @@
     {
       "id": 287,
       "name": "광기의 저택 (2판): 끔찍한 여정",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/01/29/1611914533-178215_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/01/29/1611914533-178215.jpg",
       "min_player": "1",
       "max_player": "5",
       "play_time": "120-180분",
@@ -3733,7 +3733,7 @@
     {
       "id": 288,
       "name": "윙스팬: 오세아니아 확장",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2023/05/05/1683264474066961_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2023/05/05/1683264474066961_lg.jpg",
       "min_player": "1",
       "max_player": "5",
       "play_time": "40-70분",
@@ -3746,7 +3746,7 @@
     {
       "id": 289,
       "name": "퍼레이드",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641927285394221_lg_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641927285394221_lg.png",
       "min_player": "2",
       "max_player": "6",
       "play_time": "45분",
@@ -3759,7 +3759,7 @@
     {
       "id": 290,
       "name": "러브 레터: 카나이 팩토리 한정 에디션",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641926997079372_lg_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641926997079372_lg.png",
       "min_player": "2",
       "max_player": "4",
       "play_time": "20분",
@@ -3772,7 +3772,7 @@
     {
       "id": 291,
       "name": "던전 펫츠",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/15/1642182234259_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/15/1642182234259_lg.jpg",
       "min_player": "2",
       "max_player": "4",
       "play_time": "90분",
@@ -3785,7 +3785,7 @@
     {
       "id": 292,
       "name": "포션 폭발",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/02/02/1643789695813076_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/02/02/1643789695813076_lg.jpg",
       "min_player": "2",
       "max_player": "4",
       "play_time": "30-45분",
@@ -3798,7 +3798,7 @@
     {
       "id": 293,
       "name": "스페이스 크루: ISS를 향하여",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2023/04/13/1681384916565290_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2023/04/13/1681384916565290_lg.jpg",
       "min_player": "2",
       "max_player": "5",
       "play_time": "20분",
@@ -3811,7 +3811,7 @@
     {
       "id": 294,
       "name": "시뇨리에",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/15/1642182375687063_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/15/1642182375687063_lg.jpg",
       "min_player": "2",
       "max_player": "4",
       "play_time": "90-120분",
@@ -3824,7 +3824,7 @@
     {
       "id": 295,
       "name": "메모아 44",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/15/164218509647688_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/15/164218509647688_lg.jpg",
       "min_player": "2",
       "max_player": "8",
       "play_time": "30-60분",
@@ -3837,7 +3837,7 @@
     {
       "id": 296,
       "name": "하나비",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641926946514587_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641926946514587_lg.jpg",
       "min_player": "2",
       "max_player": "5",
       "play_time": "25분",
@@ -3850,7 +3850,7 @@
     {
       "id": 297,
       "name": "얼티밋 레일로드",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/07/08/165720653043693_lg_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/07/08/165720653043693_lg.png",
       "min_player": "1",
       "max_player": "4",
       "play_time": "90-120분",
@@ -3863,7 +3863,7 @@
     {
       "id": 298,
       "name": "황하와 장강",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/04/12/1649692903084401_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/04/12/1649692903084401_lg.jpg",
       "min_player": "2",
       "max_player": "4",
       "play_time": "90분",
@@ -3876,7 +3876,7 @@
     {
       "id": 299,
       "name": "스타트업스",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2023/04/05/1680631625293843_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2023/04/05/1680631625293843_lg.jpg",
       "min_player": "3",
       "max_player": "7",
       "play_time": "20분",
@@ -3889,7 +3889,7 @@
     {
       "id": 300,
       "name": "서버비아 콜렉터스 에디션",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/02/14/1644773271138543_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/02/14/1644773271138543_lg.jpg",
       "min_player": "1",
       "max_player": "5",
       "play_time": "90분",
@@ -3902,7 +3902,7 @@
     {
       "id": 301,
       "name": "듀크",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641927146259521_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641927146259521_lg.jpg",
       "min_player": "2",
       "max_player": "2",
       "play_time": "30분",
@@ -3915,7 +3915,7 @@
     {
       "id": 302,
       "name": "더 블러디 인",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2023/01/08/16731158870721_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2023/01/08/16731158870721_lg.jpg",
       "min_player": "1",
       "max_player": "4",
       "play_time": "30-60분",
@@ -3928,7 +3928,7 @@
     {
       "id": 303,
       "name": "레드7",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/09/02/166212618859970_lg_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/09/02/166212618859970_lg.png",
       "min_player": "2",
       "max_player": "4",
       "play_time": "5-30분",
@@ -3941,7 +3941,7 @@
     {
       "id": 304,
       "name": "7 원더스: 건축가들",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/20/164267558636447_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/20/164267558636447_lg.jpg",
       "min_player": "2",
       "max_player": "7",
       "play_time": "25분",
@@ -3954,7 +3954,7 @@
     {
       "id": 305,
       "name": "글래스 로드",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/10/1641796318313880_lg_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/10/1641796318313880_lg.png",
       "min_player": "1",
       "max_player": "4",
       "play_time": "20-80분",
@@ -3967,7 +3967,7 @@
     {
       "id": 306,
       "name": "러브크래프트 레터",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/11/11/1668102856283368_lg_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/11/11/1668102856283368_lg.png",
       "min_player": "2",
       "max_player": "6",
       "play_time": "5-15분",
@@ -3980,7 +3980,7 @@
     {
       "id": 307,
       "name": "트룬 앤 탁시스",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641927228182800_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641927228182800_lg.jpg",
       "min_player": "2",
       "max_player": "4",
       "play_time": "60분",
@@ -3993,7 +3993,7 @@
     {
       "id": 308,
       "name": "언덕 위 집에서의 배신",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/08/10/1660138881234532_lg_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/08/10/1660138881234532_lg.png",
       "min_player": "3",
       "max_player": "6",
       "play_time": "60분",
@@ -4006,7 +4006,7 @@
     {
       "id": 309,
       "name": "저스트 원",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/02/07/16442327677847_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/02/07/16442327677847_lg.jpg",
       "min_player": "3",
       "max_player": "7",
       "play_time": "20분",
@@ -4019,7 +4019,7 @@
     {
       "id": 310,
       "name": "대지의 기둥",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/26/1643131292492301_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/26/1643131292492301_lg.jpg",
       "min_player": "2",
       "max_player": "4",
       "play_time": "90-120분",
@@ -4032,7 +4032,7 @@
     {
       "id": 311,
       "name": "스플렌더 마블",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/20/1642678821215112_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/20/1642678821215112_lg.jpg",
       "min_player": "2",
       "max_player": "4",
       "play_time": "30분",
@@ -4045,7 +4045,7 @@
     {
       "id": 312,
       "name": "노 땡스 신판",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641928871812663_lg_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641928871812663_lg.png",
       "min_player": "3",
       "max_player": "5",
       "play_time": "20분",
@@ -4058,7 +4058,7 @@
     {
       "id": 313,
       "name": "컬러레또",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641927835195639_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641927835195639_lg.jpg",
       "min_player": "2",
       "max_player": "5",
       "play_time": "30분",
@@ -4071,7 +4071,7 @@
     {
       "id": 314,
       "name": "티펜탈의 선술집",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/01/25/1611516460-523549_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/01/25/1611516460-523549.jpg",
       "min_player": "2",
       "max_player": "4",
       "play_time": "60분",
@@ -4084,7 +4084,7 @@
     {
       "id": 315,
       "name": "텔레스트레이션: 12인 파티팩",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/12/07/1670418050567414_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/12/07/1670418050567414_lg.jpg",
       "min_player": "4",
       "max_player": "12",
       "play_time": "30분",
@@ -4097,7 +4097,7 @@
     {
       "id": 316,
       "name": "시드마이어의 문명 : 보드게임",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/03/09/1615278683-669023_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/03/09/1615278683-669023.jpg",
       "min_player": "2",
       "max_player": "4",
       "play_time": "120-240분",
@@ -4110,7 +4110,7 @@
     {
       "id": 317,
       "name": "자반도르의 셉터",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/10/29/1666977007383966_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/10/29/1666977007383966_lg.jpg",
       "min_player": "2",
       "max_player": "6",
       "play_time": "90분",
@@ -4123,7 +4123,7 @@
     {
       "id": 318,
       "name": "센추리: 신대륙의 개척자",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641929615223545_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641929615223545_lg.jpg",
       "min_player": "2",
       "max_player": "4",
       "play_time": "30-45분",
@@ -4136,7 +4136,7 @@
     {
       "id": 319,
       "name": "크툴루 워즈",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641927184226790_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641927184226790_lg.jpg",
       "min_player": "2",
       "max_player": "4",
       "play_time": "90-120분",
@@ -4149,7 +4149,7 @@
     {
       "id": 320,
       "name": "크로키놀",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2023/04/20/1681944980468030_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2023/04/20/1681944980468030_lg.jpg",
       "min_player": "2",
       "max_player": "4",
       "play_time": "30분",
@@ -4162,7 +4162,7 @@
     {
       "id": 321,
       "name": "팬데믹 레거시: 시즌 0",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy_reg/2020/09/28/1601282799-93154_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy_reg/2020/09/28/1601282799-93154.jpg",
       "min_player": "2",
       "max_player": "4",
       "play_time": "45-60분",
@@ -4175,7 +4175,7 @@
     {
       "id": 322,
       "name": "지도 제작자들",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/15/1642183429289026_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/15/1642183429289026_lg.jpg",
       "min_player": "1",
       "max_player": "100",
       "play_time": "30-45분",
@@ -4188,7 +4188,7 @@
     {
       "id": 323,
       "name": "미드가르드의 챔피언",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2023/01/19/1674097761299755_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2023/01/19/1674097761299755_lg.jpg",
       "min_player": "2",
       "max_player": "4",
       "play_time": "60-90분",
@@ -4201,7 +4201,7 @@
     {
       "id": 324,
       "name": "커맨드 & 컬러스: 고대",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641928223477548_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641928223477548_lg.jpg",
       "min_player": "2",
       "max_player": "2",
       "play_time": "60분",
@@ -4214,7 +4214,7 @@
     {
       "id": 325,
       "name": "스컬",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/02/24/1645643596211273_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/02/24/1645643596211273_lg.jpg",
       "min_player": "3",
       "max_player": "6",
       "play_time": "15-45분",
@@ -4227,7 +4227,7 @@
     {
       "id": 326,
       "name": "셜록 홈즈 컨설팅 디텍티브: 템스 강의 살인 & 그 밖의 사건들",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641926808016701_lg_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641926808016701_lg.png",
       "min_player": "1",
       "max_player": "8",
       "play_time": "60-120분",
@@ -4240,7 +4240,7 @@
     {
       "id": 327,
       "name": "펄서 2849",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641929479938755_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641929479938755_lg.jpg",
       "min_player": "2",
       "max_player": "4",
       "play_time": "60-90분",
@@ -4253,7 +4253,7 @@
     {
       "id": 328,
       "name": "프라이데이",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/10/03/16647536556293_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/10/03/16647536556293_lg.jpg",
       "min_player": "1",
       "max_player": "1",
       "play_time": "25분",
@@ -4266,7 +4266,7 @@
     {
       "id": 329,
       "name": "카르페 디엠",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/31/1643568577253164_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/31/1643568577253164_lg.jpg",
       "min_player": "2",
       "max_player": "4",
       "play_time": "45-75분",
@@ -4279,7 +4279,7 @@
     {
       "id": 330,
       "name": "아키올로지: 사막의 폭풍",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641929031688733_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641929031688733_lg.jpg",
       "min_player": "2",
       "max_player": "5",
       "play_time": "20분",
@@ -4292,7 +4292,7 @@
     {
       "id": 331,
       "name": "픽토매니아",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2013/06/09/1370716946-656383_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2013/06/09/1370716946-656383.jpg",
       "min_player": "3",
       "max_player": "6",
       "play_time": "25분",
@@ -4305,7 +4305,7 @@
     {
       "id": 332,
       "name": "미니빌",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641928908793719_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641928908793719_lg.jpg",
       "min_player": "2",
       "max_player": "4",
       "play_time": "30분",
@@ -4318,7 +4318,7 @@
     {
       "id": 333,
       "name": "루트: 리버포크",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/02/24/1645642740198648_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/02/24/1645642740198648_lg.jpg",
       "min_player": "1",
       "max_player": "6",
       "play_time": "60-90분",
@@ -4331,7 +4331,7 @@
     {
       "id": 334,
       "name": "산 후앙 (2판)",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/15/1642184241371476_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/15/1642184241371476_lg.jpg",
       "min_player": "2",
       "max_player": "4",
       "play_time": "45-60분",
@@ -4344,7 +4344,7 @@
     {
       "id": 335,
       "name": "뱅! 총알 에디션",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/02/09/1612855657-479401_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/02/09/1612855657-479401.jpg",
       "min_player": "3",
       "max_player": "8",
       "play_time": "20-40분",
@@ -4357,7 +4357,7 @@
     {
       "id": 336,
       "name": "1846 : 중서부를 향한 경쟁",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641927873283195_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641927873283195_lg.jpg",
       "min_player": "3",
       "max_player": "5",
       "play_time": "240분",
@@ -4370,7 +4370,7 @@
     {
       "id": 337,
       "name": "카르카손: 수렵과 채집",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/15/1642175714214002_lg_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/15/1642175714214002_lg.png",
       "min_player": "2",
       "max_player": "5",
       "play_time": "35분",
@@ -4383,7 +4383,7 @@
     {
       "id": 338,
       "name": "프레스코",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/15/164218330198729_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/15/164218330198729_lg.jpg",
       "min_player": "2",
       "max_player": "4",
       "play_time": "60분",
@@ -4396,7 +4396,7 @@
     {
       "id": 339,
       "name": "섀도우 헌터스",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2023/03/25/1679679119226180_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2023/03/25/1679679119226180_lg.jpg",
       "min_player": "4",
       "max_player": "8",
       "play_time": "60분",
@@ -4409,7 +4409,7 @@
     {
       "id": 340,
       "name": "클라스크",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/11/09/1667929626385379_lg_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/11/09/1667929626385379_lg.png",
       "min_player": "2",
       "max_player": "2",
       "play_time": "10분",
@@ -4422,7 +4422,7 @@
     {
       "id": 341,
       "name": "아문-레",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641929274538756_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641929274538756_lg.jpg",
       "min_player": "3",
       "max_player": "5",
       "play_time": "90분",
@@ -4435,7 +4435,7 @@
     {
       "id": 342,
       "name": "신기루",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy_reg/2018/10/23/1540228518-636657_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy_reg/2018/10/23/1540228518-636657.png",
       "min_player": "2",
       "max_player": "6",
       "play_time": "15-50분",
@@ -4448,7 +4448,7 @@
     {
       "id": 343,
       "name": "카르카손: 골드 러쉬",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/164192796466957_lg_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/164192796466957_lg.png",
       "min_player": "2",
       "max_player": "5",
       "play_time": "35분",
@@ -4461,7 +4461,7 @@
     {
       "id": 344,
       "name": "이스탄불: 빅 박스",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/02/09/1612858420-874231_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/02/09/1612858420-874231.png",
       "min_player": "2",
       "max_player": "5",
       "play_time": "40-90분",
@@ -4474,7 +4474,7 @@
     {
       "id": 345,
       "name": "엘더사인",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2013/06/14/1371151726-249112_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2013/06/14/1371151726-249112.jpg",
       "min_player": "1",
       "max_player": "8",
       "play_time": "90분",
@@ -4487,7 +4487,7 @@
     {
       "id": 346,
       "name": "카멜업 (2판)",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/16/1642264705081227_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/16/1642264705081227_lg.jpg",
       "min_player": "3",
       "max_player": "8",
       "play_time": "30-45분",
@@ -4500,7 +4500,7 @@
     {
       "id": 347,
       "name": "인코그니토",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/10/11/1665425382352577_lg_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/10/11/1665425382352577_lg.png",
       "min_player": "3",
       "max_player": "5",
       "play_time": "90분",
@@ -4513,7 +4513,7 @@
     {
       "id": 348,
       "name": "좀비사이드 시즌2 : 프리즌 아웃브레이크",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/13/1642059842759943_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/13/1642059842759943_lg.jpg",
       "min_player": "1",
       "max_player": "6",
       "play_time": "120분",
@@ -4526,7 +4526,7 @@
     {
       "id": 349,
       "name": "두 배로 영리한 여우",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/03/22/1647879439177114_lg_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/03/22/1647879439177114_lg.png",
       "min_player": "1",
       "max_player": "4",
       "play_time": "30분",
@@ -4539,7 +4539,7 @@
     {
       "id": 350,
       "name": "하다라",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/31/16435867774262_lg_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/31/16435867774262_lg.png",
       "min_player": "2",
       "max_player": "5",
       "play_time": "45-60분",
@@ -4552,7 +4552,7 @@
     {
       "id": 351,
       "name": "더 그레이트 하트랜드 홀링 컴퍼니",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641928945315782_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641928945315782_lg.jpg",
       "min_player": "2",
       "max_player": "4",
       "play_time": "30분",
@@ -4565,7 +4565,7 @@
     {
       "id": 352,
       "name": "너도? 나도!",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/164192831198951_lg_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/164192831198951_lg.png",
       "min_player": "3",
       "max_player": "12",
       "play_time": "30분",
@@ -4578,7 +4578,7 @@
     {
       "id": 353,
       "name": "언던티드: 노르망디",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/07/15/1657891575234381_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/07/15/1657891575234381_lg.jpg",
       "min_player": "2",
       "max_player": "2",
       "play_time": "45-60분",
@@ -4591,7 +4591,7 @@
     {
       "id": 354,
       "name": "루미큐브 셀렉트",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/04/01/164882285448738_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/04/01/164882285448738_lg.jpg",
       "min_player": "2",
       "max_player": "4",
       "play_time": "60분",
@@ -4604,7 +4604,7 @@
     {
       "id": 355,
       "name": "니어 앤 파",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/10/30/1667061590994987_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/10/30/1667061590994987_lg.jpg",
       "min_player": "2",
       "max_player": "4",
       "play_time": "90-120분",
@@ -4617,7 +4617,7 @@
     {
       "id": 356,
       "name": "와이어트 어프",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641928702668327_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641928702668327_lg.jpg",
       "min_player": "2",
       "max_player": "4",
       "play_time": "60분",
@@ -4630,7 +4630,7 @@
     {
       "id": 357,
       "name": "타이니 타운",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/02/03/1612342914-202825_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/02/03/1612342914-202825.jpg",
       "min_player": "1",
       "max_player": "6",
       "play_time": "45-60분",
@@ -4643,7 +4643,7 @@
     {
       "id": 358,
       "name": "반지 전쟁 (1판)",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641928976442060_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641928976442060_lg.jpg",
       "min_player": "2",
       "max_player": "4",
       "play_time": "120분",
@@ -4656,7 +4656,7 @@
     {
       "id": 359,
       "name": "황금의 땅 엘도라도: 데인저 & 무이스카",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/12/21/1671628957739755_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/12/21/1671628957739755_lg.jpg",
       "min_player": "2",
       "max_player": "4",
       "play_time": "60분",
@@ -4669,7 +4669,7 @@
     {
       "id": 360,
       "name": "티켓 투 라이드: 유럽 - 15주년 기념판",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy_reg/2021/01/27/1611745059-679110_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy_reg/2021/01/27/1611745059-679110.png",
       "min_player": "2",
       "max_player": "5",
       "play_time": "30-60분",
@@ -4682,7 +4682,7 @@
     {
       "id": 361,
       "name": "해기스",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/15/1642184211645211_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/15/1642184211645211_lg.jpg",
       "min_player": "2",
       "max_player": "3",
       "play_time": "45분",
@@ -4695,7 +4695,7 @@
     {
       "id": 362,
       "name": "아키올로지: 카드게임",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641930278359549_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641930278359549_lg.jpg",
       "min_player": "2",
       "max_player": "4",
       "play_time": "20분",
@@ -4708,7 +4708,7 @@
     {
       "id": 363,
       "name": "산타마리아",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/02/02/1643789038419680_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/02/02/1643789038419680_lg.jpg",
       "min_player": "1",
       "max_player": "4",
       "play_time": "45-90분",
@@ -4721,7 +4721,7 @@
     {
       "id": 364,
       "name": "에어라인 유럽",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/15/1642182874347004_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/15/1642182874347004_lg.jpg",
       "min_player": "2",
       "max_player": "5",
       "play_time": "75분",
@@ -4734,7 +4734,7 @@
     {
       "id": 365,
       "name": "로스트 시티",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/02/17/1613555831-178098_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/02/17/1613555831-178098.png",
       "min_player": "2",
       "max_player": "2",
       "play_time": "30분",
@@ -4747,7 +4747,7 @@
     {
       "id": 366,
       "name": "클리닉: 디럭스 에디션",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/16/164227653691577_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/16/164227653691577_lg.jpg",
       "min_player": "1",
       "max_player": "4",
       "play_time": "60-150분",
@@ -4760,7 +4760,7 @@
     {
       "id": 367,
       "name": "쇼텐토텐",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2023/01/29/1674924452868865_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2023/01/29/1674924452868865_lg.jpg",
       "min_player": "2",
       "max_player": "2",
       "play_time": "20분",
@@ -4773,7 +4773,7 @@
     {
       "id": 368,
       "name": "태양신 라",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2020/12/24/1608747906-463212_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2020/12/24/1608747906-463212.jpg",
       "min_player": "2",
       "max_player": "5",
       "play_time": "45-60분",
@@ -4786,7 +4786,7 @@
     {
       "id": 369,
       "name": "엠파이어스: 에이지 오브 디스커버리 - 디럭스 에디션",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641928777445631_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641928777445631_lg.jpg",
       "min_player": "2",
       "max_player": "6",
       "play_time": "50-150분",
@@ -4799,7 +4799,7 @@
     {
       "id": 370,
       "name": "패치스토리",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641928805168104_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641928805168104_lg.jpg",
       "min_player": "2",
       "max_player": "4",
       "play_time": "60-120분",
@@ -4812,7 +4812,7 @@
     {
       "id": 371,
       "name": "빅 샷",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2023/02/14/1676306411232288_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2023/02/14/1676306411232288_lg.jpg",
       "min_player": "2",
       "max_player": "4",
       "play_time": "30분",
@@ -4825,7 +4825,7 @@
     {
       "id": 372,
       "name": "행복을 찾아서",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2023/04/21/1682082981564072_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2023/04/21/1682082981564072_lg.jpg",
       "min_player": "1",
       "max_player": "4",
       "play_time": "60-90분",
@@ -4838,7 +4838,7 @@
     {
       "id": 373,
       "name": "한니발: 로마 vs. 카르타고",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/13/1642060434778458_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/13/1642060434778458_lg.jpg",
       "min_player": "2",
       "max_player": "2",
       "play_time": "40-200분",
@@ -4851,7 +4851,7 @@
     {
       "id": 374,
       "name": "렉시오",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2013/06/13/1371129360-169894_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2013/06/13/1371129360-169894.jpg",
       "min_player": "3",
       "max_player": "5",
       "play_time": "20분",
@@ -4864,7 +4864,7 @@
     {
       "id": 375,
       "name": "비뉴스",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/15/1642183916687332_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/15/1642183916687332_lg.jpg",
       "min_player": "2",
       "max_player": "4",
       "play_time": "60-130분",
@@ -4877,7 +4877,7 @@
     {
       "id": 376,
       "name": "후지 플러시",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/02/10/1644423343456070_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/02/10/1644423343456070_lg.jpg",
       "min_player": "3",
       "max_player": "8",
       "play_time": "10-20분",
@@ -4890,7 +4890,7 @@
     {
       "id": 377,
       "name": "스타워즈: 에픽 듀얼",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/05/31/165393076551972_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/05/31/165393076551972_lg.jpg",
       "min_player": "2",
       "max_player": "6",
       "play_time": "30분",
@@ -4903,7 +4903,7 @@
     {
       "id": 378,
       "name": "산 마르코",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/15/1642185325076351_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/15/1642185325076351_lg.jpg",
       "min_player": "3",
       "max_player": "4",
       "play_time": "75분",
@@ -4916,7 +4916,7 @@
     {
       "id": 379,
       "name": "잠보",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/15/1642182947563245_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/15/1642182947563245_lg.jpg",
       "min_player": "2",
       "max_player": "2",
       "play_time": "45분",
@@ -4929,7 +4929,7 @@
     {
       "id": 380,
       "name": "노팅햄의 보안관",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/15/16421825976770_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/15/16421825976770_lg.jpg",
       "min_player": "3",
       "max_player": "5",
       "play_time": "60분",
@@ -4942,7 +4942,7 @@
     {
       "id": 381,
       "name": "스타워즈: 임페리얼 어설트",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/15/16421839472394_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/15/16421839472394_lg.jpg",
       "min_player": "1",
       "max_player": "5",
       "play_time": "60-120분",
@@ -4955,7 +4955,7 @@
     {
       "id": 382,
       "name": "알함브라",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/15/1642185008919562_lg_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/15/1642185008919562_lg.png",
       "min_player": "2",
       "max_player": "6",
       "play_time": "45-60분",
@@ -4968,7 +4968,7 @@
     {
       "id": 383,
       "name": "슈파이어슈타트",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/15/1642183845796710_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/15/1642183845796710_lg.jpg",
       "min_player": "2",
       "max_player": "5",
       "play_time": "45분",
@@ -4981,7 +4981,7 @@
     {
       "id": 384,
       "name": "진년 (용의 해)",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/15/1642184441145109_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/15/1642184441145109_lg.jpg",
       "min_player": "2",
       "max_player": "5",
       "play_time": "75-100분",
@@ -4994,7 +4994,7 @@
     {
       "id": 385,
       "name": "시타델",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641929325229599_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641929325229599_lg.jpg",
       "min_player": "2",
       "max_player": "8",
       "play_time": "20-60분",
@@ -5007,7 +5007,7 @@
     {
       "id": 386,
       "name": "위너스서클",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/15/1642184010224514_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/15/1642184010224514_lg.jpg",
       "min_player": "2",
       "max_player": "6",
       "play_time": "45-60분",
@@ -5020,7 +5020,7 @@
     {
       "id": 387,
       "name": "루미큐브 클래식",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2015/07/27/1437978708-483768_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2015/07/27/1437978708-483768.png",
       "min_player": "2",
       "max_player": "4",
       "play_time": "60분",
@@ -5033,7 +5033,7 @@
     {
       "id": 388,
       "name": "갤럭시 트러커",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/12/28/1640701662-46622_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/12/28/1640701662-46622.jpg",
       "min_player": "2",
       "max_player": "4",
       "play_time": "60분",
@@ -5046,7 +5046,7 @@
     {
       "id": 389,
       "name": "노트르담: 10주년 기념판",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641929793530_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641929793530_lg.jpg",
       "min_player": "2",
       "max_player": "5",
       "play_time": "45-75분",
@@ -5059,7 +5059,7 @@
     {
       "id": 390,
       "name": "카르카손: 20주년 기념판",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2022/01/02/1641052607-16633_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2022/01/02/1641052607-16633.png",
       "min_player": "2",
       "max_player": "5",
       "play_time": "30-45분",
@@ -5072,7 +5072,7 @@
     {
       "id": 391,
       "name": "태피스트리",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/03/18/1616025672-654219_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/03/18/1616025672-654219.jpg",
       "min_player": "1",
       "max_player": "5",
       "play_time": "90-120분",
@@ -5085,7 +5085,7 @@
     {
       "id": 392,
       "name": "뱅! 주사위 게임",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/16419273444338_lg_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/16419273444338_lg.png",
       "min_player": "3",
       "max_player": "8",
       "play_time": "15분",
@@ -5098,7 +5098,7 @@
     {
       "id": 393,
       "name": "발레리아: 카드 킹덤스",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2023/05/21/1684609634894153_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2023/05/21/1684609634894153_lg.jpg",
       "min_player": "1",
       "max_player": "5",
       "play_time": "30-45분",
@@ -5111,7 +5111,7 @@
     {
       "id": 394,
       "name": "마스크맨",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2023/04/05/168063167392699_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2023/04/05/168063167392699_lg.jpg",
       "min_player": "2",
       "max_player": "6",
       "play_time": "20분",
@@ -5124,7 +5124,7 @@
     {
       "id": 395,
       "name": "한밤의수수께끼",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/04/20/1650458156466047_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/04/20/1650458156466047_lg.jpg",
       "min_player": "4",
       "max_player": "10",
       "play_time": "10분",
@@ -5137,7 +5137,7 @@
     {
       "id": 396,
       "name": "바방크",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/16/1642280245562245_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/16/1642280245562245_lg.jpg",
       "min_player": "3",
       "max_player": "6",
       "play_time": "30-45분",
@@ -5150,7 +5150,7 @@
     {
       "id": 397,
       "name": "임호텝",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/02/18/1613638747-94250_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/02/18/1613638747-94250.jpg",
       "min_player": "2",
       "max_player": "4",
       "play_time": "40분",
@@ -5163,7 +5163,7 @@
     {
       "id": 398,
       "name": "딕싯 오딧세이",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/15/1642182831311129_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/15/1642182831311129_lg.jpg",
       "min_player": "3",
       "max_player": "12",
       "play_time": "30분",
@@ -5176,7 +5176,7 @@
     {
       "id": 399,
       "name": "반지의 제왕: 가운데땅 여정 – 그림자 드리운 길",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/01/29/1611914059-390318_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/01/29/1611914059-390318.png",
       "min_player": "1",
       "max_player": "5",
       "play_time": "60-120분",
@@ -5189,7 +5189,7 @@
     {
       "id": 400,
       "name": "스피리움",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/15/1642183754359473_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/15/1642183754359473_lg.jpg",
       "min_player": "2",
       "max_player": "5",
       "play_time": "75분",
@@ -5202,7 +5202,7 @@
     {
       "id": 401,
       "name": "아줄: 여름 별장",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/03/18/1616026539-387032_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/03/18/1616026539-387032.jpg",
       "min_player": "2",
       "max_player": "4",
       "play_time": "30-45분",
@@ -5215,7 +5215,7 @@
     {
       "id": 402,
       "name": "로코코: 딜럭스 에디션",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/16/1642281537457355_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/16/1642281537457355_lg.jpg",
       "min_player": "1",
       "max_player": "5",
       "play_time": "60-120분",
@@ -5228,7 +5228,7 @@
     {
       "id": 403,
       "name": "펠리시티: 자루 속 고양이",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/15/1642183037213340_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/15/1642183037213340_lg.jpg",
       "min_player": "3",
       "max_player": "5",
       "play_time": "20분",
@@ -5241,7 +5241,7 @@
     {
       "id": 404,
       "name": "코드네임: 픽처스",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/31/1643582835579589_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/31/1643582835579589_lg.jpg",
       "min_player": "2",
       "max_player": "8",
       "play_time": "15분",
@@ -5254,7 +5254,7 @@
     {
       "id": 405,
       "name": "엘리시움",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/15/1642184095362285_lg_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/15/1642184095362285_lg.png",
       "min_player": "2",
       "max_player": "4",
       "play_time": "60분",
@@ -5267,7 +5267,7 @@
     {
       "id": 406,
       "name": "알마마터",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/02/03/1612343561-903864_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/02/03/1612343561-903864.jpg",
       "min_player": "2",
       "max_player": "4",
       "play_time": "90-150분",
@@ -5280,7 +5280,7 @@
     {
       "id": 407,
       "name": "링코",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/31/1643587028472589_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/31/1643587028472589_lg.jpg",
       "min_player": "2",
       "max_player": "5",
       "play_time": "20분",
@@ -5293,7 +5293,7 @@
     {
       "id": 408,
       "name": "부산",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2023/03/01/1677601635385919_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2023/03/01/1677601635385919_lg.jpg",
       "min_player": "2",
       "max_player": "4",
       "play_time": "60-120분",
@@ -5306,7 +5306,7 @@
     {
       "id": 409,
       "name": "임페리얼 세틀러",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/15/1642184406994048_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/15/1642184406994048_lg.jpg",
       "min_player": "2",
       "max_player": "4",
       "play_time": "45-90분",
@@ -5319,7 +5319,7 @@
     {
       "id": 410,
       "name": "에스노스",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2023/05/11/1683739268747551_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2023/05/11/1683739268747551_lg.jpg",
       "min_player": "2",
       "max_player": "6",
       "play_time": "45-60분",
@@ -5332,7 +5332,7 @@
     {
       "id": 411,
       "name": "캔버스",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy_reg/2020/11/16/1605453533-723511_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy_reg/2020/11/16/1605453533-723511.jpg",
       "min_player": "1",
       "max_player": "5",
       "play_time": "30분",
@@ -5345,7 +5345,7 @@
     {
       "id": 412,
       "name": "이스케이프 플랜",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/02/01/164371493487100_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/02/01/164371493487100_lg.jpg",
       "min_player": "1",
       "max_player": "5",
       "play_time": "60-120분",
@@ -5358,7 +5358,7 @@
     {
       "id": 413,
       "name": "임페리얼",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/16/1642278271452906_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/16/1642278271452906_lg.jpg",
       "min_player": "2",
       "max_player": "6",
       "play_time": "120-180분",
@@ -5371,7 +5371,7 @@
     {
       "id": 414,
       "name": "승리와 비극",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/16/1642280274798013_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/16/1642280274798013_lg.jpg",
       "min_player": "2",
       "max_player": "3",
       "play_time": "240-360분",
@@ -5384,7 +5384,7 @@
     {
       "id": 415,
       "name": "디스커버리즈",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/15/1642182775891255_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/15/1642182775891255_lg.jpg",
       "min_player": "2",
       "max_player": "4",
       "play_time": "60분",
@@ -5397,7 +5397,7 @@
     {
       "id": 416,
       "name": "카르카손: 아마조나스",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/15/1642175611574601_lg_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/15/1642175611574601_lg.png",
       "min_player": "2",
       "max_player": "5",
       "play_time": "35분",
@@ -5410,7 +5410,7 @@
     {
       "id": 417,
       "name": "합 운트 굿",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/15/1642183882324377_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/15/1642183882324377_lg.jpg",
       "min_player": "3",
       "max_player": "5",
       "play_time": "45분",
@@ -5423,7 +5423,7 @@
     {
       "id": 418,
       "name": "바벨",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/15/1642184285143163_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/15/1642184285143163_lg.jpg",
       "min_player": "2",
       "max_player": "2",
       "play_time": "45-60분",
@@ -5436,7 +5436,7 @@
     {
       "id": 419,
       "name": "콜 바론",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2023/01/19/1674128466225880_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2023/01/19/1674128466225880_lg.jpg",
       "min_player": "2",
       "max_player": "4",
       "play_time": "60-75분",
@@ -5449,7 +5449,7 @@
     {
       "id": 420,
       "name": "킹도미노",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2023/04/30/1682837122647773_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2023/04/30/1682837122647773_lg.jpg",
       "min_player": "2",
       "max_player": "4",
       "play_time": "15-25분",
@@ -5462,7 +5462,7 @@
     {
       "id": 421,
       "name": "더 루프",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/08/23/1661189591975706_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/08/23/1661189591975706_lg.jpg",
       "min_player": "1",
       "max_player": "4",
       "play_time": "60분",
@@ -5475,7 +5475,7 @@
     {
       "id": 422,
       "name": "배틀콘: 빅 박스",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/03/18/1616024431-77468_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/03/18/1616024431-77468.jpg",
       "min_player": "1",
       "max_player": "5",
       "play_time": "45분",
@@ -5488,7 +5488,7 @@
     {
       "id": 423,
       "name": "테베",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/16/1642278065997708_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/16/1642278065997708_lg.jpg",
       "min_player": "2",
       "max_player": "4",
       "play_time": "60분",
@@ -5501,7 +5501,7 @@
     {
       "id": 424,
       "name": "원더풀 월드",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/11/11/1668150341171336_lg_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/11/11/1668150341171336_lg.png",
       "min_player": "1",
       "max_player": "5",
       "play_time": "30-60분",
@@ -5514,7 +5514,7 @@
     {
       "id": 425,
       "name": "광기의 저택 (2판): 뱀이 서린 길",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/01/29/1611914668-525140_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/01/29/1611914668-525140.jpg",
       "min_player": "1",
       "max_player": "5",
       "play_time": "120-180분",
@@ -5527,7 +5527,7 @@
     {
       "id": 426,
       "name": "전국",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/15/1642182544081163_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/15/1642182544081163_lg.jpg",
       "min_player": "2",
       "max_player": "4",
       "play_time": "60-120분",
@@ -5540,7 +5540,7 @@
     {
       "id": 427,
       "name": "보틀 임프",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2023/04/05/1680627023728001_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2023/04/05/1680627023728001_lg.jpg",
       "min_player": "2",
       "max_player": "4",
       "play_time": "30분",
@@ -5553,7 +5553,7 @@
     {
       "id": 428,
       "name": "런던 (2판)",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/05/29/165377537824247_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/05/29/165377537824247_lg.jpg",
       "min_player": "2",
       "max_player": "4",
       "play_time": "60-90분",
@@ -5566,7 +5566,7 @@
     {
       "id": 429,
       "name": "노 땡스!",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/15/1642184625225365_lg_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/15/1642184625225365_lg.png",
       "min_player": "3",
       "max_player": "7",
       "play_time": "20분",
@@ -5579,7 +5579,7 @@
     {
       "id": 430,
       "name": "대만 차 연대기",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/02/14/1644767957795465_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/02/14/1644767957795465_lg.jpg",
       "min_player": "2",
       "max_player": "4",
       "play_time": "40-90분",
@@ -5592,7 +5592,7 @@
     {
       "id": 431,
       "name": "이클립스: 태고의 기상",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/15/1642184805047591_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/15/1642184805047591_lg.jpg",
       "min_player": "2",
       "max_player": "9",
       "play_time": "120분",
@@ -5605,7 +5605,7 @@
     {
       "id": 432,
       "name": "그라운드 플로어",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/15/1642184049224328_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/15/1642184049224328_lg.jpg",
       "min_player": "2",
       "max_player": "6",
       "play_time": "90-150분",
@@ -5618,7 +5618,7 @@
     {
       "id": 433,
       "name": "킹덤 빌더",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/15/1642184727433786_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/15/1642184727433786_lg.jpg",
       "min_player": "2",
       "max_player": "4",
       "play_time": "45분",
@@ -5631,7 +5631,7 @@
     {
       "id": 434,
       "name": "데드 오브 윈터 : 긴 밤",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/16/1642279687286877_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/16/1642279687286877_lg.jpg",
       "min_player": "2",
       "max_player": "5",
       "play_time": "60-120분",
@@ -5644,7 +5644,7 @@
     {
       "id": 435,
       "name": "모이터러",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/15/1642183814985340_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/15/1642183814985340_lg.jpg",
       "min_player": "3",
       "max_player": "4",
       "play_time": "60분",
@@ -5657,7 +5657,7 @@
     {
       "id": 436,
       "name": "엑시트: 더 게임 - 파라오의 무덤",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641929431955242_lg_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641929431955242_lg.png",
       "min_player": "1",
       "max_player": "6",
       "play_time": "45-90분",
@@ -5670,7 +5670,7 @@
     {
       "id": 437,
       "name": "하이 소사이어티",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2023/04/16/168163422689484_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2023/04/16/168163422689484_lg.jpg",
       "min_player": "3",
       "max_player": "5",
       "play_time": "15-30분",
@@ -5683,7 +5683,7 @@
     {
       "id": 438,
       "name": "맨해튼",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/16/1642278201345282_lg_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/16/1642278201345282_lg.png",
       "min_player": "2",
       "max_player": "4",
       "play_time": "45분",
@@ -5696,7 +5696,7 @@
     {
       "id": 439,
       "name": "노바 루나",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy_reg/2020/02/15/1581744009-16885_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy_reg/2020/02/15/1581744009-16885.jpg",
       "min_player": "1",
       "max_player": "4",
       "play_time": "30-60분",
@@ -5709,7 +5709,7 @@
     {
       "id": 440,
       "name": "쿠",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/16/1642274840641044_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/16/1642274840641044_lg.jpg",
       "min_player": "2",
       "max_player": "6",
       "play_time": "15분",
@@ -5722,7 +5722,7 @@
     {
       "id": 441,
       "name": "포세일",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/16/1642270507238808_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/16/1642270507238808_lg.jpg",
       "min_player": "3",
       "max_player": "6",
       "play_time": "30분",
@@ -5735,7 +5735,7 @@
     {
       "id": 442,
       "name": "픽토매니아 (2판)",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/11/12/1668194516881696_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/11/12/1668194516881696_lg.jpg",
       "min_player": "3",
       "max_player": "6",
       "play_time": "20-40분",
@@ -5748,7 +5748,7 @@
     {
       "id": 443,
       "name": "레이크홀트",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/02/03/1643816102373628_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/02/03/1643816102373628_lg.jpg",
       "min_player": "1",
       "max_player": "4",
       "play_time": "30-60분",
@@ -5761,7 +5761,7 @@
     {
       "id": 444,
       "name": "위자드",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/15/1642183230444149_lg_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/15/1642183230444149_lg.png",
       "min_player": "3",
       "max_player": "6",
       "play_time": "45분",
@@ -5774,7 +5774,7 @@
     {
       "id": 445,
       "name": "아그리콜라: 패밀리 에디션",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/16/1642278469421763_lg_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/16/1642278469421763_lg.png",
       "min_player": "1",
       "max_player": "4",
       "play_time": "45분",
@@ -5787,7 +5787,7 @@
     {
       "id": 446,
       "name": "크루세이더: 뜻대로 이루소서",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641928408947009_lg_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641928408947009_lg.png",
       "min_player": "2",
       "max_player": "4",
       "play_time": "40-60분",
@@ -5800,7 +5800,7 @@
     {
       "id": 447,
       "name": "픽 피크닉",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/03/07/1646585197916389_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/03/07/1646585197916389_lg.jpg",
       "min_player": "2",
       "max_player": "6",
       "play_time": "20분",
@@ -5813,7 +5813,7 @@
     {
       "id": 448,
       "name": "수목원",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641929565724881_lg_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641929565724881_lg.png",
       "min_player": "2",
       "max_player": "4",
       "play_time": "30분",
@@ -5826,7 +5826,7 @@
     {
       "id": 449,
       "name": "정령섬: 가지와 발톱",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/03/09/1615272927-229051_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/03/09/1615272927-229051.png",
       "min_player": "1",
       "max_player": "4",
       "play_time": "90-120분",
@@ -5839,7 +5839,7 @@
     {
       "id": 450,
       "name": "던전 파이터",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/15/1642184157475758_lg_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/15/1642184157475758_lg.png",
       "min_player": "1",
       "max_player": "6",
       "play_time": "45-60분",
@@ -5852,7 +5852,7 @@
     {
       "id": 451,
       "name": "미스틱 베일",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/10/30/1667061514892449_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/10/30/1667061514892449_lg.jpg",
       "min_player": "2",
       "max_player": "4",
       "play_time": "45분",
@@ -5865,7 +5865,7 @@
     {
       "id": 452,
       "name": "지구를 떠나다",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/15/1642183786414244_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/15/1642183786414244_lg.jpg",
       "min_player": "1",
       "max_player": "5",
       "play_time": "60-180분",
@@ -5878,7 +5878,7 @@
     {
       "id": 453,
       "name": "쇼군",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/16/1642279933299367_lg_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/16/1642279933299367_lg.png",
       "min_player": "3",
       "max_player": "5",
       "play_time": "90-120분",
@@ -5891,7 +5891,7 @@
     {
       "id": 454,
       "name": "사건의 재구성",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/02/03/1612345845-58801_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/02/03/1612345845-58801.jpg",
       "min_player": "1",
       "max_player": "4",
       "play_time": "60-90분",
@@ -5904,7 +5904,7 @@
     {
       "id": 455,
       "name": "마이스타",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/16/1642278589261066_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/16/1642278589261066_lg.jpg",
       "min_player": "3",
       "max_player": "6",
       "play_time": "30분",
@@ -5917,7 +5917,7 @@
     {
       "id": 456,
       "name": "웨스테로스 전투",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/16/1642272068926751_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/16/1642272068926751_lg.jpg",
       "min_player": "2",
       "max_player": "2",
       "play_time": "60-120분",
@@ -5930,7 +5930,7 @@
     {
       "id": 457,
       "name": "클랭크! 인! 스페이스!: 덱빌딩 어드벤처",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/15/1642184671965066_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/15/1642184671965066_lg.jpg",
       "min_player": "2",
       "max_player": "4",
       "play_time": "45-90분",
@@ -5943,7 +5943,7 @@
     {
       "id": 458,
       "name": "산토리니",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/02/18/1613638963-791787_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/02/18/1613638963-791787.png",
       "min_player": "2",
       "max_player": "4",
       "play_time": "20분",
@@ -5956,7 +5956,7 @@
     {
       "id": 459,
       "name": "미크로 마크로: 크라임 시티",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/02/03/1612344441-883098_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/02/03/1612344441-883098.jpg",
       "min_player": "1",
       "max_player": "4",
       "play_time": "15-45분",
@@ -5969,7 +5969,7 @@
     {
       "id": 460,
       "name": "워드 캡처",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy_reg/2020/06/19/1592521310-211993_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy_reg/2020/06/19/1592521310-211993.jpg",
       "min_player": "2",
       "max_player": "5",
       "play_time": "10분",
@@ -5982,7 +5982,7 @@
     {
       "id": 461,
       "name": "테라포밍 마스: 격동",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/16/16422779285181_lg_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/16/16422779285181_lg.png",
       "min_player": "1",
       "max_player": "5",
       "play_time": "150분",
@@ -5995,7 +5995,7 @@
     {
       "id": 462,
       "name": "더 그레이트 다이노소어 러시",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/15/164218506436304_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/15/164218506436304_lg.jpg",
       "min_player": "2",
       "max_player": "5",
       "play_time": "60분",
@@ -6008,7 +6008,7 @@
     {
       "id": 463,
       "name": "기차섬",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/16/1642273798587381_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/16/1642273798587381_lg.jpg",
       "min_player": "2",
       "max_player": "4",
       "play_time": "45분",
@@ -6021,7 +6021,7 @@
     {
       "id": 464,
       "name": "안티크 듀얼럼",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/16/1642276925952066_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/16/1642276925952066_lg.jpg",
       "min_player": "2",
       "max_player": "2",
       "play_time": "75분",
@@ -6034,7 +6034,7 @@
     {
       "id": 465,
       "name": "카스텔",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/16/1642270815456915_lg_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/16/1642270815456915_lg.png",
       "min_player": "2",
       "max_player": "4",
       "play_time": "60-90분",
@@ -6047,7 +6047,7 @@
     {
       "id": 466,
       "name": "칸반: 오토모티브 레볼루션 드라이버 에디션",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/15/1642185374642896_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/15/1642185374642896_lg.jpg",
       "min_player": "2",
       "max_player": "4",
       "play_time": "90-120분",
@@ -6060,7 +6060,7 @@
     {
       "id": 467,
       "name": "쿼키 서킷",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/31/1643566014276804_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/31/1643566014276804_lg.jpg",
       "min_player": "2",
       "max_player": "4",
       "play_time": "15-30분",
@@ -6073,7 +6073,7 @@
     {
       "id": 468,
       "name": "오토모빌",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/16/1642278305646029_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/16/1642278305646029_lg.jpg",
       "min_player": "3",
       "max_player": "5",
       "play_time": "120분",
@@ -6086,7 +6086,7 @@
     {
       "id": 469,
       "name": "액시스 앤 얼라이스: 1942",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/16/1642277367542686_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/16/1642277367542686_lg.jpg",
       "min_player": "2",
       "max_player": "5",
       "play_time": "240분",
@@ -6099,7 +6099,7 @@
     {
       "id": 470,
       "name": "팬데믹: 크툴루의 지배",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/16/1642279820685726_lg_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/16/1642279820685726_lg.png",
       "min_player": "2",
       "max_player": "4",
       "play_time": "40분",
@@ -6112,7 +6112,7 @@
     {
       "id": 471,
       "name": "짜르",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/16/1642278381993829_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/16/1642278381993829_lg.jpg",
       "min_player": "2",
       "max_player": "2",
       "play_time": "30-60분",
@@ -6125,7 +6125,7 @@
     {
       "id": 472,
       "name": "레즈 아르카나",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/03/09/1615274302-179976_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/03/09/1615274302-179976.jpg",
       "min_player": "2",
       "max_player": "4",
       "play_time": "30-60분",
@@ -6138,7 +6138,7 @@
     {
       "id": 473,
       "name": "네이션스: 주사위 게임",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/15/1642172910081353_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/15/1642172910081353_lg.jpg",
       "min_player": "1",
       "max_player": "4",
       "play_time": "20-40분",
@@ -6151,7 +6151,7 @@
     {
       "id": 474,
       "name": "니폰",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/15/1642185039378778_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/15/1642185039378778_lg.jpg",
       "min_player": "2",
       "max_player": "4",
       "play_time": "60-120분",
@@ -6164,7 +6164,7 @@
     {
       "id": 475,
       "name": "요트 다이스",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/01/29/1611914238-800432_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/01/29/1611914238-800432.jpg",
       "min_player": "2",
       "max_player": "10",
       "play_time": "30분",
@@ -6177,7 +6177,7 @@
     {
       "id": 476,
       "name": "메크 VS 미니언",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641928354247017_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/12/1641928354247017_lg.jpg",
       "min_player": "2",
       "max_player": "4",
       "play_time": "60-120분",
@@ -6190,7 +6190,7 @@
     {
       "id": 477,
       "name": "쇼 매니저",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/16/1642280506359307_lg_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/16/1642280506359307_lg.png",
       "min_player": "2",
       "max_player": "6",
       "play_time": "60분",
@@ -6203,7 +6203,7 @@
     {
       "id": 478,
       "name": "삼국지 리덕스",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/02/09/1612858711-289411_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/02/09/1612858711-289411.jpg",
       "min_player": "3",
       "max_player": "3",
       "play_time": "135-165분",
@@ -6216,7 +6216,7 @@
     {
       "id": 479,
       "name": "로즈 오브 시디트",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/16/1642270923129992_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/16/1642270923129992_lg.jpg",
       "min_player": "3",
       "max_player": "5",
       "play_time": "90분",
@@ -6229,7 +6229,7 @@
     {
       "id": 480,
       "name": "크베들린부르크의 돌팔이 약장수: 허브 마녀",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/31/1643559614639189_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/31/1643559614639189_lg.jpg",
       "min_player": "2",
       "max_player": "5",
       "play_time": "45분",
@@ -6242,7 +6242,7 @@
     {
       "id": 481,
       "name": "토너먼트 앳 카멜롯",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/16/1642278677215285_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/16/1642278677215285_lg.jpg",
       "min_player": "3",
       "max_player": "6",
       "play_time": "45분",
@@ -6255,7 +6255,7 @@
     {
       "id": 482,
       "name": "파나막스",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/15/1642185126131580_lg_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/15/1642185126131580_lg.png",
       "min_player": "2",
       "max_player": "4",
       "play_time": "90-120분",
@@ -6268,7 +6268,7 @@
     {
       "id": 483,
       "name": "어비스",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/16/1642276080818793_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/16/1642276080818793_lg.jpg",
       "min_player": "2",
       "max_player": "4",
       "play_time": "30-60분",
@@ -6281,7 +6281,7 @@
     {
       "id": 484,
       "name": "드본",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/16/1642278615714379_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/16/1642278615714379_lg.jpg",
       "min_player": "2",
       "max_player": "2",
       "play_time": "30분",
@@ -6294,7 +6294,7 @@
     {
       "id": 485,
       "name": "아줄: 신트라의 스테인드 글라스",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/03/18/1616026506-325859_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/03/18/1616026506-325859.png",
       "min_player": "2",
       "max_player": "4",
       "play_time": "30-45분",
@@ -6307,7 +6307,7 @@
     {
       "id": 486,
       "name": "캡틴 소나",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/12/11/1670693907556367_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/12/11/1670693907556367_lg.jpg",
       "min_player": "2",
       "max_player": "8",
       "play_time": "45-60분",
@@ -6320,7 +6320,7 @@
     {
       "id": 487,
       "name": "아사라",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/16/1642278166771413_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/16/1642278166771413_lg.jpg",
       "min_player": "2",
       "max_player": "4",
       "play_time": "45분",
@@ -6333,7 +6333,7 @@
     {
       "id": 488,
       "name": "카베르나: 케이브 vs 케이브",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/16/1642338853632003_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/16/1642338853632003_lg.jpg",
       "min_player": "1",
       "max_player": "2",
       "play_time": "20-40분",
@@ -6346,7 +6346,7 @@
     {
       "id": 489,
       "name": "임페리움: 클래식",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/04/13/1649849770512177_lg_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/04/13/1649849770512177_lg.png",
       "min_player": "1",
       "max_player": "4",
       "play_time": "60-120분",
@@ -6359,7 +6359,7 @@
     {
       "id": 490,
       "name": "왕좌의 게임: 카드게임 (2판)",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/16/1642273940483295_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/16/1642273940483295_lg.jpg",
       "min_player": "2",
       "max_player": "4",
       "play_time": "60-120분",
@@ -6372,7 +6372,7 @@
     {
       "id": 491,
       "name": "르네상스의 거장들: 위대한 로렌초 - 카드게임",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/01/25/1611516777-517710_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/01/25/1611516777-517710.jpg",
       "min_player": "1",
       "max_player": "4",
       "play_time": "30-45분",
@@ -6385,7 +6385,7 @@
     {
       "id": 492,
       "name": "원 덱 던전",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/16/1642343668976884_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/16/1642343668976884_lg.jpg",
       "min_player": "1",
       "max_player": "2",
       "play_time": "30-45분",
@@ -6398,7 +6398,7 @@
     {
       "id": 493,
       "name": "한자",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/16/1642279101933203_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/16/1642279101933203_lg.jpg",
       "min_player": "2",
       "max_player": "4",
       "play_time": "60분",
@@ -6411,7 +6411,7 @@
     {
       "id": 494,
       "name": "1889 : 시코쿠 철도사",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/16/164227940971569_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/16/164227940971569_lg.jpg",
       "min_player": "2",
       "max_player": "6",
       "play_time": "90-210분",
@@ -6424,7 +6424,7 @@
     {
       "id": 495,
       "name": "카르카손: 남태평양",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/15/164217567036729_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/15/164217567036729_lg.jpg",
       "min_player": "2",
       "max_player": "5",
       "play_time": "35분",
@@ -6437,7 +6437,7 @@
     {
       "id": 496,
       "name": "글렌 모어 연대기",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/16/1642344885826471_lg_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/16/1642344885826471_lg.png",
       "min_player": "2",
       "max_player": "4",
       "play_time": "90-120분",
@@ -6450,7 +6450,7 @@
     {
       "id": 497,
       "name": "테라포밍 마스: 빅 박스",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/02/20/1645351932989949_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/02/20/1645351932989949_lg.jpg",
       "min_player": "1",
       "max_player": "5",
       "play_time": "120분",
@@ -6463,7 +6463,7 @@
     {
       "id": 498,
       "name": "마추 픽추의 제후들",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/16/1642279445162433_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/16/1642279445162433_lg.jpg",
       "min_player": "2",
       "max_player": "5",
       "play_time": "90분",
@@ -6476,7 +6476,7 @@
     {
       "id": 499,
       "name": "번레이트",
-      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/01/29/1611915752-559633_N_170x170_100_5_.png",
+      "image": "https://boardlife.co.kr/data/boardgame_strategy/2021/01/29/1611915752-559633.png",
       "min_player": "2",
       "max_player": "4",
       "play_time": "45분",
@@ -6489,7 +6489,7 @@
     {
       "id": 500,
       "name": "룬 에이지",
-      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/16/1642280714044109_lg_N_170x170_100_5_.jpg",
+      "image": "https://boardlife.co.kr/wys2/swf_upload/2022/01/16/1642280714044109_lg.jpg",
       "min_player": "2",
       "max_player": "4",
       "play_time": "20-60분",
