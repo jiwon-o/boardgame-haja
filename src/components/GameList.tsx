@@ -5,6 +5,7 @@ import useColumns from "../hooks/useColumns";
 import { Game } from "./../types";
 import useSearch from "../hooks/useSearch";
 import useScroll from "../hooks/useScroll";
+import { useState } from "react";
 
 const rankColors: { [key: number]: string } = {
   1: "#d83f31",
@@ -14,21 +15,27 @@ const rankColors: { [key: number]: string } = {
 
 const GamesLayout = styled.div`
   min-width: 390px;
+  padding: 20px 60px;
 `;
 
 const MasonryContainer = styled(Masonry)`
   display: flex;
-  padding: 40px 80px;
 
   .column {
-    padding: 0 10px;
+    padding: 0 36px;
   }
 `;
 
 const CardContainer = styled.div`
+  min-width: 200px;
   position: relative;
-  background-color: #353a75;
+  background-color: transparent;
   border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: transparent;
+  color: #ececf1;
   cursor: pointer;
 
   & + & {
@@ -38,15 +45,8 @@ const CardContainer = styled.div`
 
 const Card = styled.div`
   position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  background-color: transparent;
-  font-size: 40px;
-  font-weight: 700;
-  color: #ececf1;
   border-radius: 6px;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
 
   &::before {
     content: "";
@@ -57,10 +57,13 @@ const Card = styled.div`
     left: 0;
     right: 0;
     bottom: 0;
+    border-radius: 6px;
   }
 
-  ${CardContainer}:hover &::before {
-    opacity: 0.4;
+  &:hover {
+    &::before {
+      opacity: 0.4;
+    }
   }
 `;
 
@@ -85,7 +88,8 @@ const GameRank = styled.span<GameRankProps>`
 `;
 
 const GameImg = styled.img`
-  border-radius: 6px 6px 0 0;
+  width: 100%;
+  border-radius: 6px;
   min-height: 178px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 `;
@@ -94,14 +98,10 @@ const GameTitle = styled.h4`
   display: flex;
   justify-content: space-between;
   gap: 6px;
-  padding: 16px 8px;
-  font-size: 1.4rem;
+  padding: 16px 20px;
+  font-size: 1.5rem;
+  font-weight: 500;
   line-height: 1.2em;
-`;
-
-const GameRate = styled.span`
-  display: inline-block;
-  font-weight: 400;
 `;
 
 interface Props {
@@ -114,7 +114,7 @@ interface Props {
 export default function GameList({ loading, error, games, searchGame }: Props) {
   const columns = useColumns();
   const searchGames = useSearch();
-  const dataCount = useScroll(20);
+  const dataCount = useScroll(50);
 
   const filteredGames = games?.filter((game) => {
     return searchGames(searchGame, game.name);
@@ -143,24 +143,30 @@ export default function GameList({ loading, error, games, searchGame }: Props) {
           columnClassName="column"
         >
           {pagedGames.map((game) => {
-            const imageUrl = generateImageUrl(game.image, 200);
+            const imageUrl = generateImageUrl(game.image, 400);
 
             return (
               <CardContainer key={game.id}>
                 <Card>
                   <GameRank ranking={game.ranking}>{game.ranking}</GameRank>
-                  <GameImg src={imageUrl} alt={game.name} />
-                  <GameTitle>
-                    {game.name}
-                    <GameRate>{Number(game.rate).toFixed(1)}</GameRate>
-                  </GameTitle>
+
+                  <GameImg
+                    src={
+                      game.image.includes("boardlife.co.kr")
+                        ? imageUrl
+                        : game.image
+                    }
+                    alt={game.name}
+                  />
                 </Card>
+                <GameTitle>{game.name}</GameTitle>
               </CardContainer>
             );
           })}
         </MasonryContainer>
       ) : (
-        <p>보드게임이 아직 없습니다.</p>
+        <p>보드게임을 찾지 못했습니다.</p>
+      )}
       )}
     </GamesLayout>
   );

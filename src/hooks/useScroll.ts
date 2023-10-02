@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-function useScroll(initialCount = 20) {
+function useScroll(initialCount = 50) {
   const [dataCount, setDataCount] = useState(initialCount);
 
   const handleScroll = () => {
