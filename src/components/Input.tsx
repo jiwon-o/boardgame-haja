@@ -42,7 +42,7 @@ export default function Input(props: Props) {
     setSearch(newSearch);
     props.onSearch(newSearch);
   };
-  console.log(search);
+
   return (
     <InputWrapper>
       <label className="a11y">검색</label>
