@@ -5,7 +5,6 @@ import useColumns from "../hooks/useColumns";
 import { Game } from "./../types";
 import useSearch from "../hooks/useSearch";
 import useScroll from "../hooks/useScroll";
-import { useState } from "react";
 
 const rankColors: { [key: number]: string } = {
   1: "#d83f31",
@@ -15,19 +14,22 @@ const rankColors: { [key: number]: string } = {
 
 const GamesLayout = styled.div`
   min-width: 390px;
-  padding: 20px 60px;
+  padding: 32px 16px;
 `;
 
 const MasonryContainer = styled(Masonry)`
   display: flex;
+  justify-content: center;
 
   .column {
-    padding: 0 36px;
+    max-width: 200px;
+    margin: 0 28px;
+    padding: 0 10px;
   }
 `;
 
 const CardContainer = styled.div`
-  min-width: 200px;
+  max-width: 200px;
   position: relative;
   background-color: transparent;
   border-radius: 6px;
@@ -37,7 +39,6 @@ const CardContainer = styled.div`
   background-color: transparent;
   color: #ececf1;
   cursor: pointer;
-
   & + & {
     margin-top: 20px;
   }
@@ -74,8 +75,9 @@ const GameRank = styled.span<GameRankProps>`
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 40px;
-  height: 40px;
+  min-width: 34px;
+  min-height: 34px;
+  padding: 0 6px 0 5px;
   border-radius: 50%;
   font-size: 1.8rem;
   color: white;
@@ -140,10 +142,9 @@ export default function GameList({ loading, error, games, searchGame }: Props) {
         <MasonryContainer
           breakpointCols={columns}
           className="list"
-          columnClassName="column"
-        >
+          columnClassName="column">
           {pagedGames.map((game) => {
-            const imageUrl = generateImageUrl(game.image, 400);
+            const imageUrl = generateImageUrl(game.image, 200);
 
             return (
               <CardContainer key={game.id}>
@@ -166,7 +167,6 @@ export default function GameList({ loading, error, games, searchGame }: Props) {
         </MasonryContainer>
       ) : (
         <p>보드게임을 찾지 못했습니다.</p>
-      )}
       )}
     </GamesLayout>
   );
