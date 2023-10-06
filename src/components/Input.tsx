@@ -4,12 +4,11 @@ import { useState } from "react";
 
 const InputWrapper = styled.form`
   padding: 1rem 0 1rem 4rem;
-  border: 1px solid #57606a;
-  border-radius: 32px;
-  width: calc(100% - 480px);
+  border-radius: 16px;
+  width: 580px;
   min-width: 320px;
   background: url(${SearchIcon}) no-repeat left 1.3em center / 1.7em;
-  background-color: #282f46;
+  background-color: #24244a;
 
   input {
     width: calc(100% - 2.2rem);

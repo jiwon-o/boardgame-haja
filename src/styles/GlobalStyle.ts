@@ -15,6 +15,7 @@ const GlobalStyle = createGlobalStyle`
 
 	body {
 		font-family: 'Pretendard', sans-serif;
+		color: #ececf1;
 	}
 
   ul, li {
