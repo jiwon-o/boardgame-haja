@@ -3,6 +3,12 @@ import GameList from "../components/GameList";
 import { useState } from "react";
 import axios from "axios";
 import useAsync from "../hooks/useAsync";
+import styled from "styled-components";
+import Banner from "./../components/Banner";
+
+const HomeWrapper = styled.div`
+  margin: 0 auto;
+`;
 
 async function getGames() {
   const response = await axios.get("http://localhost:3001/game");
@@ -19,14 +25,15 @@ export default function Home() {
   };
 
   return (
-    <>
+    <HomeWrapper>
       <Header onSearch={handleSearch} />
+      <Banner games={games} />
       <GameList
         loading={loading}
         error={error}
         games={games}
         searchGame={searchGame}
       />
-    </>
+    </HomeWrapper>
   );
 }
