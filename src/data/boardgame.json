@@ -12,7 +12,8 @@
       "difficulty": "3.89",
       "theme": "판타지",
       "ranking": 1,
-      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/01/09/164171594415517_lg_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/01/09/164171594415517_lg_N_800x800_100_6_.jpg",
+      "releaseYear": "2017"
     },
     {
       "id": 6501,
@@ -26,7 +27,8 @@
       "difficulty": "3.26",
       "theme": "SF 공상 과학",
       "ranking": 2,
-      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/01/08/16416234386599_lg_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/01/08/16416234386599_lg_N_800x800_100_6_.jpg",
+      "releaseYear": "2016"
     },
     {
       "id": 519,
@@ -40,7 +42,8 @@
       "difficulty": "4.35",
       "theme": "모험",
       "ranking": 3,
-      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/01/09/1641716056043839_lg_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/01/09/1641716056043839_lg_N_800x800_100_6_.jpg",
+      "releaseYear": "2011"
     },
     {
       "id": 9210,
@@ -54,7 +57,8 @@
       "difficulty": "4.39",
       "theme": "SF 공상 과학",
       "ranking": 4,
-      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/01/09/164171619353307_lg_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/01/09/164171619353307_lg_N_800x800_100_6_.jpg",
+      "releaseYear": "2017"
     },
     {
       "id": 5572,
@@ -68,7 +72,8 @@
       "difficulty": "2.83",
       "theme": "환경",
       "ranking": 5,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2015"
     },
     {
       "id": 5660,
@@ -82,7 +87,8 @@
       "difficulty": "4.43",
       "theme": "문명",
       "ranking": 6,
-      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/01/09/1641716124465851_lg_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/01/09/1641716124465851_lg_N_800x800_100_6_.jpg",
+      "releaseYear": "2015"
     },
     {
       "id": 8569,
@@ -96,7 +102,8 @@
       "difficulty": "3.90",
       "theme": "산업 / 제조",
       "ranking": 7,
-      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/01/09/1641718269344410_lg_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/01/09/1641718269344410_lg_N_800x800_100_6_.jpg",
+      "releaseYear": "2018"
     },
     {
       "id": 348,
@@ -110,7 +117,8 @@
       "difficulty": "3.60",
       "theme": "정치",
       "ranking": 8,
-      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/01/09/16417162394459_lg_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/01/09/16417162394459_lg_N_800x800_100_6_.jpg",
+      "releaseYear": "2005"
     },
     {
       "id": 5222,
@@ -124,7 +132,8 @@
       "difficulty": "2.23",
       "theme": "문명",
       "ranking": 9,
-      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/01/09/1641716854853860_lg_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/01/09/1641716854853860_lg_N_800x800_100_6_.jpg",
+      "releaseYear": "2015"
     },
     {
       "id": 90,
@@ -138,7 +147,8 @@
       "difficulty": "3.27",
       "theme": "농업",
       "ranking": 10,
-      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/01/09/1641716551014398_lg_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/01/09/1641716551014398_lg_N_800x800_100_6_.jpg",
+      "releaseYear": "2002"
     },
     {
       "id": 561,
@@ -152,7 +162,8 @@
       "difficulty": "3.64",
       "theme": "농업",
       "ranking": 11,
-      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/01/09/1641716999517028_lg_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/01/09/1641716999517028_lg_N_800x800_100_6_.jpg",
+      "releaseYear": "2007"
     },
     {
       "id": 7501,
@@ -166,7 +177,8 @@
       "difficulty": "3.52",
       "theme": "판타지",
       "ranking": 12,
-      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/01/09/1641718131161814_lg_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/01/09/1641718131161814_lg_N_800x800_100_6_.jpg",
+      "releaseYear": "2016"
     },
     {
       "id": 421,
@@ -180,7 +192,8 @@
       "difficulty": "2.99",
       "theme": "영역 건설",
       "ranking": 13,
-      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/01/09/1641717987357074_lg_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/01/09/1641717987357074_lg_N_800x800_100_6_.jpg",
+      "releaseYear": "2011"
     },
     {
       "id": 10014,
@@ -194,7 +207,8 @@
       "difficulty": "4.65",
       "theme": "전투",
       "ranking": 14,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2018"
     },
     {
       "id": 5024,
@@ -208,7 +222,8 @@
       "difficulty": "0.00",
       "theme": "도시 건설",
       "ranking": 15,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2015"
     },
     {
       "id": 9804,
@@ -222,7 +237,8 @@
       "difficulty": "4.09",
       "theme": "산업 / 제조",
       "ranking": 16,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2019"
     },
     {
       "id": 591,
@@ -236,7 +252,8 @@
       "difficulty": "2.35",
       "theme": "중세",
       "ranking": 17,
-      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2013/08/21/13770887203310_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2013/08/21/13770887203310_N_800x800_100_6_.jpg",
+      "releaseYear": "2008"
     },
     {
       "id": 9071,
@@ -250,7 +267,8 @@
       "difficulty": "4.06",
       "theme": "판타지",
       "ranking": 18,
-      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/01/09/16417189455853_lg_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/01/09/16417189455853_lg_N_800x800_100_6_.jpg",
+      "releaseYear": "2017"
     },
     {
       "id": 4658,
@@ -264,7 +282,8 @@
       "difficulty": "4.26",
       "theme": "경제",
       "ranking": 19,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2015"
     },
     {
       "id": 10,
@@ -278,7 +297,8 @@
       "difficulty": "3.40",
       "theme": "블러핑",
       "ranking": 20,
-      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/04/25/13984282703678_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/04/25/13984282703678_N_800x800_100_6_.jpg",
+      "releaseYear": "2012"
     },
     {
       "id": 77,
@@ -292,7 +312,8 @@
       "difficulty": "3.67",
       "theme": "농업",
       "ranking": 21,
-      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/01/09/1641716401356554_lg_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/01/09/1641716401356554_lg_N_800x800_100_6_.jpg",
+      "releaseYear": "2012"
     },
     {
       "id": 395,
@@ -306,7 +327,8 @@
       "difficulty": "3.73",
       "theme": "항해",
       "ranking": 22,
-      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/01/09/1641718757387677_lg_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/01/09/1641718757387677_lg_N_800x800_100_6_.jpg",
+      "releaseYear": "2008"
     },
     {
       "id": 6550,
@@ -320,7 +342,8 @@
       "difficulty": "3.86",
       "theme": "퍼즐",
       "ranking": 23,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2016"
     },
     {
       "id": 5603,
@@ -334,7 +357,8 @@
       "difficulty": "3.21",
       "theme": "주사위",
       "ranking": 24,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2015"
     },
     {
       "id": 78,
@@ -348,7 +372,8 @@
       "difficulty": "3.97",
       "theme": "판타지",
       "ranking": 25,
-      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2013/07/21/13743918418055_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2013/07/21/13743918418055_N_800x800_100_6_.jpg",
+      "releaseYear": "2012"
     },
     {
       "id": 14832,
@@ -362,7 +387,8 @@
       "difficulty": "3.72",
       "theme": "환경",
       "ranking": 26,
-      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/02/21/1645410544693899_lg_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/02/21/1645410544693899_lg_N_800x800_100_6_.jpg",
+      "releaseYear": "2021"
     },
     {
       "id": 523,
@@ -376,7 +402,8 @@
       "difficulty": "1.75",
       "theme": "판타지",
       "ranking": 27,
-      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/10/26/1414325810898_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/10/26/1414325810898_N_800x800_100_6_.jpg",
+      "releaseYear": "2012"
     },
     {
       "id": 3516,
@@ -390,7 +417,8 @@
       "difficulty": "1.78",
       "theme": "르네상스",
       "ranking": 28,
-      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/01/09/164171842355969_lg_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/01/09/164171842355969_lg_N_800x800_100_6_.jpg",
+      "releaseYear": "2014"
     },
     {
       "id": 173,
@@ -404,7 +432,8 @@
       "difficulty": "3.86",
       "theme": "산업 / 제조",
       "ranking": 29,
-      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2013/11/09/13840082977391_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2013/11/09/13840082977391_N_800x800_100_6_.jpg",
+      "releaseYear": "2007"
     },
     {
       "id": 478,
@@ -418,7 +447,8 @@
       "difficulty": "2.34",
       "theme": "카드 게임",
       "ranking": 30,
-      "backgroundImage": "https://boardlife.co.kr/wys2/file_attach_thumb/2014/05/19/1400501173-41_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/file_attach_thumb/2014/05/19/1400501173-41_N_800x800_100_6_.jpg",
+      "releaseYear": "1991"
     },
     {
       "id": 4255,
@@ -432,7 +462,8 @@
       "difficulty": "1.69",
       "theme": "항해",
       "ranking": 31,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2013"
     },
     {
       "id": 7362,
@@ -446,7 +477,8 @@
       "difficulty": "3.30",
       "theme": "르네상스",
       "ranking": 32,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2016"
     },
     {
       "id": 5890,
@@ -460,7 +492,8 @@
       "difficulty": "3.44",
       "theme": "SF 공상 과학",
       "ranking": 33,
-      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/01/09/1641718586392654_lg_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/01/09/1641718586392654_lg_N_800x800_100_6_.jpg",
+      "releaseYear": "2016"
     },
     {
       "id": 2256,
@@ -474,7 +507,8 @@
       "difficulty": "3.78",
       "theme": "농업",
       "ranking": 34,
-      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/01/08/1641623614081857_lg_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/01/08/1641623614081857_lg_N_800x800_100_6_.jpg",
+      "releaseYear": "2013"
     },
     {
       "id": 9837,
@@ -488,7 +522,8 @@
       "difficulty": "2.49",
       "theme": "SF 공상 과학",
       "ranking": 35,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2018"
     },
     {
       "id": 29,
@@ -502,7 +537,8 @@
       "difficulty": "3.65",
       "theme": "정치",
       "ranking": 36,
-      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/01/09/1641717551575847_lg_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/01/09/1641717551575847_lg_N_800x800_100_6_.jpg",
+      "releaseYear": "2011"
     },
     {
       "id": 5986,
@@ -516,7 +552,8 @@
       "difficulty": "3.73",
       "theme": "SF 공상 과학",
       "ranking": 37,
-      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/01/29/1643393620377474_lg_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/01/29/1643393620377474_lg_N_800x800_100_6_.jpg",
+      "releaseYear": "2016"
     },
     {
       "id": 8567,
@@ -530,7 +567,8 @@
       "difficulty": "3.86",
       "theme": "산업 / 제조",
       "ranking": 38,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2017"
     },
     {
       "id": 682,
@@ -544,7 +582,8 @@
       "difficulty": "1.18",
       "theme": "주사위",
       "ranking": 39,
-      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/01/09/1641718334118989_lg_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/01/09/1641718334118989_lg_N_800x800_100_6_.jpg",
+      "releaseYear": "2012"
     },
     {
       "id": 969,
@@ -558,7 +597,8 @@
       "difficulty": "1.07",
       "theme": "실시간",
       "ranking": 40,
-      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/09/11/14104415855749_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/09/11/14104415855749_N_800x800_100_6_.jpg",
+      "releaseYear": "2009"
     },
     {
       "id": 7212,
@@ -572,7 +612,8 @@
       "difficulty": "2.67",
       "theme": "판타지",
       "ranking": 41,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2016"
     },
     {
       "id": 7241,
@@ -586,7 +627,8 @@
       "difficulty": "3.70",
       "theme": "동물",
       "ranking": 42,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2016"
     },
     {
       "id": 2014,
@@ -600,7 +642,8 @@
       "difficulty": "2.42",
       "theme": "중세",
       "ranking": 43,
-      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2013/08/10/1376109733433_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2013/08/10/1376109733433_N_800x800_100_6_.jpg",
+      "releaseYear": "2009"
     },
     {
       "id": 4681,
@@ -614,7 +657,8 @@
       "difficulty": "3.19",
       "theme": "여행",
       "ranking": 44,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2015"
     },
     {
       "id": 534,
@@ -628,7 +672,8 @@
       "difficulty": "4.20",
       "theme": "판타지",
       "ranking": 45,
-      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/01/28/1643304303683961_lg_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/01/28/1643304303683961_lg_N_800x800_100_6_.jpg",
+      "releaseYear": "2011"
     },
     {
       "id": 6941,
@@ -642,7 +687,8 @@
       "difficulty": "3.32",
       "theme": "경제",
       "ranking": 46,
-      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/01/08/1641623768894148_lg_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/01/08/1641623768894148_lg_N_800x800_100_6_.jpg",
+      "releaseYear": "2016"
     },
     {
       "id": 2528,
@@ -656,7 +702,8 @@
       "difficulty": "3.32",
       "theme": "판타지",
       "ranking": 47,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2013"
     },
     {
       "id": 180,
@@ -670,7 +717,8 @@
       "difficulty": "3.89",
       "theme": "기차",
       "ranking": 48,
-      "backgroundImage": "https://boardlife.co.kr/wys2/file_attach_thumb/2014/12/07/1417936299-71_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/file_attach_thumb/2014/12/07/1417936299-71_N_800x800_100_6_.jpg",
+      "releaseYear": "2002"
     },
     {
       "id": 932,
@@ -684,7 +732,8 @@
       "difficulty": "3.81",
       "theme": "소설-기반",
       "ranking": 49,
-      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/08/25/14088959158715_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/08/25/14088959158715_N_800x800_100_6_.jpg",
+      "releaseYear": "2012"
     },
     {
       "id": 3508,
@@ -698,7 +747,8 @@
       "difficulty": "3.01",
       "theme": "좀비",
       "ranking": 50,
-      "backgroundImage": "https://boardlife.co.kr/wys2/file_attach_thumb/2014/09/18/1410994449-31_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/file_attach_thumb/2014/09/18/1410994449-31_N_800x800_100_6_.jpg",
+      "releaseYear": "2014"
     },
     {
       "id": 9150,
@@ -712,7 +762,8 @@
       "difficulty": "3.25",
       "theme": "환경",
       "ranking": 51,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2017"
     },
     {
       "id": 11658,
@@ -726,7 +777,8 @@
       "difficulty": "2.95",
       "theme": "영역 건설",
       "ranking": 52,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2019"
     },
     {
       "id": 10661,
@@ -740,7 +792,8 @@
       "difficulty": "2.46",
       "theme": "교육",
       "ranking": 53,
-      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/01/09/1641717755969016_lg_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/01/09/1641717755969016_lg_N_800x800_100_6_.jpg",
+      "releaseYear": "2019"
     },
     {
       "id": 174,
@@ -754,7 +807,8 @@
       "difficulty": "4.04",
       "theme": "환경",
       "ranking": 54,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2010"
     },
     {
       "id": 450,
@@ -768,7 +822,8 @@
       "difficulty": "3.26",
       "theme": "산업 / 제조",
       "ranking": 55,
-      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2013/07/21/13744013136658_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2013/07/21/13744013136658_N_800x800_100_6_.jpg",
+      "releaseYear": "2004"
     },
     {
       "id": 5712,
@@ -782,7 +837,8 @@
       "difficulty": "4.21",
       "theme": "산업 / 제조",
       "ranking": 56,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2015"
     },
     {
       "id": 8735,
@@ -796,7 +852,8 @@
       "difficulty": "3.46",
       "theme": "농업",
       "ranking": 57,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2017"
     },
     {
       "id": 13426,
@@ -810,7 +867,8 @@
       "difficulty": "1.97",
       "theme": "SF 공상 과학",
       "ranking": 58,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2019"
     },
     {
       "id": 6353,
@@ -824,7 +882,8 @@
       "difficulty": "2.89",
       "theme": "농업",
       "ranking": 59,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2015"
     },
     {
       "id": 11763,
@@ -838,7 +897,8 @@
       "difficulty": "2.92",
       "theme": "코믹북/만화",
       "ranking": 60,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2019"
     },
     {
       "id": 6121,
@@ -852,7 +912,8 @@
       "difficulty": "4.02",
       "theme": "산업 / 제조",
       "ranking": 61,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2016"
     },
     {
       "id": 4357,
@@ -866,7 +927,8 @@
       "difficulty": "3.92",
       "theme": "판타지",
       "ranking": 62,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2014"
     },
     {
       "id": 3954,
@@ -880,7 +942,8 @@
       "difficulty": "2.85",
       "theme": "판타지",
       "ranking": 63,
-      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/02/05/1644068122626941_lg_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/02/05/1644068122626941_lg_N_800x800_100_6_.jpg",
+      "releaseYear": "2014"
     },
     {
       "id": 94,
@@ -894,7 +957,8 @@
       "difficulty": "2.32",
       "theme": "문명",
       "ranking": 64,
-      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/01/09/1641718845586608_lg_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/01/09/1641718845586608_lg_N_800x800_100_6_.jpg",
+      "releaseYear": "2010"
     },
     {
       "id": 10793,
@@ -908,7 +972,8 @@
       "difficulty": "2.63",
       "theme": "판타지",
       "ranking": 65,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2019"
     },
     {
       "id": 9757,
@@ -922,7 +987,8 @@
       "difficulty": "3.78",
       "theme": "고대",
       "ranking": 66,
-      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/02/06/164412007771368_lg_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/02/06/164412007771368_lg_N_800x800_100_6_.jpg",
+      "releaseYear": "2018"
     },
     {
       "id": 3120,
@@ -936,7 +1002,8 @@
       "difficulty": "2.57",
       "theme": "추상전략",
       "ranking": 67,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "1850"
     },
     {
       "id": 238,
@@ -950,7 +1017,8 @@
       "difficulty": "3.80",
       "theme": "도시 건설",
       "ranking": 68,
-      "backgroundImage": "https://boardlife.co.kr/wys2/file_attach_thumb/2014/10/19/1413681853-79_N_800x800_100_6_.png"
+      "backgroundImage": "https://boardlife.co.kr/wys2/file_attach_thumb/2014/10/19/1413681853-79_N_800x800_100_6_.png",
+      "releaseYear": "2005"
     },
     {
       "id": 12189,
@@ -964,7 +1032,8 @@
       "difficulty": "4.31",
       "theme": "산업 / 제조",
       "ranking": 69,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2020"
     },
     {
       "id": 6954,
@@ -978,7 +1047,8 @@
       "difficulty": "0.00",
       "theme": "카드 게임",
       "ranking": 70,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2018"
     },
     {
       "id": 9406,
@@ -992,7 +1062,8 @@
       "difficulty": "2.29",
       "theme": "카드 게임",
       "ranking": 71,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2017"
     },
     {
       "id": 91,
@@ -1006,7 +1077,8 @@
       "difficulty": "2.78",
       "theme": "판타지",
       "ranking": 72,
-      "backgroundImage": "https://boardlife.co.kr/wys2/file_attach_thumb/2014/12/08/1418008215-92_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/file_attach_thumb/2014/12/08/1418008215-92_N_800x800_100_6_.jpg",
+      "releaseYear": "2012"
     },
     {
       "id": 13341,
@@ -1020,7 +1092,8 @@
       "difficulty": "2.90",
       "theme": "여행",
       "ranking": 73,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2020"
     },
     {
       "id": 2502,
@@ -1034,7 +1107,8 @@
       "difficulty": "3.40",
       "theme": "산업 / 제조",
       "ranking": 74,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2013"
     },
     {
       "id": 440,
@@ -1048,7 +1122,8 @@
       "difficulty": "3.12",
       "theme": "농업",
       "ranking": 75,
-      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/01/08/1641623834664990_lg_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/01/08/1641623834664990_lg_N_800x800_100_6_.jpg",
+      "releaseYear": "2009"
     },
     {
       "id": 565,
@@ -1062,7 +1137,8 @@
       "difficulty": "0.00",
       "theme": "농업",
       "ranking": 76,
-      "backgroundImage": "https://boardlife.co.kr/wys2/file_attach_thumb/2014/08/24/1408811136-42_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/file_attach_thumb/2014/08/24/1408811136-42_N_800x800_100_6_.jpg",
+      "releaseYear": "2011"
     },
     {
       "id": 12900,
@@ -1076,7 +1152,8 @@
       "difficulty": "3.63",
       "theme": "판타지",
       "ranking": 77,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2020"
     },
     {
       "id": 4365,
@@ -1090,7 +1167,8 @@
       "difficulty": "3.03",
       "theme": "여행",
       "ranking": 78,
-      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/01/08/1641623198318430_lg_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/01/08/1641623198318430_lg_N_800x800_100_6_.jpg",
+      "releaseYear": "2014"
     },
     {
       "id": 883,
@@ -1104,7 +1182,8 @@
       "difficulty": "2.29",
       "theme": "카드 게임",
       "ranking": 79,
-      "backgroundImage": "https://boardlife.co.kr/wys2/file_attach_thumb/2014/02/18/1392725264-42_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/file_attach_thumb/2014/02/18/1392725264-42_N_800x800_100_6_.jpg",
+      "releaseYear": "1992"
     },
     {
       "id": 6813,
@@ -1118,7 +1197,8 @@
       "difficulty": "2.80",
       "theme": "판타지",
       "ranking": 80,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2016"
     },
     {
       "id": 9450,
@@ -1132,7 +1212,8 @@
       "difficulty": "3.76",
       "theme": "판타지",
       "ranking": 81,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2018"
     },
     {
       "id": 9608,
@@ -1146,7 +1227,8 @@
       "difficulty": "2.80",
       "theme": "판타지",
       "ranking": 82,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2018"
     },
     {
       "id": 9918,
@@ -1160,7 +1242,8 @@
       "difficulty": "2.32",
       "theme": "중세",
       "ranking": 83,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2018"
     },
     {
       "id": 2501,
@@ -1174,7 +1257,8 @@
       "difficulty": "3.00",
       "theme": "항해",
       "ranking": 84,
-      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2013/11/09/1383959922299_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2013/11/09/1383959922299_N_800x800_100_6_.jpg",
+      "releaseYear": "2013"
     },
     {
       "id": 13512,
@@ -1188,7 +1272,8 @@
       "difficulty": "3.82",
       "theme": "산업 / 제조",
       "ranking": 85,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2020"
     },
     {
       "id": 178,
@@ -1202,7 +1287,8 @@
       "difficulty": "1.92",
       "theme": "기차",
       "ranking": 86,
-      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/09/05/1409922969378_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/09/05/1409922969378_N_800x800_100_6_.jpg",
+      "releaseYear": "2005"
     },
     {
       "id": 175,
@@ -1216,7 +1302,8 @@
       "difficulty": "3.46",
       "theme": "중세",
       "ranking": 87,
-      "backgroundImage": "https://boardlife.co.kr/wys2/file_attach_thumb/2014/10/03/1412344687-86_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/file_attach_thumb/2014/10/03/1412344687-86_N_800x800_100_6_.jpg",
+      "releaseYear": "2010"
     },
     {
       "id": 809,
@@ -1230,7 +1317,8 @@
       "difficulty": "2.99",
       "theme": "SF 공상 과학",
       "ranking": 88,
-      "backgroundImage": "https://boardlife.co.kr/wys2/file_attach_thumb/2013/10/26/1382752985-1_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/file_attach_thumb/2013/10/26/1382752985-1_N_800x800_100_6_.jpg",
+      "releaseYear": "2007"
     },
     {
       "id": 5516,
@@ -1244,7 +1332,8 @@
       "difficulty": "1.27",
       "theme": "스파이/첩보원",
       "ranking": 89,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2015"
     },
     {
       "id": 135,
@@ -1258,7 +1347,8 @@
       "difficulty": "1.90",
       "theme": "영역 건설",
       "ranking": 90,
-      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/08/03/14070730724868_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/08/03/14070730724868_N_800x800_100_6_.jpg",
+      "releaseYear": "2000"
     },
     {
       "id": 5588,
@@ -1272,7 +1362,8 @@
       "difficulty": "2.11",
       "theme": "경제",
       "ranking": 91,
-      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/01/09/1641718986728344_lg_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/01/09/1641718986728344_lg_N_800x800_100_6_.jpg",
+      "releaseYear": "2015"
     },
     {
       "id": 9737,
@@ -1286,7 +1377,8 @@
       "difficulty": "1.95",
       "theme": "중세",
       "ranking": 92,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2018"
     },
     {
       "id": 13348,
@@ -1300,7 +1392,8 @@
       "difficulty": "1.82",
       "theme": "퍼즐",
       "ranking": 93,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2021"
     },
     {
       "id": 13486,
@@ -1314,7 +1407,8 @@
       "difficulty": "3.02",
       "theme": "SF 공상 과학",
       "ranking": 94,
-      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/01/09/1641718695364861_lg_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/01/09/1641718695364861_lg_N_800x800_100_6_.jpg",
+      "releaseYear": "2020"
     },
     {
       "id": 816,
@@ -1328,7 +1422,8 @@
       "difficulty": "0.00",
       "theme": "판타지",
       "ranking": 95,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2012"
     },
     {
       "id": 4082,
@@ -1342,7 +1437,8 @@
       "difficulty": "2.50",
       "theme": "영역 건설",
       "ranking": 96,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "1999"
     },
     {
       "id": 274,
@@ -1356,7 +1452,8 @@
       "difficulty": "2.30",
       "theme": "협상",
       "ranking": 97,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "1995"
     },
     {
       "id": 812,
@@ -1370,7 +1467,8 @@
       "difficulty": "3.72",
       "theme": "판타지",
       "ranking": 98,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2011"
     },
     {
       "id": 116,
@@ -1384,7 +1482,8 @@
       "difficulty": "2.79",
       "theme": "영역 건설",
       "ranking": 99,
-      "backgroundImage": "https://boardlife.co.kr/wys2/file_attach_thumb/2014/11/16/1416140808-62_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/file_attach_thumb/2014/11/16/1416140808-62_N_800x800_100_6_.jpg",
+      "releaseYear": "1999"
     },
     {
       "id": 3163,
@@ -1398,7 +1497,8 @@
       "difficulty": "2.56",
       "theme": "판타지",
       "ranking": 100,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2011"
     },
     {
       "id": 10971,
@@ -1412,7 +1512,8 @@
       "difficulty": "4.00",
       "theme": "퍼즐",
       "ranking": 101,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2018"
     },
     {
       "id": 2991,
@@ -1426,7 +1527,8 @@
       "difficulty": "3.93",
       "theme": "추상전략",
       "ranking": 102,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2200"
     },
     {
       "id": 5963,
@@ -1440,7 +1542,8 @@
       "difficulty": "4.59",
       "theme": "산업 / 제조",
       "ranking": 103,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2017"
     },
     {
       "id": 172,
@@ -1454,7 +1557,8 @@
       "difficulty": "2.34",
       "theme": "신화",
       "ranking": 104,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "1999"
     },
     {
       "id": 10647,
@@ -1468,7 +1572,8 @@
       "difficulty": "2.80",
       "theme": "판타지",
       "ranking": 105,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2019"
     },
     {
       "id": 2542,
@@ -1482,7 +1587,8 @@
       "difficulty": "3.55",
       "theme": "문명",
       "ranking": 106,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2013"
     },
     {
       "id": 5352,
@@ -1496,7 +1602,8 @@
       "difficulty": "1.58",
       "theme": "살인/미스터리",
       "ranking": 107,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2014"
     },
     {
       "id": 4438,
@@ -1510,7 +1617,8 @@
       "difficulty": "2.66",
       "theme": "이성 시대",
       "ranking": 108,
-      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/12/16/1671202454461175_lg_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/12/16/1671202454461175_lg_N_800x800_100_6_.jpg",
+      "releaseYear": "2014"
     },
     {
       "id": 11939,
@@ -1524,7 +1632,8 @@
       "difficulty": "3.37",
       "theme": "여행",
       "ranking": 109,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2019"
     },
     {
       "id": 4701,
@@ -1538,7 +1647,8 @@
       "difficulty": "4.25",
       "theme": "판타지",
       "ranking": 110,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2014"
     },
     {
       "id": 11586,
@@ -1552,7 +1662,8 @@
       "difficulty": "2.25",
       "theme": "정치",
       "ranking": 111,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2019"
     },
     {
       "id": 423,
@@ -1566,7 +1677,8 @@
       "difficulty": "0.00",
       "theme": "살인/미스터리",
       "ranking": 112,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2011"
     },
     {
       "id": 977,
@@ -1580,7 +1692,8 @@
       "difficulty": "2.81",
       "theme": "시민 전쟁",
       "ranking": 113,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2011"
     },
     {
       "id": 448,
@@ -1594,7 +1707,8 @@
       "difficulty": "3.50",
       "theme": "영역 건설",
       "ranking": 114,
-      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/03/10/13944083812303_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/03/10/13944083812303_N_800x800_100_6_.jpg",
+      "releaseYear": "1997"
     },
     {
       "id": 84,
@@ -1608,7 +1722,8 @@
       "difficulty": "2.40",
       "theme": "의학",
       "ranking": 115,
-      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/01/08/1641624056483675_lg_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/01/08/1641624056483675_lg_N_800x800_100_6_.jpg",
+      "releaseYear": "2008"
     },
     {
       "id": 876,
@@ -1622,7 +1737,8 @@
       "difficulty": "2.20",
       "theme": "판타지",
       "ranking": 116,
-      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/01/27/1390785488543_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/01/27/1390785488543_N_800x800_100_6_.jpg",
+      "releaseYear": "2006"
     },
     {
       "id": 5323,
@@ -1636,7 +1752,8 @@
       "difficulty": "2.60",
       "theme": "SF 공상 과학",
       "ranking": 117,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2015"
     },
     {
       "id": 566,
@@ -1650,7 +1767,8 @@
       "difficulty": "2.45",
       "theme": "판타지",
       "ranking": 118,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2012"
     },
     {
       "id": 9830,
@@ -1664,7 +1782,8 @@
       "difficulty": "3.60",
       "theme": "SF 공상 과학",
       "ranking": 119,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2018"
     },
     {
       "id": 9032,
@@ -1678,7 +1797,8 @@
       "difficulty": "1.76",
       "theme": "퍼즐",
       "ranking": 120,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2017"
     },
     {
       "id": 2233,
@@ -1692,7 +1812,8 @@
       "difficulty": "2.78",
       "theme": "SF 공상 과학",
       "ranking": 121,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2013"
     },
     {
       "id": 599,
@@ -1706,7 +1827,8 @@
       "difficulty": "3.70",
       "theme": "문명",
       "ranking": 122,
-      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/02/09/13918756607923_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/02/09/13918756607923_N_800x800_100_6_.jpg",
+      "releaseYear": "2011"
     },
     {
       "id": 4381,
@@ -1720,7 +1842,8 @@
       "difficulty": "3.24",
       "theme": "판타지",
       "ranking": 123,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "1993"
     },
     {
       "id": 14,
@@ -1734,7 +1857,8 @@
       "difficulty": "1.20",
       "theme": "유머",
       "ranking": 124,
-      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2013/12/11/13867704173042_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2013/12/11/13867704173042_N_800x800_100_6_.jpg",
+      "releaseYear": "2008"
     },
     {
       "id": 577,
@@ -1748,7 +1872,8 @@
       "difficulty": "2.67",
       "theme": "추상전략",
       "ranking": 125,
-      "backgroundImage": "https://boardlife.co.kr/wys2/file_attach_thumb/2013/08/29/1377766183-7_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/file_attach_thumb/2013/08/29/1377766183-7_N_800x800_100_6_.jpg",
+      "releaseYear": "2003"
     },
     {
       "id": 9909,
@@ -1762,7 +1887,8 @@
       "difficulty": "3.43",
       "theme": "SF 공상 과학",
       "ranking": 126,
-      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/02/16/1644987047441706_lg_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/02/16/1644987047441706_lg_N_800x800_100_6_.jpg",
+      "releaseYear": "2018"
     },
     {
       "id": 12056,
@@ -1776,7 +1902,8 @@
       "difficulty": "4.11",
       "theme": "산업 / 제조",
       "ranking": 127,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2019"
     },
     {
       "id": 6676,
@@ -1790,7 +1917,8 @@
       "difficulty": "3.30",
       "theme": "비디오 게임 테마",
       "ranking": 128,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2016"
     },
     {
       "id": 4179,
@@ -1804,7 +1932,8 @@
       "difficulty": "3.87",
       "theme": "농업",
       "ranking": 129,
-      "backgroundImage": "https://boardlife.co.kr/wys2/file_attach_thumb/2014/12/21/1419132739-78_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/file_attach_thumb/2014/12/21/1419132739-78_N_800x800_100_6_.jpg",
+      "releaseYear": "2014"
     },
     {
       "id": 6061,
@@ -1818,7 +1947,8 @@
       "difficulty": "3.06",
       "theme": "여행",
       "ranking": 130,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2015"
     },
     {
       "id": 414,
@@ -1832,7 +1962,8 @@
       "difficulty": "3.25",
       "theme": "판타지",
       "ranking": 131,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2011"
     },
     {
       "id": 992,
@@ -1846,7 +1977,8 @@
       "difficulty": "2.25",
       "theme": "도시 건설",
       "ranking": 132,
-      "backgroundImage": "https://boardlife.co.kr/wys2/file_attach_thumb/2014/10/16/1413412942-24_N_800x800_100_6_.jpeg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/file_attach_thumb/2014/10/16/1413412942-24_N_800x800_100_6_.jpeg",
+      "releaseYear": "1999"
     },
     {
       "id": 4368,
@@ -1860,7 +1992,8 @@
       "difficulty": "1.61",
       "theme": "퍼즐",
       "ranking": 133,
-      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/11/17/14162307679486_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/11/17/14162307679486_N_800x800_100_6_.jpg",
+      "releaseYear": "2014"
     },
     {
       "id": 2248,
@@ -1874,7 +2007,8 @@
       "difficulty": "2.72",
       "theme": "판타지",
       "ranking": 134,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2013"
     },
     {
       "id": 5311,
@@ -1888,7 +2022,8 @@
       "difficulty": "2.88",
       "theme": "판타지",
       "ranking": 135,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2015"
     },
     {
       "id": 589,
@@ -1902,7 +2037,8 @@
       "difficulty": "2.53",
       "theme": "공포",
       "ranking": 136,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2012"
     },
     {
       "id": 9992,
@@ -1916,7 +2052,8 @@
       "difficulty": "2.81",
       "theme": "항해",
       "ranking": 137,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2018"
     },
     {
       "id": 4374,
@@ -1930,7 +2067,8 @@
       "difficulty": "2.65",
       "theme": "퍼즐",
       "ranking": 138,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2014"
     },
     {
       "id": 2500,
@@ -1944,7 +2082,8 @@
       "difficulty": "1.38",
       "theme": "공포",
       "ranking": 139,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2014"
     },
     {
       "id": 3764,
@@ -1958,7 +2097,8 @@
       "difficulty": "2.58",
       "theme": "경제",
       "ranking": 140,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2014"
     },
     {
       "id": 968,
@@ -1972,7 +2112,8 @@
       "difficulty": "1.29",
       "theme": "중세",
       "ranking": 141,
-      "backgroundImage": "https://boardlife.co.kr/wys2/file_attach_thumb/2014/10/17/1413511880-66_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/file_attach_thumb/2014/10/17/1413511880-66_N_800x800_100_6_.jpg",
+      "releaseYear": "1995"
     },
     {
       "id": 13424,
@@ -1986,7 +2127,8 @@
       "difficulty": "3.63",
       "theme": "SF 공상 과학",
       "ranking": 142,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2020"
     },
     {
       "id": 221,
@@ -2000,7 +2142,8 @@
       "difficulty": "3.04",
       "theme": "르네상스",
       "ranking": 143,
-      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2013/09/10/13788215031889_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2013/09/10/13788215031889_N_800x800_100_6_.jpg",
+      "releaseYear": "1995"
     },
     {
       "id": 9772,
@@ -2014,7 +2157,8 @@
       "difficulty": "1.81",
       "theme": "스파이/첩보원",
       "ranking": 144,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2018"
     },
     {
       "id": 513,
@@ -2028,7 +2172,8 @@
       "difficulty": "3.58",
       "theme": "공포",
       "ranking": 145,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2005"
     },
     {
       "id": 81,
@@ -2042,7 +2187,8 @@
       "difficulty": "1.19",
       "theme": "르네상스",
       "ranking": 146,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2012"
     },
     {
       "id": 9509,
@@ -2056,7 +2202,8 @@
       "difficulty": "2.75",
       "theme": "도시 건설",
       "ranking": 147,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2018"
     },
     {
       "id": 4680,
@@ -2070,7 +2217,8 @@
       "difficulty": "2.40",
       "theme": "판타지",
       "ranking": 148,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2015"
     },
     {
       "id": 1084,
@@ -2084,7 +2232,8 @@
       "difficulty": "2.03",
       "theme": "항해",
       "ranking": 149,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2005"
     },
     {
       "id": 4065,
@@ -2098,7 +2247,8 @@
       "difficulty": "3.57",
       "theme": "농업",
       "ranking": 150,
-      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/09/14/14106516184859_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/09/14/14106516184859_N_800x800_100_6_.jpg",
+      "releaseYear": "2014"
     },
     {
       "id": 10349,
@@ -2112,7 +2262,8 @@
       "difficulty": "3.33",
       "theme": "판타지",
       "ranking": 151,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2019"
     },
     {
       "id": 258,
@@ -2126,7 +2277,8 @@
       "difficulty": "3.89",
       "theme": "영역 건설",
       "ranking": 152,
-      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2013/10/17/13820128525551_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2013/10/17/13820128525551_N_800x800_100_6_.jpg",
+      "releaseYear": "2011"
     },
     {
       "id": 583,
@@ -2140,7 +2292,8 @@
       "difficulty": "2.77",
       "theme": "도시 건설",
       "ranking": 153,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2012"
     },
     {
       "id": 581,
@@ -2154,7 +2307,8 @@
       "difficulty": "1.90",
       "theme": "고대",
       "ranking": 154,
-      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2013/10/18/13820222687152_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2013/10/18/13820222687152_N_800x800_100_6_.jpg",
+      "releaseYear": "2000"
     },
     {
       "id": 7735,
@@ -2168,7 +2322,8 @@
       "difficulty": "2.50",
       "theme": "영역 건설",
       "ranking": 155,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2016"
     },
     {
       "id": 187,
@@ -2182,7 +2337,8 @@
       "difficulty": "0.00",
       "theme": "판타지",
       "ranking": 156,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2009"
     },
     {
       "id": 9852,
@@ -2196,7 +2352,8 @@
       "difficulty": "3.25",
       "theme": "르네상스",
       "ranking": 157,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2018"
     },
     {
       "id": 11169,
@@ -2210,7 +2367,8 @@
       "difficulty": "3.89",
       "theme": "운송",
       "ranking": 158,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2019"
     },
     {
       "id": 9789,
@@ -2224,7 +2382,8 @@
       "difficulty": "2.01",
       "theme": "SF 공상 과학",
       "ranking": 159,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2018"
     },
     {
       "id": 230,
@@ -2238,7 +2397,8 @@
       "difficulty": "3.24",
       "theme": "르네상스",
       "ranking": 160,
-      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/08/14/14079980023483_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/08/14/14079980023483_N_800x800_100_6_.jpg",
+      "releaseYear": "2000"
     },
     {
       "id": 9147,
@@ -2252,7 +2412,8 @@
       "difficulty": "4.31",
       "theme": "SF 공상 과학",
       "ranking": 161,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2017"
     },
     {
       "id": 83,
@@ -2266,7 +2427,8 @@
       "difficulty": "3.34",
       "theme": "영역 건설",
       "ranking": 162,
-      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2013/08/28/13776970141163_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2013/08/28/13776970141163_N_800x800_100_6_.jpg",
+      "releaseYear": "2012"
     },
     {
       "id": 10039,
@@ -2280,7 +2442,8 @@
       "difficulty": "2.75",
       "theme": "살인/미스터리",
       "ranking": 163,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2018"
     },
     {
       "id": 8595,
@@ -2294,7 +2457,8 @@
       "difficulty": "2.16",
       "theme": "소설-기반",
       "ranking": 164,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2015"
     },
     {
       "id": 375,
@@ -2308,7 +2472,8 @@
       "difficulty": "3.10",
       "theme": "중세",
       "ranking": 165,
-      "backgroundImage": "https://boardlife.co.kr/wys2/file_attach_thumb/2014/11/03/1414941175-34_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/file_attach_thumb/2014/11/03/1414941175-34_N_800x800_100_6_.jpg",
+      "releaseYear": "2009"
     },
     {
       "id": 369,
@@ -2322,7 +2487,8 @@
       "difficulty": "1.70",
       "theme": "항해",
       "ranking": 166,
-      "backgroundImage": "https://boardlife.co.kr/wys2/file_attach_thumb/2014/06/02/1401712982-66_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/file_attach_thumb/2014/06/02/1401712982-66_N_800x800_100_6_.jpg",
+      "releaseYear": "1982"
     },
     {
       "id": 214,
@@ -2336,7 +2502,8 @@
       "difficulty": "2.46",
       "theme": "선사",
       "ranking": 167,
-      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/06/08/14021858939804_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/06/08/14021858939804_N_800x800_100_6_.jpg",
+      "releaseYear": "2008"
     },
     {
       "id": 9814,
@@ -2350,7 +2517,8 @@
       "difficulty": "4.67",
       "theme": "SF 공상 과학",
       "ranking": 168,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2019"
     },
     {
       "id": 3640,
@@ -2364,7 +2532,8 @@
       "difficulty": "4.36",
       "theme": "산업 / 제조",
       "ranking": 169,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2014"
     },
     {
       "id": 817,
@@ -2378,7 +2547,8 @@
       "difficulty": "3.37",
       "theme": "농업",
       "ranking": 170,
-      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/06/09/14022485854699_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/06/09/14022485854699_N_800x800_100_6_.jpg",
+      "releaseYear": "2004"
     },
     {
       "id": 9790,
@@ -2392,7 +2562,8 @@
       "difficulty": "3.33",
       "theme": "공포",
       "ranking": 171,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2018"
     },
     {
       "id": 535,
@@ -2406,7 +2577,8 @@
       "difficulty": "1.67",
       "theme": "농업",
       "ranking": 172,
-      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/08/03/14070738835684_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/08/03/14070738835684_N_800x800_100_6_.jpg",
+      "releaseYear": "1997"
     },
     {
       "id": 396,
@@ -2420,7 +2592,8 @@
       "difficulty": "3.09",
       "theme": "항해",
       "ranking": 173,
-      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/12/17/14187853341816_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/12/17/14187853341816_N_800x800_100_6_.jpg",
+      "releaseYear": "2010"
     },
     {
       "id": 5972,
@@ -2434,7 +2607,8 @@
       "difficulty": "1.79",
       "theme": "카드 게임",
       "ranking": 174,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2015"
     },
     {
       "id": 7707,
@@ -2448,7 +2622,8 @@
       "difficulty": "2.80",
       "theme": "기차",
       "ranking": 175,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2016"
     },
     {
       "id": 3237,
@@ -2462,7 +2637,8 @@
       "difficulty": "1.20",
       "theme": "카드 게임",
       "ranking": 176,
-      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/02/02/13913145043365_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/02/02/13913145043365_N_800x800_100_6_.jpg",
+      "releaseYear": "1994"
     },
     {
       "id": 226,
@@ -2476,7 +2652,8 @@
       "difficulty": "3.85",
       "theme": "제1차 세계 대전",
       "ranking": 177,
-      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/01/28/1643304563071141_lg_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/01/28/1643304563071141_lg_N_800x800_100_6_.jpg",
+      "releaseYear": "1999"
     },
     {
       "id": 7929,
@@ -2490,7 +2667,8 @@
       "difficulty": "2.12",
       "theme": "퍼즐",
       "ranking": 178,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2017"
     },
     {
       "id": 3779,
@@ -2504,7 +2682,8 @@
       "difficulty": "1.93",
       "theme": "SF 공상 과학",
       "ranking": 179,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2014"
     },
     {
       "id": 416,
@@ -2518,7 +2697,8 @@
       "difficulty": "2.46",
       "theme": "이성 시대",
       "ranking": 180,
-      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2013/12/30/13883314489986_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2013/12/30/13883314489986_N_800x800_100_6_.jpg",
+      "releaseYear": "2004"
     },
     {
       "id": 542,
@@ -2532,7 +2712,8 @@
       "difficulty": "2.50",
       "theme": "영역 건설",
       "ranking": 181,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "1962"
     },
     {
       "id": 8223,
@@ -2546,7 +2727,8 @@
       "difficulty": "1.79",
       "theme": "중세",
       "ranking": 182,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2017"
     },
     {
       "id": 4281,
@@ -2560,7 +2742,8 @@
       "difficulty": "3.20",
       "theme": "산업 / 제조",
       "ranking": 183,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2014"
     },
     {
       "id": 9684,
@@ -2574,7 +2757,8 @@
       "difficulty": "1.07",
       "theme": "숫자",
       "ranking": 184,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2018"
     },
     {
       "id": 9742,
@@ -2588,7 +2772,8 @@
       "difficulty": "3.39",
       "theme": "여행",
       "ranking": 185,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2018"
     },
     {
       "id": 8947,
@@ -2602,7 +2787,8 @@
       "difficulty": "3.21",
       "theme": "농업",
       "ranking": 186,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2017"
     },
     {
       "id": 5005,
@@ -2616,7 +2802,8 @@
       "difficulty": "2.48",
       "theme": "판타지",
       "ranking": 187,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2015"
     },
     {
       "id": 1487,
@@ -2630,7 +2817,8 @@
       "difficulty": "2.15",
       "theme": "판타지",
       "ranking": 188,
-      "backgroundImage": "https://boardlife.co.kr/wys2/file_attach_thumb/2013/10/11/1381501290-84_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/file_attach_thumb/2013/10/11/1381501290-84_N_800x800_100_6_.jpg",
+      "releaseYear": "2009"
     },
     {
       "id": 10012,
@@ -2644,7 +2832,8 @@
       "difficulty": "2.43",
       "theme": "판타지",
       "ranking": 189,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2019"
     },
     {
       "id": 5738,
@@ -2658,7 +2847,8 @@
       "difficulty": "1.92",
       "theme": "핸드 관리",
       "ranking": 190,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2004"
     },
     {
       "id": 2142,
@@ -2672,7 +2862,8 @@
       "difficulty": "2.83",
       "theme": "경제",
       "ranking": 191,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2010"
     },
     {
       "id": 5270,
@@ -2686,7 +2877,8 @@
       "difficulty": "2.48",
       "theme": "중세",
       "ranking": 192,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "1998"
     },
     {
       "id": 1324,
@@ -2700,7 +2892,8 @@
       "difficulty": "2.34",
       "theme": "아라비안",
       "ranking": 193,
-      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/07/11/14050508453165_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/07/11/14050508453165_N_800x800_100_6_.jpg",
+      "releaseYear": "2012"
     },
     {
       "id": 177,
@@ -2714,7 +2907,8 @@
       "difficulty": "3.25",
       "theme": "SF 공상 과학",
       "ranking": 194,
-      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/11/21/14165325904968_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/11/21/14165325904968_N_800x800_100_6_.jpg",
+      "releaseYear": "2008"
     },
     {
       "id": 9344,
@@ -2728,7 +2922,8 @@
       "difficulty": "1.68",
       "theme": "판타지",
       "ranking": 195,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2017"
     },
     {
       "id": 181,
@@ -2742,7 +2937,8 @@
       "difficulty": "3.46",
       "theme": "운송",
       "ranking": 196,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2009"
     },
     {
       "id": 7820,
@@ -2756,7 +2952,8 @@
       "difficulty": "1.19",
       "theme": "블러핑",
       "ranking": 197,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2016"
     },
     {
       "id": 553,
@@ -2770,7 +2967,8 @@
       "difficulty": "4.16",
       "theme": "운송",
       "ranking": 198,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "1986"
     },
     {
       "id": 5978,
@@ -2784,7 +2982,8 @@
       "difficulty": "1.61",
       "theme": "레이싱",
       "ranking": 199,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2016"
     },
     {
       "id": 6131,
@@ -2798,7 +2997,8 @@
       "difficulty": "1.68",
       "theme": "정치",
       "ranking": 200,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2016"
     },
     {
       "id": 359,
@@ -2812,7 +3012,8 @@
       "difficulty": "1.96",
       "theme": "퍼즐",
       "ranking": 201,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2009"
     },
     {
       "id": 733,
@@ -2826,7 +3027,8 @@
       "difficulty": "2.39",
       "theme": "퍼즐",
       "ranking": 202,
-      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2013/07/21/13743918419684_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2013/07/21/13743918419684_N_800x800_100_6_.jpg",
+      "releaseYear": "1999"
     },
     {
       "id": 12,
@@ -2840,7 +3042,8 @@
       "difficulty": "1.84",
       "theme": "기차",
       "ranking": 203,
-      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/03/30/13961912708666_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/03/30/13961912708666_N_800x800_100_6_.jpg",
+      "releaseYear": "2004"
     },
     {
       "id": 11108,
@@ -2854,7 +3057,8 @@
       "difficulty": "1.42",
       "theme": "주사위",
       "ranking": 204,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2019"
     },
     {
       "id": 5919,
@@ -2868,7 +3072,8 @@
       "difficulty": "2.90",
       "theme": "SF 공상 과학",
       "ranking": 205,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2016"
     },
     {
       "id": 5657,
@@ -2882,7 +3087,8 @@
       "difficulty": "3.90",
       "theme": "경제",
       "ranking": 206,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2015"
     },
     {
       "id": 533,
@@ -2896,7 +3102,8 @@
       "difficulty": "1.47",
       "theme": "동물",
       "ranking": 207,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2009"
     },
     {
       "id": 224,
@@ -2910,7 +3117,8 @@
       "difficulty": "1.97",
       "theme": "협상",
       "ranking": 208,
-      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/02/04/13914412696144_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/02/04/13914412696144_N_800x800_100_6_.jpg",
+      "releaseYear": "1994"
     },
     {
       "id": 3961,
@@ -2924,7 +3132,8 @@
       "difficulty": "3.55",
       "theme": "살인/미스터리",
       "ranking": 209,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2011"
     },
     {
       "id": 2260,
@@ -2937,7 +3146,8 @@
       "play_age": "12세 이상",
       "difficulty": "2.58",
       "ranking": 210,
-      "backgroundImage": "https://boardlife.co.kr/wys2/file_attach_thumb/2014/10/21/1413901028-27_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/file_attach_thumb/2014/10/21/1413901028-27_N_800x800_100_6_.jpg",
+      "releaseYear": "2000"
     },
     {
       "id": 7326,
@@ -2951,7 +3161,8 @@
       "difficulty": "2.23",
       "theme": "판타지",
       "ranking": 211,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2016"
     },
     {
       "id": 2061,
@@ -2965,7 +3176,8 @@
       "difficulty": "1.72",
       "theme": "숫자",
       "ranking": 212,
-      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2013/09/03/13781654639700_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2013/09/03/13781654639700_N_800x800_100_6_.jpg",
+      "releaseYear": "1977"
     },
     {
       "id": 841,
@@ -2979,7 +3191,8 @@
       "difficulty": "2.91",
       "theme": "항해",
       "ranking": 213,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2009"
     },
     {
       "id": 8100,
@@ -2993,7 +3206,8 @@
       "difficulty": "0.00",
       "theme": "숫자",
       "ranking": 214,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2016"
     },
     {
       "id": 93,
@@ -3007,7 +3221,8 @@
       "difficulty": "2.74",
       "theme": "르네상스",
       "ranking": 215,
-      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2013/08/06/13757989969734_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2013/08/06/13757989969734_N_800x800_100_6_.jpg",
+      "releaseYear": "2007"
     },
     {
       "id": 9929,
@@ -3021,7 +3236,8 @@
       "difficulty": "0.00",
       "theme": "미국 서부",
       "ranking": 216,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2018"
     },
     {
       "id": 4370,
@@ -3035,7 +3251,8 @@
       "difficulty": "2.44",
       "theme": "핸드 관리",
       "ranking": 217,
-      "backgroundImage": "https://boardlife.co.kr/wys2/file_attach_thumb/2014/11/10/1415609370-28_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/file_attach_thumb/2014/11/10/1415609370-28_N_800x800_100_6_.jpg",
+      "releaseYear": "2014"
     },
     {
       "id": 5679,
@@ -3049,7 +3266,8 @@
       "difficulty": "1.33",
       "theme": "판타지",
       "ranking": 218,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2015"
     },
     {
       "id": 8809,
@@ -3063,7 +3281,8 @@
       "difficulty": "3.04",
       "theme": "SF 공상 과학",
       "ranking": 219,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2017"
     },
     {
       "id": 6552,
@@ -3077,7 +3296,8 @@
       "difficulty": "3.85",
       "theme": "판타지",
       "ranking": 220,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2016"
     },
     {
       "id": 9107,
@@ -3091,7 +3311,8 @@
       "difficulty": "1.65",
       "theme": "퍼즐",
       "ranking": 221,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2017"
     },
     {
       "id": 8710,
@@ -3105,7 +3326,8 @@
       "difficulty": "2.55",
       "theme": "퍼즐",
       "ranking": 222,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2016"
     },
     {
       "id": 782,
@@ -3119,7 +3341,8 @@
       "difficulty": "2.76",
       "theme": "판타지",
       "ranking": 223,
-      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/02/02/13913471115087_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/02/02/13913471115087_N_800x800_100_6_.jpg",
+      "releaseYear": "2012"
     },
     {
       "id": 7035,
@@ -3133,7 +3356,8 @@
       "difficulty": "2.56",
       "theme": "판타지",
       "ranking": 224,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2016"
     },
     {
       "id": 784,
@@ -3147,7 +3371,8 @@
       "difficulty": "3.68",
       "theme": "판타지",
       "ranking": 225,
-      "backgroundImage": "https://boardlife.co.kr/wys2/file_attach_thumb/2014/04/07/1396843880-41_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/file_attach_thumb/2014/04/07/1396843880-41_N_800x800_100_6_.jpg",
+      "releaseYear": "2012"
     },
     {
       "id": 442,
@@ -3161,7 +3386,8 @@
       "difficulty": "3.00",
       "theme": "중세",
       "ranking": 226,
-      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/03/04/1393892077263_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/03/04/1393892077263_N_800x800_100_6_.jpg",
+      "releaseYear": "2011"
     },
     {
       "id": 76,
@@ -3175,7 +3401,8 @@
       "difficulty": "2.07",
       "theme": "농업",
       "ranking": 227,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2009"
     },
     {
       "id": 119,
@@ -3189,7 +3416,8 @@
       "difficulty": "2.29",
       "theme": "도시 건설",
       "ranking": 228,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2004"
     },
     {
       "id": 9735,
@@ -3203,7 +3431,8 @@
       "difficulty": "1.88",
       "theme": "숫자",
       "ranking": 229,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2018"
     },
     {
       "id": 6841,
@@ -3217,7 +3446,8 @@
       "difficulty": "2.57",
       "theme": "기차",
       "ranking": 230,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2016"
     },
     {
       "id": 11849,
@@ -3231,7 +3461,8 @@
       "difficulty": "3.91",
       "theme": "해적",
       "ranking": 231,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2019"
     },
     {
       "id": 9868,
@@ -3245,7 +3476,8 @@
       "difficulty": "1.83",
       "theme": "도시 건설",
       "ranking": 232,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2018"
     },
     {
       "id": 2093,
@@ -3259,7 +3491,8 @@
       "difficulty": "2.93",
       "theme": "농업",
       "ranking": 233,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2013"
     },
     {
       "id": 7328,
@@ -3273,7 +3506,8 @@
       "difficulty": "1.92",
       "theme": "퍼즐",
       "ranking": 234,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2017"
     },
     {
       "id": 785,
@@ -3287,7 +3521,8 @@
       "difficulty": "2.49",
       "theme": "SF 공상 과학",
       "ranking": 235,
-      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2013/12/07/13864114419860_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2013/12/07/13864114419860_N_800x800_100_6_.jpg",
+      "releaseYear": "2012"
     },
     {
       "id": 5315,
@@ -3301,7 +3536,8 @@
       "difficulty": "2.34",
       "theme": "카드 게임",
       "ranking": 236,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2014"
     },
     {
       "id": 357,
@@ -3315,7 +3551,8 @@
       "difficulty": "1.04",
       "theme": "주사위",
       "ranking": 237,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2004"
     },
     {
       "id": 924,
@@ -3329,7 +3566,8 @@
       "difficulty": "2.83",
       "theme": "산업 / 제조",
       "ranking": 238,
-      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/03/18/13951458682938_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/03/18/13951458682938_N_800x800_100_6_.jpg",
+      "releaseYear": "2008"
     },
     {
       "id": 186,
@@ -3343,7 +3581,8 @@
       "difficulty": "2.57",
       "theme": "판타지",
       "ranking": 239,
-      "backgroundImage": "https://boardlife.co.kr/wys2/file_attach_thumb/2014/06/09/1402318962-97_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/file_attach_thumb/2014/06/09/1402318962-97_N_800x800_100_6_.jpg",
+      "releaseYear": "2005"
     },
     {
       "id": 9319,
@@ -3357,7 +3596,8 @@
       "difficulty": "1.78",
       "theme": "주사위",
       "ranking": 240,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2017"
     },
     {
       "id": 6557,
@@ -3371,7 +3611,8 @@
       "difficulty": "1.14",
       "theme": "동물",
       "ranking": 241,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2008"
     },
     {
       "id": 2276,
@@ -3385,7 +3626,8 @@
       "difficulty": "3.33",
       "theme": "미국 서부",
       "ranking": 242,
-      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/01/08/1641623868466828_lg_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/01/08/1641623868466828_lg_N_800x800_100_6_.jpg",
+      "releaseYear": "2013"
     },
     {
       "id": 7523,
@@ -3399,7 +3641,8 @@
       "difficulty": "1.15",
       "theme": "공포",
       "ranking": 243,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2014"
     },
     {
       "id": 5151,
@@ -3413,7 +3656,8 @@
       "difficulty": "2.25",
       "theme": "영역 건설",
       "ranking": 244,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2015"
     },
     {
       "id": 436,
@@ -3427,7 +3671,8 @@
       "difficulty": "3.20",
       "theme": "판타지",
       "ranking": 245,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2011"
     },
     {
       "id": 13056,
@@ -3441,7 +3686,8 @@
       "difficulty": "4.06",
       "theme": "신화",
       "ranking": 246,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2020"
     },
     {
       "id": 764,
@@ -3455,7 +3701,8 @@
       "difficulty": "2.72",
       "theme": "판타지",
       "ranking": 247,
-      "backgroundImage": "https://boardlife.co.kr/wys2/file_attach_thumb/2014/06/09/1402282962-58_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/file_attach_thumb/2014/06/09/1402282962-58_N_800x800_100_6_.jpg",
+      "releaseYear": "2012"
     },
     {
       "id": 6891,
@@ -3469,7 +3716,8 @@
       "difficulty": "4.02",
       "theme": "SF 공상 과학",
       "ranking": 248,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2017"
     },
     {
       "id": 28,
@@ -3483,7 +3731,8 @@
       "difficulty": "3.74",
       "theme": "주사위",
       "ranking": 249,
-      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/10/02/14122577105007_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/10/02/14122577105007_N_800x800_100_6_.jpg",
+      "releaseYear": "2013"
     },
     {
       "id": 10049,
@@ -3497,7 +3746,8 @@
       "difficulty": "1.67",
       "theme": "숫자",
       "ranking": 250,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2018"
     },
     {
       "id": 3783,
@@ -3511,7 +3761,8 @@
       "difficulty": "2.43",
       "theme": "교육",
       "ranking": 251,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2014"
     },
     {
       "id": 3979,
@@ -3525,7 +3776,8 @@
       "difficulty": "1.48",
       "theme": "레이싱",
       "ranking": 252,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2014"
     },
     {
       "id": 887,
@@ -3539,7 +3791,8 @@
       "difficulty": "3.52",
       "theme": "정치",
       "ranking": 253,
-      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/01/28/1643304825176615_lg_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/01/28/1643304825176615_lg_N_800x800_100_6_.jpg",
+      "releaseYear": "2009"
     },
     {
       "id": 378,
@@ -3553,7 +3806,8 @@
       "difficulty": "1.75",
       "theme": "레이싱",
       "ranking": 254,
-      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/05/04/1651624098515016_lg_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/05/04/1651624098515016_lg_N_800x800_100_6_.jpg",
+      "releaseYear": "2009"
     },
     {
       "id": 5892,
@@ -3567,7 +3821,8 @@
       "difficulty": "2.55",
       "theme": "항해",
       "ranking": 255,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2015"
     },
     {
       "id": 11856,
@@ -3581,7 +3836,8 @@
       "difficulty": "3.87",
       "theme": "농업",
       "ranking": 256,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2014"
     },
     {
       "id": 5331,
@@ -3595,7 +3851,8 @@
       "difficulty": "2.99",
       "theme": "르네상스",
       "ranking": 257,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2015"
     },
     {
       "id": 34,
@@ -3609,7 +3866,8 @@
       "difficulty": "2.91",
       "theme": "도시 건설",
       "ranking": 258,
-      "backgroundImage": "https://boardlife.co.kr/wys2/file_attach_thumb/2014/07/28/1406505712-26_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/file_attach_thumb/2014/07/28/1406505712-26_N_800x800_100_6_.jpg",
+      "releaseYear": "2012"
     },
     {
       "id": 9278,
@@ -3623,7 +3881,8 @@
       "difficulty": "2.11",
       "theme": "살인/미스터리",
       "ranking": 259,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2017"
     },
     {
       "id": 420,
@@ -3637,7 +3896,8 @@
       "difficulty": "2.86",
       "theme": "중세",
       "ranking": 260,
-      "backgroundImage": "https://boardlife.co.kr/wys2/file_attach_thumb/2013/11/10/1384011771-37_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/file_attach_thumb/2013/11/10/1384011771-37_N_800x800_100_6_.jpg",
+      "releaseYear": "1999"
     },
     {
       "id": 7972,
@@ -3651,7 +3911,8 @@
       "difficulty": "2.04",
       "theme": "도시 건설",
       "ranking": 261,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2016"
     },
     {
       "id": 8946,
@@ -3665,7 +3926,8 @@
       "difficulty": "3.81",
       "theme": "소설-기반",
       "ranking": 262,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2022"
     },
     {
       "id": 2768,
@@ -3679,7 +3941,8 @@
       "difficulty": "1.86",
       "theme": "카드 게임",
       "ranking": 263,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2003"
     },
     {
       "id": 2990,
@@ -3693,7 +3956,8 @@
       "difficulty": "3.66",
       "theme": "추상전략",
       "ranking": 264,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "1475"
     },
     {
       "id": 5481,
@@ -3707,7 +3971,8 @@
       "difficulty": "2.34",
       "theme": "신화",
       "ranking": 265,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "1999"
     },
     {
       "id": 13588,
@@ -3721,7 +3986,8 @@
       "difficulty": "2.91",
       "theme": "본판이 필요한 확장",
       "ranking": 266,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2020"
     },
     {
       "id": 11922,
@@ -3735,7 +4001,8 @@
       "difficulty": "2.42",
       "theme": "교육",
       "ranking": 267,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2019"
     },
     {
       "id": 9880,
@@ -3749,7 +4016,8 @@
       "difficulty": "3.06",
       "theme": "SF 공상 과학",
       "ranking": 268,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2018"
     },
     {
       "id": 182,
@@ -3763,7 +4031,8 @@
       "difficulty": "1.98",
       "theme": "기차",
       "ranking": 269,
-      "backgroundImage": "https://boardlife.co.kr/wys2/file_attach_thumb/2014/11/25/1416923401-19_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/file_attach_thumb/2014/11/25/1416923401-19_N_800x800_100_6_.jpg",
+      "releaseYear": "2007"
     },
     {
       "id": 505,
@@ -3777,7 +4046,8 @@
       "difficulty": "2.72",
       "theme": "유머",
       "ranking": 270,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2011"
     },
     {
       "id": 10108,
@@ -3791,7 +4061,8 @@
       "difficulty": "2.47",
       "theme": "카드 게임",
       "ranking": 271,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2018"
     },
     {
       "id": 5670,
@@ -3805,7 +4076,8 @@
       "difficulty": "2.06",
       "theme": "SF 공상 과학",
       "ranking": 272,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2015"
     },
     {
       "id": 7049,
@@ -3819,7 +4091,8 @@
       "difficulty": "1.86",
       "theme": "판타지",
       "ranking": 273,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2016"
     },
     {
       "id": 1146,
@@ -3833,7 +4106,8 @@
       "difficulty": "3.85",
       "theme": "문명",
       "ranking": 274,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "1996"
     },
     {
       "id": 3630,
@@ -3847,7 +4121,8 @@
       "difficulty": "2.53",
       "theme": "판타지",
       "ranking": 275,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2014"
     },
     {
       "id": 4171,
@@ -3861,7 +4136,8 @@
       "difficulty": "2.70",
       "theme": "SF 공상 과학",
       "ranking": 276,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2014"
     },
     {
       "id": 4650,
@@ -3875,7 +4151,8 @@
       "difficulty": "1.82",
       "theme": "농업",
       "ranking": 277,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2015"
     },
     {
       "id": 488,
@@ -3889,7 +4166,8 @@
       "difficulty": "2.20",
       "theme": "모험",
       "ranking": 278,
-      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/10/11/14129986458419_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/10/11/14129986458419_N_800x800_100_6_.jpg",
+      "releaseYear": "2011"
     },
     {
       "id": 575,
@@ -3903,7 +4181,8 @@
       "difficulty": "2.35",
       "theme": "농업",
       "ranking": 279,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2012"
     },
     {
       "id": 2504,
@@ -3917,7 +4196,8 @@
       "difficulty": "3.09",
       "theme": "이성 시대",
       "ranking": 280,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2013"
     },
     {
       "id": 827,
@@ -3931,7 +4211,8 @@
       "difficulty": "4.32",
       "theme": "정치",
       "ranking": 281,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "1986"
     },
     {
       "id": 12473,
@@ -3945,7 +4226,8 @@
       "difficulty": "2.18",
       "theme": "퍼즐",
       "ranking": 282,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2020"
     },
     {
       "id": 10640,
@@ -3959,7 +4241,8 @@
       "difficulty": "1.42",
       "theme": "카드 게임",
       "ranking": 283,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2018"
     },
     {
       "id": 14030,
@@ -3973,7 +4256,8 @@
       "difficulty": "2.11",
       "theme": "SF 공상 과학",
       "ranking": 284,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2021"
     },
     {
       "id": 983,
@@ -3987,7 +4271,8 @@
       "difficulty": "2.14",
       "theme": "판타지",
       "ranking": 285,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2010"
     },
     {
       "id": 4272,
@@ -4001,7 +4286,8 @@
       "difficulty": "2.06",
       "theme": "환경",
       "ranking": 286,
-      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/12/23/1419295283751_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/12/23/1419295283751_N_800x800_100_6_.jpg",
+      "releaseYear": "2014"
     },
     {
       "id": 10011,
@@ -4015,7 +4301,8 @@
       "difficulty": "2.82",
       "theme": "판타지",
       "ranking": 287,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2018"
     },
     {
       "id": 13285,
@@ -4029,7 +4316,8 @@
       "difficulty": "2.65",
       "theme": "교육",
       "ranking": 288,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2020"
     },
     {
       "id": 1478,
@@ -4043,7 +4331,8 @@
       "difficulty": "1.47",
       "theme": "소설-기반",
       "ranking": 289,
-      "backgroundImage": "https://boardlife.co.kr/wys2/file_attach_thumb/2014/05/26/1401114392-29_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/file_attach_thumb/2014/05/26/1401114392-29_N_800x800_100_6_.jpg",
+      "releaseYear": "2007"
     },
     {
       "id": 4085,
@@ -4057,7 +4346,8 @@
       "difficulty": "1.19",
       "theme": "르네상스",
       "ranking": 290,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2013"
     },
     {
       "id": 528,
@@ -4071,7 +4361,8 @@
       "difficulty": "3.63",
       "theme": "판타지",
       "ranking": 291,
-      "backgroundImage": "https://boardlife.co.kr/wys2/file_attach_thumb/2014/10/19/1413700308-13_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/file_attach_thumb/2014/10/19/1413700308-13_N_800x800_100_6_.jpg",
+      "releaseYear": "2011"
     },
     {
       "id": 5710,
@@ -4085,7 +4376,8 @@
       "difficulty": "1.77",
       "theme": "판타지",
       "ranking": 292,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2015"
     },
     {
       "id": 12057,
@@ -4099,7 +4391,8 @@
       "difficulty": "0.00",
       "theme": "SF 공상 과학",
       "ranking": 293,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2020"
     },
     {
       "id": 5736,
@@ -4113,7 +4406,8 @@
       "difficulty": "3.54",
       "theme": "르네상스",
       "ranking": 294,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2015"
     },
     {
       "id": 183,
@@ -4127,7 +4421,8 @@
       "difficulty": "2.27",
       "theme": "제2차 세계 대전",
       "ranking": 295,
-      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2023/03/05/167797650232320_lg_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2023/03/05/167797650232320_lg_N_800x800_100_6_.jpg",
+      "releaseYear": "2004"
     },
     {
       "id": 518,
@@ -4141,7 +4436,8 @@
       "difficulty": "1.69",
       "theme": "카드 게임",
       "ranking": 296,
-      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/10/26/14143253349293_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/10/26/14143253349293_N_800x800_100_6_.jpg",
+      "releaseYear": "2010"
     },
     {
       "id": 14125,
@@ -4155,7 +4451,8 @@
       "difficulty": "3.27",
       "theme": "산업 / 제조",
       "ranking": 297,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2021"
     },
     {
       "id": 9552,
@@ -4169,7 +4466,8 @@
       "difficulty": "3.10",
       "theme": "영역 건설",
       "ranking": 298,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2018"
     },
     {
       "id": 8432,
@@ -4183,7 +4481,8 @@
       "difficulty": "1.58",
       "theme": "카드 게임",
       "ranking": 299,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2017"
     },
     {
       "id": 10810,
@@ -4197,7 +4496,8 @@
       "difficulty": "2.81",
       "theme": "도시 건설",
       "ranking": 300,
-      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/02/05/1644068247251235_lg_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/02/05/1644068247251235_lg_N_800x800_100_6_.jpg",
+      "releaseYear": "2019"
     },
     {
       "id": 2141,
@@ -4211,7 +4511,8 @@
       "difficulty": "2.48",
       "theme": "중세",
       "ranking": 301,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2013"
     },
     {
       "id": 5845,
@@ -4225,7 +4526,8 @@
       "difficulty": "2.36",
       "theme": "공포",
       "ranking": 302,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2015"
     },
     {
       "id": 4119,
@@ -4239,7 +4541,8 @@
       "difficulty": "1.69",
       "theme": "숫자",
       "ranking": 303,
-      "backgroundImage": "https://boardlife.co.kr/wys2/file_attach_thumb/2014/12/24/1419394600-35_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/file_attach_thumb/2014/12/24/1419394600-35_N_800x800_100_6_.jpg",
+      "releaseYear": "2014"
     },
     {
       "id": 14626,
@@ -4253,7 +4556,8 @@
       "difficulty": "1.33",
       "theme": "고대",
       "ranking": 304,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2021"
     },
     {
       "id": 2214,
@@ -4267,7 +4571,8 @@
       "difficulty": "2.96",
       "theme": "도시 건설",
       "ranking": 305,
-      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2013/12/30/13883917272530_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2013/12/30/13883917272530_N_800x800_100_6_.jpg",
+      "releaseYear": "2013"
     },
     {
       "id": 9136,
@@ -4281,7 +4586,8 @@
       "difficulty": "1.41",
       "theme": "판타지",
       "ranking": 306,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2017"
     },
     {
       "id": 373,
@@ -4295,7 +4601,8 @@
       "difficulty": "2.26",
       "theme": "운송",
       "ranking": 307,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2006"
     },
     {
       "id": 1066,
@@ -4309,7 +4616,8 @@
       "difficulty": "2.39",
       "theme": "공포",
       "ranking": 308,
-      "backgroundImage": "https://boardlife.co.kr/wys2/file_attach_thumb/2014/03/30/1396188073-91_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/file_attach_thumb/2014/03/30/1396188073-91_N_800x800_100_6_.jpg",
+      "releaseYear": "2004"
     },
     {
       "id": 10362,
@@ -4323,7 +4631,8 @@
       "difficulty": "1.05",
       "theme": "파티 게임",
       "ranking": 309,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2018"
     },
     {
       "id": 425,
@@ -4337,7 +4646,8 @@
       "difficulty": "2.82",
       "theme": "소설-기반",
       "ranking": 310,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2006"
     },
     {
       "id": 13386,
@@ -4351,7 +4661,8 @@
       "difficulty": "1.87",
       "theme": "코믹북/만화",
       "ranking": 311,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2020"
     },
     {
       "id": 6326,
@@ -4365,7 +4676,8 @@
       "difficulty": "1.14",
       "theme": "카드 게임",
       "ranking": 312,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2015"
     },
     {
       "id": 4104,
@@ -4379,7 +4691,8 @@
       "difficulty": "1.28",
       "theme": "동물",
       "ranking": 313,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2006"
     },
     {
       "id": 10757,
@@ -4393,7 +4706,8 @@
       "difficulty": "2.68",
       "theme": "중세",
       "ranking": 314,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2019"
     },
     {
       "id": 5157,
@@ -4407,7 +4721,8 @@
       "difficulty": "1.07",
       "theme": "파티 게임",
       "ranking": 315,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2011"
     },
     {
       "id": 456,
@@ -4421,7 +4736,8 @@
       "difficulty": "3.90",
       "theme": "문명",
       "ranking": 316,
-      "backgroundImage": "https://boardlife.co.kr/wys2/file_attach_thumb/2014/06/24/1403611853-68_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/file_attach_thumb/2014/06/24/1403611853-68_N_800x800_100_6_.jpg",
+      "releaseYear": "2010"
     },
     {
       "id": 121,
@@ -4435,7 +4751,8 @@
       "difficulty": "3.51",
       "theme": "판타지",
       "ranking": 317,
-      "backgroundImage": "https://boardlife.co.kr/wys2/file_attach_thumb/2014/03/30/1396187689-78_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/file_attach_thumb/2014/03/30/1396187689-78_N_800x800_100_6_.jpg",
+      "releaseYear": "2004"
     },
     {
       "id": 11434,
@@ -4449,7 +4766,8 @@
       "difficulty": "2.10",
       "theme": "르네상스",
       "ranking": 318,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2019"
     },
     {
       "id": 3303,
@@ -4463,7 +4781,8 @@
       "difficulty": "3.15",
       "theme": "판타지",
       "ranking": 319,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2014"
     },
     {
       "id": 2443,
@@ -4477,7 +4796,8 @@
       "difficulty": "1.24",
       "theme": "행동 / 재주",
       "ranking": 320,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "1867"
     },
     {
       "id": 13425,
@@ -4491,7 +4811,8 @@
       "difficulty": "3.14",
       "theme": "스파이/첩보원",
       "ranking": 321,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2020"
     },
     {
       "id": 11722,
@@ -4505,7 +4826,8 @@
       "difficulty": "1.89",
       "theme": "판타지",
       "ranking": 322,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2019"
     },
     {
       "id": 5518,
@@ -4519,7 +4841,8 @@
       "difficulty": "2.60",
       "theme": "판타지",
       "ranking": 323,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2015"
     },
     {
       "id": 179,
@@ -4533,7 +4856,8 @@
       "difficulty": "2.69",
       "theme": "고대",
       "ranking": 324,
-      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/01/28/1643302980368441_lg_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/01/28/1643302980368441_lg_N_800x800_100_6_.jpg",
+      "releaseYear": "2006"
     },
     {
       "id": 7484,
@@ -4547,7 +4871,8 @@
       "difficulty": "1.12",
       "theme": "블러핑",
       "ranking": 325,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2011"
     },
     {
       "id": 836,
@@ -4561,7 +4886,8 @@
       "difficulty": "2.67",
       "theme": "소설-기반",
       "ranking": 326,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "1981"
     },
     {
       "id": 9321,
@@ -4575,7 +4901,8 @@
       "difficulty": "3.35",
       "theme": "SF 공상 과학",
       "ranking": 327,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2017"
     },
     {
       "id": 479,
@@ -4589,7 +4916,8 @@
       "difficulty": "2.15",
       "theme": "소설-기반",
       "ranking": 328,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2011"
     },
     {
       "id": 9865,
@@ -4603,7 +4931,8 @@
       "difficulty": "2.53",
       "theme": "고대",
       "ranking": 329,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2018"
     },
     {
       "id": 6282,
@@ -4617,7 +4946,8 @@
       "difficulty": "1.29",
       "theme": "카드 게임",
       "ranking": 330,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2016"
     },
     {
       "id": 223,
@@ -4631,7 +4961,8 @@
       "difficulty": "1.53",
       "theme": "실시간",
       "ranking": 331,
-      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/03/13/13946687207931_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/03/13/13946687207931_N_800x800_100_6_.jpg",
+      "releaseYear": "2011"
     },
     {
       "id": 3565,
@@ -4645,7 +4976,8 @@
       "difficulty": "1.53",
       "theme": "도시 건설",
       "ranking": 332,
-      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/05/12/13998918255436_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/05/12/13998918255436_N_800x800_100_6_.jpg",
+      "releaseYear": "2012"
     },
     {
       "id": 10253,
@@ -4659,7 +4991,8 @@
       "difficulty": "3.81",
       "theme": "판타지",
       "ranking": 333,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2018"
     },
     {
       "id": 4674,
@@ -4673,7 +5006,8 @@
       "difficulty": "2.09",
       "theme": "도시 건설",
       "ranking": 334,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2014"
     },
     {
       "id": 2563,
@@ -4687,7 +5021,8 @@
       "difficulty": "1.85",
       "theme": "미국 서부",
       "ranking": 335,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2007"
     },
     {
       "id": 7881,
@@ -4701,7 +5036,8 @@
       "difficulty": "3.97",
       "theme": "기차",
       "ranking": 336,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2016"
     },
     {
       "id": 960,
@@ -4715,7 +5051,8 @@
       "difficulty": "1.92",
       "theme": "선사",
       "ranking": 337,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2002"
     },
     {
       "id": 473,
@@ -4729,7 +5066,8 @@
       "difficulty": "2.63",
       "theme": "르네상스",
       "ranking": 338,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2010"
     },
     {
       "id": 92,
@@ -4743,7 +5081,8 @@
       "difficulty": "1.82",
       "theme": "공포",
       "ranking": 339,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2005"
     },
     {
       "id": 5558,
@@ -4757,7 +5096,8 @@
       "difficulty": "1.07",
       "theme": "실시간",
       "ranking": 340,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2014"
     },
     {
       "id": 873,
@@ -4771,7 +5111,8 @@
       "difficulty": "3.04",
       "theme": "고대",
       "ranking": 341,
-      "backgroundImage": "https://boardlife.co.kr/wys2/file_attach_thumb/2014/02/11/1392124909-49_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/file_attach_thumb/2014/02/11/1392124909-49_N_800x800_100_6_.jpg",
+      "releaseYear": "2003"
     },
     {
       "id": 9866,
@@ -4785,7 +5126,8 @@
       "difficulty": "2.00",
       "theme": "카드 게임",
       "ranking": 342,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2019"
     },
     {
       "id": 4180,
@@ -4799,7 +5141,8 @@
       "difficulty": "1.95",
       "theme": "미국 서부",
       "ranking": 343,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2014"
     },
     {
       "id": 9747,
@@ -4813,7 +5156,8 @@
       "difficulty": "2.46",
       "theme": "경제",
       "ranking": 344,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2018"
     },
     {
       "id": 1049,
@@ -4827,7 +5171,8 @@
       "difficulty": "2.35",
       "theme": "판타지",
       "ranking": 345,
-      "backgroundImage": "https://boardlife.co.kr/wys2/file_attach_thumb/2013/11/25/1385306267-84_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/file_attach_thumb/2013/11/25/1385306267-84_N_800x800_100_6_.jpg",
+      "releaseYear": "2011"
     },
     {
       "id": 10843,
@@ -4841,7 +5186,8 @@
       "difficulty": "1.46",
       "theme": "레이싱",
       "ranking": 346,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2018"
     },
     {
       "id": 1688,
@@ -4855,7 +5201,8 @@
       "difficulty": "2.16",
       "theme": "스파이/첩보원",
       "ranking": 347,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "1998"
     },
     {
       "id": 2098,
@@ -4869,7 +5216,8 @@
       "difficulty": "2.67",
       "theme": "공포",
       "ranking": 348,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2013"
     },
     {
       "id": 10759,
@@ -4883,7 +5231,8 @@
       "difficulty": "2.31",
       "theme": "숫자",
       "ranking": 349,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2019"
     },
     {
       "id": 10861,
@@ -4897,7 +5246,8 @@
       "difficulty": "2.21",
       "theme": "문명",
       "ranking": 350,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2019"
     },
     {
       "id": 2040,
@@ -4911,7 +5261,8 @@
       "difficulty": "1.84",
       "theme": "운송",
       "ranking": 351,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2013"
     },
     {
       "id": 4213,
@@ -4925,7 +5276,8 @@
       "difficulty": "1.15",
       "theme": "블러핑",
       "ranking": 352,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2014"
     },
     {
       "id": 12037,
@@ -4939,7 +5291,8 @@
       "difficulty": "2.25",
       "theme": "제2차 세계 대전",
       "ranking": 353,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2019"
     },
     {
       "id": 5420,
@@ -4953,7 +5306,8 @@
       "difficulty": "1.50",
       "theme": "추상전략",
       "ranking": 354,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "1930"
     },
     {
       "id": 6798,
@@ -4967,7 +5321,8 @@
       "difficulty": "2.89",
       "theme": "탐험",
       "ranking": 355,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2016"
     },
     {
       "id": 366,
@@ -4981,7 +5336,8 @@
       "difficulty": "1.84",
       "theme": "카드 게임",
       "ranking": 356,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2001"
     },
     {
       "id": 10698,
@@ -4995,7 +5351,8 @@
       "difficulty": "2.07",
       "theme": "동물",
       "ranking": 357,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2019"
     },
     {
       "id": 3154,
@@ -5009,7 +5366,8 @@
       "difficulty": "3.84",
       "theme": "판타지",
       "ranking": 358,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2004"
     },
     {
       "id": 8965,
@@ -5023,7 +5381,8 @@
       "difficulty": "2.25",
       "theme": "레이싱",
       "ranking": 359,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2022"
     },
     {
       "id": 14146,
@@ -5037,7 +5396,8 @@
       "difficulty": "1.88",
       "theme": "기차",
       "ranking": 360,
-      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/01/08/1641624102934864_lg_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/01/08/1641624102934864_lg_N_800x800_100_6_.jpg",
+      "releaseYear": "2021"
     },
     {
       "id": 481,
@@ -5051,7 +5411,8 @@
       "difficulty": "2.11",
       "theme": "카드 게임",
       "ranking": 361,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2010"
     },
     {
       "id": 515,
@@ -5065,7 +5426,8 @@
       "difficulty": "1.34",
       "theme": "고대",
       "ranking": 362,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2007"
     },
     {
       "id": 9307,
@@ -5079,7 +5441,8 @@
       "difficulty": "3.05",
       "theme": "농업",
       "ranking": 363,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2017"
     },
     {
       "id": 418,
@@ -5093,7 +5456,8 @@
       "difficulty": "2.44",
       "theme": "항공 / 비행",
       "ranking": 364,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2011"
     },
     {
       "id": 559,
@@ -5107,7 +5471,8 @@
       "difficulty": "1.48",
       "theme": "탐험",
       "ranking": 365,
-      "backgroundImage": "https://boardlife.co.kr/wys2/file_attach_thumb/2014/07/22/1405955728-8_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/file_attach_thumb/2014/07/22/1405955728-8_N_800x800_100_6_.jpg",
+      "releaseYear": "1999"
     },
     {
       "id": 11461,
@@ -5121,7 +5486,8 @@
       "difficulty": "4.03",
       "theme": "영역 건설",
       "ranking": 366,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2020"
     },
     {
       "id": 7261,
@@ -5135,7 +5501,8 @@
       "difficulty": "1.71",
       "theme": "카드 게임",
       "ranking": 367,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "1999"
     },
     {
       "id": 13750,
@@ -5149,7 +5516,8 @@
       "difficulty": "2.34",
       "theme": "신화",
       "ranking": 368,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2021"
     },
     {
       "id": 5596,
@@ -5163,7 +5531,8 @@
       "difficulty": "3.33",
       "theme": "문명",
       "ranking": 369,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2015"
     },
     {
       "id": 2119,
@@ -5177,7 +5546,8 @@
       "difficulty": "3.76",
       "theme": "영역 건설",
       "ranking": 370,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2013"
     },
     {
       "id": 3092,
@@ -5191,7 +5561,8 @@
       "difficulty": "1.95",
       "theme": "경제",
       "ranking": 371,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2001"
     },
     {
       "id": 5721,
@@ -5205,7 +5576,8 @@
       "difficulty": "2.49",
       "theme": "경제",
       "ranking": 372,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2015"
     },
     {
       "id": 584,
@@ -5219,7 +5591,8 @@
       "difficulty": "3.45",
       "theme": "정치",
       "ranking": 373,
-      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/07/16/14055155447772_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/07/16/14055155447772_N_800x800_100_6_.jpg",
+      "releaseYear": "1996"
     },
     {
       "id": 877,
@@ -5233,7 +5606,8 @@
       "difficulty": "1.92",
       "theme": "핸드 관리",
       "ranking": 374,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2004"
     },
     {
       "id": 392,
@@ -5247,7 +5621,8 @@
       "difficulty": "4.20",
       "theme": "농업",
       "ranking": 375,
-      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2013/08/12/1376273688703_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2013/08/12/1376273688703_N_800x800_100_6_.jpg",
+      "releaseYear": "2010"
     },
     {
       "id": 7376,
@@ -5261,7 +5636,8 @@
       "difficulty": "1.05",
       "theme": "숫자",
       "ranking": 376,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2016"
     },
     {
       "id": 1247,
@@ -5275,7 +5651,8 @@
       "difficulty": "1.78",
       "theme": "SF 공상 과학",
       "ranking": 377,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2002"
     },
     {
       "id": 972,
@@ -5289,7 +5666,8 @@
       "difficulty": "2.68",
       "theme": "정치",
       "ranking": 378,
-      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2013/10/24/13825710293367_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2013/10/24/13825710293367_N_800x800_100_6_.jpg",
+      "releaseYear": "2001"
     },
     {
       "id": 211,
@@ -5303,7 +5681,8 @@
       "difficulty": "2.07",
       "theme": "카드 게임",
       "ranking": 379,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2004"
     },
     {
       "id": 4062,
@@ -5317,7 +5696,8 @@
       "difficulty": "1.65",
       "theme": "소설-기반",
       "ranking": 380,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2014"
     },
     {
       "id": 4168,
@@ -5331,7 +5711,8 @@
       "difficulty": "3.30",
       "theme": "SF 공상 과학",
       "ranking": 381,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2015"
     },
     {
       "id": 443,
@@ -5345,7 +5726,8 @@
       "difficulty": "2.10",
       "theme": "도시 건설",
       "ranking": 382,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2003"
     },
     {
       "id": 1067,
@@ -5359,7 +5741,8 @@
       "difficulty": "2.27",
       "theme": "경제",
       "ranking": 383,
-      "backgroundImage": "https://boardlife.co.kr/wys2/file_attach_thumb/2013/12/16/1387202035-23_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/file_attach_thumb/2013/12/16/1387202035-23_N_800x800_100_6_.jpg",
+      "releaseYear": "2010"
     },
     {
       "id": 134,
@@ -5373,7 +5756,8 @@
       "difficulty": "3.09",
       "theme": "중세",
       "ranking": 384,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2007"
     },
     {
       "id": 910,
@@ -5387,7 +5771,8 @@
       "difficulty": "2.05",
       "theme": "판타지",
       "ranking": 385,
-      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/05/07/13994593989377_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/05/07/13994593989377_N_800x800_100_6_.jpg",
+      "releaseYear": "2000"
     },
     {
       "id": 1135,
@@ -5401,7 +5786,8 @@
       "difficulty": "1.61",
       "theme": "레이싱",
       "ranking": 386,
-      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2013/09/10/13788211178919_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2013/09/10/13788211178919_N_800x800_100_6_.jpg",
+      "releaseYear": "2001"
     },
     {
       "id": 5418,
@@ -5415,7 +5801,8 @@
       "difficulty": "0.00",
       "theme": "추상전략",
       "ranking": 387,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "1930"
     },
     {
       "id": 2321,
@@ -5429,7 +5816,8 @@
       "difficulty": "2.33",
       "theme": "실시간",
       "ranking": 388,
-      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/04/28/13986498063281_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/04/28/13986498063281_N_800x800_100_6_.jpg",
+      "releaseYear": "2007"
     },
     {
       "id": 9148,
@@ -5443,7 +5831,8 @@
       "difficulty": "2.49",
       "theme": "르네상스",
       "ranking": 389,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2017"
     },
     {
       "id": 14297,
@@ -5457,7 +5846,8 @@
       "difficulty": "1.88",
       "theme": "영역 건설",
       "ranking": 390,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2021"
     },
     {
       "id": 11811,
@@ -5471,7 +5861,8 @@
       "difficulty": "2.92",
       "theme": "문명",
       "ranking": 391,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2019"
     },
     {
       "id": 2148,
@@ -5485,7 +5876,8 @@
       "difficulty": "1.28",
       "theme": "미국 서부",
       "ranking": 392,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2013"
     },
     {
       "id": 6609,
@@ -5499,7 +5891,8 @@
       "difficulty": "1.98",
       "theme": "판타지",
       "ranking": 393,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2015"
     },
     {
       "id": 3926,
@@ -5513,7 +5906,8 @@
       "difficulty": "1.66",
       "theme": "스포츠",
       "ranking": 394,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2014"
     },
     {
       "id": 9074,
@@ -5527,7 +5921,8 @@
       "difficulty": "1.16",
       "theme": "실시간",
       "ranking": 395,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2017"
     },
     {
       "id": 2559,
@@ -5541,7 +5936,8 @@
       "difficulty": "1.66",
       "theme": "블러핑",
       "ranking": 396,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2001"
     },
     {
       "id": 6498,
@@ -5555,7 +5951,8 @@
       "difficulty": "2.02",
       "theme": "운송",
       "ranking": 397,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2016"
     },
     {
       "id": 850,
@@ -5569,7 +5966,8 @@
       "difficulty": "1.17",
       "theme": "유머",
       "ranking": 398,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2011"
     },
     {
       "id": 13868,
@@ -5583,7 +5981,8 @@
       "difficulty": "3.00",
       "theme": "판타지",
       "ranking": 399,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2020"
     },
     {
       "id": 2202,
@@ -5597,7 +5996,8 @@
       "difficulty": "2.89",
       "theme": "SF 공상 과학",
       "ranking": 400,
-      "backgroundImage": "https://boardlife.co.kr/wys2/file_attach_thumb/2014/10/13/1413164786-6_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/file_attach_thumb/2014/10/13/1413164786-6_N_800x800_100_6_.jpg",
+      "releaseYear": "2013"
     },
     {
       "id": 11170,
@@ -5611,7 +6011,8 @@
       "difficulty": "3.25",
       "theme": "문명",
       "ranking": 401,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2019"
     },
     {
       "id": 11971,
@@ -5625,7 +6026,8 @@
       "difficulty": "2.05",
       "theme": "퍼즐",
       "ranking": 402,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2019"
     },
     {
       "id": 12163,
@@ -5639,7 +6041,8 @@
       "difficulty": "3.04",
       "theme": "산업 / 제조",
       "ranking": 403,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2020"
     },
     {
       "id": 1422,
@@ -5653,7 +6056,8 @@
       "difficulty": "1.40",
       "theme": "동물",
       "ranking": 404,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2007"
     },
     {
       "id": 7091,
@@ -5667,7 +6071,8 @@
       "difficulty": "1.23",
       "theme": "스파이/첩보원",
       "ranking": 405,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2016"
     },
     {
       "id": 4662,
@@ -5681,7 +6086,8 @@
       "difficulty": "2.76",
       "theme": "신화",
       "ranking": 406,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2015"
     },
     {
       "id": 13343,
@@ -5695,7 +6101,8 @@
       "difficulty": "3.73",
       "theme": "르네상스",
       "ranking": 407,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2020"
     },
     {
       "id": 3517,
@@ -5709,7 +6116,8 @@
       "difficulty": "1.39",
       "theme": "카드 게임",
       "ranking": 408,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2014"
     },
     {
       "id": 6969,
@@ -5723,7 +6131,8 @@
       "difficulty": "3.00",
       "theme": "경제",
       "ranking": 409,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2019"
     },
     {
       "id": 3739,
@@ -5737,7 +6146,8 @@
       "difficulty": "2.77",
       "theme": "문명",
       "ranking": 410,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2014"
     },
     {
       "id": 7316,
@@ -5751,7 +6161,8 @@
       "difficulty": "2.03",
       "theme": "판타지",
       "ranking": 411,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2017"
     },
     {
       "id": 13807,
@@ -5765,7 +6176,8 @@
       "difficulty": "1.64",
       "theme": "퍼즐",
       "ranking": 412,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2021"
     },
     {
       "id": 6496,
@@ -5779,7 +6191,8 @@
       "difficulty": "3.68",
       "theme": "마피아",
       "ranking": 413,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2018"
     },
     {
       "id": 2310,
@@ -5793,7 +6206,8 @@
       "difficulty": "3.56",
       "theme": "항해",
       "ranking": 414,
-      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/10/27/14143745918983_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/10/27/14143745918983_N_800x800_100_6_.jpg",
+      "releaseYear": "2006"
     },
     {
       "id": 5296,
@@ -5807,7 +6221,8 @@
       "difficulty": "3.39",
       "theme": "영역 건설",
       "ranking": 415,
-      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/01/28/1643305168292737_lg_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/01/28/1643305168292737_lg_N_800x800_100_6_.jpg",
+      "releaseYear": "2015"
     },
     {
       "id": 5201,
@@ -5821,7 +6236,8 @@
       "difficulty": "2.37",
       "theme": "미국 서부",
       "ranking": 416,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2015"
     },
     {
       "id": 7356,
@@ -5835,7 +6251,8 @@
       "difficulty": "1.93",
       "theme": "영역 건설",
       "ranking": 417,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2016"
     },
     {
       "id": 1251,
@@ -5849,7 +6266,8 @@
       "difficulty": "2.16",
       "theme": "경제",
       "ranking": 418,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2008"
     },
     {
       "id": 1415,
@@ -5863,7 +6281,8 @@
       "difficulty": "2.41",
       "theme": "도시 건설",
       "ranking": 419,
-      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/03/17/13949881991051_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/03/17/13949881991051_N_800x800_100_6_.jpg",
+      "releaseYear": "2000"
     },
     {
       "id": 2534,
@@ -5877,7 +6296,8 @@
       "difficulty": "2.55",
       "theme": "산업 / 제조",
       "ranking": 420,
-      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/04/23/13982313847184_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/04/23/13982313847184_N_800x800_100_6_.jpg",
+      "releaseYear": "2013"
     },
     {
       "id": 7415,
@@ -5891,7 +6311,8 @@
       "difficulty": "1.22",
       "theme": "영역 건설",
       "ranking": 421,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2016"
     },
     {
       "id": 14008,
@@ -5905,7 +6326,8 @@
       "difficulty": "2.76",
       "theme": "SF 공상 과학",
       "ranking": 422,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2020"
     },
     {
       "id": 12311,
@@ -5919,7 +6341,8 @@
       "difficulty": "0.00",
       "theme": "판타지",
       "ranking": 423,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2020"
     },
     {
       "id": 430,
@@ -5933,7 +6356,8 @@
       "difficulty": "2.16",
       "theme": "여행",
       "ranking": 424,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2007"
     },
     {
       "id": 12079,
@@ -5947,7 +6371,8 @@
       "difficulty": "2.31",
       "theme": "SF 공상 과학",
       "ranking": 425,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2019"
     },
     {
       "id": 11559,
@@ -5961,7 +6386,8 @@
       "difficulty": "2.89",
       "theme": "판타지",
       "ranking": 426,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2019"
     },
     {
       "id": 4367,
@@ -5975,7 +6401,8 @@
       "difficulty": "3.84",
       "theme": "고대",
       "ranking": 427,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2014"
     },
     {
       "id": 1393,
@@ -5989,7 +6416,8 @@
       "difficulty": "1.87",
       "theme": "소설-기반",
       "ranking": 428,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "1995"
     },
     {
       "id": 9372,
@@ -6003,7 +6431,8 @@
       "difficulty": "2.72",
       "theme": "도시 건설",
       "ranking": 429,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2017"
     },
     {
       "id": 437,
@@ -6017,7 +6446,8 @@
       "difficulty": "1.14",
       "theme": "카드 게임",
       "ranking": 430,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2004"
     },
     {
       "id": 12714,
@@ -6031,7 +6461,8 @@
       "difficulty": "3.38",
       "theme": "농업",
       "ranking": 431,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2019"
     },
     {
       "id": 808,
@@ -6045,7 +6476,8 @@
       "difficulty": "3.68",
       "theme": "SF 공상 과학",
       "ranking": 432,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2012"
     },
     {
       "id": 718,
@@ -6059,7 +6491,8 @@
       "difficulty": "3.72",
       "theme": "산업 / 제조",
       "ranking": 433,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2012"
     },
     {
       "id": 493,
@@ -6073,7 +6506,8 @@
       "difficulty": "2.06",
       "theme": "영역 건설",
       "ranking": 434,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2011"
     },
     {
       "id": 6558,
@@ -6087,7 +6521,8 @@
       "difficulty": "3.36",
       "theme": "SF 공상 과학",
       "ranking": 435,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2016"
     },
     {
       "id": 439,
@@ -6101,7 +6536,8 @@
       "difficulty": "2.31",
       "theme": "항해",
       "ranking": 436,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2000"
     },
     {
       "id": 8711,
@@ -6115,7 +6551,8 @@
       "difficulty": "2.77",
       "theme": "퍼즐",
       "ranking": 437,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2016"
     },
     {
       "id": 2306,
@@ -6129,7 +6566,8 @@
       "difficulty": "1.49",
       "theme": "카드 게임",
       "ranking": 438,
-      "backgroundImage": "https://boardlife.co.kr/wys2/file_attach_thumb/2013/10/10/1381333950-59_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/file_attach_thumb/2013/10/10/1381333950-59_N_800x800_100_6_.jpg",
+      "releaseYear": "1995"
     },
     {
       "id": 9037,
@@ -6143,7 +6581,8 @@
       "difficulty": "1.92",
       "theme": "도시 건설",
       "ranking": 439,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "1994"
     },
     {
       "id": 12218,
@@ -6157,7 +6596,8 @@
       "difficulty": "1.87",
       "theme": "퍼즐",
       "ranking": 440,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2019"
     },
     {
       "id": 3051,
@@ -6171,7 +6611,8 @@
       "difficulty": "1.41",
       "theme": "정치",
       "ranking": 441,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2012"
     },
     {
       "id": 394,
@@ -6185,7 +6626,8 @@
       "difficulty": "1.26",
       "theme": "카드 게임",
       "ranking": 442,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "1997"
     },
     {
       "id": 11020,
@@ -6199,7 +6641,8 @@
       "difficulty": "1.44",
       "theme": "실시간",
       "ranking": 443,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2018"
     },
     {
       "id": 9513,
@@ -6213,7 +6656,8 @@
       "difficulty": "2.15",
       "theme": "농업",
       "ranking": 444,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2018"
     },
     {
       "id": 1207,
@@ -6227,7 +6671,8 @@
       "difficulty": "1.72",
       "theme": "카드 게임",
       "ranking": 445,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "1984"
     },
     {
       "id": 7702,
@@ -6241,7 +6686,8 @@
       "difficulty": "2.40",
       "theme": "농업",
       "ranking": 446,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2016"
     },
     {
       "id": 8966,
@@ -6255,7 +6701,8 @@
       "difficulty": "2.44",
       "theme": "중세",
       "ranking": 447,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2018"
     },
     {
       "id": 2243,
@@ -6269,7 +6716,8 @@
       "difficulty": "1.20",
       "theme": "동물",
       "ranking": 448,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2001"
     },
     {
       "id": 3479,
@@ -6283,7 +6731,8 @@
       "difficulty": "2.14",
       "theme": "블러핑",
       "ranking": 449,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2015"
     },
     {
       "id": 9633,
@@ -6297,7 +6746,8 @@
       "difficulty": "4.21",
       "theme": "판타지",
       "ranking": 450,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2017"
     },
     {
       "id": 1417,
@@ -6311,7 +6761,8 @@
       "difficulty": "1.76",
       "theme": "판타지",
       "ranking": 451,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2011"
     },
     {
       "id": 7071,
@@ -6325,7 +6776,8 @@
       "difficulty": "2.26",
       "theme": "판타지",
       "ranking": 452,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2016"
     },
     {
       "id": 6059,
@@ -6339,7 +6791,8 @@
       "difficulty": "0.00",
       "theme": "SF 공상 과학",
       "ranking": 453,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2015"
     },
     {
       "id": 227,
@@ -6353,7 +6806,8 @@
       "difficulty": "3.36",
       "theme": "영역 건설",
       "ranking": 454,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2006"
     },
     {
       "id": 9665,
@@ -6367,7 +6821,8 @@
       "difficulty": "2.07",
       "theme": "살인/미스터리",
       "ranking": 455,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2018"
     },
     {
       "id": 1682,
@@ -6381,7 +6836,8 @@
       "difficulty": "1.89",
       "theme": "카드 게임",
       "ranking": 456,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2010"
     },
     {
       "id": 946,
@@ -6395,7 +6851,8 @@
       "difficulty": "3.22",
       "theme": "판타지",
       "ranking": 457,
-      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/01/28/164330512357845_lg_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/01/28/164330512357845_lg_N_800x800_100_6_.jpg",
+      "releaseYear": "2010"
     },
     {
       "id": 9143,
@@ -6409,7 +6866,8 @@
       "difficulty": "2.56",
       "theme": "SF 공상 과학",
       "ranking": 458,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2017"
     },
     {
       "id": 6694,
@@ -6423,7 +6881,8 @@
       "difficulty": "1.73",
       "theme": "신화",
       "ranking": 459,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2016"
     },
     {
       "id": 13629,
@@ -6437,7 +6896,8 @@
       "difficulty": "1.11",
       "theme": "살인/미스터리",
       "ranking": 460,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2020"
     },
     {
       "id": 12896,
@@ -6451,7 +6911,8 @@
       "difficulty": "1.13",
       "theme": "실시간",
       "ranking": 461,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2020"
     },
     {
       "id": 11109,
@@ -6465,7 +6926,8 @@
       "difficulty": "3.72",
       "theme": "SF 공상 과학",
       "ranking": 462,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2019"
     },
     {
       "id": 5984,
@@ -6479,7 +6941,8 @@
       "difficulty": "2.07",
       "theme": "셋 컬렉션",
       "ranking": 463,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2016"
     },
     {
       "id": 3667,
@@ -6493,7 +6956,8 @@
       "difficulty": "2.02",
       "theme": "운송",
       "ranking": 464,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2014"
     },
     {
       "id": 543,
@@ -6507,7 +6971,8 @@
       "difficulty": "2.88",
       "theme": "영역 건설",
       "ranking": 465,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2012"
     },
     {
       "id": 9641,
@@ -6521,7 +6986,8 @@
       "difficulty": "3.22",
       "theme": "스포츠",
       "ranking": 466,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2018"
     },
     {
       "id": 8918,
@@ -6535,7 +7001,8 @@
       "difficulty": "4.36",
       "theme": "산업 / 제조",
       "ranking": 467,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2017"
     },
     {
       "id": 11595,
@@ -6549,7 +7016,8 @@
       "difficulty": "1.79",
       "theme": "동물",
       "ranking": 468,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2019"
     },
     {
       "id": 188,
@@ -6563,7 +7031,8 @@
       "difficulty": "3.53",
       "theme": "산업 / 제조",
       "ranking": 469,
-      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/04/28/13986498064332_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/04/28/13986498064332_N_800x800_100_6_.jpg",
+      "releaseYear": "2009"
     },
     {
       "id": 2564,
@@ -6577,7 +7046,8 @@
       "difficulty": "3.15",
       "theme": "제2차 세계 대전",
       "ranking": 470,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2009"
     },
     {
       "id": 6411,
@@ -6591,7 +7061,8 @@
       "difficulty": "2.17",
       "theme": "공포",
       "ranking": 471,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2015"
     },
     {
       "id": 548,
@@ -6605,7 +7076,8 @@
       "difficulty": "2.53",
       "theme": "추상전략",
       "ranking": 472,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2007"
     },
     {
       "id": 10764,
@@ -6619,7 +7091,8 @@
       "difficulty": "2.63",
       "theme": "판타지",
       "ranking": 473,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2019"
     },
     {
       "id": 3719,
@@ -6633,7 +7106,8 @@
       "difficulty": "2.00",
       "theme": "문명",
       "ranking": 474,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2014"
     },
     {
       "id": 5735,
@@ -6647,7 +7121,8 @@
       "difficulty": "3.78",
       "theme": "산업 / 제조",
       "ranking": 475,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2015"
     },
     {
       "id": 413,
@@ -6661,7 +7136,8 @@
       "difficulty": "1.18",
       "theme": "영화/TV/라디오 테마",
       "ranking": 476,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2021"
     },
     {
       "id": 7636,
@@ -6675,7 +7151,8 @@
       "difficulty": "2.43",
       "theme": "판타지",
       "ranking": 477,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2016"
     },
     {
       "id": 1984,
@@ -6689,7 +7166,8 @@
       "difficulty": "2.09",
       "theme": "카드 게임",
       "ranking": 478,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "1996"
     },
     {
       "id": 4663,
@@ -6703,7 +7181,8 @@
       "difficulty": "4.05",
       "theme": "소설-기반",
       "ranking": 479,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2014"
     },
     {
       "id": 3634,
@@ -6717,7 +7196,8 @@
       "difficulty": "2.65",
       "theme": "판타지",
       "ranking": 480,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2014"
     },
     {
       "id": 11171,
@@ -6731,7 +7211,8 @@
       "difficulty": "2.00",
       "theme": "중세",
       "ranking": 481,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2019"
     },
     {
       "id": 9045,
@@ -6745,7 +7226,8 @@
       "difficulty": "2.35",
       "theme": "카드 게임",
       "ranking": 482,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2017"
     },
     {
       "id": 3585,
@@ -6759,7 +7241,8 @@
       "difficulty": "3.74",
       "theme": "항해",
       "ranking": 483,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2014"
     },
     {
       "id": 4148,
@@ -6773,7 +7256,8 @@
       "difficulty": "2.32",
       "theme": "판타지",
       "ranking": 484,
-      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/11/15/14159781648435_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/11/15/14159781648435_N_800x800_100_6_.jpg",
+      "releaseYear": "2014"
     },
     {
       "id": 547,
@@ -6787,7 +7271,8 @@
       "difficulty": "2.66",
       "theme": "추상전략",
       "ranking": 485,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2001"
     },
     {
       "id": 9862,
@@ -6801,7 +7286,8 @@
       "difficulty": "2.00",
       "theme": "퍼즐",
       "ranking": 486,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2018"
     },
     {
       "id": 6534,
@@ -6815,7 +7301,8 @@
       "difficulty": "2.19",
       "theme": "실시간",
       "ranking": 487,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2016"
     },
     {
       "id": 89,
@@ -6829,7 +7316,8 @@
       "difficulty": "2.35",
       "theme": "판타지",
       "ranking": 488,
-      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/07/14/14053038454604_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/07/14/14053038454604_N_800x800_100_6_.jpg",
+      "releaseYear": "2010"
     },
     {
       "id": 8570,
@@ -6843,7 +7331,8 @@
       "difficulty": "2.55",
       "theme": "판타지",
       "ranking": 489,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2017"
     },
     {
       "id": 14375,
@@ -6857,7 +7346,8 @@
       "difficulty": "3.53",
       "theme": "문명",
       "ranking": 490,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2021"
     },
     {
       "id": 6028,
@@ -6871,7 +7361,8 @@
       "difficulty": "3.53",
       "theme": "판타지",
       "ranking": 491,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2015"
     },
     {
       "id": 11492,
@@ -6885,7 +7376,8 @@
       "difficulty": "2.09",
       "theme": "르네상스",
       "ranking": 492,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2019"
     },
     {
       "id": 7728,
@@ -6899,7 +7391,8 @@
       "difficulty": "2.06",
       "theme": "프린트 & 플레이",
       "ranking": 493,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2016"
     },
     {
       "id": 122,
@@ -6913,7 +7406,8 @@
       "difficulty": "2.34",
       "theme": "항해",
       "ranking": 494,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2004"
     },
     {
       "id": 6800,
@@ -6927,7 +7421,8 @@
       "difficulty": "3.91",
       "theme": "운송",
       "ranking": 495,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2005"
     },
     {
       "id": 2538,
@@ -6941,7 +7436,8 @@
       "difficulty": "1.89",
       "theme": "항해",
       "ranking": 496,
-      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2013/12/04/13861229223915_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2013/12/04/13861229223915_N_800x800_100_6_.jpg",
+      "releaseYear": "2013"
     },
     {
       "id": 11924,
@@ -6955,7 +7451,8 @@
       "difficulty": "3.02",
       "theme": "농업",
       "ranking": 497,
-      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/01/08/164162380343146_lg_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/01/08/164162380343146_lg_N_800x800_100_6_.jpg",
+      "releaseYear": "2019"
     },
     {
       "id": 12887,
@@ -6969,7 +7466,8 @@
       "difficulty": "1.81",
       "theme": "SF 공상 과학",
       "ranking": 498,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2021"
     },
     {
       "id": 655,
@@ -6983,7 +7481,8 @@
       "difficulty": "3.11",
       "theme": "종교",
       "ranking": 499,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2008"
     },
     {
       "id": 2588,
@@ -6997,7 +7496,8 @@
       "difficulty": "1.59",
       "theme": "카드 게임",
       "ranking": 500,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2002"
     },
     {
       "id": 189,
@@ -7011,7 +7511,8 @@
       "difficulty": "2.89",
       "theme": "도시 건설",
       "ranking": 501,
-      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/01/20/13901765617854_N_800x800_100_6_.jpg"
+      "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/01/20/13901765617854_N_800x800_100_6_.jpg",
+      "releaseYear": "2010"
     },
     {
       "id": 501,
@@ -7025,7 +7526,8 @@
       "difficulty": "2.29",
       "theme": "판타지",
       "ranking": 502,
-      "backgroundImage": ""
+      "backgroundImage": "",
+      "releaseYear": "2011"
     }
   ]
 }
