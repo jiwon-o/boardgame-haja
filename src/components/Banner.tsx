@@ -8,7 +8,7 @@ interface BannerWrapperProps {
 
 const BannerWrapper = styled.div<BannerWrapperProps>`
   width: 100vw;
-  height: 50vh;
+  padding-top: 40%;
 
   position: relative;
 
