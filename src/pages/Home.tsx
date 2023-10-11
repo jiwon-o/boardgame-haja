@@ -5,9 +5,11 @@ import axios from "axios";
 import useAsync from "../hooks/useAsync";
 import styled from "styled-components";
 import Banner from "./../components/Banner";
+import SubHeader from "../components/Header/SubHeader";
 
 const HomeWrapper = styled.div`
   margin: 0 auto;
+  padding: 0 40px;
 `;
 
 async function getGames() {
@@ -29,6 +31,7 @@ export default function Home() {
       <Header onSearch={handleSearch} />
       <Banner games={games} />
       <GameList
+      <SubHeader title="Currently Trending Games" btnTxt="See All" />
         loading={loading}
         error={error}
         games={games}
