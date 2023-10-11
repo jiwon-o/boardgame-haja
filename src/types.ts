@@ -5,6 +5,7 @@ export interface Game {
   rate: number;
   ranking: number;
   backgroundImage: string;
+  releaseYear: string;
 }
 
 export interface GameRankProps {
