@@ -6,7 +6,7 @@ function useYouTubeVideo(gameTitle: string | undefined) {
   useEffect(() => {
     if (!gameTitle) return;
 
-    const apiUrl = `https://www.googleapis.com/youtube/v3/search?key=${API_KEY}&q=${gameTitle}&maxResults=1&type=video&part=snippet`;
+    const apiUrl = `https://www.googleapis.com/youtube/v3/search?key=${API_KEY}&q=${gameTitle} 하는 법&maxResults=1&type=video&part=snippet`;
 
     const fetchYouTubeVideo = async () => {
       try {
