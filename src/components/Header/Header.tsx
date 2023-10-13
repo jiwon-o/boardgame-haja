@@ -1,6 +1,6 @@
-import Input from "./Input";
+import Input from "../Input";
 import styled from "styled-components";
-import logo from "../assets/icons/icon-logo.svg";
+import logo from "../../assets/icons/icon-logo.svg";
 
 const HeaderWrapper = styled.header`
   width: 100%;
@@ -8,7 +8,6 @@ const HeaderWrapper = styled.header`
   justify-content: space-between;
   align-items: center;
   height: 8rem;
-  padding: 0 1.8rem;
 `;
 
 const HeaderContent = styled.div`
