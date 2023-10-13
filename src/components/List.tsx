@@ -17,22 +17,11 @@ interface Props {
   type: string;
 }
 export default function List({ games, type }: Props) {
-  const [filteredGames, setFilteredGames] = useState<Game[]>([]);
-
-  useEffect(() => {
-    if (type === "recent" && games) {
-      const sortedGames = games
-        ?.sort((a, b) => parseInt(b.releaseYear) - parseInt(a.releaseYear))
-        .slice(0, 10);
-      setFilteredGames(sortedGames);
-    }
-  }, [games, type]);
-
   return (
     <ListWrapper>
       <h1 className="a11y">최근 게임 목록</h1>
       <ul>
-        {filteredGames.map((game, idx) => (
+        {games?.map((game, idx) => (
           <li key={idx}>
             <img src={game.image} alt="게임 이미지" />
             <h3>{game.releaseYear}</h3>

@@ -120,16 +120,10 @@ export default function GameList({ loading, error, games, searchGame }: Props) {
   const columns = useColumns();
   const searchGames = useSearch();
   const dataCount = useScroll(50);
-  const [filteredGames, setFilteredGames] = useState<Game[] | null>(null);
 
-  useEffect(() => {
-    if (games) {
-      const filtered = games.filter((game) => {
-        return searchGames(searchGame, game.name);
-      });
-      setFilteredGames(filtered);
-    }
-  }, [games, searchGame, searchGames]);
+  const filteredGames = games?.filter((game) => {
+    return searchGames(searchGame, game.name);
+  });
 
   const pagedGames = filteredGames?.slice(0, dataCount);
 
@@ -151,7 +145,8 @@ export default function GameList({ loading, error, games, searchGame }: Props) {
         <MasonryContainer
           breakpointCols={columns}
           className="list"
-          columnClassName="column">
+          columnClassName="column"
+        >
           {pagedGames.map((game: Game) => {
             const imageUrl = generateImageUrl(game.image, 200);
 

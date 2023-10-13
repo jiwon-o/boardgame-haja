@@ -23,22 +23,23 @@ export default function Home() {
   const state = useAsync(getGames, []);
   const { loading, data: games, error } = state;
   const [searchGame, setSearchGame] = useState("");
-  const [filteredGames, setFilteredGames] = useState<Game[] | null>(null);
-
-  useEffect(() => {
-    setFilteredGames(games);
-  }, [games]);
 
   const handleSearch = (item: string) => {
     setSearchGame(item);
   };
+
+  const filteredGames = games
+    ? [...games]
+        .sort((a, b) => parseInt(b.releaseYear) - parseInt(a.releaseYear))
+        .slice(0, 10)
+    : null;
 
   return (
     <HomeWrapper>
       <Header onSearch={handleSearch} />
       <Banner games={games} />
       <SubHeader title="Currently Trending Games" btnTxt="See All" />
-      <List games={games} type="recent" />
+      <List games={filteredGames} type="recent" />
       <Gallery
         loading={loading}
         error={error}
