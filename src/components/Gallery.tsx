@@ -2,9 +2,10 @@ import styled from "styled-components";
 import Masonry from "react-masonry-css";
 import { GameRankProps } from "../types";
 import useColumns from "../hooks/useColumns";
-import { Game } from "./../types";
+import { Game } from "../types";
 import useSearch from "../hooks/useSearch";
 import useScroll from "../hooks/useScroll";
+import { useState, useEffect } from "react";
 
 const rankColors: { [key: number]: string } = {
   1: "#d83f31",
@@ -22,7 +23,9 @@ const MasonryContainer = styled(Masonry)`
   justify-content: center;
 
   .column {
-    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin: 0 28px;
     padding: 0 10px;
   }
@@ -117,10 +120,16 @@ export default function GameList({ loading, error, games, searchGame }: Props) {
   const columns = useColumns();
   const searchGames = useSearch();
   const dataCount = useScroll(50);
+  const [filteredGames, setFilteredGames] = useState<Game[] | null>(null);
 
-  const filteredGames = games?.filter((game) => {
-    return searchGames(searchGame, game.name);
-  });
+  useEffect(() => {
+    if (games) {
+      const filtered = games.filter((game) => {
+        return searchGames(searchGame, game.name);
+      });
+      setFilteredGames(filtered);
+    }
+  }, [games, searchGame, searchGames]);
 
   const pagedGames = filteredGames?.slice(0, dataCount);
 
@@ -143,7 +152,7 @@ export default function GameList({ loading, error, games, searchGame }: Props) {
           breakpointCols={columns}
           className="list"
           columnClassName="column">
-          {pagedGames.map((game) => {
+          {pagedGames.map((game: Game) => {
             const imageUrl = generateImageUrl(game.image, 200);
 
             return (
