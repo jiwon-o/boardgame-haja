@@ -1,14 +1,19 @@
 import { Game } from "../types";
 import { styled } from "styled-components";
-import { useState, useEffect } from "react";
 
-const ListWrapper = styled.div`
-  ul {
-    display: flex;
-  }
+const ListWrapper = styled.div``;
+
+const ListItems = styled.ul`
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  overflow-y: hidden;
+`;
+
+const ListItem = styled.li`
   img {
-    width: 250px;
-    height: 400px;
+    width: 180px;
+    height: 250px;
   }
 `;
 
@@ -20,14 +25,14 @@ export default function List({ games, type }: Props) {
   return (
     <ListWrapper>
       <h1 className="a11y">최근 게임 목록</h1>
-      <ul>
+      <ListItems>
         {games?.map((game, idx) => (
-          <li key={idx}>
+          <ListItem key={idx}>
             <img src={game.image} alt="게임 이미지" />
             <h3>{game.releaseYear}</h3>
-          </li>
+          </ListItem>
         ))}
-      </ul>
+      </ListItems>
     </ListWrapper>
   );
 }
