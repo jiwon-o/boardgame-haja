@@ -5,7 +5,9 @@ import useColumns from "../hooks/useColumns";
 import { Game } from "../types";
 import useSearch from "../hooks/useSearch";
 import useScroll from "../hooks/useScroll";
-import { useState, useEffect } from "react";
+import { useState } from "react";
+import Modal from "./Modal";
+import Detail from "../pages/Detail";
 
 const rankColors: { [key: number]: string } = {
   1: "#d83f31",
@@ -21,6 +23,7 @@ const GamesLayout = styled.div`
 const MasonryContainer = styled(Masonry)`
   display: flex;
   justify-content: center;
+  box-shadow: 0 0 10px red;
 
   .column {
     display: flex;
@@ -32,15 +35,15 @@ const MasonryContainer = styled(Masonry)`
 `;
 
 const CardContainer = styled.div`
-  max-width: 200px;
+  max-width: 224px;
   position: relative;
   background-color: transparent;
   border-radius: 6px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: transparent;
   color: #ececf1;
+  box-shadow: 0 0 0 1px green;
   cursor: pointer;
   & + & {
     margin-top: 20px;
@@ -97,6 +100,7 @@ const GameImg = styled.img`
   border-radius: 6px;
   min-height: 178px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  object-fit: cover;
 `;
 
 const GameTitle = styled.h4`
@@ -120,6 +124,17 @@ export default function GameList({ loading, error, games, searchGame }: Props) {
   const columns = useColumns();
   const searchGames = useSearch();
   const dataCount = useScroll(50);
+  const [isModalOpen, setIsModalOpen] = useState<boolean>(false);
+  const [selectedGame, setSelectedGame] = useState<Game | null>(null);
+
+  const openModal = (game: Game) => {
+    setSelectedGame(game);
+    setIsModalOpen(true);
+  };
+
+  const closeModal = () => {
+    setIsModalOpen(false);
+  };
 
   const filteredGames = games?.filter((game) => {
     return searchGames(searchGame, game.name);
@@ -151,10 +166,9 @@ export default function GameList({ loading, error, games, searchGame }: Props) {
             const imageUrl = generateImageUrl(game.image, 200);
 
             return (
-              <CardContainer key={game.id}>
+              <CardContainer key={game.id} onClick={() => openModal(game)}>
                 <Card>
                   <GameRank ranking={game.ranking}>{game.ranking}</GameRank>
-
                   <GameImg
                     src={
                       game.image.includes("boardlife.co.kr")
@@ -171,6 +185,11 @@ export default function GameList({ loading, error, games, searchGame }: Props) {
         </MasonryContainer>
       ) : (
         <p>보드게임을 찾지 못했습니다.</p>
+      )}
+      {isModalOpen && (
+        <Modal isOpen={isModalOpen} onClose={closeModal}>
+          {selectedGame && <Detail game={selectedGame} />}
+        </Modal>
       )}
     </GamesLayout>
   );
