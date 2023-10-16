@@ -13,7 +13,8 @@
       "theme": "판타지",
       "ranking": 1,
       "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/01/09/164171594415517_lg_N_800x800_100_6_.jpg",
-      "releaseYear": "2017"
+      "releaseYear": "2017",
+      "subTitle": "Gloomhaven"
     },
     {
       "id": 6501,
@@ -28,7 +29,8 @@
       "theme": "SF 공상 과학",
       "ranking": 2,
       "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/01/08/16416234386599_lg_N_800x800_100_6_.jpg",
-      "releaseYear": "2016"
+      "releaseYear": "2016",
+      "subTitle": "Terraforming Mars"
     },
     {
       "id": 519,
@@ -43,7 +45,8 @@
       "theme": "모험",
       "ranking": 3,
       "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/01/09/1641716056043839_lg_N_800x800_100_6_.jpg",
-      "releaseYear": "2011"
+      "releaseYear": "2011",
+      "subTitle": "Mage Knight"
     },
     {
       "id": 9210,
@@ -58,7 +61,8 @@
       "theme": "SF 공상 과학",
       "ranking": 4,
       "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/01/09/164171619353307_lg_N_800x800_100_6_.jpg",
-      "releaseYear": "2017"
+      "releaseYear": "2017",
+      "subTitle": "Gaia Project"
     },
     {
       "id": 5572,
@@ -73,7 +77,8 @@
       "theme": "환경",
       "ranking": 5,
       "backgroundImage": "",
-      "releaseYear": "2015"
+      "releaseYear": "2015",
+      "subTitle": "Pandemic Legacy: Season 1"
     },
     {
       "id": 5660,
@@ -88,7 +93,8 @@
       "theme": "문명",
       "ranking": 6,
       "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/01/09/1641716124465851_lg_N_800x800_100_6_.jpg",
-      "releaseYear": "2015"
+      "releaseYear": "2015",
+      "subTitle": "Through the Ages: A New Story of Civilization"
     },
     {
       "id": 8569,
@@ -103,7 +109,8 @@
       "theme": "산업 / 제조",
       "ranking": 7,
       "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/01/09/1641718269344410_lg_N_800x800_100_6_.jpg",
-      "releaseYear": "2018"
+      "releaseYear": "2018",
+      "subTitle": "Brass: Birmingham"
     },
     {
       "id": 348,
@@ -118,7 +125,8 @@
       "theme": "정치",
       "ranking": 8,
       "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/01/09/16417162394459_lg_N_800x800_100_6_.jpg",
-      "releaseYear": "2005"
+      "releaseYear": "2005",
+      "subTitle": "Twilight Struggle"
     },
     {
       "id": 5222,
@@ -133,7 +141,8 @@
       "theme": "문명",
       "ranking": 9,
       "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/01/09/1641716854853860_lg_N_800x800_100_6_.jpg",
-      "releaseYear": "2015"
+      "releaseYear": "2015",
+      "subTitle": "7 Wonders: Duel"
     },
     {
       "id": 90,
@@ -148,7 +157,8 @@
       "theme": "농업",
       "ranking": 10,
       "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/01/09/1641716551014398_lg_N_800x800_100_6_.jpg",
-      "releaseYear": "2002"
+      "releaseYear": "2002",
+      "subTitle": "Puerto Rico"
     },
     {
       "id": 561,
@@ -163,7 +173,8 @@
       "theme": "농업",
       "ranking": 11,
       "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/01/09/1641716999517028_lg_N_800x800_100_6_.jpg",
-      "releaseYear": "2007"
+      "releaseYear": "2007",
+      "subTitle": "Agricola"
     },
     {
       "id": 7501,
@@ -178,7 +189,8 @@
       "theme": "판타지",
       "ranking": 12,
       "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/01/09/1641718131161814_lg_N_800x800_100_6_.jpg",
-      "releaseYear": "2016"
+      "releaseYear": "2016",
+      "subTitle": "Arkham Horror: The Card Game"
     },
     {
       "id": 421,
@@ -193,7 +205,8 @@
       "theme": "영역 건설",
       "ranking": 13,
       "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/01/09/1641717987357074_lg_N_800x800_100_6_.jpg",
-      "releaseYear": "2011"
+      "releaseYear": "2011",
+      "subTitle": "The Castles of Burgundy"
     },
     {
       "id": 10014,
@@ -208,7 +221,8 @@
       "theme": "전투",
       "ranking": 14,
       "backgroundImage": "",
-      "releaseYear": "2018"
+      "releaseYear": "2018",
+      "subTitle": "Mage Knight: Ultimate Edition"
     },
     {
       "id": 5024,
@@ -223,7 +237,8 @@
       "theme": "도시 건설",
       "ranking": 15,
       "backgroundImage": "",
-      "releaseYear": "2015"
+      "releaseYear": "2015",
+      "subTitle": "Terra Mystica: Big Box"
     },
     {
       "id": 9804,
@@ -238,7 +253,8 @@
       "theme": "산업 / 제조",
       "ranking": 16,
       "backgroundImage": "",
-      "releaseYear": "2019"
+      "releaseYear": "2019",
+      "subTitle": "Barrage"
     },
     {
       "id": 591,
@@ -253,7 +269,8 @@
       "theme": "중세",
       "ranking": 17,
       "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2013/08/21/13770887203310_N_800x800_100_6_.jpg",
-      "releaseYear": "2008"
+      "releaseYear": "2008",
+      "subTitle": "Dominion"
     },
     {
       "id": 9071,
@@ -268,7 +285,8 @@
       "theme": "판타지",
       "ranking": 18,
       "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/01/09/16417189455853_lg_N_800x800_100_6_.jpg",
-      "releaseYear": "2017"
+      "releaseYear": "2017",
+      "subTitle": "Spirit Island"
     },
     {
       "id": 4658,
@@ -283,7 +301,8 @@
       "theme": "경제",
       "ranking": 19,
       "backgroundImage": "",
-      "releaseYear": "2015"
+      "releaseYear": "2015",
+      "subTitle": "The Gallerist"
     },
     {
       "id": 10,
@@ -298,7 +317,8 @@
       "theme": "블러핑",
       "ranking": 20,
       "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/04/25/13984282703678_N_800x800_100_6_.jpg",
-      "releaseYear": "2012"
+      "releaseYear": "2012",
+      "subTitle": "Android: Netrunner"
     },
     {
       "id": 77,
@@ -313,7 +333,8 @@
       "theme": "농업",
       "ranking": 21,
       "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/01/09/1641716401356554_lg_N_800x800_100_6_.jpg",
-      "releaseYear": "2012"
+      "releaseYear": "2012",
+      "subTitle": "Tzolk'in: The Mayan Calendar"
     },
     {
       "id": 395,
@@ -328,7 +349,8 @@
       "theme": "항해",
       "ranking": 22,
       "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/01/09/1641718757387677_lg_N_800x800_100_6_.jpg",
-      "releaseYear": "2008"
+      "releaseYear": "2008",
+      "subTitle": "Le Havre"
     },
     {
       "id": 6550,
@@ -343,7 +365,8 @@
       "theme": "퍼즐",
       "ranking": 23,
       "backgroundImage": "",
-      "releaseYear": "2016"
+      "releaseYear": "2016",
+      "subTitle": "A Feast for Odin"
     },
     {
       "id": 5603,
@@ -358,7 +381,8 @@
       "theme": "주사위",
       "ranking": 24,
       "backgroundImage": "",
-      "releaseYear": "2015"
+      "releaseYear": "2015",
+      "subTitle": "Grand Austria Hotel"
     },
     {
       "id": 78,
@@ -373,7 +397,8 @@
       "theme": "판타지",
       "ranking": 25,
       "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2013/07/21/13743918418055_N_800x800_100_6_.jpg",
-      "releaseYear": "2012"
+      "releaseYear": "2012",
+      "subTitle": "Terra Mystica"
     },
     {
       "id": 14832,
@@ -388,7 +413,8 @@
       "theme": "환경",
       "ranking": 26,
       "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/02/21/1645410544693899_lg_N_800x800_100_6_.jpg",
-      "releaseYear": "2021"
+      "releaseYear": "2021",
+      "subTitle": "Ark Nova"
     },
     {
       "id": 523,
@@ -403,7 +429,8 @@
       "theme": "판타지",
       "ranking": 27,
       "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/10/26/1414325810898_N_800x800_100_6_.jpg",
-      "releaseYear": "2012"
+      "releaseYear": "2012",
+      "subTitle": "The Resistance: Avalon"
     },
     {
       "id": 3516,
@@ -418,7 +445,8 @@
       "theme": "르네상스",
       "ranking": 28,
       "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/01/09/164171842355969_lg_N_800x800_100_6_.jpg",
-      "releaseYear": "2014"
+      "releaseYear": "2014",
+      "subTitle": "Splendor"
     },
     {
       "id": 173,
@@ -433,7 +461,8 @@
       "theme": "산업 / 제조",
       "ranking": 29,
       "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2013/11/09/13840082977391_N_800x800_100_6_.jpg",
-      "releaseYear": "2007"
+      "releaseYear": "2007",
+      "subTitle": "Brass"
     },
     {
       "id": 478,
@@ -448,7 +477,8 @@
       "theme": "카드 게임",
       "ranking": 30,
       "backgroundImage": "https://boardlife.co.kr/wys2/file_attach_thumb/2014/05/19/1400501173-41_N_800x800_100_6_.jpg",
-      "releaseYear": "1991"
+      "releaseYear": "1991",
+      "subTitle": "Tichu"
     },
     {
       "id": 4255,
@@ -463,7 +493,8 @@
       "theme": "항해",
       "ranking": 31,
       "backgroundImage": "",
-      "releaseYear": "2013"
+      "releaseYear": "2013",
+      "subTitle": "Skull King"
     },
     {
       "id": 7362,
@@ -478,7 +509,8 @@
       "theme": "르네상스",
       "ranking": 32,
       "backgroundImage": "",
-      "releaseYear": "2016"
+      "releaseYear": "2016",
+      "subTitle": "Lorenzo il Magnifico"
     },
     {
       "id": 5890,
@@ -493,7 +525,8 @@
       "theme": "SF 공상 과학",
       "ranking": 33,
       "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/01/09/1641718586392654_lg_N_800x800_100_6_.jpg",
-      "releaseYear": "2016"
+      "releaseYear": "2016",
+      "subTitle": "Scythe"
     },
     {
       "id": 2256,
@@ -508,7 +541,8 @@
       "theme": "농업",
       "ranking": 34,
       "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/01/08/1641623614081857_lg_N_800x800_100_6_.jpg",
-      "releaseYear": "2013"
+      "releaseYear": "2013",
+      "subTitle": "Caverna: The Cave Farmers"
     },
     {
       "id": 9837,
@@ -523,7 +557,8 @@
       "theme": "SF 공상 과학",
       "ranking": 35,
       "backgroundImage": "",
-      "releaseYear": "2018"
+      "releaseYear": "2018",
+      "subTitle": "Terraforming Mars: Prelude"
     },
     {
       "id": 29,
@@ -538,7 +573,8 @@
       "theme": "정치",
       "ranking": 36,
       "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/01/09/1641717551575847_lg_N_800x800_100_6_.jpg",
-      "releaseYear": "2011"
+      "releaseYear": "2011",
+      "subTitle": "Trajan"
     },
     {
       "id": 5986,
@@ -553,7 +589,8 @@
       "theme": "SF 공상 과학",
       "ranking": 37,
       "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/01/29/1643393620377474_lg_N_800x800_100_6_.jpg",
-      "releaseYear": "2016"
+      "releaseYear": "2016",
+      "subTitle": "Star Wars: Rebellion"
     },
     {
       "id": 8567,
@@ -568,7 +605,8 @@
       "theme": "산업 / 제조",
       "ranking": 38,
       "backgroundImage": "",
-      "releaseYear": "2017"
+      "releaseYear": "2017",
+      "subTitle": "Brass: Lancashire"
     },
     {
       "id": 682,
@@ -583,7 +621,8 @@
       "theme": "주사위",
       "ranking": 39,
       "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/01/09/1641718334118989_lg_N_800x800_100_6_.jpg",
-      "releaseYear": "2012"
+      "releaseYear": "2012",
+      "subTitle": "Las Vegas"
     },
     {
       "id": 969,
@@ -598,7 +637,8 @@
       "theme": "실시간",
       "ranking": 40,
       "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/09/11/14104415855749_N_800x800_100_6_.jpg",
-      "releaseYear": "2009"
+      "releaseYear": "2009",
+      "subTitle": "Telestrations"
     },
     {
       "id": 7212,
@@ -613,7 +653,8 @@
       "theme": "판타지",
       "ranking": 41,
       "backgroundImage": "",
-      "releaseYear": "2016"
+      "releaseYear": "2016",
+      "subTitle": "Mansions of Madness: Second Edition"
     },
     {
       "id": 7241,
@@ -628,7 +669,8 @@
       "theme": "동물",
       "ranking": 42,
       "backgroundImage": "",
-      "releaseYear": "2016"
+      "releaseYear": "2016",
+      "subTitle": "Great Western Trail"
     },
     {
       "id": 2014,
@@ -643,7 +685,8 @@
       "theme": "중세",
       "ranking": 43,
       "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2013/08/10/1376109733433_N_800x800_100_6_.jpg",
-      "releaseYear": "2009"
+      "releaseYear": "2009",
+      "subTitle": "Dominion: Intrigue"
     },
     {
       "id": 4681,
@@ -658,7 +701,8 @@
       "theme": "여행",
       "ranking": 44,
       "backgroundImage": "",
-      "releaseYear": "2015"
+      "releaseYear": "2015",
+      "subTitle": "The Voyages of Marco Polo"
     },
     {
       "id": 534,
@@ -673,7 +717,8 @@
       "theme": "판타지",
       "ranking": 45,
       "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/01/28/1643304303683961_lg_N_800x800_100_6_.jpg",
-      "releaseYear": "2011"
+      "releaseYear": "2011",
+      "subTitle": "War of the Ring: Second Edition"
     },
     {
       "id": 6941,
@@ -688,7 +733,8 @@
       "theme": "경제",
       "ranking": 46,
       "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/01/08/1641623768894148_lg_N_800x800_100_6_.jpg",
-      "releaseYear": "2016"
+      "releaseYear": "2016",
+      "subTitle": "YOKOHAMA"
     },
     {
       "id": 2528,
@@ -703,7 +749,8 @@
       "theme": "판타지",
       "ranking": 47,
       "backgroundImage": "",
-      "releaseYear": "2013"
+      "releaseYear": "2013",
+      "subTitle": "Eldritch Horror"
     },
     {
       "id": 180,
@@ -718,7 +765,8 @@
       "theme": "기차",
       "ranking": 48,
       "backgroundImage": "https://boardlife.co.kr/wys2/file_attach_thumb/2014/12/07/1417936299-71_N_800x800_100_6_.jpg",
-      "releaseYear": "2002"
+      "releaseYear": "2002",
+      "subTitle": "Age of Steam"
     },
     {
       "id": 932,
@@ -733,7 +781,8 @@
       "theme": "소설-기반",
       "ranking": 49,
       "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/08/25/14088959158715_N_800x800_100_6_.jpg",
-      "releaseYear": "2012"
+      "releaseYear": "2012",
+      "subTitle": "Robinson Crusoe: Adventure on the Cursed Island"
     },
     {
       "id": 3508,
@@ -748,7 +797,8 @@
       "theme": "좀비",
       "ranking": 50,
       "backgroundImage": "https://boardlife.co.kr/wys2/file_attach_thumb/2014/09/18/1410994449-31_N_800x800_100_6_.jpg",
-      "releaseYear": "2014"
+      "releaseYear": "2014",
+      "subTitle": "Dead of Winter: A Crossroads Game"
     },
     {
       "id": 9150,
@@ -763,7 +813,8 @@
       "theme": "환경",
       "ranking": 51,
       "backgroundImage": "",
-      "releaseYear": "2017"
+      "releaseYear": "2017",
+      "subTitle": "Pandemic Legacy: Season 2"
     },
     {
       "id": 11658,
@@ -778,7 +829,8 @@
       "theme": "영역 건설",
       "ranking": 52,
       "backgroundImage": "",
-      "releaseYear": "2019"
+      "releaseYear": "2019",
+      "subTitle": "The Castles of Burgundy"
     },
     {
       "id": 10661,
@@ -793,7 +845,8 @@
       "theme": "교육",
       "ranking": 53,
       "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/01/09/1641717755969016_lg_N_800x800_100_6_.jpg",
-      "releaseYear": "2019"
+      "releaseYear": "2019",
+      "subTitle": "Wingspan"
     },
     {
       "id": 174,
@@ -808,7 +861,8 @@
       "theme": "환경",
       "ranking": 54,
       "backgroundImage": "",
-      "releaseYear": "2010"
+      "releaseYear": "2010",
+      "subTitle": "Dominant Species"
     },
     {
       "id": 450,
@@ -823,7 +877,8 @@
       "theme": "산업 / 제조",
       "ranking": 55,
       "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2013/07/21/13744013136658_N_800x800_100_6_.jpg",
-      "releaseYear": "2004"
+      "releaseYear": "2004",
+      "subTitle": "Power Grid"
     },
     {
       "id": 5712,
@@ -838,7 +893,8 @@
       "theme": "산업 / 제조",
       "ranking": 56,
       "backgroundImage": "",
-      "releaseYear": "2015"
+      "releaseYear": "2015",
+      "subTitle": "Food Chain Magnate"
     },
     {
       "id": 8735,
@@ -853,7 +909,8 @@
       "theme": "농업",
       "ranking": 57,
       "backgroundImage": "",
-      "releaseYear": "2017"
+      "releaseYear": "2017",
+      "subTitle": "Clans of Caledonia"
     },
     {
       "id": 13426,
@@ -868,7 +925,8 @@
       "theme": "SF 공상 과학",
       "ranking": 58,
       "backgroundImage": "",
-      "releaseYear": "2019"
+      "releaseYear": "2019",
+      "subTitle": "The Crew: The Quest for Planet Nine"
     },
     {
       "id": 6353,
@@ -883,7 +941,8 @@
       "theme": "농업",
       "ranking": 59,
       "backgroundImage": "",
-      "releaseYear": "2015"
+      "releaseYear": "2015",
+      "subTitle": "Viticulture Essential Edition"
     },
     {
       "id": 11763,
@@ -898,7 +957,8 @@
       "theme": "코믹북/만화",
       "ranking": 60,
       "backgroundImage": "",
-      "releaseYear": "2019"
+      "releaseYear": "2019",
+      "subTitle": "Marvel Champions: The Card Game"
     },
     {
       "id": 6121,
@@ -913,7 +973,8 @@
       "theme": "산업 / 제조",
       "ranking": 61,
       "backgroundImage": "",
-      "releaseYear": "2016"
+      "releaseYear": "2016",
+      "subTitle": "Vinhos Deluxe Edition"
     },
     {
       "id": 4357,
@@ -928,7 +989,8 @@
       "theme": "판타지",
       "ranking": 62,
       "backgroundImage": "",
-      "releaseYear": "2014"
+      "releaseYear": "2014",
+      "subTitle": "Alchemists"
     },
     {
       "id": 3954,
@@ -943,7 +1005,8 @@
       "theme": "판타지",
       "ranking": 63,
       "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/02/05/1644068122626941_lg_N_800x800_100_6_.jpg",
-      "releaseYear": "2014"
+      "releaseYear": "2014",
+      "subTitle": "Five Tribes"
     },
     {
       "id": 94,
@@ -958,7 +1021,8 @@
       "theme": "문명",
       "ranking": 64,
       "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/01/09/1641718845586608_lg_N_800x800_100_6_.jpg",
-      "releaseYear": "2010"
+      "releaseYear": "2010",
+      "subTitle": "7 Wonders"
     },
     {
       "id": 10793,
@@ -973,7 +1037,8 @@
       "theme": "판타지",
       "ranking": 65,
       "backgroundImage": "",
-      "releaseYear": "2019"
+      "releaseYear": "2019",
+      "subTitle": "The Lord of the Rings: Journeys in Middle-earth"
     },
     {
       "id": 9757,
@@ -988,7 +1053,8 @@
       "theme": "고대",
       "ranking": 66,
       "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/02/06/164412007771368_lg_N_800x800_100_6_.jpg",
-      "releaseYear": "2018"
+      "releaseYear": "2018",
+      "subTitle": "Teotihuacan: City of Gods"
     },
     {
       "id": 3120,
@@ -1003,7 +1069,8 @@
       "theme": "추상전략",
       "ranking": 67,
       "backgroundImage": "",
-      "releaseYear": "1850"
+      "releaseYear": "1850",
+      "subTitle": "Mahjong"
     },
     {
       "id": 238,
@@ -1018,7 +1085,8 @@
       "theme": "도시 건설",
       "ranking": 68,
       "backgroundImage": "https://boardlife.co.kr/wys2/file_attach_thumb/2014/10/19/1413681853-79_N_800x800_100_6_.png",
-      "releaseYear": "2005"
+      "releaseYear": "2005",
+      "subTitle": "Caylus"
     },
     {
       "id": 12189,
@@ -1033,7 +1101,8 @@
       "theme": "산업 / 제조",
       "ranking": 69,
       "backgroundImage": "",
-      "releaseYear": "2020"
+      "releaseYear": "2020",
+      "subTitle": "Kanban EV"
     },
     {
       "id": 6954,
@@ -1048,7 +1117,8 @@
       "theme": "카드 게임",
       "ranking": 70,
       "backgroundImage": "",
-      "releaseYear": "2018"
+      "releaseYear": "2018",
+      "subTitle": "A Duel for Falling Cherry Blossoms: New Act"
     },
     {
       "id": 9406,
@@ -1063,7 +1133,8 @@
       "theme": "카드 게임",
       "ranking": 71,
       "backgroundImage": "",
-      "releaseYear": "2017"
+      "releaseYear": "2017",
+      "subTitle": "Modern Art Korean Edition"
     },
     {
       "id": 91,
@@ -1078,7 +1149,8 @@
       "theme": "판타지",
       "ranking": 72,
       "backgroundImage": "https://boardlife.co.kr/wys2/file_attach_thumb/2014/12/08/1418008215-92_N_800x800_100_6_.jpg",
-      "releaseYear": "2012"
+      "releaseYear": "2012",
+      "subTitle": "Seasons"
     },
     {
       "id": 13341,
@@ -1093,7 +1165,8 @@
       "theme": "여행",
       "ranking": 73,
       "backgroundImage": "",
-      "releaseYear": "2020"
+      "releaseYear": "2020",
+      "subTitle": "Lost Ruins of Arnak"
     },
     {
       "id": 2502,
@@ -1108,7 +1181,8 @@
       "theme": "산업 / 제조",
       "ranking": 74,
       "backgroundImage": "",
-      "releaseYear": "2013"
+      "releaseYear": "2013",
+      "subTitle": "Russian Railroads"
     },
     {
       "id": 440,
@@ -1123,7 +1197,8 @@
       "theme": "농업",
       "ranking": 75,
       "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/01/08/1641623834664990_lg_N_800x800_100_6_.jpg",
-      "releaseYear": "2009"
+      "releaseYear": "2009",
+      "subTitle": "At the Gates of Loyang"
     },
     {
       "id": 565,
@@ -1138,7 +1213,8 @@
       "theme": "농업",
       "ranking": 76,
       "backgroundImage": "https://boardlife.co.kr/wys2/file_attach_thumb/2014/08/24/1408811136-42_N_800x800_100_6_.jpg",
-      "releaseYear": "2011"
+      "releaseYear": "2011",
+      "subTitle": "Village"
     },
     {
       "id": 12900,
@@ -1153,7 +1229,8 @@
       "theme": "판타지",
       "ranking": 77,
       "backgroundImage": "",
-      "releaseYear": "2020"
+      "releaseYear": "2020",
+      "subTitle": "Gloomhaven : Jaws of the Lion"
     },
     {
       "id": 4365,
@@ -1168,7 +1245,8 @@
       "theme": "여행",
       "ranking": 78,
       "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/01/08/1641623198318430_lg_N_800x800_100_6_.jpg",
-      "releaseYear": "2014"
+      "releaseYear": "2014",
+      "subTitle": "Orleans"
     },
     {
       "id": 883,
@@ -1183,7 +1261,8 @@
       "theme": "카드 게임",
       "ranking": 79,
       "backgroundImage": "https://boardlife.co.kr/wys2/file_attach_thumb/2014/02/18/1392725264-42_N_800x800_100_6_.jpg",
-      "releaseYear": "1992"
+      "releaseYear": "1992",
+      "subTitle": "Modern Art"
     },
     {
       "id": 6813,
@@ -1198,7 +1277,8 @@
       "theme": "판타지",
       "ranking": 80,
       "backgroundImage": "",
-      "releaseYear": "2016"
+      "releaseYear": "2016",
+      "subTitle": "Aeon's end"
     },
     {
       "id": 9450,
@@ -1213,7 +1293,8 @@
       "theme": "판타지",
       "ranking": 81,
       "backgroundImage": "",
-      "releaseYear": "2018"
+      "releaseYear": "2018",
+      "subTitle": "Root"
     },
     {
       "id": 9608,
@@ -1228,7 +1309,8 @@
       "theme": "판타지",
       "ranking": 82,
       "backgroundImage": "",
-      "releaseYear": "2018"
+      "releaseYear": "2018",
+      "subTitle": "Everdell"
     },
     {
       "id": 9918,
@@ -1243,7 +1325,8 @@
       "theme": "중세",
       "ranking": 83,
       "backgroundImage": "",
-      "releaseYear": "2018"
+      "releaseYear": "2018",
+      "subTitle": "War Chest"
     },
     {
       "id": 2501,
@@ -1258,7 +1341,8 @@
       "theme": "항해",
       "ranking": 84,
       "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2013/11/09/1383959922299_N_800x800_100_6_.jpg",
-      "releaseYear": "2013"
+      "releaseYear": "2013",
+      "subTitle": "Concordia"
     },
     {
       "id": 13512,
@@ -1273,7 +1357,8 @@
       "theme": "산업 / 제조",
       "ranking": 85,
       "backgroundImage": "",
-      "releaseYear": "2020"
+      "releaseYear": "2020",
+      "subTitle": "Carnegie"
     },
     {
       "id": 178,
@@ -1288,7 +1373,8 @@
       "theme": "기차",
       "ranking": 86,
       "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/09/05/1409922969378_N_800x800_100_6_.jpg",
-      "releaseYear": "2005"
+      "releaseYear": "2005",
+      "subTitle": "Ticket to Ride: Europe"
     },
     {
       "id": 175,
@@ -1303,7 +1389,8 @@
       "theme": "중세",
       "ranking": 87,
       "backgroundImage": "https://boardlife.co.kr/wys2/file_attach_thumb/2014/10/03/1412344687-86_N_800x800_100_6_.jpg",
-      "releaseYear": "2010"
+      "releaseYear": "2010",
+      "subTitle": "Troyes"
     },
     {
       "id": 809,
@@ -1318,7 +1405,8 @@
       "theme": "SF 공상 과학",
       "ranking": 88,
       "backgroundImage": "https://boardlife.co.kr/wys2/file_attach_thumb/2013/10/26/1382752985-1_N_800x800_100_6_.jpg",
-      "releaseYear": "2007"
+      "releaseYear": "2007",
+      "subTitle": "Race for the Galaxy"
     },
     {
       "id": 5516,
@@ -1333,7 +1421,8 @@
       "theme": "스파이/첩보원",
       "ranking": 89,
       "backgroundImage": "",
-      "releaseYear": "2015"
+      "releaseYear": "2015",
+      "subTitle": "Codenames"
     },
     {
       "id": 135,
@@ -1348,7 +1437,8 @@
       "theme": "영역 건설",
       "ranking": 90,
       "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/08/03/14070730724868_N_800x800_100_6_.jpg",
-      "releaseYear": "2000"
+      "releaseYear": "2000",
+      "subTitle": "Carcassonne"
     },
     {
       "id": 5588,
@@ -1363,7 +1453,8 @@
       "theme": "경제",
       "ranking": 91,
       "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/01/09/1641718986728344_lg_N_800x800_100_6_.jpg",
-      "releaseYear": "2015"
+      "releaseYear": "2015",
+      "subTitle": "Stockpile"
     },
     {
       "id": 9737,
@@ -1378,7 +1469,8 @@
       "theme": "중세",
       "ranking": 92,
       "backgroundImage": "",
-      "releaseYear": "2018"
+      "releaseYear": "2018",
+      "subTitle": "The Quacks of Quedlinburg"
     },
     {
       "id": 13348,
@@ -1393,7 +1485,8 @@
       "theme": "퍼즐",
       "ranking": 93,
       "backgroundImage": "",
-      "releaseYear": "2021"
+      "releaseYear": "2021",
+      "subTitle": "Cascadia"
     },
     {
       "id": 13486,
@@ -1408,7 +1501,8 @@
       "theme": "SF 공상 과학",
       "ranking": 94,
       "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/01/09/1641718695364861_lg_N_800x800_100_6_.jpg",
-      "releaseYear": "2020"
+      "releaseYear": "2020",
+      "subTitle": "Dune: Imperium"
     },
     {
       "id": 816,
@@ -1423,7 +1517,8 @@
       "theme": "판타지",
       "ranking": 95,
       "backgroundImage": "",
-      "releaseYear": "2012"
+      "releaseYear": "2012",
+      "subTitle": "Descent: Journeys in the Dark (Second Edition)"
     },
     {
       "id": 4082,
@@ -1438,7 +1533,8 @@
       "theme": "영역 건설",
       "ranking": 96,
       "backgroundImage": "",
-      "releaseYear": "1999"
+      "releaseYear": "1999",
+      "subTitle": "Acquire"
     },
     {
       "id": 274,
@@ -1453,7 +1549,8 @@
       "theme": "협상",
       "ranking": 97,
       "backgroundImage": "",
-      "releaseYear": "1995"
+      "releaseYear": "1995",
+      "subTitle": "The Settlers of Catan"
     },
     {
       "id": 812,
@@ -1468,7 +1565,8 @@
       "theme": "판타지",
       "ranking": 98,
       "backgroundImage": "",
-      "releaseYear": "2011"
+      "releaseYear": "2011",
+      "subTitle": "A Game of Thrones: The Board Game (Second Edition)"
     },
     {
       "id": 116,
@@ -1483,7 +1581,8 @@
       "theme": "영역 건설",
       "ranking": 99,
       "backgroundImage": "https://boardlife.co.kr/wys2/file_attach_thumb/2014/11/16/1416140808-62_N_800x800_100_6_.jpg",
-      "releaseYear": "1999"
+      "releaseYear": "1999",
+      "subTitle": "Tikal"
     },
     {
       "id": 3163,
@@ -1498,7 +1597,8 @@
       "theme": "판타지",
       "ranking": 100,
       "backgroundImage": "",
-      "releaseYear": "2011"
+      "releaseYear": "2011",
+      "subTitle": "Heart of Crown"
     },
     {
       "id": 10971,
@@ -1513,7 +1613,8 @@
       "theme": "퍼즐",
       "ranking": 101,
       "backgroundImage": "",
-      "releaseYear": "2018"
+      "releaseYear": "2018",
+      "subTitle": "A Feast for Odin: The Norwegians"
     },
     {
       "id": 2991,
@@ -1528,7 +1629,8 @@
       "theme": "추상전략",
       "ranking": 102,
       "backgroundImage": "",
-      "releaseYear": "2002"
+      "releaseYear": "2002",
+      "subTitle": "Go"
     },
     {
       "id": 5963,
@@ -1543,7 +1645,8 @@
       "theme": "산업 / 제조",
       "ranking": 103,
       "backgroundImage": "",
-      "releaseYear": "2017"
+      "releaseYear": "2017",
+      "subTitle": "Lisboa"
     },
     {
       "id": 172,
@@ -1558,7 +1661,8 @@
       "theme": "신화",
       "ranking": 104,
       "backgroundImage": "",
-      "releaseYear": "1999"
+      "releaseYear": "1999",
+      "subTitle": "RA"
     },
     {
       "id": 10647,
@@ -1573,7 +1677,8 @@
       "theme": "판타지",
       "ranking": 105,
       "backgroundImage": "",
-      "releaseYear": "2019"
+      "releaseYear": "2019",
+      "subTitle": "Aeon's End"
     },
     {
       "id": 2542,
@@ -1588,7 +1693,8 @@
       "theme": "문명",
       "ranking": 106,
       "backgroundImage": "",
-      "releaseYear": "2013"
+      "releaseYear": "2013",
+      "subTitle": "Nations"
     },
     {
       "id": 5352,
@@ -1603,7 +1709,8 @@
       "theme": "살인/미스터리",
       "ranking": 107,
       "backgroundImage": "",
-      "releaseYear": "2014"
+      "releaseYear": "2014",
+      "subTitle": "Deception: Murder in Hong Kong"
     },
     {
       "id": 4438,
@@ -1618,7 +1725,8 @@
       "theme": "이성 시대",
       "ranking": 108,
       "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/12/16/1671202454461175_lg_N_800x800_100_6_.jpg",
-      "releaseYear": "2014"
+      "releaseYear": "2014",
+      "subTitle": "Saint Petersburg (Second Edition)"
     },
     {
       "id": 11939,
@@ -1633,7 +1741,8 @@
       "theme": "여행",
       "ranking": 109,
       "backgroundImage": "",
-      "releaseYear": "2019"
+      "releaseYear": "2019",
+      "subTitle": "Marco Polo II: In the Service of the Khan"
     },
     {
       "id": 4701,
@@ -1648,7 +1757,8 @@
       "theme": "판타지",
       "ranking": 110,
       "backgroundImage": "",
-      "releaseYear": "2014"
+      "releaseYear": "2014",
+      "subTitle": "Trickerion: Legends of Illusion"
     },
     {
       "id": 11586,
@@ -1663,7 +1773,8 @@
       "theme": "정치",
       "ranking": 111,
       "backgroundImage": "",
-      "releaseYear": "2019"
+      "releaseYear": "2019",
+      "subTitle": "Watergate"
     },
     {
       "id": 423,
@@ -1678,7 +1789,8 @@
       "theme": "살인/미스터리",
       "ranking": 112,
       "backgroundImage": "",
-      "releaseYear": "2011"
+      "releaseYear": "2011",
+      "subTitle": "Letters from Whitechapel"
     },
     {
       "id": 977,
@@ -1693,7 +1805,8 @@
       "theme": "시민 전쟁",
       "ranking": 113,
       "backgroundImage": "",
-      "releaseYear": "2011"
+      "releaseYear": "2011",
+      "subTitle": "Sekigahara: The Unification of Japan"
     },
     {
       "id": 448,
@@ -1708,7 +1821,8 @@
       "theme": "영역 건설",
       "ranking": 114,
       "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/03/10/13944083812303_N_800x800_100_6_.jpg",
-      "releaseYear": "1997"
+      "releaseYear": "1997",
+      "subTitle": "Tigris & Euphrates"
     },
     {
       "id": 84,
@@ -1723,7 +1837,8 @@
       "theme": "의학",
       "ranking": 115,
       "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/01/08/1641624056483675_lg_N_800x800_100_6_.jpg",
-      "releaseYear": "2008"
+      "releaseYear": "2008",
+      "subTitle": "Pandemic"
     },
     {
       "id": 876,
@@ -1738,7 +1853,8 @@
       "theme": "판타지",
       "ranking": 116,
       "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/01/27/1390785488543_N_800x800_100_6_.jpg",
-      "releaseYear": "2006"
+      "releaseYear": "2006",
+      "subTitle": "Lord of the Rings: The Confrontation"
     },
     {
       "id": 5323,
@@ -1753,7 +1869,8 @@
       "theme": "SF 공상 과학",
       "ranking": 117,
       "backgroundImage": "",
-      "releaseYear": "2015"
+      "releaseYear": "2015",
+      "subTitle": "T.I.M.E Stories"
     },
     {
       "id": 566,
@@ -1768,7 +1885,8 @@
       "theme": "판타지",
       "ranking": 118,
       "backgroundImage": "",
-      "releaseYear": "2012"
+      "releaseYear": "2012",
+      "subTitle": "Lords of Waterdeep"
     },
     {
       "id": 9830,
@@ -1783,7 +1901,8 @@
       "theme": "SF 공상 과학",
       "ranking": 119,
       "backgroundImage": "",
-      "releaseYear": "2018"
+      "releaseYear": "2018",
+      "subTitle": "Underwater Cities"
     },
     {
       "id": 9032,
@@ -1798,7 +1917,8 @@
       "theme": "퍼즐",
       "ranking": 120,
       "backgroundImage": "",
-      "releaseYear": "2017"
+      "releaseYear": "2017",
+      "subTitle": "Azul"
     },
     {
       "id": 2233,
@@ -1813,7 +1933,8 @@
       "theme": "SF 공상 과학",
       "ranking": 121,
       "backgroundImage": "",
-      "releaseYear": "2013"
+      "releaseYear": "2013",
+      "subTitle": "Roll for the Galaxy"
     },
     {
       "id": 599,
@@ -1828,7 +1949,8 @@
       "theme": "문명",
       "ranking": 122,
       "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/02/09/13918756607923_N_800x800_100_6_.jpg",
-      "releaseYear": "2011"
+      "releaseYear": "2011",
+      "subTitle": "Eclipse: New Dawn for the Galaxy"
     },
     {
       "id": 4381,
@@ -1843,7 +1965,8 @@
       "theme": "판타지",
       "ranking": 123,
       "backgroundImage": "",
-      "releaseYear": "1993"
+      "releaseYear": "1993",
+      "subTitle": "Magic: The Gathering"
     },
     {
       "id": 14,
@@ -1858,7 +1981,8 @@
       "theme": "유머",
       "ranking": 124,
       "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2013/12/11/13867704173042_N_800x800_100_6_.jpg",
-      "releaseYear": "2008"
+      "releaseYear": "2008",
+      "subTitle": "Dixit"
     },
     {
       "id": 577,
@@ -1873,7 +1997,8 @@
       "theme": "추상전략",
       "ranking": 125,
       "backgroundImage": "https://boardlife.co.kr/wys2/file_attach_thumb/2013/08/29/1377766183-7_N_800x800_100_6_.jpg",
-      "releaseYear": "2003"
+      "releaseYear": "2003",
+      "subTitle": "Yinsh"
     },
     {
       "id": 9909,
@@ -1888,7 +2013,8 @@
       "theme": "SF 공상 과학",
       "ranking": 126,
       "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/02/16/1644987047441706_lg_N_800x800_100_6_.jpg",
-      "releaseYear": "2018"
+      "releaseYear": "2018",
+      "subTitle": "Nemesis"
     },
     {
       "id": 12056,
@@ -1903,7 +2029,8 @@
       "theme": "산업 / 제조",
       "ranking": 127,
       "backgroundImage": "",
-      "releaseYear": "2019"
+      "releaseYear": "2019",
+      "subTitle": "Barrage: The Leeghwater Project"
     },
     {
       "id": 6676,
@@ -1918,7 +2045,8 @@
       "theme": "비디오 게임 테마",
       "ranking": 128,
       "backgroundImage": "",
-      "releaseYear": "2016"
+      "releaseYear": "2016",
+      "subTitle": "This War of Mine: The Board Game"
     },
     {
       "id": 4179,
@@ -1933,7 +2061,8 @@
       "theme": "농업",
       "ranking": 129,
       "backgroundImage": "https://boardlife.co.kr/wys2/file_attach_thumb/2014/12/21/1419132739-78_N_800x800_100_6_.jpg",
-      "releaseYear": "2014"
+      "releaseYear": "2014",
+      "subTitle": "Fields of Arle"
     },
     {
       "id": 6061,
@@ -1948,7 +2077,8 @@
       "theme": "여행",
       "ranking": 130,
       "backgroundImage": "",
-      "releaseYear": "2015"
+      "releaseYear": "2015",
+      "subTitle": "Orleans: Deluxe Edition"
     },
     {
       "id": 414,
@@ -1963,7 +2093,8 @@
       "theme": "판타지",
       "ranking": 131,
       "backgroundImage": "",
-      "releaseYear": "2011"
+      "releaseYear": "2011",
+      "subTitle": "Mansions of Madness"
     },
     {
       "id": 992,
@@ -1978,7 +2109,8 @@
       "theme": "도시 건설",
       "ranking": 132,
       "backgroundImage": "https://boardlife.co.kr/wys2/file_attach_thumb/2014/10/16/1413412942-24_N_800x800_100_6_.jpeg",
-      "releaseYear": "1999"
+      "releaseYear": "1999",
+      "subTitle": "Chinatown"
     },
     {
       "id": 4368,
@@ -1993,7 +2125,8 @@
       "theme": "퍼즐",
       "ranking": 133,
       "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/11/17/14162307679486_N_800x800_100_6_.jpg",
-      "releaseYear": "2014"
+      "releaseYear": "2014",
+      "subTitle": "Patchwork"
     },
     {
       "id": 2248,
@@ -2008,7 +2141,8 @@
       "theme": "판타지",
       "ranking": 134,
       "backgroundImage": "",
-      "releaseYear": "2013"
+      "releaseYear": "2013",
+      "subTitle": "Pathfinder Adventure Card Game: Rise of the Runelords - Base Set"
     },
     {
       "id": 5311,
@@ -2023,7 +2157,8 @@
       "theme": "판타지",
       "ranking": 135,
       "backgroundImage": "",
-      "releaseYear": "2015"
+      "releaseYear": "2015",
+      "subTitle": "Blood Rage"
     },
     {
       "id": 589,
@@ -2038,7 +2173,8 @@
       "theme": "공포",
       "ranking": 136,
       "backgroundImage": "",
-      "releaseYear": "2012"
+      "releaseYear": "2012",
+      "subTitle": "Zombicide"
     },
     {
       "id": 9992,
@@ -2053,7 +2189,8 @@
       "theme": "항해",
       "ranking": 137,
       "backgroundImage": "",
-      "releaseYear": "2018"
+      "releaseYear": "2018",
+      "subTitle": "Endeavor: Age of sail"
     },
     {
       "id": 4374,
@@ -2068,7 +2205,8 @@
       "theme": "퍼즐",
       "ranking": 138,
       "backgroundImage": "",
-      "releaseYear": "2014"
+      "releaseYear": "2014",
+      "subTitle": "Castles of Mad King Ludwig"
     },
     {
       "id": 2500,
@@ -2083,7 +2221,8 @@
       "theme": "공포",
       "ranking": 139,
       "backgroundImage": "",
-      "releaseYear": "2014"
+      "releaseYear": "2014",
+      "subTitle": "One Night Ultimate Werewolf"
     },
     {
       "id": 3764,
@@ -2098,7 +2237,8 @@
       "theme": "경제",
       "ranking": 140,
       "backgroundImage": "",
-      "releaseYear": "2014"
+      "releaseYear": "2014",
+      "subTitle": "Istanbul"
     },
     {
       "id": 968,
@@ -2113,7 +2253,8 @@
       "theme": "중세",
       "ranking": 141,
       "backgroundImage": "https://boardlife.co.kr/wys2/file_attach_thumb/2014/10/17/1413511880-66_N_800x800_100_6_.jpg",
-      "releaseYear": "1995"
+      "releaseYear": "1995",
+      "subTitle": "The Great Dalmuti"
     },
     {
       "id": 13424,
@@ -2128,7 +2269,8 @@
       "theme": "SF 공상 과학",
       "ranking": 142,
       "backgroundImage": "",
-      "releaseYear": "2020"
+      "releaseYear": "2020",
+      "subTitle": "Eclipse : Second Dawn for the Galaxy"
     },
     {
       "id": 221,
@@ -2143,7 +2285,8 @@
       "theme": "르네상스",
       "ranking": 143,
       "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2013/09/10/13788215031889_N_800x800_100_6_.jpg",
-      "releaseYear": "1995"
+      "releaseYear": "1995",
+      "subTitle": "El Grande"
     },
     {
       "id": 9772,
@@ -2158,7 +2301,8 @@
       "theme": "스파이/첩보원",
       "ranking": 144,
       "backgroundImage": "",
-      "releaseYear": "2018"
+      "releaseYear": "2018",
+      "subTitle": "Decrypto"
     },
     {
       "id": 513,
@@ -2173,7 +2317,8 @@
       "theme": "공포",
       "ranking": 145,
       "backgroundImage": "",
-      "releaseYear": "2005"
+      "releaseYear": "2005",
+      "subTitle": "Arkham Horror"
     },
     {
       "id": 81,
@@ -2188,7 +2333,8 @@
       "theme": "르네상스",
       "ranking": 146,
       "backgroundImage": "",
-      "releaseYear": "2012"
+      "releaseYear": "2012",
+      "subTitle": "Love Letter"
     },
     {
       "id": 9509,
@@ -2203,7 +2349,8 @@
       "theme": "도시 건설",
       "ranking": 147,
       "backgroundImage": "",
-      "releaseYear": "2018"
+      "releaseYear": "2018",
+      "subTitle": "Architects of the West Kingdom"
     },
     {
       "id": 4680,
@@ -2218,7 +2365,8 @@
       "theme": "판타지",
       "ranking": 148,
       "backgroundImage": "",
-      "releaseYear": "2015"
+      "releaseYear": "2015",
+      "subTitle": "Broom Service"
     },
     {
       "id": 1084,
@@ -2233,7 +2381,8 @@
       "theme": "항해",
       "ranking": 149,
       "backgroundImage": "",
-      "releaseYear": "2005"
+      "releaseYear": "2005",
+      "subTitle": "Manila"
     },
     {
       "id": 4065,
@@ -2248,7 +2397,8 @@
       "theme": "농업",
       "ranking": 150,
       "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/09/14/14106516184859_N_800x800_100_6_.jpg",
-      "releaseYear": "2014"
+      "releaseYear": "2014",
+      "subTitle": "La Granja"
     },
     {
       "id": 10349,
@@ -2263,7 +2413,8 @@
       "theme": "판타지",
       "ranking": 151,
       "backgroundImage": "",
-      "releaseYear": "2019"
+      "releaseYear": "2019",
+      "subTitle": "Tainted Grail: Fall of Avalon"
     },
     {
       "id": 258,
@@ -2278,7 +2429,8 @@
       "theme": "영역 건설",
       "ranking": 152,
       "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2013/10/17/13820128525551_N_800x800_100_6_.jpg",
-      "releaseYear": "2011"
+      "releaseYear": "2011",
+      "subTitle": "Ora et Labora"
     },
     {
       "id": 583,
@@ -2293,7 +2445,8 @@
       "theme": "도시 건설",
       "ranking": 153,
       "backgroundImage": "",
-      "releaseYear": "2012"
+      "releaseYear": "2012",
+      "subTitle": "Suburbia"
     },
     {
       "id": 581,
@@ -2308,7 +2461,8 @@
       "theme": "고대",
       "ranking": 154,
       "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2013/10/18/13820222687152_N_800x800_100_6_.jpg",
-      "releaseYear": "2000"
+      "releaseYear": "2000",
+      "subTitle": "Battle Line"
     },
     {
       "id": 7735,
@@ -2323,7 +2477,8 @@
       "theme": "영역 건설",
       "ranking": 155,
       "backgroundImage": "",
-      "releaseYear": "2016"
+      "releaseYear": "2016",
+      "subTitle": "Acquire"
     },
     {
       "id": 187,
@@ -2338,7 +2493,8 @@
       "theme": "판타지",
       "ranking": 156,
       "backgroundImage": "",
-      "releaseYear": "2009"
+      "releaseYear": "2009",
+      "subTitle": "Small World"
     },
     {
       "id": 9852,
@@ -2353,7 +2509,8 @@
       "theme": "르네상스",
       "ranking": 157,
       "backgroundImage": "",
-      "releaseYear": "2018"
+      "releaseYear": "2018",
+      "subTitle": "Coimbra"
     },
     {
       "id": 11169,
@@ -2368,7 +2525,8 @@
       "theme": "운송",
       "ranking": 158,
       "backgroundImage": "",
-      "releaseYear": "2019"
+      "releaseYear": "2019",
+      "subTitle": "     Age of Steam: Deluxe Edition"
     },
     {
       "id": 9789,
@@ -2383,7 +2541,8 @@
       "theme": "SF 공상 과학",
       "ranking": 159,
       "backgroundImage": "",
-      "releaseYear": "2018"
+      "releaseYear": "2018",
+      "subTitle": "Gizmos"
     },
     {
       "id": 230,
@@ -2398,7 +2557,8 @@
       "theme": "르네상스",
       "ranking": 160,
       "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/08/14/14079980023483_N_800x800_100_6_.jpg",
-      "releaseYear": "2000"
+      "releaseYear": "2000",
+      "subTitle": "The Princes of Florence"
     },
     {
       "id": 9147,
@@ -2413,7 +2573,8 @@
       "theme": "SF 공상 과학",
       "ranking": 161,
       "backgroundImage": "",
-      "releaseYear": "2017"
+      "releaseYear": "2017",
+      "subTitle": "Twilight Imperium: Fourth Edition"
     },
     {
       "id": 83,
@@ -2428,7 +2589,8 @@
       "theme": "영역 건설",
       "ranking": 162,
       "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2013/08/28/13776970141163_N_800x800_100_6_.jpg",
-      "releaseYear": "2012"
+      "releaseYear": "2012",
+      "subTitle": "Keyflower"
     },
     {
       "id": 10039,
@@ -2443,7 +2605,8 @@
       "theme": "살인/미스터리",
       "ranking": 163,
       "backgroundImage": "",
-      "releaseYear": "2018"
+      "releaseYear": "2018",
+      "subTitle": "Detective: A Modern Crime Board Game"
     },
     {
       "id": 8595,
@@ -2458,7 +2621,8 @@
       "theme": "소설-기반",
       "ranking": 164,
       "backgroundImage": "",
-      "releaseYear": "2015"
+      "releaseYear": "2015",
+      "subTitle": "Watson & Holmes"
     },
     {
       "id": 375,
@@ -2473,7 +2637,8 @@
       "theme": "중세",
       "ranking": 165,
       "backgroundImage": "https://boardlife.co.kr/wys2/file_attach_thumb/2014/11/03/1414941175-34_N_800x800_100_6_.jpg",
-      "releaseYear": "2009"
+      "releaseYear": "2009",
+      "subTitle": "Hansa Teutonica"
     },
     {
       "id": 369,
@@ -2488,7 +2653,8 @@
       "theme": "항해",
       "ranking": 166,
       "backgroundImage": "https://boardlife.co.kr/wys2/file_attach_thumb/2014/06/02/1401712982-66_N_800x800_100_6_.jpg",
-      "releaseYear": "1982"
+      "releaseYear": "1982",
+      "subTitle": "Survive: Escape from Atlantis!"
     },
     {
       "id": 214,
@@ -2503,7 +2669,8 @@
       "theme": "선사",
       "ranking": 167,
       "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/06/08/14021858939804_N_800x800_100_6_.jpg",
-      "releaseYear": "2008"
+      "releaseYear": "2008",
+      "subTitle": "Stone Age"
     },
     {
       "id": 9814,
@@ -2518,7 +2685,8 @@
       "theme": "SF 공상 과학",
       "ranking": 168,
       "backgroundImage": "",
-      "releaseYear": "2019"
+      "releaseYear": "2019",
+      "subTitle": "On Mars"
     },
     {
       "id": 3640,
@@ -2533,7 +2701,8 @@
       "theme": "산업 / 제조",
       "ranking": 169,
       "backgroundImage": "",
-      "releaseYear": "2014"
+      "releaseYear": "2014",
+      "subTitle": "Kanban: Automotive Revolution"
     },
     {
       "id": 817,
@@ -2548,7 +2717,8 @@
       "theme": "농업",
       "ranking": 170,
       "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/06/09/14022485854699_N_800x800_100_6_.jpg",
-      "releaseYear": "2004"
+      "releaseYear": "2004",
+      "subTitle": "Goa"
     },
     {
       "id": 9790,
@@ -2563,7 +2733,8 @@
       "theme": "공포",
       "ranking": 171,
       "backgroundImage": "",
-      "releaseYear": "2018"
+      "releaseYear": "2018",
+      "subTitle": "Arkham Horror (Third Edition)"
     },
     {
       "id": 535,
@@ -2578,7 +2749,8 @@
       "theme": "농업",
       "ranking": 172,
       "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/08/03/14070738835684_N_800x800_100_6_.jpg",
-      "releaseYear": "1997"
+      "releaseYear": "1997",
+      "subTitle": "Bohnanza"
     },
     {
       "id": 396,
@@ -2593,7 +2765,8 @@
       "theme": "항해",
       "ranking": 173,
       "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/12/17/14187853341816_N_800x800_100_6_.jpg",
-      "releaseYear": "2010"
+      "releaseYear": "2010",
+      "subTitle": "Navegador"
     },
     {
       "id": 5972,
@@ -2608,7 +2781,8 @@
       "theme": "카드 게임",
       "ranking": 174,
       "backgroundImage": "",
-      "releaseYear": "2015"
+      "releaseYear": "2015",
+      "subTitle": "Portal of Heroes"
     },
     {
       "id": 7707,
@@ -2623,7 +2797,8 @@
       "theme": "기차",
       "ranking": 175,
       "backgroundImage": "",
-      "releaseYear": "2016"
+      "releaseYear": "2016",
+      "subTitle": "First Class: All Aboard the Orient Express"
     },
     {
       "id": 3237,
@@ -2638,7 +2813,8 @@
       "theme": "카드 게임",
       "ranking": 176,
       "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/02/02/13913145043365_N_800x800_100_6_.jpg",
-      "releaseYear": "1994"
+      "releaseYear": "1994",
+      "subTitle": "6 nimmt!"
     },
     {
       "id": 226,
@@ -2653,7 +2829,8 @@
       "theme": "제1차 세계 대전",
       "ranking": 177,
       "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/01/28/1643304563071141_lg_N_800x800_100_6_.jpg",
-      "releaseYear": "1999"
+      "releaseYear": "1999",
+      "subTitle": "Paths of Glory"
     },
     {
       "id": 7929,
@@ -2668,7 +2845,8 @@
       "theme": "퍼즐",
       "ranking": 178,
       "backgroundImage": "",
-      "releaseYear": "2017"
+      "releaseYear": "2017",
+      "subTitle": "Unlock!: Escape Adventures"
     },
     {
       "id": 3779,
@@ -2683,7 +2861,8 @@
       "theme": "SF 공상 과학",
       "ranking": 179,
       "backgroundImage": "",
-      "releaseYear": "2014"
+      "releaseYear": "2014",
+      "subTitle": "Star Realms"
     },
     {
       "id": 416,
@@ -2698,7 +2877,8 @@
       "theme": "이성 시대",
       "ranking": 180,
       "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2013/12/30/13883314489986_N_800x800_100_6_.jpg",
-      "releaseYear": "2004"
+      "releaseYear": "2004",
+      "subTitle": "Saint Petersburg"
     },
     {
       "id": 542,
@@ -2713,7 +2893,8 @@
       "theme": "영역 건설",
       "ranking": 181,
       "backgroundImage": "",
-      "releaseYear": "1962"
+      "releaseYear": "1962",
+      "subTitle": "Acquire"
     },
     {
       "id": 8223,
@@ -2728,7 +2909,8 @@
       "theme": "중세",
       "ranking": 182,
       "backgroundImage": "",
-      "releaseYear": "2017"
+      "releaseYear": "2017",
+      "subTitle": "Century: Spice Road"
     },
     {
       "id": 4281,
@@ -2743,7 +2925,8 @@
       "theme": "산업 / 제조",
       "ranking": 183,
       "backgroundImage": "",
-      "releaseYear": "2014"
+      "releaseYear": "2014",
+      "subTitle": "Power Grid Deluxe: Europe/North America"
     },
     {
       "id": 9684,
@@ -2758,7 +2941,8 @@
       "theme": "숫자",
       "ranking": 184,
       "backgroundImage": "",
-      "releaseYear": "2018"
+      "releaseYear": "2018",
+      "subTitle": "The Mind"
     },
     {
       "id": 9742,
@@ -2773,7 +2957,8 @@
       "theme": "여행",
       "ranking": 185,
       "backgroundImage": "",
-      "releaseYear": "2018"
+      "releaseYear": "2018",
+      "subTitle": "Newton"
     },
     {
       "id": 8947,
@@ -2788,7 +2973,8 @@
       "theme": "농업",
       "ranking": 186,
       "backgroundImage": "",
-      "releaseYear": "2017"
+      "releaseYear": "2017",
+      "subTitle": "Heaven & Ale"
     },
     {
       "id": 5005,
@@ -2803,7 +2989,8 @@
       "theme": "판타지",
       "ranking": 187,
       "backgroundImage": "",
-      "releaseYear": "2015"
+      "releaseYear": "2015",
+      "subTitle": "Zombicide: Black Plague"
     },
     {
       "id": 1487,
@@ -2818,7 +3005,8 @@
       "theme": "판타지",
       "ranking": 188,
       "backgroundImage": "https://boardlife.co.kr/wys2/file_attach_thumb/2013/10/11/1381501290-84_N_800x800_100_6_.jpg",
-      "releaseYear": "2009"
+      "releaseYear": "2009",
+      "subTitle": "Tales of the Arabian Nights"
     },
     {
       "id": 10012,
@@ -2833,7 +3021,8 @@
       "theme": "판타지",
       "ranking": 189,
       "backgroundImage": "",
-      "releaseYear": "2019"
+      "releaseYear": "2019",
+      "subTitle": "Cthulhu: Death May Die"
     },
     {
       "id": 5738,
@@ -2848,7 +3037,8 @@
       "theme": "핸드 관리",
       "ranking": 190,
       "backgroundImage": "",
-      "releaseYear": "2004"
+      "releaseYear": "2004",
+      "subTitle": "LEXIO"
     },
     {
       "id": 2142,
@@ -2863,7 +3053,8 @@
       "theme": "경제",
       "ranking": 191,
       "backgroundImage": "",
-      "releaseYear": "2010"
+      "releaseYear": "2010",
+      "subTitle": "Black Friday"
     },
     {
       "id": 5270,
@@ -2878,7 +3069,8 @@
       "theme": "중세",
       "ranking": 192,
       "backgroundImage": "",
-      "releaseYear": "1998"
+      "releaseYear": "1998",
+      "subTitle": "Samurai"
     },
     {
       "id": 1324,
@@ -2893,7 +3085,8 @@
       "theme": "아라비안",
       "ranking": 193,
       "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/07/11/14050508453165_N_800x800_100_6_.jpg",
-      "releaseYear": "2012"
+      "releaseYear": "2012",
+      "subTitle": "Targi"
     },
     {
       "id": 177,
@@ -2908,7 +3101,8 @@
       "theme": "SF 공상 과학",
       "ranking": 194,
       "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/11/21/14165325904968_N_800x800_100_6_.jpg",
-      "releaseYear": "2008"
+      "releaseYear": "2008",
+      "subTitle": "Battlestar Galactica: The Board Game"
     },
     {
       "id": 9344,
@@ -2923,7 +3117,8 @@
       "theme": "판타지",
       "ranking": 195,
       "backgroundImage": "",
-      "releaseYear": "2017"
+      "releaseYear": "2017",
+      "subTitle": "Century: Golem Edition"
     },
     {
       "id": 181,
@@ -2938,7 +3133,8 @@
       "theme": "운송",
       "ranking": 196,
       "backgroundImage": "",
-      "releaseYear": "2009"
+      "releaseYear": "2009",
+      "subTitle": "Steam"
     },
     {
       "id": 7820,
@@ -2953,7 +3149,8 @@
       "theme": "블러핑",
       "ranking": 197,
       "backgroundImage": "",
-      "releaseYear": "2016"
+      "releaseYear": "2016",
+      "subTitle": "Love Letter"
     },
     {
       "id": 553,
@@ -2968,7 +3165,8 @@
       "theme": "운송",
       "ranking": 198,
       "backgroundImage": "",
-      "releaseYear": "1986"
+      "releaseYear": "1986",
+      "subTitle": "1830: Railways & Robber Barons"
     },
     {
       "id": 5978,
@@ -2983,7 +3181,8 @@
       "theme": "레이싱",
       "ranking": 199,
       "backgroundImage": "",
-      "releaseYear": "2016"
+      "releaseYear": "2016",
+      "subTitle": "Winner's Circle"
     },
     {
       "id": 6131,
@@ -2998,7 +3197,8 @@
       "theme": "정치",
       "ranking": 200,
       "backgroundImage": "",
-      "releaseYear": "2016"
+      "releaseYear": "2016",
+      "subTitle": "Secret Hitler"
     },
     {
       "id": 359,
@@ -3013,7 +3213,8 @@
       "theme": "퍼즐",
       "ranking": 201,
       "backgroundImage": "",
-      "releaseYear": "2009"
+      "releaseYear": "2009",
+      "subTitle": "Ubongo 3D"
     },
     {
       "id": 733,
@@ -3028,7 +3229,8 @@
       "theme": "퍼즐",
       "ranking": 202,
       "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2013/07/21/13743918419684_N_800x800_100_6_.jpg",
-      "releaseYear": "1999"
+      "releaseYear": "1999",
+      "subTitle": "Ricochet Robots"
     },
     {
       "id": 12,
@@ -3043,7 +3245,8 @@
       "theme": "기차",
       "ranking": 203,
       "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/03/30/13961912708666_N_800x800_100_6_.jpg",
-      "releaseYear": "2004"
+      "releaseYear": "2004",
+      "subTitle": "Ticket to Ride"
     },
     {
       "id": 11108,
@@ -3058,7 +3261,8 @@
       "theme": "주사위",
       "ranking": 204,
       "backgroundImage": "",
-      "releaseYear": "2019"
+      "releaseYear": "2019",
+      "subTitle": "Las Vegas Royale"
     },
     {
       "id": 5919,
@@ -3073,7 +3277,8 @@
       "theme": "SF 공상 과학",
       "ranking": 205,
       "backgroundImage": "",
-      "releaseYear": "2016"
+      "releaseYear": "2016",
+      "subTitle": "The 7th Continent"
     },
     {
       "id": 5657,
@@ -3088,7 +3293,8 @@
       "theme": "경제",
       "ranking": 206,
       "backgroundImage": "",
-      "releaseYear": "2015"
+      "releaseYear": "2015",
+      "subTitle": "Mombasa"
     },
     {
       "id": 533,
@@ -3103,7 +3309,8 @@
       "theme": "동물",
       "ranking": 207,
       "backgroundImage": "",
-      "releaseYear": "2009"
+      "releaseYear": "2009",
+      "subTitle": "Jaipur"
     },
     {
       "id": 224,
@@ -3118,7 +3325,8 @@
       "theme": "협상",
       "ranking": 208,
       "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/02/04/13914412696144_N_800x800_100_6_.jpg",
-      "releaseYear": "1994"
+      "releaseYear": "1994",
+      "subTitle": "I'm the Boss!"
     },
     {
       "id": 3961,
@@ -3133,7 +3341,8 @@
       "theme": "살인/미스터리",
       "ranking": 209,
       "backgroundImage": "",
-      "releaseYear": "2011"
+      "releaseYear": "2011",
+      "subTitle": "Tragedy Looper"
     },
     {
       "id": 2260,
@@ -3147,7 +3356,8 @@
       "difficulty": "2.58",
       "ranking": 210,
       "backgroundImage": "https://boardlife.co.kr/wys2/file_attach_thumb/2014/10/21/1413901028-27_N_800x800_100_6_.jpg",
-      "releaseYear": "2000"
+      "releaseYear": "2000",
+      "subTitle": "Carolus Magnus"
     },
     {
       "id": 7326,
@@ -3162,7 +3372,8 @@
       "theme": "판타지",
       "ranking": 211,
       "backgroundImage": "",
-      "releaseYear": "2016"
+      "releaseYear": "2016",
+      "subTitle": "Clank!: A Deck-Building Adventure"
     },
     {
       "id": 2061,
@@ -3177,7 +3388,8 @@
       "theme": "숫자",
       "ranking": 212,
       "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2013/09/03/13781654639700_N_800x800_100_6_.jpg",
-      "releaseYear": "1977"
+      "releaseYear": "1977",
+      "subTitle": "Rummikub"
     },
     {
       "id": 841,
@@ -3192,7 +3404,8 @@
       "theme": "항해",
       "ranking": 213,
       "backgroundImage": "",
-      "releaseYear": "2009"
+      "releaseYear": "2009",
+      "subTitle": "Endeavor"
     },
     {
       "id": 8100,
@@ -3207,7 +3420,8 @@
       "theme": "숫자",
       "ranking": 214,
       "backgroundImage": "",
-      "releaseYear": "2016"
+      "releaseYear": "2016",
+      "subTitle": "Wind the Film!"
     },
     {
       "id": 93,
@@ -3222,7 +3436,8 @@
       "theme": "르네상스",
       "ranking": 215,
       "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2013/08/06/13757989969734_N_800x800_100_6_.jpg",
-      "releaseYear": "2007"
+      "releaseYear": "2007",
+      "subTitle": "Notre Dame"
     },
     {
       "id": 9929,
@@ -3237,7 +3452,8 @@
       "theme": "미국 서부",
       "ranking": 216,
       "backgroundImage": "",
-      "releaseYear": "2018"
+      "releaseYear": "2018",
+      "subTitle": "Great Western Trail: Rails to the North"
     },
     {
       "id": 4370,
@@ -3252,7 +3468,8 @@
       "theme": "핸드 관리",
       "ranking": 217,
       "backgroundImage": "https://boardlife.co.kr/wys2/file_attach_thumb/2014/11/10/1415609370-28_N_800x800_100_6_.jpg",
-      "releaseYear": "2014"
+      "releaseYear": "2014",
+      "subTitle": "Mangrovia"
     },
     {
       "id": 5679,
@@ -3267,7 +3484,8 @@
       "theme": "판타지",
       "ranking": 218,
       "backgroundImage": "",
-      "releaseYear": "2015"
+      "releaseYear": "2015",
+      "subTitle": "Celestia"
     },
     {
       "id": 8809,
@@ -3282,7 +3500,8 @@
       "theme": "SF 공상 과학",
       "ranking": 219,
       "backgroundImage": "",
-      "releaseYear": "2017"
+      "releaseYear": "2017",
+      "subTitle": "Dinosaur Island"
     },
     {
       "id": 6552,
@@ -3297,7 +3516,8 @@
       "theme": "판타지",
       "ranking": 220,
       "backgroundImage": "",
-      "releaseYear": "2016"
+      "releaseYear": "2016",
+      "subTitle": "Too Many Bones"
     },
     {
       "id": 9107,
@@ -3312,7 +3532,8 @@
       "theme": "퍼즐",
       "ranking": 221,
       "backgroundImage": "",
-      "releaseYear": "2017"
+      "releaseYear": "2017",
+      "subTitle": "Barenpark"
     },
     {
       "id": 8710,
@@ -3327,7 +3548,8 @@
       "theme": "퍼즐",
       "ranking": 222,
       "backgroundImage": "",
-      "releaseYear": "2016"
+      "releaseYear": "2016",
+      "subTitle": "EXIT: The Game – The Abandoned Cabin"
     },
     {
       "id": 782,
@@ -3342,7 +3564,8 @@
       "theme": "판타지",
       "ranking": 223,
       "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/02/02/13913471115087_N_800x800_100_6_.jpg",
-      "releaseYear": "2012"
+      "releaseYear": "2012",
+      "subTitle": "Legends of Andor"
     },
     {
       "id": 7035,
@@ -3357,7 +3580,8 @@
       "theme": "판타지",
       "ranking": 224,
       "backgroundImage": "",
-      "releaseYear": "2016"
+      "releaseYear": "2016",
+      "subTitle": "Tyrants of the Underdark"
     },
     {
       "id": 784,
@@ -3372,7 +3596,8 @@
       "theme": "판타지",
       "ranking": 225,
       "backgroundImage": "https://boardlife.co.kr/wys2/file_attach_thumb/2014/04/07/1396843880-41_N_800x800_100_6_.jpg",
-      "releaseYear": "2012"
+      "releaseYear": "2012",
+      "subTitle": "Mage Wars Arena"
     },
     {
       "id": 442,
@@ -3387,7 +3612,8 @@
       "theme": "중세",
       "ranking": 226,
       "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/03/04/1393892077263_N_800x800_100_6_.jpg",
-      "releaseYear": "2011"
+      "releaseYear": "2011",
+      "subTitle": "Lancaster"
     },
     {
       "id": 76,
@@ -3402,7 +3628,8 @@
       "theme": "농업",
       "ranking": 227,
       "backgroundImage": "",
-      "releaseYear": "2009"
+      "releaseYear": "2009",
+      "subTitle": "Finca"
     },
     {
       "id": 119,
@@ -3417,7 +3644,8 @@
       "theme": "도시 건설",
       "ranking": 228,
       "backgroundImage": "",
-      "releaseYear": "2004"
+      "releaseYear": "2004",
+      "subTitle": "San Juan"
     },
     {
       "id": 9735,
@@ -3432,7 +3660,8 @@
       "theme": "숫자",
       "ranking": 229,
       "backgroundImage": "",
-      "releaseYear": "2018"
+      "releaseYear": "2018",
+      "subTitle": "That's Pretty Clever!"
     },
     {
       "id": 6841,
@@ -3447,7 +3676,8 @@
       "theme": "기차",
       "ranking": 230,
       "backgroundImage": "",
-      "releaseYear": "2016"
+      "releaseYear": "2016",
+      "subTitle": "Pandemic: Iberia"
     },
     {
       "id": 11849,
@@ -3462,7 +3692,8 @@
       "theme": "해적",
       "ranking": 231,
       "backgroundImage": "",
-      "releaseYear": "2019"
+      "releaseYear": "2019",
+      "subTitle": "Maracaibo"
     },
     {
       "id": 9868,
@@ -3477,7 +3708,8 @@
       "theme": "도시 건설",
       "ranking": 232,
       "backgroundImage": "",
-      "releaseYear": "2018"
+      "releaseYear": "2018",
+      "subTitle": "Welcome To..."
     },
     {
       "id": 2093,
@@ -3492,7 +3724,8 @@
       "theme": "농업",
       "ranking": 233,
       "backgroundImage": "",
-      "releaseYear": "2013"
+      "releaseYear": "2013",
+      "subTitle": "Viticulture"
     },
     {
       "id": 7328,
@@ -3507,7 +3740,8 @@
       "theme": "퍼즐",
       "ranking": 234,
       "backgroundImage": "",
-      "releaseYear": "2017"
+      "releaseYear": "2017",
+      "subTitle": "Sagrada"
     },
     {
       "id": 785,
@@ -3522,7 +3756,8 @@
       "theme": "SF 공상 과학",
       "ranking": 235,
       "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2013/12/07/13864114419860_N_800x800_100_6_.jpg",
-      "releaseYear": "2012"
+      "releaseYear": "2012",
+      "subTitle": "Star Wars: X-Wing Miniatures Game"
     },
     {
       "id": 5315,
@@ -3537,7 +3772,8 @@
       "theme": "카드 게임",
       "ranking": 236,
       "backgroundImage": "",
-      "releaseYear": "2014"
+      "releaseYear": "2014",
+      "subTitle": "Tichu Italian edition"
     },
     {
       "id": 357,
@@ -3552,7 +3788,8 @@
       "theme": "주사위",
       "ranking": 237,
       "backgroundImage": "",
-      "releaseYear": "2004"
+      "releaseYear": "2004",
+      "subTitle": "Tumblin' Dice"
     },
     {
       "id": 924,
@@ -3567,7 +3804,8 @@
       "theme": "산업 / 제조",
       "ranking": 238,
       "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/03/18/13951458682938_N_800x800_100_6_.jpg",
-      "releaseYear": "2008"
+      "releaseYear": "2008",
+      "subTitle": "Tinners' Trail"
     },
     {
       "id": 186,
@@ -3582,7 +3820,8 @@
       "theme": "판타지",
       "ranking": 239,
       "backgroundImage": "https://boardlife.co.kr/wys2/file_attach_thumb/2014/06/09/1402318962-97_N_800x800_100_6_.jpg",
-      "releaseYear": "2005"
+      "releaseYear": "2005",
+      "subTitle": "Shadows over Camelot"
     },
     {
       "id": 9319,
@@ -3597,7 +3836,8 @@
       "theme": "주사위",
       "ranking": 240,
       "backgroundImage": "",
-      "releaseYear": "2017"
+      "releaseYear": "2017",
+      "subTitle": "Istanbul: The Dice Game"
     },
     {
       "id": 6557,
@@ -3612,7 +3852,8 @@
       "theme": "동물",
       "ranking": 241,
       "backgroundImage": "",
-      "releaseYear": "2008"
+      "releaseYear": "2008",
+      "subTitle": "Penguin Party"
     },
     {
       "id": 2276,
@@ -3627,7 +3868,8 @@
       "theme": "미국 서부",
       "ranking": 242,
       "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/01/08/1641623868466828_lg_N_800x800_100_6_.jpg",
-      "releaseYear": "2013"
+      "releaseYear": "2013",
+      "subTitle": "Lewis & Clark"
     },
     {
       "id": 7523,
@@ -3642,7 +3884,8 @@
       "theme": "공포",
       "ranking": 243,
       "backgroundImage": "",
-      "releaseYear": "2014"
+      "releaseYear": "2014",
+      "subTitle": "Don't Mess with Cthulhu"
     },
     {
       "id": 5151,
@@ -3657,7 +3900,8 @@
       "theme": "영역 건설",
       "ranking": 244,
       "backgroundImage": "",
-      "releaseYear": "2015"
+      "releaseYear": "2015",
+      "subTitle": "Isle of Skye: From Chieftain to King"
     },
     {
       "id": 436,
@@ -3672,7 +3916,8 @@
       "theme": "판타지",
       "ranking": 245,
       "backgroundImage": "",
-      "releaseYear": "2011"
+      "releaseYear": "2011",
+      "subTitle": "The Lord of the Rings: The Card Game"
     },
     {
       "id": 13056,
@@ -3687,7 +3932,8 @@
       "theme": "신화",
       "ranking": 246,
       "backgroundImage": "",
-      "releaseYear": "2020"
+      "releaseYear": "2020",
+      "subTitle": "Tekhenu: Obelisk of the Sun"
     },
     {
       "id": 764,
@@ -3702,7 +3948,8 @@
       "theme": "판타지",
       "ranking": 247,
       "backgroundImage": "https://boardlife.co.kr/wys2/file_attach_thumb/2014/06/09/1402282962-58_N_800x800_100_6_.jpg",
-      "releaseYear": "2012"
+      "releaseYear": "2012",
+      "subTitle": "Mice and Mystics"
     },
     {
       "id": 6891,
@@ -3717,7 +3964,8 @@
       "theme": "SF 공상 과학",
       "ranking": 248,
       "backgroundImage": "",
-      "releaseYear": "2017"
+      "releaseYear": "2017",
+      "subTitle": "Anachrony"
     },
     {
       "id": 28,
@@ -3732,7 +3980,8 @@
       "theme": "주사위",
       "ranking": 249,
       "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/10/02/14122577105007_N_800x800_100_6_.jpg",
-      "releaseYear": "2013"
+      "releaseYear": "2013",
+      "subTitle": "Bora Bora"
     },
     {
       "id": 10049,
@@ -3747,7 +3996,8 @@
       "theme": "숫자",
       "ranking": 250,
       "backgroundImage": "",
-      "releaseYear": "2018"
+      "releaseYear": "2018",
+      "subTitle": "Suzume-Jong"
     },
     {
       "id": 3783,
@@ -3762,7 +4012,8 @@
       "theme": "교육",
       "ranking": 251,
       "backgroundImage": "",
-      "releaseYear": "2014"
+      "releaseYear": "2014",
+      "subTitle": "Evolution"
     },
     {
       "id": 3979,
@@ -3777,7 +4028,8 @@
       "theme": "레이싱",
       "ranking": 252,
       "backgroundImage": "",
-      "releaseYear": "2014"
+      "releaseYear": "2014",
+      "subTitle": "Camel Up"
     },
     {
       "id": 887,
@@ -3792,7 +4044,8 @@
       "theme": "정치",
       "ranking": 253,
       "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/01/28/1643304825176615_lg_N_800x800_100_6_.jpg",
-      "releaseYear": "2009"
+      "releaseYear": "2009",
+      "subTitle": "Maria"
     },
     {
       "id": 378,
@@ -3807,7 +4060,8 @@
       "theme": "레이싱",
       "ranking": 254,
       "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/05/04/1651624098515016_lg_N_800x800_100_6_.jpg",
-      "releaseYear": "2009"
+      "releaseYear": "2009",
+      "subTitle": "Long Shot"
     },
     {
       "id": 5892,
@@ -3822,7 +4076,8 @@
       "theme": "항해",
       "ranking": 255,
       "backgroundImage": "",
-      "releaseYear": "2015"
+      "releaseYear": "2015",
+      "subTitle": "Raiders of the North Sea"
     },
     {
       "id": 11856,
@@ -3837,7 +4092,8 @@
       "theme": "농업",
       "ranking": 256,
       "backgroundImage": "",
-      "releaseYear": "2014"
+      "releaseYear": "2014",
+      "subTitle": "Fields of Arle Big Box"
     },
     {
       "id": 5331,
@@ -3852,7 +4108,8 @@
       "theme": "르네상스",
       "ranking": 257,
       "backgroundImage": "",
-      "releaseYear": "2015"
+      "releaseYear": "2015",
+      "subTitle": "Shakespeare"
     },
     {
       "id": 34,
@@ -3867,7 +4124,8 @@
       "theme": "도시 건설",
       "ranking": 258,
       "backgroundImage": "https://boardlife.co.kr/wys2/file_attach_thumb/2014/07/28/1406505712-26_N_800x800_100_6_.jpg",
-      "releaseYear": "2012"
+      "releaseYear": "2012",
+      "subTitle": "Ginkgopolis"
     },
     {
       "id": 9278,
@@ -3882,7 +4140,8 @@
       "theme": "살인/미스터리",
       "ranking": 259,
       "backgroundImage": "",
-      "releaseYear": "2017"
+      "releaseYear": "2017",
+      "subTitle": "Whitehall Mystery"
     },
     {
       "id": 420,
@@ -3897,7 +4156,8 @@
       "theme": "중세",
       "ranking": 260,
       "backgroundImage": "https://boardlife.co.kr/wys2/file_attach_thumb/2013/11/10/1384011771-37_N_800x800_100_6_.jpg",
-      "releaseYear": "1999"
+      "releaseYear": "1999",
+      "subTitle": "Torres"
     },
     {
       "id": 7972,
@@ -3912,7 +4172,8 @@
       "theme": "도시 건설",
       "ranking": 261,
       "backgroundImage": "",
-      "releaseYear": "2016"
+      "releaseYear": "2016",
+      "subTitle": "Citadels"
     },
     {
       "id": 8946,
@@ -3927,7 +4188,8 @@
       "theme": "소설-기반",
       "ranking": 262,
       "backgroundImage": "",
-      "releaseYear": "2022"
+      "releaseYear": "2022",
+      "subTitle": "Robinson Crusoe: Adventures on the Cursed Island"
     },
     {
       "id": 2768,
@@ -3942,7 +4204,8 @@
       "theme": "카드 게임",
       "ranking": 263,
       "backgroundImage": "",
-      "releaseYear": "2003"
+      "releaseYear": "2003",
+      "subTitle": "Wizard Extreme"
     },
     {
       "id": 2990,
@@ -3957,7 +4220,8 @@
       "theme": "추상전략",
       "ranking": 264,
       "backgroundImage": "",
-      "releaseYear": "1475"
+      "releaseYear": "1475",
+      "subTitle": "Chess"
     },
     {
       "id": 5481,
@@ -3972,7 +4236,8 @@
       "theme": "신화",
       "ranking": 265,
       "backgroundImage": "",
-      "releaseYear": "1999"
+      "releaseYear": "1999",
+      "subTitle": "RA"
     },
     {
       "id": 13588,
@@ -3987,7 +4252,8 @@
       "theme": "본판이 필요한 확장",
       "ranking": 266,
       "backgroundImage": "",
-      "releaseYear": "2020"
+      "releaseYear": "2020",
+      "subTitle": "7 Wonders Duel: Agora"
     },
     {
       "id": 11922,
@@ -4002,7 +4268,8 @@
       "theme": "교육",
       "ranking": 267,
       "backgroundImage": "",
-      "releaseYear": "2019"
+      "releaseYear": "2019",
+      "subTitle": "Wingspan: European Expansion"
     },
     {
       "id": 9880,
@@ -4017,7 +4284,8 @@
       "theme": "SF 공상 과학",
       "ranking": 268,
       "backgroundImage": "",
-      "releaseYear": "2018"
+      "releaseYear": "2018",
+      "subTitle": "Terraforming Mars: Colonies"
     },
     {
       "id": 182,
@@ -4032,7 +4300,8 @@
       "theme": "기차",
       "ranking": 269,
       "backgroundImage": "https://boardlife.co.kr/wys2/file_attach_thumb/2014/11/25/1416923401-19_N_800x800_100_6_.jpg",
-      "releaseYear": "2007"
+      "releaseYear": "2007",
+      "subTitle": "Ticket to Ride: Nordic Countries"
     },
     {
       "id": 505,
@@ -4047,7 +4316,8 @@
       "theme": "유머",
       "ranking": 270,
       "backgroundImage": "",
-      "releaseYear": "2011"
+      "releaseYear": "2011",
+      "subTitle": "Last Will"
     },
     {
       "id": 10108,
@@ -4062,7 +4332,8 @@
       "theme": "카드 게임",
       "ranking": 271,
       "backgroundImage": "",
-      "releaseYear": "2018"
+      "releaseYear": "2018",
+      "subTitle": "Warhammer Underworlds: Nightvault"
     },
     {
       "id": 5670,
@@ -4077,7 +4348,8 @@
       "theme": "SF 공상 과학",
       "ranking": 272,
       "backgroundImage": "",
-      "releaseYear": "2015"
+      "releaseYear": "2015",
+      "subTitle": "Raptor"
     },
     {
       "id": 7049,
@@ -4092,7 +4364,8 @@
       "theme": "판타지",
       "ranking": 273,
       "backgroundImage": "",
-      "releaseYear": "2016"
+      "releaseYear": "2016",
+      "subTitle": "Hero Realms"
     },
     {
       "id": 1146,
@@ -4107,7 +4380,8 @@
       "theme": "문명",
       "ranking": 274,
       "backgroundImage": "",
-      "releaseYear": "1996"
+      "releaseYear": "1996",
+      "subTitle": "Age of Renaissance"
     },
     {
       "id": 3630,
@@ -4122,7 +4396,8 @@
       "theme": "판타지",
       "ranking": 275,
       "backgroundImage": "",
-      "releaseYear": "2014"
+      "releaseYear": "2014",
+      "subTitle": "Arcadia Quest"
     },
     {
       "id": 4171,
@@ -4137,7 +4412,8 @@
       "theme": "SF 공상 과학",
       "ranking": 276,
       "backgroundImage": "",
-      "releaseYear": "2014"
+      "releaseYear": "2014",
+      "subTitle": "Legendary Encounters: An Alien Deck Building Game"
     },
     {
       "id": 4650,
@@ -4152,7 +4428,8 @@
       "theme": "농업",
       "ranking": 277,
       "backgroundImage": "",
-      "releaseYear": "2015"
+      "releaseYear": "2015",
+      "subTitle": "Cacao"
     },
     {
       "id": 488,
@@ -4167,7 +4444,8 @@
       "theme": "모험",
       "ranking": 278,
       "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/10/11/14129986458419_N_800x800_100_6_.jpg",
-      "releaseYear": "2011"
+      "releaseYear": "2011",
+      "subTitle": "Flash Point : Fire Rescue"
     },
     {
       "id": 575,
@@ -4182,7 +4460,8 @@
       "theme": "농업",
       "ranking": 279,
       "backgroundImage": "",
-      "releaseYear": "2012"
+      "releaseYear": "2012",
+      "subTitle": "Agricola: All Creatures Big and Small"
     },
     {
       "id": 2504,
@@ -4197,7 +4476,8 @@
       "theme": "이성 시대",
       "ranking": 280,
       "backgroundImage": "",
-      "releaseYear": "2013"
+      "releaseYear": "2013",
+      "subTitle": "Rococo"
     },
     {
       "id": 827,
@@ -4212,7 +4492,8 @@
       "theme": "정치",
       "ranking": 281,
       "backgroundImage": "",
-      "releaseYear": "1986"
+      "releaseYear": "1986",
+      "subTitle": "Die Macher"
     },
     {
       "id": 12473,
@@ -4227,7 +4508,8 @@
       "theme": "퍼즐",
       "ranking": 282,
       "backgroundImage": "",
-      "releaseYear": "2020"
+      "releaseYear": "2020",
+      "subTitle": "Calico"
     },
     {
       "id": 10640,
@@ -4242,7 +4524,8 @@
       "theme": "카드 게임",
       "ranking": 283,
       "backgroundImage": "",
-      "releaseYear": "2018"
+      "releaseYear": "2018",
+      "subTitle": "Krass Kariert"
     },
     {
       "id": 14030,
@@ -4257,7 +4540,8 @@
       "theme": "SF 공상 과학",
       "ranking": 284,
       "backgroundImage": "",
-      "releaseYear": "2021"
+      "releaseYear": "2021",
+      "subTitle": "Bullet♥"
     },
     {
       "id": 983,
@@ -4272,7 +4556,8 @@
       "theme": "판타지",
       "ranking": 285,
       "backgroundImage": "",
-      "releaseYear": "2010"
+      "releaseYear": "2010",
+      "subTitle": "Ascension: Deckbuilding Game"
     },
     {
       "id": 4272,
@@ -4287,7 +4572,8 @@
       "theme": "환경",
       "ranking": 286,
       "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/12/23/1419295283751_N_800x800_100_6_.jpg",
-      "releaseYear": "2014"
+      "releaseYear": "2014",
+      "subTitle": "Pandemic: The Cure"
     },
     {
       "id": 10011,
@@ -4302,7 +4588,8 @@
       "theme": "판타지",
       "ranking": 287,
       "backgroundImage": "",
-      "releaseYear": "2018"
+      "releaseYear": "2018",
+      "subTitle": "Mansions of Madness: Second Edition – Horrific Journeys"
     },
     {
       "id": 13285,
@@ -4317,7 +4604,8 @@
       "theme": "교육",
       "ranking": 288,
       "backgroundImage": "",
-      "releaseYear": "2020"
+      "releaseYear": "2020",
+      "subTitle": "Wingspan: Oceania Expansion"
     },
     {
       "id": 1478,
@@ -4332,7 +4620,8 @@
       "theme": "소설-기반",
       "ranking": 289,
       "backgroundImage": "https://boardlife.co.kr/wys2/file_attach_thumb/2014/05/26/1401114392-29_N_800x800_100_6_.jpg",
-      "releaseYear": "2007"
+      "releaseYear": "2007",
+      "subTitle": "Parade"
     },
     {
       "id": 4085,
@@ -4347,7 +4636,8 @@
       "theme": "르네상스",
       "ranking": 290,
       "backgroundImage": "",
-      "releaseYear": "2013"
+      "releaseYear": "2013",
+      "subTitle": "Love Letter: Kanai Factory Limited Edition"
     },
     {
       "id": 528,
@@ -4362,7 +4652,8 @@
       "theme": "판타지",
       "ranking": 291,
       "backgroundImage": "https://boardlife.co.kr/wys2/file_attach_thumb/2014/10/19/1413700308-13_N_800x800_100_6_.jpg",
-      "releaseYear": "2011"
+      "releaseYear": "2011",
+      "subTitle": "Dungeon Petz"
     },
     {
       "id": 5710,
@@ -4377,7 +4668,8 @@
       "theme": "판타지",
       "ranking": 292,
       "backgroundImage": "",
-      "releaseYear": "2015"
+      "releaseYear": "2015",
+      "subTitle": "Potion Explosion"
     },
     {
       "id": 12057,
@@ -4392,7 +4684,8 @@
       "theme": "SF 공상 과학",
       "ranking": 293,
       "backgroundImage": "",
-      "releaseYear": "2020"
+      "releaseYear": "2020",
+      "subTitle": "The Crew: Flight to the ISS"
     },
     {
       "id": 5736,
@@ -4407,7 +4700,8 @@
       "theme": "르네상스",
       "ranking": 294,
       "backgroundImage": "",
-      "releaseYear": "2015"
+      "releaseYear": "2015",
+      "subTitle": "Signorie"
     },
     {
       "id": 183,
@@ -4422,7 +4716,8 @@
       "theme": "제2차 세계 대전",
       "ranking": 295,
       "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2023/03/05/167797650232320_lg_N_800x800_100_6_.jpg",
-      "releaseYear": "2004"
+      "releaseYear": "2004",
+      "subTitle": "Memoir '44"
     },
     {
       "id": 518,
@@ -4437,7 +4732,8 @@
       "theme": "카드 게임",
       "ranking": 296,
       "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/10/26/14143253349293_N_800x800_100_6_.jpg",
-      "releaseYear": "2010"
+      "releaseYear": "2010",
+      "subTitle": "Hanabi"
     },
     {
       "id": 14125,
@@ -4452,7 +4748,8 @@
       "theme": "산업 / 제조",
       "ranking": 297,
       "backgroundImage": "",
-      "releaseYear": "2021"
+      "releaseYear": "2021",
+      "subTitle": "Ultimate Railroads"
     },
     {
       "id": 9552,
@@ -4467,7 +4764,8 @@
       "theme": "영역 건설",
       "ranking": 298,
       "backgroundImage": "",
-      "releaseYear": "2018"
+      "releaseYear": "2018",
+      "subTitle": "Yellow and Yangtze"
     },
     {
       "id": 8432,
@@ -4482,7 +4780,8 @@
       "theme": "카드 게임",
       "ranking": 299,
       "backgroundImage": "",
-      "releaseYear": "2017"
+      "releaseYear": "2017",
+      "subTitle": "Startups"
     },
     {
       "id": 10810,
@@ -4497,7 +4796,8 @@
       "theme": "도시 건설",
       "ranking": 300,
       "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/02/05/1644068247251235_lg_N_800x800_100_6_.jpg",
-      "releaseYear": "2019"
+      "releaseYear": "2019",
+      "subTitle": "Suburbia: Collector's Edition"
     },
     {
       "id": 2141,
@@ -4512,7 +4812,8 @@
       "theme": "중세",
       "ranking": 301,
       "backgroundImage": "",
-      "releaseYear": "2013"
+      "releaseYear": "2013",
+      "subTitle": "The Duke"
     },
     {
       "id": 5845,
@@ -4527,7 +4828,8 @@
       "theme": "공포",
       "ranking": 302,
       "backgroundImage": "",
-      "releaseYear": "2015"
+      "releaseYear": "2015",
+      "subTitle": "The Bloody Inn"
     },
     {
       "id": 4119,
@@ -4542,7 +4844,8 @@
       "theme": "숫자",
       "ranking": 303,
       "backgroundImage": "https://boardlife.co.kr/wys2/file_attach_thumb/2014/12/24/1419394600-35_N_800x800_100_6_.jpg",
-      "releaseYear": "2014"
+      "releaseYear": "2014",
+      "subTitle": "Red7"
     },
     {
       "id": 14626,
@@ -4557,7 +4860,8 @@
       "theme": "고대",
       "ranking": 304,
       "backgroundImage": "",
-      "releaseYear": "2021"
+      "releaseYear": "2021",
+      "subTitle": "7 Wonders: Architects"
     },
     {
       "id": 2214,
@@ -4572,7 +4876,8 @@
       "theme": "도시 건설",
       "ranking": 305,
       "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2013/12/30/13883917272530_N_800x800_100_6_.jpg",
-      "releaseYear": "2013"
+      "releaseYear": "2013",
+      "subTitle": "Glass Road"
     },
     {
       "id": 9136,
@@ -4587,7 +4892,8 @@
       "theme": "판타지",
       "ranking": 306,
       "backgroundImage": "",
-      "releaseYear": "2017"
+      "releaseYear": "2017",
+      "subTitle": "Lovecraft Letter"
     },
     {
       "id": 373,
@@ -4602,7 +4908,8 @@
       "theme": "운송",
       "ranking": 307,
       "backgroundImage": "",
-      "releaseYear": "2006"
+      "releaseYear": "2006",
+      "subTitle": "Thurn and Taxis"
     },
     {
       "id": 1066,
@@ -4617,7 +4924,8 @@
       "theme": "공포",
       "ranking": 308,
       "backgroundImage": "https://boardlife.co.kr/wys2/file_attach_thumb/2014/03/30/1396188073-91_N_800x800_100_6_.jpg",
-      "releaseYear": "2004"
+      "releaseYear": "2004",
+      "subTitle": "Betrayal at House on the Hill"
     },
     {
       "id": 10362,
@@ -4632,7 +4940,8 @@
       "theme": "파티 게임",
       "ranking": 309,
       "backgroundImage": "",
-      "releaseYear": "2018"
+      "releaseYear": "2018",
+      "subTitle": "Just One"
     },
     {
       "id": 425,
@@ -4647,7 +4956,8 @@
       "theme": "소설-기반",
       "ranking": 310,
       "backgroundImage": "",
-      "releaseYear": "2006"
+      "releaseYear": "2006",
+      "subTitle": "The Pillars of the Earth"
     },
     {
       "id": 13386,
@@ -4662,7 +4972,8 @@
       "theme": "코믹북/만화",
       "ranking": 311,
       "backgroundImage": "",
-      "releaseYear": "2020"
+      "releaseYear": "2020",
+      "subTitle": "Splendor Marvel"
     },
     {
       "id": 6326,
@@ -4677,7 +4988,8 @@
       "theme": "카드 게임",
       "ranking": 312,
       "backgroundImage": "",
-      "releaseYear": "2015"
+      "releaseYear": "2015",
+      "subTitle": "no-thanks"
     },
     {
       "id": 4104,
@@ -4692,7 +5004,8 @@
       "theme": "동물",
       "ranking": 313,
       "backgroundImage": "",
-      "releaseYear": "2006"
+      "releaseYear": "2006",
+      "subTitle": "Coloretto for two players"
     },
     {
       "id": 10757,
@@ -4707,7 +5020,8 @@
       "theme": "중세",
       "ranking": 314,
       "backgroundImage": "",
-      "releaseYear": "2019"
+      "releaseYear": "2019",
+      "subTitle": "The Taverns of Tiefenthal"
     },
     {
       "id": 5157,
@@ -4722,7 +5036,8 @@
       "theme": "파티 게임",
       "ranking": 315,
       "backgroundImage": "",
-      "releaseYear": "2011"
+      "releaseYear": "2011",
+      "subTitle": "Telestrations: 12 Player Party Pack"
     },
     {
       "id": 456,
@@ -4737,7 +5052,8 @@
       "theme": "문명",
       "ranking": 316,
       "backgroundImage": "https://boardlife.co.kr/wys2/file_attach_thumb/2014/06/24/1403611853-68_N_800x800_100_6_.jpg",
-      "releaseYear": "2010"
+      "releaseYear": "2010",
+      "subTitle": "Sid Meier's Civilization: The Board Game"
     },
     {
       "id": 121,
@@ -4752,7 +5068,8 @@
       "theme": "판타지",
       "ranking": 317,
       "backgroundImage": "https://boardlife.co.kr/wys2/file_attach_thumb/2014/03/30/1396187689-78_N_800x800_100_6_.jpg",
-      "releaseYear": "2004"
+      "releaseYear": "2004",
+      "subTitle": "The Scepter of Zavandor"
     },
     {
       "id": 11434,
@@ -4767,7 +5084,8 @@
       "theme": "르네상스",
       "ranking": 318,
       "backgroundImage": "",
-      "releaseYear": "2019"
+      "releaseYear": "2019",
+      "subTitle": "Century: A New World"
     },
     {
       "id": 3303,
@@ -4782,7 +5100,8 @@
       "theme": "판타지",
       "ranking": 319,
       "backgroundImage": "",
-      "releaseYear": "2014"
+      "releaseYear": "2014",
+      "subTitle": "Cthulhu Wars"
     },
     {
       "id": 2443,
@@ -4797,7 +5116,8 @@
       "theme": "행동 / 재주",
       "ranking": 320,
       "backgroundImage": "",
-      "releaseYear": "1867"
+      "releaseYear": "1867",
+      "subTitle": "Crokinole"
     },
     {
       "id": 13425,
@@ -4812,7 +5132,8 @@
       "theme": "스파이/첩보원",
       "ranking": 321,
       "backgroundImage": "",
-      "releaseYear": "2020"
+      "releaseYear": "2020",
+      "subTitle": "Pandemic Legacy: Season 0"
     },
     {
       "id": 11722,
@@ -4827,7 +5148,8 @@
       "theme": "판타지",
       "ranking": 322,
       "backgroundImage": "",
-      "releaseYear": "2019"
+      "releaseYear": "2019",
+      "subTitle": "Cartographers"
     },
     {
       "id": 5518,
@@ -4842,7 +5164,8 @@
       "theme": "판타지",
       "ranking": 323,
       "backgroundImage": "",
-      "releaseYear": "2015"
+      "releaseYear": "2015",
+      "subTitle": "Champions of Midgard"
     },
     {
       "id": 179,
@@ -4857,7 +5180,8 @@
       "theme": "고대",
       "ranking": 324,
       "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/01/28/1643302980368441_lg_N_800x800_100_6_.jpg",
-      "releaseYear": "2006"
+      "releaseYear": "2006",
+      "subTitle": "Commands & Colors: Ancients"
     },
     {
       "id": 7484,
@@ -4872,7 +5196,8 @@
       "theme": "블러핑",
       "ranking": 325,
       "backgroundImage": "",
-      "releaseYear": "2011"
+      "releaseYear": "2011",
+      "subTitle": "Skull"
     },
     {
       "id": 836,
@@ -4887,7 +5212,8 @@
       "theme": "소설-기반",
       "ranking": 326,
       "backgroundImage": "",
-      "releaseYear": "1981"
+      "releaseYear": "1981",
+      "subTitle": "Sherlock Holmes Consulting Detective: The Thames Murders & Other Cases"
     },
     {
       "id": 9321,
@@ -4902,7 +5228,8 @@
       "theme": "SF 공상 과학",
       "ranking": 327,
       "backgroundImage": "",
-      "releaseYear": "2017"
+      "releaseYear": "2017",
+      "subTitle": "Pulsar 2849"
     },
     {
       "id": 479,
@@ -4917,7 +5244,8 @@
       "theme": "소설-기반",
       "ranking": 328,
       "backgroundImage": "",
-      "releaseYear": "2011"
+      "releaseYear": "2011",
+      "subTitle": "Friday"
     },
     {
       "id": 9865,
@@ -4932,7 +5260,8 @@
       "theme": "고대",
       "ranking": 329,
       "backgroundImage": "",
-      "releaseYear": "2018"
+      "releaseYear": "2018",
+      "subTitle": "Carpe Diem"
     },
     {
       "id": 6282,
@@ -4947,7 +5276,8 @@
       "theme": "카드 게임",
       "ranking": 330,
       "backgroundImage": "",
-      "releaseYear": "2016"
+      "releaseYear": "2016",
+      "subTitle": "Archaeology: The New Expedition"
     },
     {
       "id": 223,
@@ -4962,7 +5292,8 @@
       "theme": "실시간",
       "ranking": 331,
       "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/03/13/13946687207931_N_800x800_100_6_.jpg",
-      "releaseYear": "2011"
+      "releaseYear": "2011",
+      "subTitle": "Pictomania"
     },
     {
       "id": 3565,
@@ -4977,7 +5308,8 @@
       "theme": "도시 건설",
       "ranking": 332,
       "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/05/12/13998918255436_N_800x800_100_6_.jpg",
-      "releaseYear": "2012"
+      "releaseYear": "2012",
+      "subTitle": "Machi Koro"
     },
     {
       "id": 10253,
@@ -4992,7 +5324,8 @@
       "theme": "판타지",
       "ranking": 333,
       "backgroundImage": "",
-      "releaseYear": "2018"
+      "releaseYear": "2018",
+      "subTitle": "Root: The Riverfolk Expansion"
     },
     {
       "id": 4674,
@@ -5007,7 +5340,8 @@
       "theme": "도시 건설",
       "ranking": 334,
       "backgroundImage": "",
-      "releaseYear": "2014"
+      "releaseYear": "2014",
+      "subTitle": "San Juan (second edition)"
     },
     {
       "id": 2563,
@@ -5022,7 +5356,8 @@
       "theme": "미국 서부",
       "ranking": 335,
       "backgroundImage": "",
-      "releaseYear": "2007"
+      "releaseYear": "2007",
+      "subTitle": "Bang! The Bullet!"
     },
     {
       "id": 7881,
@@ -5037,7 +5372,8 @@
       "theme": "기차",
       "ranking": 336,
       "backgroundImage": "",
-      "releaseYear": "2016"
+      "releaseYear": "2016",
+      "subTitle": "1846 : The Race to the Midwest"
     },
     {
       "id": 960,
@@ -5052,7 +5388,8 @@
       "theme": "선사",
       "ranking": 337,
       "backgroundImage": "",
-      "releaseYear": "2002"
+      "releaseYear": "2002",
+      "subTitle": "Carcassonne: Hunters and Gatherers"
     },
     {
       "id": 473,
@@ -5067,7 +5404,8 @@
       "theme": "르네상스",
       "ranking": 338,
       "backgroundImage": "",
-      "releaseYear": "2010"
+      "releaseYear": "2010",
+      "subTitle": "Fresco"
     },
     {
       "id": 92,
@@ -5082,7 +5420,8 @@
       "theme": "공포",
       "ranking": 339,
       "backgroundImage": "",
-      "releaseYear": "2005"
+      "releaseYear": "2005",
+      "subTitle": "Shadow Hunters"
     },
     {
       "id": 5558,
@@ -5097,7 +5436,8 @@
       "theme": "실시간",
       "ranking": 340,
       "backgroundImage": "",
-      "releaseYear": "2014"
+      "releaseYear": "2014",
+      "subTitle": "KLASK"
     },
     {
       "id": 873,
@@ -5112,7 +5452,8 @@
       "theme": "고대",
       "ranking": 341,
       "backgroundImage": "https://boardlife.co.kr/wys2/file_attach_thumb/2014/02/11/1392124909-49_N_800x800_100_6_.jpg",
-      "releaseYear": "2003"
+      "releaseYear": "2003",
+      "subTitle": "Amun-Re"
     },
     {
       "id": 9866,
@@ -5127,7 +5468,8 @@
       "theme": "카드 게임",
       "ranking": 342,
       "backgroundImage": "",
-      "releaseYear": "2019"
+      "releaseYear": "2019",
+      "subTitle": "신기루"
     },
     {
       "id": 4180,
@@ -5142,7 +5484,8 @@
       "theme": "미국 서부",
       "ranking": 343,
       "backgroundImage": "",
-      "releaseYear": "2014"
+      "releaseYear": "2014",
+      "subTitle": "Carcassonne: Gold Rush"
     },
     {
       "id": 9747,
@@ -5157,7 +5500,8 @@
       "theme": "경제",
       "ranking": 344,
       "backgroundImage": "",
-      "releaseYear": "2018"
+      "releaseYear": "2018",
+      "subTitle": "Istanbul: Big Box"
     },
     {
       "id": 1049,
@@ -5172,7 +5516,8 @@
       "theme": "판타지",
       "ranking": 345,
       "backgroundImage": "https://boardlife.co.kr/wys2/file_attach_thumb/2013/11/25/1385306267-84_N_800x800_100_6_.jpg",
-      "releaseYear": "2011"
+      "releaseYear": "2011",
+      "subTitle": "Elder Sign"
     },
     {
       "id": 10843,
@@ -5187,7 +5532,8 @@
       "theme": "레이싱",
       "ranking": 346,
       "backgroundImage": "",
-      "releaseYear": "2018"
+      "releaseYear": "2018",
+      "subTitle": "Camel Up (Second Edition)"
     },
     {
       "id": 1688,
@@ -5202,7 +5548,8 @@
       "theme": "스파이/첩보원",
       "ranking": 347,
       "backgroundImage": "",
-      "releaseYear": "1998"
+      "releaseYear": "1998",
+      "subTitle": "Inkognito"
     },
     {
       "id": 2098,
@@ -5217,7 +5564,8 @@
       "theme": "공포",
       "ranking": 348,
       "backgroundImage": "",
-      "releaseYear": "2013"
+      "releaseYear": "2013",
+      "subTitle": "Zombicide Season 2: Prison Outbreak"
     },
     {
       "id": 10759,
@@ -5232,7 +5580,8 @@
       "theme": "숫자",
       "ranking": 349,
       "backgroundImage": "",
-      "releaseYear": "2019"
+      "releaseYear": "2019",
+      "subTitle": "Twice as Clever!"
     },
     {
       "id": 10861,
@@ -5247,7 +5596,8 @@
       "theme": "문명",
       "ranking": 350,
       "backgroundImage": "",
-      "releaseYear": "2019"
+      "releaseYear": "2019",
+      "subTitle": "Hadara"
     },
     {
       "id": 2040,
@@ -5262,7 +5612,8 @@
       "theme": "운송",
       "ranking": 351,
       "backgroundImage": "",
-      "releaseYear": "2013"
+      "releaseYear": "2013",
+      "subTitle": "The Great Heartland Hauling Co."
     },
     {
       "id": 4213,
@@ -5277,7 +5628,8 @@
       "theme": "블러핑",
       "ranking": 352,
       "backgroundImage": "",
-      "releaseYear": "2014"
+      "releaseYear": "2014",
+      "subTitle": "UNANIMO"
     },
     {
       "id": 12037,
@@ -5292,7 +5644,8 @@
       "theme": "제2차 세계 대전",
       "ranking": 353,
       "backgroundImage": "",
-      "releaseYear": "2019"
+      "releaseYear": "2019",
+      "subTitle": "Undaunted: Normandy"
     },
     {
       "id": 5420,
@@ -5307,7 +5660,8 @@
       "theme": "추상전략",
       "ranking": 354,
       "backgroundImage": "",
-      "releaseYear": "1930"
+      "releaseYear": "1930",
+      "subTitle": "Rummikub Select"
     },
     {
       "id": 6798,
@@ -5322,7 +5676,8 @@
       "theme": "탐험",
       "ranking": 355,
       "backgroundImage": "",
-      "releaseYear": "2016"
+      "releaseYear": "2016",
+      "subTitle": "Near and Far"
     },
     {
       "id": 366,
@@ -5337,7 +5692,8 @@
       "theme": "카드 게임",
       "ranking": 356,
       "backgroundImage": "",
-      "releaseYear": "2001"
+      "releaseYear": "2001",
+      "subTitle": "Wyatt Earp"
     },
     {
       "id": 10698,
@@ -5352,7 +5708,8 @@
       "theme": "동물",
       "ranking": 357,
       "backgroundImage": "",
-      "releaseYear": "2019"
+      "releaseYear": "2019",
+      "subTitle": "Tiny Towns"
     },
     {
       "id": 3154,
@@ -5367,7 +5724,8 @@
       "theme": "판타지",
       "ranking": 358,
       "backgroundImage": "",
-      "releaseYear": "2004"
+      "releaseYear": "2004",
+      "subTitle": "War of the Ring (first edition)"
     },
     {
       "id": 8965,
@@ -5382,7 +5740,8 @@
       "theme": "레이싱",
       "ranking": 359,
       "backgroundImage": "",
-      "releaseYear": "2022"
+      "releaseYear": "2022",
+      "subTitle": "The Quest for El Dorado: Dangers & Muisca"
     },
     {
       "id": 14146,
@@ -5397,7 +5756,8 @@
       "theme": "기차",
       "ranking": 360,
       "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/01/08/1641624102934864_lg_N_800x800_100_6_.jpg",
-      "releaseYear": "2021"
+      "releaseYear": "2021",
+      "subTitle": "Ticket to Ride: Europe – 15th Anniversary"
     },
     {
       "id": 481,
@@ -5412,7 +5772,8 @@
       "theme": "카드 게임",
       "ranking": 361,
       "backgroundImage": "",
-      "releaseYear": "2010"
+      "releaseYear": "2010",
+      "subTitle": "Haggis"
     },
     {
       "id": 515,
@@ -5427,7 +5788,8 @@
       "theme": "고대",
       "ranking": 362,
       "backgroundImage": "",
-      "releaseYear": "2007"
+      "releaseYear": "2007",
+      "subTitle": "Archaeology: The Card Game"
     },
     {
       "id": 9307,
@@ -5442,7 +5804,8 @@
       "theme": "농업",
       "ranking": 363,
       "backgroundImage": "",
-      "releaseYear": "2017"
+      "releaseYear": "2017",
+      "subTitle": "Santa Maria"
     },
     {
       "id": 418,
@@ -5457,7 +5820,8 @@
       "theme": "항공 / 비행",
       "ranking": 364,
       "backgroundImage": "",
-      "releaseYear": "2011"
+      "releaseYear": "2011",
+      "subTitle": "Airline Europe"
     },
     {
       "id": 559,
@@ -5472,7 +5836,8 @@
       "theme": "탐험",
       "ranking": 365,
       "backgroundImage": "https://boardlife.co.kr/wys2/file_attach_thumb/2014/07/22/1405955728-8_N_800x800_100_6_.jpg",
-      "releaseYear": "1999"
+      "releaseYear": "1999",
+      "subTitle": "Lost Cities"
     },
     {
       "id": 11461,
@@ -5487,7 +5852,8 @@
       "theme": "영역 건설",
       "ranking": 366,
       "backgroundImage": "",
-      "releaseYear": "2020"
+      "releaseYear": "2020",
+      "subTitle": "Clinic: Deluxe Edition"
     },
     {
       "id": 7261,
@@ -5502,7 +5868,8 @@
       "theme": "카드 게임",
       "ranking": 367,
       "backgroundImage": "",
-      "releaseYear": "1999"
+      "releaseYear": "1999",
+      "subTitle": "Schotten Totten"
     },
     {
       "id": 13750,
@@ -5517,7 +5884,8 @@
       "theme": "신화",
       "ranking": 368,
       "backgroundImage": "",
-      "releaseYear": "2021"
+      "releaseYear": "2021",
+      "subTitle": "RA Korean edition"
     },
     {
       "id": 5596,
@@ -5532,7 +5900,8 @@
       "theme": "문명",
       "ranking": 369,
       "backgroundImage": "",
-      "releaseYear": "2015"
+      "releaseYear": "2015",
+      "subTitle": "Glenn Drover's Empires: Age of Discovery – Deluxe Edition"
     },
     {
       "id": 2119,
@@ -5547,7 +5916,8 @@
       "theme": "영역 건설",
       "ranking": 370,
       "backgroundImage": "",
-      "releaseYear": "2013"
+      "releaseYear": "2013",
+      "subTitle": "Patchistory"
     },
     {
       "id": 3092,
@@ -5562,7 +5932,8 @@
       "theme": "경제",
       "ranking": 371,
       "backgroundImage": "",
-      "releaseYear": "2001"
+      "releaseYear": "2001",
+      "subTitle": "Big Shot"
     },
     {
       "id": 5721,
@@ -5577,7 +5948,8 @@
       "theme": "경제",
       "ranking": 372,
       "backgroundImage": "",
-      "releaseYear": "2015"
+      "releaseYear": "2015",
+      "subTitle": "The Pursuit of Happiness"
     },
     {
       "id": 584,
@@ -5592,7 +5964,8 @@
       "theme": "정치",
       "ranking": 373,
       "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/07/16/14055155447772_N_800x800_100_6_.jpg",
-      "releaseYear": "1996"
+      "releaseYear": "1996",
+      "subTitle": "Hannibal: Rome vs. Carthage"
     },
     {
       "id": 877,
@@ -5607,7 +5980,8 @@
       "theme": "핸드 관리",
       "ranking": 374,
       "backgroundImage": "",
-      "releaseYear": "2004"
+      "releaseYear": "2004",
+      "subTitle": "Lectio"
     },
     {
       "id": 392,
@@ -5622,7 +5996,8 @@
       "theme": "농업",
       "ranking": 375,
       "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2013/08/12/1376273688703_N_800x800_100_6_.jpg",
-      "releaseYear": "2010"
+      "releaseYear": "2010",
+      "subTitle": "Vinhos"
     },
     {
       "id": 7376,
@@ -5637,7 +6012,8 @@
       "theme": "숫자",
       "ranking": 376,
       "backgroundImage": "",
-      "releaseYear": "2016"
+      "releaseYear": "2016",
+      "subTitle": "Fuji Flush"
     },
     {
       "id": 1247,
@@ -5652,7 +6028,8 @@
       "theme": "SF 공상 과학",
       "ranking": 377,
       "backgroundImage": "",
-      "releaseYear": "2002"
+      "releaseYear": "2002",
+      "subTitle": "Star Wars: Epic Duels"
     },
     {
       "id": 972,
@@ -5667,7 +6044,8 @@
       "theme": "정치",
       "ranking": 378,
       "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2013/10/24/13825710293367_N_800x800_100_6_.jpg",
-      "releaseYear": "2001"
+      "releaseYear": "2001",
+      "subTitle": "San Marco"
     },
     {
       "id": 211,
@@ -5682,7 +6060,8 @@
       "theme": "카드 게임",
       "ranking": 379,
       "backgroundImage": "",
-      "releaseYear": "2004"
+      "releaseYear": "2004",
+      "subTitle": "Jambo"
     },
     {
       "id": 4062,
@@ -5697,7 +6076,8 @@
       "theme": "소설-기반",
       "ranking": 380,
       "backgroundImage": "",
-      "releaseYear": "2014"
+      "releaseYear": "2014",
+      "subTitle": "Sheriff of Nottingham"
     },
     {
       "id": 4168,
@@ -5712,7 +6092,8 @@
       "theme": "SF 공상 과학",
       "ranking": 381,
       "backgroundImage": "",
-      "releaseYear": "2015"
+      "releaseYear": "2015",
+      "subTitle": "Star Wars: Imperial Assault"
     },
     {
       "id": 443,
@@ -5727,7 +6108,8 @@
       "theme": "도시 건설",
       "ranking": 382,
       "backgroundImage": "",
-      "releaseYear": "2003"
+      "releaseYear": "2003",
+      "subTitle": "Alhambra"
     },
     {
       "id": 1067,
@@ -5742,7 +6124,8 @@
       "theme": "경제",
       "ranking": 383,
       "backgroundImage": "https://boardlife.co.kr/wys2/file_attach_thumb/2013/12/16/1387202035-23_N_800x800_100_6_.jpg",
-      "releaseYear": "2010"
+      "releaseYear": "2010",
+      "subTitle": "The Speicherstadt"
     },
     {
       "id": 134,
@@ -5757,7 +6140,8 @@
       "theme": "중세",
       "ranking": 384,
       "backgroundImage": "",
-      "releaseYear": "2007"
+      "releaseYear": "2007",
+      "subTitle": "In the Year of the Dragon"
     },
     {
       "id": 910,
@@ -5772,7 +6156,8 @@
       "theme": "판타지",
       "ranking": 385,
       "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/05/07/13994593989377_N_800x800_100_6_.jpg",
-      "releaseYear": "2000"
+      "releaseYear": "2000",
+      "subTitle": "Citadels"
     },
     {
       "id": 1135,
@@ -5787,7 +6172,8 @@
       "theme": "레이싱",
       "ranking": 386,
       "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2013/09/10/13788211178919_N_800x800_100_6_.jpg",
-      "releaseYear": "2001"
+      "releaseYear": "2001",
+      "subTitle": "Winner's Circle"
     },
     {
       "id": 5418,
@@ -5802,7 +6188,8 @@
       "theme": "추상전략",
       "ranking": 387,
       "backgroundImage": "",
-      "releaseYear": "1930"
+      "releaseYear": "1930",
+      "subTitle": "Rummikub Classic"
     },
     {
       "id": 2321,
@@ -5817,7 +6204,8 @@
       "theme": "실시간",
       "ranking": 388,
       "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/04/28/13986498063281_N_800x800_100_6_.jpg",
-      "releaseYear": "2007"
+      "releaseYear": "2007",
+      "subTitle": "Galaxy Trucker"
     },
     {
       "id": 9148,
@@ -5832,7 +6220,8 @@
       "theme": "르네상스",
       "ranking": 389,
       "backgroundImage": "",
-      "releaseYear": "2017"
+      "releaseYear": "2017",
+      "subTitle": "Notre Dame: 10th Anniversary"
     },
     {
       "id": 14297,
@@ -5847,7 +6236,8 @@
       "theme": "영역 건설",
       "ranking": 390,
       "backgroundImage": "",
-      "releaseYear": "2021"
+      "releaseYear": "2021",
+      "subTitle": "Carcassonne: 20th Anniversary Edition"
     },
     {
       "id": 11811,
@@ -5862,7 +6252,8 @@
       "theme": "문명",
       "ranking": 391,
       "backgroundImage": "",
-      "releaseYear": "2019"
+      "releaseYear": "2019",
+      "subTitle": "Tapestry"
     },
     {
       "id": 2148,
@@ -5877,7 +6268,8 @@
       "theme": "미국 서부",
       "ranking": 392,
       "backgroundImage": "",
-      "releaseYear": "2013"
+      "releaseYear": "2013",
+      "subTitle": "Bang! The Dice Game"
     },
     {
       "id": 6609,
@@ -5892,7 +6284,8 @@
       "theme": "판타지",
       "ranking": 393,
       "backgroundImage": "",
-      "releaseYear": "2015"
+      "releaseYear": "2015",
+      "subTitle": "Valeria: Card Kingdoms"
     },
     {
       "id": 3926,
@@ -5907,7 +6300,8 @@
       "theme": "스포츠",
       "ranking": 394,
       "backgroundImage": "",
-      "releaseYear": "2014"
+      "releaseYear": "2014",
+      "subTitle": "Maskmen"
     },
     {
       "id": 9074,
@@ -5922,7 +6316,8 @@
       "theme": "실시간",
       "ranking": 395,
       "backgroundImage": "",
-      "releaseYear": "2017"
+      "releaseYear": "2017",
+      "subTitle": "Werewords"
     },
     {
       "id": 2559,
@@ -5937,7 +6332,8 @@
       "theme": "블러핑",
       "ranking": 396,
       "backgroundImage": "",
-      "releaseYear": "2001"
+      "releaseYear": "2001",
+      "subTitle": "Vabanque"
     },
     {
       "id": 6498,
@@ -5952,7 +6348,8 @@
       "theme": "운송",
       "ranking": 397,
       "backgroundImage": "",
-      "releaseYear": "2016"
+      "releaseYear": "2016",
+      "subTitle": "Imhotep"
     },
     {
       "id": 850,
@@ -5967,7 +6364,8 @@
       "theme": "유머",
       "ranking": 398,
       "backgroundImage": "",
-      "releaseYear": "2011"
+      "releaseYear": "2011",
+      "subTitle": "Dixit: Odyssey"
     },
     {
       "id": 13868,
@@ -5982,7 +6380,8 @@
       "theme": "판타지",
       "ranking": 399,
       "backgroundImage": "",
-      "releaseYear": "2020"
+      "releaseYear": "2020",
+      "subTitle": "The Lord of the Rings: Journeys in Middle-earth – Shadowed Paths Expansion"
     },
     {
       "id": 2202,
@@ -5997,7 +6396,8 @@
       "theme": "SF 공상 과학",
       "ranking": 400,
       "backgroundImage": "https://boardlife.co.kr/wys2/file_attach_thumb/2014/10/13/1413164786-6_N_800x800_100_6_.jpg",
-      "releaseYear": "2013"
+      "releaseYear": "2013",
+      "subTitle": "Spyrium"
     },
     {
       "id": 11170,
@@ -6012,7 +6412,8 @@
       "theme": "문명",
       "ranking": 401,
       "backgroundImage": "",
-      "releaseYear": "2019"
+      "releaseYear": "2019",
+      "subTitle": "Gentes: Deluxified Edition"
     },
     {
       "id": 11971,
@@ -6027,7 +6428,8 @@
       "theme": "퍼즐",
       "ranking": 402,
       "backgroundImage": "",
-      "releaseYear": "2019"
+      "releaseYear": "2019",
+      "subTitle": "Azul: Summer Pavilion"
     },
     {
       "id": 12163,
@@ -6042,7 +6444,8 @@
       "theme": "산업 / 제조",
       "ranking": 403,
       "backgroundImage": "",
-      "releaseYear": "2020"
+      "releaseYear": "2020",
+      "subTitle": "Rococo: Deluxe Edition"
     },
     {
       "id": 1422,
@@ -6057,7 +6460,8 @@
       "theme": "동물",
       "ranking": 404,
       "backgroundImage": "",
-      "releaseYear": "2007"
+      "releaseYear": "2007",
+      "subTitle": "Felix: The Cat in the Sack"
     },
     {
       "id": 7091,
@@ -6072,7 +6476,8 @@
       "theme": "스파이/첩보원",
       "ranking": 405,
       "backgroundImage": "",
-      "releaseYear": "2016"
+      "releaseYear": "2016",
+      "subTitle": "Codenames: Pictures"
     },
     {
       "id": 4662,
@@ -6087,7 +6492,8 @@
       "theme": "신화",
       "ranking": 406,
       "backgroundImage": "",
-      "releaseYear": "2015"
+      "releaseYear": "2015",
+      "subTitle": "Elysium"
     },
     {
       "id": 13343,
@@ -6102,7 +6508,8 @@
       "theme": "르네상스",
       "ranking": 407,
       "backgroundImage": "",
-      "releaseYear": "2020"
+      "releaseYear": "2020",
+      "subTitle": "Alma Mater"
     },
     {
       "id": 3517,
@@ -6117,7 +6524,8 @@
       "theme": "카드 게임",
       "ranking": 408,
       "backgroundImage": "",
-      "releaseYear": "2014"
+      "releaseYear": "2014",
+      "subTitle": "Linko!"
     },
     {
       "id": 6969,
@@ -6132,7 +6540,8 @@
       "theme": "경제",
       "ranking": 409,
       "backgroundImage": "",
-      "releaseYear": "2019"
+      "releaseYear": "2019",
+      "subTitle": "Busan"
     },
     {
       "id": 3739,
@@ -6147,7 +6556,8 @@
       "theme": "문명",
       "ranking": 410,
       "backgroundImage": "",
-      "releaseYear": "2014"
+      "releaseYear": "2014",
+      "subTitle": "Imperial Settlers"
     },
     {
       "id": 7316,
@@ -6162,7 +6572,8 @@
       "theme": "판타지",
       "ranking": 411,
       "backgroundImage": "",
-      "releaseYear": "2017"
+      "releaseYear": "2017",
+      "subTitle": "Ethnos"
     },
     {
       "id": 13807,
@@ -6177,7 +6588,8 @@
       "theme": "퍼즐",
       "ranking": 412,
       "backgroundImage": "",
-      "releaseYear": "2021"
+      "releaseYear": "2021",
+      "subTitle": "Canvas"
     },
     {
       "id": 6496,
@@ -6192,7 +6604,8 @@
       "theme": "마피아",
       "ranking": 413,
       "backgroundImage": "",
-      "releaseYear": "2018"
+      "releaseYear": "2018",
+      "subTitle": "Escape Plan"
     },
     {
       "id": 2310,
@@ -6207,7 +6620,8 @@
       "theme": "항해",
       "ranking": 414,
       "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/10/27/14143745918983_N_800x800_100_6_.jpg",
-      "releaseYear": "2006"
+      "releaseYear": "2006",
+      "subTitle": "Imperial"
     },
     {
       "id": 5296,
@@ -6222,7 +6636,8 @@
       "theme": "영역 건설",
       "ranking": 415,
       "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/01/28/1643305168292737_lg_N_800x800_100_6_.jpg",
-      "releaseYear": "2015"
+      "releaseYear": "2015",
+      "subTitle": "Triumph & Tragedy: European Balance of Power 1936-1945"
     },
     {
       "id": 5201,
@@ -6237,7 +6652,8 @@
       "theme": "미국 서부",
       "ranking": 416,
       "backgroundImage": "",
-      "releaseYear": "2015"
+      "releaseYear": "2015",
+      "subTitle": "Discoveries"
     },
     {
       "id": 7356,
@@ -6252,7 +6668,8 @@
       "theme": "영역 건설",
       "ranking": 417,
       "backgroundImage": "",
-      "releaseYear": "2016"
+      "releaseYear": "2016",
+      "subTitle": "Carcassonne: Amazonas"
     },
     {
       "id": 1251,
@@ -6267,7 +6684,8 @@
       "theme": "경제",
       "ranking": 418,
       "backgroundImage": "",
-      "releaseYear": "2008"
+      "releaseYear": "2008",
+      "subTitle": "The Rich and the Good"
     },
     {
       "id": 1415,
@@ -6282,7 +6700,8 @@
       "theme": "도시 건설",
       "ranking": 419,
       "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/03/17/13949881991051_N_800x800_100_6_.jpg",
-      "releaseYear": "2000"
+      "releaseYear": "2000",
+      "subTitle": "Babel"
     },
     {
       "id": 2534,
@@ -6297,7 +6716,8 @@
       "theme": "산업 / 제조",
       "ranking": 420,
       "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/04/23/13982313847184_N_800x800_100_6_.jpg",
-      "releaseYear": "2013"
+      "releaseYear": "2013",
+      "subTitle": "Coal Baron"
     },
     {
       "id": 7415,
@@ -6312,7 +6732,8 @@
       "theme": "영역 건설",
       "ranking": 421,
       "backgroundImage": "",
-      "releaseYear": "2016"
+      "releaseYear": "2016",
+      "subTitle": "Kingdomino"
     },
     {
       "id": 14008,
@@ -6327,7 +6748,8 @@
       "theme": "SF 공상 과학",
       "ranking": 422,
       "backgroundImage": "",
-      "releaseYear": "2020"
+      "releaseYear": "2020",
+      "subTitle": "The LOOP"
     },
     {
       "id": 12311,
@@ -6342,7 +6764,8 @@
       "theme": "판타지",
       "ranking": 423,
       "backgroundImage": "",
-      "releaseYear": "2020"
+      "releaseYear": "2020",
+      "subTitle": "BattleCON: Big Box"
     },
     {
       "id": 430,
@@ -6357,7 +6780,8 @@
       "theme": "여행",
       "ranking": 424,
       "backgroundImage": "",
-      "releaseYear": "2007"
+      "releaseYear": "2007",
+      "subTitle": "Thebes"
     },
     {
       "id": 12079,
@@ -6372,7 +6796,8 @@
       "theme": "SF 공상 과학",
       "ranking": 425,
       "backgroundImage": "",
-      "releaseYear": "2019"
+      "releaseYear": "2019",
+      "subTitle": "It's a Wonderful World"
     },
     {
       "id": 11559,
@@ -6387,7 +6812,8 @@
       "theme": "판타지",
       "ranking": 426,
       "backgroundImage": "",
-      "releaseYear": "2019"
+      "releaseYear": "2019",
+      "subTitle": "Mansions of Madness: Second Edition – Path of the Serpent"
     },
     {
       "id": 4367,
@@ -6402,7 +6828,8 @@
       "theme": "고대",
       "ranking": 427,
       "backgroundImage": "",
-      "releaseYear": "2014"
+      "releaseYear": "2014",
+      "subTitle": "ZhanGuo"
     },
     {
       "id": 1393,
@@ -6417,7 +6844,8 @@
       "theme": "소설-기반",
       "ranking": 428,
       "backgroundImage": "",
-      "releaseYear": "1995"
+      "releaseYear": "1995",
+      "subTitle": "The Bottle Imp"
     },
     {
       "id": 9372,
@@ -6432,7 +6860,8 @@
       "theme": "도시 건설",
       "ranking": 429,
       "backgroundImage": "",
-      "releaseYear": "2017"
+      "releaseYear": "2017",
+      "subTitle": "London (Second Edition)"
     },
     {
       "id": 437,
@@ -6447,7 +6876,8 @@
       "theme": "카드 게임",
       "ranking": 430,
       "backgroundImage": "",
-      "releaseYear": "2004"
+      "releaseYear": "2004",
+      "subTitle": "No Thanks!"
     },
     {
       "id": 12714,
@@ -6462,7 +6892,8 @@
       "theme": "농업",
       "ranking": 431,
       "backgroundImage": "",
-      "releaseYear": "2019"
+      "releaseYear": "2019",
+      "subTitle": "Formosa Tea"
     },
     {
       "id": 808,
@@ -6477,7 +6908,8 @@
       "theme": "SF 공상 과학",
       "ranking": 432,
       "backgroundImage": "",
-      "releaseYear": "2012"
+      "releaseYear": "2012",
+      "subTitle": "Eclipse: Rise of the Ancients"
     },
     {
       "id": 718,
@@ -6492,7 +6924,8 @@
       "theme": "산업 / 제조",
       "ranking": 433,
       "backgroundImage": "",
-      "releaseYear": "2012"
+      "releaseYear": "2012",
+      "subTitle": "Ground Floor"
     },
     {
       "id": 493,
@@ -6507,7 +6940,8 @@
       "theme": "영역 건설",
       "ranking": 434,
       "backgroundImage": "",
-      "releaseYear": "2011"
+      "releaseYear": "2011",
+      "subTitle": "Kingdom Builder"
     },
     {
       "id": 6558,
@@ -6522,7 +6956,8 @@
       "theme": "SF 공상 과학",
       "ranking": 435,
       "backgroundImage": "",
-      "releaseYear": "2016"
+      "releaseYear": "2016",
+      "subTitle": "Dead of Winter : The Long Night"
     },
     {
       "id": 439,
@@ -6537,7 +6972,8 @@
       "theme": "항해",
       "ranking": 436,
       "backgroundImage": "",
-      "releaseYear": "2000"
+      "releaseYear": "2000",
+      "subTitle": "Meuterer"
     },
     {
       "id": 8711,
@@ -6552,7 +6988,8 @@
       "theme": "퍼즐",
       "ranking": 437,
       "backgroundImage": "",
-      "releaseYear": "2016"
+      "releaseYear": "2016",
+      "subTitle": "EXIT: The Game – The Pharaoh's Tomb"
     },
     {
       "id": 2306,
@@ -6567,7 +7004,8 @@
       "theme": "카드 게임",
       "ranking": 438,
       "backgroundImage": "https://boardlife.co.kr/wys2/file_attach_thumb/2013/10/10/1381333950-59_N_800x800_100_6_.jpg",
-      "releaseYear": "1995"
+      "releaseYear": "1995",
+      "subTitle": "High Society"
     },
     {
       "id": 9037,
@@ -6582,7 +7020,8 @@
       "theme": "도시 건설",
       "ranking": 439,
       "backgroundImage": "",
-      "releaseYear": "1994"
+      "releaseYear": "1994",
+      "subTitle": "Manhattan"
     },
     {
       "id": 12218,
@@ -6597,7 +7036,8 @@
       "theme": "퍼즐",
       "ranking": 440,
       "backgroundImage": "",
-      "releaseYear": "2019"
+      "releaseYear": "2019",
+      "subTitle": "Nova Luna"
     },
     {
       "id": 3051,
@@ -6612,7 +7052,8 @@
       "theme": "정치",
       "ranking": 441,
       "backgroundImage": "",
-      "releaseYear": "2012"
+      "releaseYear": "2012",
+      "subTitle": "Coup"
     },
     {
       "id": 394,
@@ -6627,7 +7068,8 @@
       "theme": "카드 게임",
       "ranking": 442,
       "backgroundImage": "",
-      "releaseYear": "1997"
+      "releaseYear": "1997",
+      "subTitle": "For Sale"
     },
     {
       "id": 11020,
@@ -6642,7 +7084,8 @@
       "theme": "실시간",
       "ranking": 443,
       "backgroundImage": "",
-      "releaseYear": "2018"
+      "releaseYear": "2018",
+      "subTitle": "Pictomania (Second Edition)"
     },
     {
       "id": 9513,
@@ -6657,7 +7100,8 @@
       "theme": "농업",
       "ranking": 444,
       "backgroundImage": "",
-      "releaseYear": "2018"
+      "releaseYear": "2018",
+      "subTitle": "Reykholt"
     },
     {
       "id": 1207,
@@ -6672,7 +7116,8 @@
       "theme": "카드 게임",
       "ranking": 445,
       "backgroundImage": "",
-      "releaseYear": "1984"
+      "releaseYear": "1984",
+      "subTitle": "Wizard"
     },
     {
       "id": 7702,
@@ -6687,7 +7132,8 @@
       "theme": "농업",
       "ranking": 446,
       "backgroundImage": "",
-      "releaseYear": "2016"
+      "releaseYear": "2016",
+      "subTitle": "Agricola: Family Edition"
     },
     {
       "id": 8966,
@@ -6702,7 +7148,8 @@
       "theme": "중세",
       "ranking": 447,
       "backgroundImage": "",
-      "releaseYear": "2018"
+      "releaseYear": "2018",
+      "subTitle": "Crusaders: Thy Will Be Done"
     },
     {
       "id": 2243,
@@ -6717,7 +7164,8 @@
       "theme": "동물",
       "ranking": 448,
       "backgroundImage": "",
-      "releaseYear": "2001"
+      "releaseYear": "2001",
+      "subTitle": "Pick Picknic"
     },
     {
       "id": 3479,
@@ -6732,7 +7180,8 @@
       "theme": "블러핑",
       "ranking": 449,
       "backgroundImage": "",
-      "releaseYear": "2015"
+      "releaseYear": "2015",
+      "subTitle": "Arboretum"
     },
     {
       "id": 9633,
@@ -6747,7 +7196,8 @@
       "theme": "판타지",
       "ranking": 450,
       "backgroundImage": "",
-      "releaseYear": "2017"
+      "releaseYear": "2017",
+      "subTitle": "Spirit Island: Branch & Claw"
     },
     {
       "id": 1417,
@@ -6762,7 +7212,8 @@
       "theme": "판타지",
       "ranking": 451,
       "backgroundImage": "",
-      "releaseYear": "2011"
+      "releaseYear": "2011",
+      "subTitle": "Dungeon Fighter"
     },
     {
       "id": 7071,
@@ -6777,7 +7228,8 @@
       "theme": "판타지",
       "ranking": 452,
       "backgroundImage": "",
-      "releaseYear": "2016"
+      "releaseYear": "2016",
+      "subTitle": "Mystic Vale"
     },
     {
       "id": 6059,
@@ -6792,7 +7244,8 @@
       "theme": "SF 공상 과학",
       "ranking": 453,
       "backgroundImage": "",
-      "releaseYear": "2015"
+      "releaseYear": "2015",
+      "subTitle": "Leaving Earth"
     },
     {
       "id": 227,
@@ -6807,7 +7260,8 @@
       "theme": "영역 건설",
       "ranking": 454,
       "backgroundImage": "",
-      "releaseYear": "2006"
+      "releaseYear": "2006",
+      "subTitle": "Shogun"
     },
     {
       "id": 9665,
@@ -6822,7 +7276,8 @@
       "theme": "살인/미스터리",
       "ranking": 455,
       "backgroundImage": "",
-      "releaseYear": "2018"
+      "releaseYear": "2018",
+      "subTitle": "Chronicles of Crime"
     },
     {
       "id": 1682,
@@ -6837,7 +7292,8 @@
       "theme": "카드 게임",
       "ranking": 456,
       "backgroundImage": "",
-      "releaseYear": "2010"
+      "releaseYear": "2010",
+      "subTitle": "Mai-Star"
     },
     {
       "id": 946,
@@ -6852,7 +7308,8 @@
       "theme": "판타지",
       "ranking": 457,
       "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/01/28/164330512357845_lg_N_800x800_100_6_.jpg",
-      "releaseYear": "2010"
+      "releaseYear": "2010",
+      "subTitle": "Battles of Westeros"
     },
     {
       "id": 9143,
@@ -6867,7 +7324,8 @@
       "theme": "SF 공상 과학",
       "ranking": 458,
       "backgroundImage": "",
-      "releaseYear": "2017"
+      "releaseYear": "2017",
+      "subTitle": "Clank! In! Space!: A Deck-Building Adventure"
     },
     {
       "id": 6694,
@@ -6882,7 +7340,8 @@
       "theme": "신화",
       "ranking": 459,
       "backgroundImage": "",
-      "releaseYear": "2016"
+      "releaseYear": "2016",
+      "subTitle": "Santorini"
     },
     {
       "id": 13629,
@@ -6897,7 +7356,8 @@
       "theme": "살인/미스터리",
       "ranking": 460,
       "backgroundImage": "",
-      "releaseYear": "2020"
+      "releaseYear": "2020",
+      "subTitle": "MicroMacro: Crime City"
     },
     {
       "id": 12896,
@@ -6912,7 +7372,8 @@
       "theme": "실시간",
       "ranking": 461,
       "backgroundImage": "",
-      "releaseYear": "2020"
+      "releaseYear": "2020",
+      "subTitle": "Word Capture"
     },
     {
       "id": 11109,
@@ -6927,7 +7388,8 @@
       "theme": "SF 공상 과학",
       "ranking": 462,
       "backgroundImage": "",
-      "releaseYear": "2019"
+      "releaseYear": "2019",
+      "subTitle": "Terraforming Mars: Turmoil"
     },
     {
       "id": 5984,
@@ -6942,7 +7404,8 @@
       "theme": "셋 컬렉션",
       "ranking": 463,
       "backgroundImage": "",
-      "releaseYear": "2016"
+      "releaseYear": "2016",
+      "subTitle": "The Great Dinosaur Rush"
     },
     {
       "id": 3667,
@@ -6957,7 +7420,8 @@
       "theme": "운송",
       "ranking": 464,
       "backgroundImage": "",
-      "releaseYear": "2014"
+      "releaseYear": "2014",
+      "subTitle": "Isle of Trains"
     },
     {
       "id": 543,
@@ -6972,7 +7436,8 @@
       "theme": "영역 건설",
       "ranking": 465,
       "backgroundImage": "",
-      "releaseYear": "2012"
+      "releaseYear": "2012",
+      "subTitle": "Antike Duellum"
     },
     {
       "id": 9641,
@@ -6987,7 +7452,8 @@
       "theme": "스포츠",
       "ranking": 466,
       "backgroundImage": "",
-      "releaseYear": "2018"
+      "releaseYear": "2018",
+      "subTitle": "Castell"
     },
     {
       "id": 8918,
@@ -7002,7 +7468,8 @@
       "theme": "산업 / 제조",
       "ranking": 467,
       "backgroundImage": "",
-      "releaseYear": "2017"
+      "releaseYear": "2017",
+      "subTitle": "Kanban Automotive Revolution (Driver's Edition)"
     },
     {
       "id": 11595,
@@ -7017,7 +7484,8 @@
       "theme": "동물",
       "ranking": 468,
       "backgroundImage": "",
-      "releaseYear": "2019"
+      "releaseYear": "2019",
+      "subTitle": "Quirky Circuits"
     },
     {
       "id": 188,
@@ -7032,7 +7500,8 @@
       "theme": "산업 / 제조",
       "ranking": 469,
       "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/04/28/13986498064332_N_800x800_100_6_.jpg",
-      "releaseYear": "2009"
+      "releaseYear": "2009",
+      "subTitle": "Automobile"
     },
     {
       "id": 2564,
@@ -7047,7 +7516,8 @@
       "theme": "제2차 세계 대전",
       "ranking": 470,
       "backgroundImage": "",
-      "releaseYear": "2009"
+      "releaseYear": "2009",
+      "subTitle": "Axis & Allies: 1942"
     },
     {
       "id": 6411,
@@ -7062,7 +7532,8 @@
       "theme": "공포",
       "ranking": 471,
       "backgroundImage": "",
-      "releaseYear": "2015"
+      "releaseYear": "2015",
+      "subTitle": "Pandemic: Reign of Cthulhu"
     },
     {
       "id": 548,
@@ -7077,7 +7548,8 @@
       "theme": "추상전략",
       "ranking": 472,
       "backgroundImage": "",
-      "releaseYear": "2007"
+      "releaseYear": "2007",
+      "subTitle": "Tzaar"
     },
     {
       "id": 10764,
@@ -7092,7 +7564,8 @@
       "theme": "판타지",
       "ranking": 473,
       "backgroundImage": "",
-      "releaseYear": "2019"
+      "releaseYear": "2019",
+      "subTitle": "Res Arcana"
     },
     {
       "id": 3719,
@@ -7107,7 +7580,8 @@
       "theme": "문명",
       "ranking": 474,
       "backgroundImage": "",
-      "releaseYear": "2014"
+      "releaseYear": "2014",
+      "subTitle": "Nations: The Dice Game"
     },
     {
       "id": 5735,
@@ -7122,7 +7596,8 @@
       "theme": "산업 / 제조",
       "ranking": 475,
       "backgroundImage": "",
-      "releaseYear": "2015"
+      "releaseYear": "2015",
+      "subTitle": "Nippon"
     },
     {
       "id": 413,
@@ -7137,7 +7612,8 @@
       "theme": "영화/TV/라디오 테마",
       "ranking": 476,
       "backgroundImage": "",
-      "releaseYear": "2021"
+      "releaseYear": "2021",
+      "subTitle": "Yahtzee"
     },
     {
       "id": 7636,
@@ -7152,7 +7628,8 @@
       "theme": "판타지",
       "ranking": 477,
       "backgroundImage": "",
-      "releaseYear": "2016"
+      "releaseYear": "2016",
+      "subTitle": "Mechs vs. Minions"
     },
     {
       "id": 1984,
@@ -7167,7 +7644,8 @@
       "theme": "카드 게임",
       "ranking": 478,
       "backgroundImage": "",
-      "releaseYear": "1996"
+      "releaseYear": "1996",
+      "subTitle": "Show Manager"
     },
     {
       "id": 4663,
@@ -7182,7 +7660,8 @@
       "theme": "소설-기반",
       "ranking": 479,
       "backgroundImage": "",
-      "releaseYear": "2014"
+      "releaseYear": "2014",
+      "subTitle": "Three Kingdoms Redux"
     },
     {
       "id": 3634,
@@ -7197,7 +7676,8 @@
       "theme": "판타지",
       "ranking": 480,
       "backgroundImage": "",
-      "releaseYear": "2014"
+      "releaseYear": "2014",
+      "subTitle": "Lords of Xidit"
     },
     {
       "id": 11171,
@@ -7212,7 +7692,8 @@
       "theme": "중세",
       "ranking": 481,
       "backgroundImage": "",
-      "releaseYear": "2019"
+      "releaseYear": "2019",
+      "subTitle": "The Quacks of Quedlinburg: The Herb Witches"
     },
     {
       "id": 9045,
@@ -7227,7 +7708,8 @@
       "theme": "카드 게임",
       "ranking": 482,
       "backgroundImage": "",
-      "releaseYear": "2017"
+      "releaseYear": "2017",
+      "subTitle": "Tournament at Camelot"
     },
     {
       "id": 3585,
@@ -7242,7 +7724,8 @@
       "theme": "항해",
       "ranking": 483,
       "backgroundImage": "",
-      "releaseYear": "2014"
+      "releaseYear": "2014",
+      "subTitle": "Panamax"
     },
     {
       "id": 4148,
@@ -7257,7 +7740,8 @@
       "theme": "판타지",
       "ranking": 484,
       "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/11/15/14159781648435_N_800x800_100_6_.jpg",
-      "releaseYear": "2014"
+      "releaseYear": "2014",
+      "subTitle": "Abyss"
     },
     {
       "id": 547,
@@ -7272,7 +7756,8 @@
       "theme": "추상전략",
       "ranking": 485,
       "backgroundImage": "",
-      "releaseYear": "2001"
+      "releaseYear": "2001",
+      "subTitle": "DVONN"
     },
     {
       "id": 9862,
@@ -7287,7 +7772,8 @@
       "theme": "퍼즐",
       "ranking": 486,
       "backgroundImage": "",
-      "releaseYear": "2018"
+      "releaseYear": "2018",
+      "subTitle": "Azul: Stained Glass of Sintra"
     },
     {
       "id": 6534,
@@ -7302,7 +7788,8 @@
       "theme": "실시간",
       "ranking": 487,
       "backgroundImage": "",
-      "releaseYear": "2016"
+      "releaseYear": "2016",
+      "subTitle": "Captain Sonar"
     },
     {
       "id": 89,
@@ -7317,7 +7804,8 @@
       "theme": "판타지",
       "ranking": 488,
       "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/07/14/14053038454604_N_800x800_100_6_.jpg",
-      "releaseYear": "2010"
+      "releaseYear": "2010",
+      "subTitle": "Asara"
     },
     {
       "id": 8570,
@@ -7332,7 +7820,8 @@
       "theme": "판타지",
       "ranking": 489,
       "backgroundImage": "",
-      "releaseYear": "2017"
+      "releaseYear": "2017",
+      "subTitle": "Caverna: Cave vs Cave"
     },
     {
       "id": 14375,
@@ -7347,7 +7836,8 @@
       "theme": "문명",
       "ranking": 490,
       "backgroundImage": "",
-      "releaseYear": "2021"
+      "releaseYear": "2021",
+      "subTitle": "Imperium: Classics"
     },
     {
       "id": 6028,
@@ -7362,7 +7852,8 @@
       "theme": "판타지",
       "ranking": 491,
       "backgroundImage": "",
-      "releaseYear": "2015"
+      "releaseYear": "2015",
+      "subTitle": "A Game of Thrones: The Card Game (Second Edition)"
     },
     {
       "id": 11492,
@@ -7377,7 +7868,8 @@
       "theme": "르네상스",
       "ranking": 492,
       "backgroundImage": "",
-      "releaseYear": "2019"
+      "releaseYear": "2019",
+      "subTitle": "Masters of Renaissance: Lorenzo Il Magnifico – The Card Game"
     },
     {
       "id": 7728,
@@ -7392,7 +7884,8 @@
       "theme": "프린트 & 플레이",
       "ranking": 493,
       "backgroundImage": "",
-      "releaseYear": "2016"
+      "releaseYear": "2016",
+      "subTitle": "One Deck Dungeon"
     },
     {
       "id": 122,
@@ -7407,7 +7900,8 @@
       "theme": "항해",
       "ranking": 494,
       "backgroundImage": "",
-      "releaseYear": "2004"
+      "releaseYear": "2004",
+      "subTitle": "Hansa"
     },
     {
       "id": 6800,
@@ -7422,7 +7916,8 @@
       "theme": "운송",
       "ranking": 495,
       "backgroundImage": "",
-      "releaseYear": "2005"
+      "releaseYear": "2005",
+      "subTitle": "1889: History of Shikoku Railways"
     },
     {
       "id": 2538,
@@ -7437,7 +7932,8 @@
       "theme": "항해",
       "ranking": 496,
       "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2013/12/04/13861229223915_N_800x800_100_6_.jpg",
-      "releaseYear": "2013"
+      "releaseYear": "2013",
+      "subTitle": "Carcassonne: South Seas"
     },
     {
       "id": 11924,
@@ -7452,7 +7948,8 @@
       "theme": "농업",
       "ranking": 497,
       "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2022/01/08/164162380343146_lg_N_800x800_100_6_.jpg",
-      "releaseYear": "2019"
+      "releaseYear": "2019",
+      "subTitle": "Glen More II: Chronicle"
     },
     {
       "id": 12887,
@@ -7467,7 +7964,8 @@
       "theme": "SF 공상 과학",
       "ranking": 498,
       "backgroundImage": "",
-      "releaseYear": "2021"
+      "releaseYear": "2021",
+      "subTitle": "Terraforming Mars: Big Box"
     },
     {
       "id": 655,
@@ -7482,7 +7980,8 @@
       "theme": "종교",
       "ranking": 499,
       "backgroundImage": "",
-      "releaseYear": "2008"
+      "releaseYear": "2008",
+      "subTitle": "The Princes of Machu Picchu"
     },
     {
       "id": 2588,
@@ -7497,7 +7996,8 @@
       "theme": "카드 게임",
       "ranking": 500,
       "backgroundImage": "",
-      "releaseYear": "2002"
+      "releaseYear": "2002",
+      "subTitle": "Burn Rate"
     },
     {
       "id": 189,
@@ -7512,7 +8012,8 @@
       "theme": "도시 건설",
       "ranking": 501,
       "backgroundImage": "https://boardlife.co.kr/wys2/swf_upload/2014/01/20/13901765617854_N_800x800_100_6_.jpg",
-      "releaseYear": "2010"
+      "releaseYear": "2010",
+      "subTitle": "London"
     },
     {
       "id": 501,
@@ -7527,7 +8028,8 @@
       "theme": "판타지",
       "ranking": 502,
       "backgroundImage": "",
-      "releaseYear": "2011"
+      "releaseYear": "2011",
+      "subTitle": "Rune Age"
     }
   ]
 }
