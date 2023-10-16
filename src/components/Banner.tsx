@@ -9,6 +9,7 @@ interface BannerWrapperProps {
 const BannerWrapper = styled.div<BannerWrapperProps>`
   width: 100vw;
   padding-top: 40%;
+  margin: 0 -40px;
 
   position: relative;
 
@@ -42,7 +43,7 @@ const BannerContainer = styled.div`
   background-image: linear-gradient(
     90deg,
     rgb(20, 17, 46, 1),
-    rgb(28, 23, 75, 1),
+    rgb(28, 23, 75, 0.7),
     rgb(20, 17, 46, 0.5)
   );
   padding: 40px 50px;
@@ -72,7 +73,6 @@ const BannerContent = styled.div`
     font-size: 1.4rem;
     font-weight: 700;
     background: linear-gradient(90deg, rgb(62, 96, 245), rgb(29, 64, 218));
-    box-shadow: 1px 1px 5px rgb(0, 0, 0, 1);
     margin-top: 60px;
 
     span {
