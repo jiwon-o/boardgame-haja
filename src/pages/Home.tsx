@@ -8,6 +8,7 @@ import Banner from "./../components/Banner";
 import SubHeader from "../components/Header/SubHeader";
 import List from "../components/List";
 import { Game } from "../types";
+import Card from "../components/Card";
 
 const HomeWrapper = styled.div`
   margin: 0 auto;
@@ -38,14 +39,18 @@ export default function Home() {
     <HomeWrapper>
       <Header onSearch={handleSearch} />
       <Banner games={games} />
-      <SubHeader title="Currently Trending Games" btnTxt="See All" />
-      <List games={filteredGames} type="recent" />
-      <Gallery
+      <main>
+        <SubHeader title="Currently Trending Games" btnTxt="See All" />
+        <List games={filteredGames} type="recent" />
+        <SubHeader title="All Boardgames" btnTxt="See All" />
+        <Card loading={loading} error={error} games={games} />
+        {/* <Gallery
         loading={loading}
         error={error}
         games={games}
         searchGame={searchGame}
-      />
+      /> */}
+      </main>
     </HomeWrapper>
   );
 }
