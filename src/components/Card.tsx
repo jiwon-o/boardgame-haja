@@ -1,38 +1,58 @@
 import React from "react";
-import { Game } from "../types";
+import { Game, GameRankProps } from "../types";
 import styled from "styled-components";
+import { IoPeopleSharp } from "react-icons/io5";
+import { MdStarRate } from "react-icons/md";
+import { BiSolidTimeFive } from "react-icons/bi";
+import { TbRating12Plus } from "react-icons/tb";
+
+const rankColors: { [key: number]: string } = {
+  1: "#d83f31",
+  2: "#ee9322",
+  3: "#ee9322",
+};
 
 const CardWrapper = styled.div`
   display: flex;
+  justify-content: center;
 
   aside {
     flex: 1;
     background-color: red;
-    width: 300px;
-    height: 300px;
+    max-width: 300px;
+    max-height: 300px;
+    min-width: 200px;
   }
 `;
 
 const CardContainer = styled.div`
+  max-width: 720px;
   flex: 4;
-  box-shadow: 0 0 10px red;
+  margin-right: 20px;
+`;
 
-  ul {
-    display: flex;
-    flex-direction: column;
-  }
+const CardItems = styled.ul`
+  display: flex;
+  flex-direction: column;
+`;
 
-  li {
-    display: flex;
-    box-shadow: 0 0 10px green;
+const CardItem = styled.li`
+  position: relative;
+
+  display: flex;
+  box-shadow: 0 0 5px #14112e;
+
+  &:hover {
+    cursor: pointer;
+    background-color: #1f1a4cd7;
+    box-shadow: 3px 3px 5px black;
   }
 `;
 
 const CardThumbnail = styled.div`
   flex: 1;
-  max-width: 250px;
+  max-width: 220px;
   padding: 14px;
-  box-shadow: 0 0 10px blue;
 
   img {
     width: 100%;
@@ -47,7 +67,11 @@ const CardDetail = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin: 14px;asdfasdfasdasdasdasdasdfasdfaasdfasdfasdfasdfasdfasdasdfasdfasdf
+  margin: 14px;
+`;
+
+const GameTitleAndTheme = styled.div`
+  margin-top: 10px;
 `;
 
 const GameTheme = styled.strong`
@@ -58,11 +82,12 @@ const GameTheme = styled.strong`
   color: #ececf1;
   font-size: 1.2rem;
   font-weight: 700;
+  box-shadow: 1px 1px 1px #14112e;
 `;
 
 const GameTitle = styled.h3`
   font-size: 2rem;
-
+  margin-top: 24px;
   span {
     display: inline-block;
     font-size: 1.6rem;
@@ -73,6 +98,39 @@ const GameTitle = styled.h3`
 const GameSubTitle = styled.h4`
   font-size: 1.6rem;
   color: #7d7b9f;
+  margin-top: 10px;
+`;
+
+const GamePlay = styled.ul`
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 10px;
+`;
+
+const GamePlayItem = styled.li`
+  font-size: 1.4rem;
+
+  svg {
+    font-size: 22px;
+  }
+`;
+
+const GameRank = styled.span<GameRankProps>`
+  display: inline-block;
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 24px;
+  min-height: 24px;
+  padding: 0 6px 0 5px;
+  border-radius: 50%;
+  font-size: 1.4rem;
+  color: white;
+  background-color: #382f84;
 `;
 
 interface Props {
@@ -90,35 +148,38 @@ export default function Card({ loading, error, games }: Props) {
       <CardContainer>
         {games?.map((game) => {
           return (
-            <ul>
-              <li>
+            <CardItems>
+              <CardItem>
                 <CardThumbnail>
                   <img src={game.image} alt="보드게임 이미지" />
                 </CardThumbnail>
                 <CardDetail>
-                  <GameTheme>{game.theme}</GameTheme>
-                  <GameTitle>
-                    {game.name}
-                    <span>({game.releaseYear})</span>
-                  </GameTitle>
-                  <GameSubTitle>{game.subTitle}</GameSubTitle>
-                  <div>
-                    <span>
-                      인원:{" "}
-                      <strong>
-                        {game.min_player} ~ {game.max_player}명
-                      </strong>
-                    </span>
-                    <span>
-                      평점: <strong>{game.rate}점</strong>
-                    </span>
-                    <span>
-                      플레이 타임: <strong>{game.play_time}</strong>
-                    </span>
-                  </div>
+                  <GameTitleAndTheme>
+                    <GameTheme>{game.theme}</GameTheme>
+                    <GameTitle>
+                      {game.name}
+                      <span>({game.releaseYear})</span>
+                      <GameSubTitle>{game.subTitle}</GameSubTitle>
+                    </GameTitle>
+                  </GameTitleAndTheme>
+                  <GamePlay>
+                    <GamePlayItem>
+                      <IoPeopleSharp /> {game.min_player} ~ {game.max_player}명
+                    </GamePlayItem>
+                    <GamePlayItem>
+                      <MdStarRate /> {game.rate}점
+                    </GamePlayItem>
+                    <GamePlayItem>
+                      <BiSolidTimeFive /> {game.play_time}
+                    </GamePlayItem>
+                    <GamePlayItem>
+                      <TbRating12Plus /> {game.play_age}
+                    </GamePlayItem>
+                  </GamePlay>
+                  <GameRank ranking={game.ranking}>{game.ranking}</GameRank>
                 </CardDetail>
-              </li>
-            </ul>
+              </CardItem>
+            </CardItems>
           );
         })}
       </CardContainer>
