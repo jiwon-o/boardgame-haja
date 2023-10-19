@@ -10,6 +10,7 @@ export default function AppRouter() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/boardgames" element={<AllGames />} />
+        <Route path="game/:gameId" element={<Detail />} />
       </Routes>
     </BrowserRouter>
   );

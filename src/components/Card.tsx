@@ -5,6 +5,7 @@ import { IoPeopleSharp } from "react-icons/io5";
 import { MdStarRate } from "react-icons/md";
 import { BiSolidTimeFive } from "react-icons/bi";
 import { TbRating12Plus } from "react-icons/tb";
+import { useNavigate } from "react-router-dom";
 
 const rankColors: { [key: number]: string } = {
   1: "#d83f31",
@@ -38,9 +39,9 @@ const CardItems = styled.ul`
 
 const CardItem = styled.li`
   position: relative;
-
+  border-radius: 10px;
   display: flex;
-  box-shadow: 0 0 5px #14112e;
+  box-shadow: 0 0 10px #14112e;
 
   &:hover {
     cursor: pointer;
@@ -53,6 +54,7 @@ const CardThumbnail = styled.div`
   flex: 1;
   max-width: 220px;
   padding: 14px;
+  border: 1px solid #14112e;
 
   img {
     width: 100%;
@@ -76,7 +78,7 @@ const GameTitleAndTheme = styled.div`
 
 const GameTheme = styled.strong`
   width: fit-content;
-  padding: 10px 14px;
+  padding: 8px 12px;
   border-radius: 10px;
   background-color: #24244a;
   color: #ececf1;
@@ -86,7 +88,7 @@ const GameTheme = styled.strong`
 `;
 
 const GameTitle = styled.h3`
-  font-size: 2rem;
+  font-size: 1.8rem;
   margin-top: 24px;
   span {
     display: inline-block;
@@ -106,13 +108,20 @@ const GamePlay = styled.ul`
   justify-content: space-between;
   flex-wrap: wrap;
   margin-top: 10px;
+  gap: 8px;
 `;
 
 const GamePlayItem = styled.li`
+  padding: 8px 12px;
+  border-radius: 10px;
+  background-color: #382f84;
+  color: #ececf1;
+  line-height: 20px;
   font-size: 1.4rem;
-
+  box-shadow: 1px 1px 1px #14112e;
   svg {
-    font-size: 22px;
+    font-size: 18px;
+    margin-top: -2px;
   }
 `;
 
@@ -126,7 +135,7 @@ const GameRank = styled.span<GameRankProps>`
   align-items: center;
   min-width: 24px;
   min-height: 24px;
-  padding: 0 6px 0 5px;
+  padding: 0 6px 1px 5px;
   border-radius: 50%;
   font-size: 1.4rem;
   color: white;
@@ -140,6 +149,12 @@ interface Props {
 }
 
 export default function Card({ loading, error, games }: Props) {
+  const navigate = useNavigate();
+
+  const handleCardItemClick = (game: Game) => {
+    navigate(`/game/${game.id}`, { state: { game } });
+  };
+
   if (loading) return <div>로딩중..</div>;
   if (error) return <div>에러가 발생했습니다</div>;
   if (!games) return null;
@@ -149,7 +164,7 @@ export default function Card({ loading, error, games }: Props) {
         {games?.map((game) => {
           return (
             <CardItems>
-              <CardItem>
+              <CardItem onClick={() => handleCardItemClick(game)}>
                 <CardThumbnail>
                   <img src={game.image} alt="보드게임 이미지" />
                 </CardThumbnail>
