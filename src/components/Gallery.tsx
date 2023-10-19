@@ -23,7 +23,6 @@ const GamesLayout = styled.div`
 const MasonryContainer = styled(Masonry)`
   display: flex;
   justify-content: center;
-  box-shadow: 0 0 10px red;
 
   .column {
     display: flex;
@@ -43,7 +42,6 @@ const CardContainer = styled.div`
   flex-direction: column;
   align-items: center;
   color: #ececf1;
-  box-shadow: 0 0 0 1px green;
   cursor: pointer;
   & + & {
     margin-top: 20px;
@@ -120,7 +118,7 @@ interface Props {
   searchGame: string;
 }
 
-export default function GameList({ loading, error, games, searchGame }: Props) {
+export default function Gallery({ loading, error, games, searchGame }: Props) {
   const columns = useColumns();
   const searchGames = useSearch();
   const dataCount = useScroll(50);
@@ -137,7 +135,10 @@ export default function GameList({ loading, error, games, searchGame }: Props) {
   };
 
   const filteredGames = games?.filter((game) => {
-    return searchGames(searchGame, game.name);
+    return (
+      searchGames(searchGame, game.name) ||
+      searchGames(searchGame, game.subTitle)
+    );
   });
 
   const pagedGames = filteredGames?.slice(0, dataCount);
@@ -163,7 +164,7 @@ export default function GameList({ loading, error, games, searchGame }: Props) {
           columnClassName="column"
         >
           {pagedGames.map((game: Game) => {
-            const imageUrl = generateImageUrl(game.image, 200);
+            // const imageUrl = generateImageUrl(game.image, 200);
 
             return (
               <CardContainer key={game.id} onClick={() => openModal(game)}>
@@ -171,14 +172,16 @@ export default function GameList({ loading, error, games, searchGame }: Props) {
                   <GameRank ranking={game.ranking}>{game.ranking}</GameRank>
                   <GameImg
                     src={
-                      game.image.includes("boardlife.co.kr")
-                        ? imageUrl
-                        : game.image
+                      // game.image.includes("boardlife.co.kr")
+                      //   ? imageUrl
+                      //   : game.image
+                      game.image
                     }
                     alt={game.name}
                   />
                 </Card>
                 <GameTitle>{game.name}</GameTitle>
+                <h5 className="a11y">{game.subTitle}</h5>
               </CardContainer>
             );
           })}
@@ -188,7 +191,7 @@ export default function GameList({ loading, error, games, searchGame }: Props) {
       )}
       {isModalOpen && (
         <Modal isOpen={isModalOpen} onClose={closeModal}>
-          {selectedGame && <Detail game={selectedGame} />}
+          {selectedGame && <Detail />}
         </Modal>
       )}
     </GamesLayout>
