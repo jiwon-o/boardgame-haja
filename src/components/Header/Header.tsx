@@ -1,6 +1,7 @@
 import Input from "../Input";
 import styled from "styled-components";
 import logo from "../../assets/icons/icon-logo.svg";
+import { Link } from "react-router-dom";
 
 const HeaderWrapper = styled.header`
   width: 100%;
@@ -16,7 +17,7 @@ const HeaderContent = styled.div`
   gap: 32px;
 `;
 
-const LogoImage = styled.div`
+const LogoImage = styled(Link)`
   width: 42px;
   height: 42px;
   min-width: 42px;
@@ -70,22 +71,24 @@ const Button = styled.button<{ primary?: boolean }>`
 `;
 
 interface Props {
+  onClickInput?(): void;
+  onClickBackBtn?(): void;
   onSearch(term: string): void;
 }
 
-export default function header(props: Props) {
+export default function Header(props: Props) {
   return (
     <HeaderWrapper>
       <HeaderContent>
-        <LogoImage>
+        <LogoImage to="/" onClick={props.onClickBackBtn}>
           <img src={logo} alt="로고" />
         </LogoImage>
         <LinkWrapper>
-          <a href="/">View All</a>
+          <Link to="/boardgames">View All</Link>
           <a href="/">Categories</a>
         </LinkWrapper>
       </HeaderContent>
-      <Input onSearch={props.onSearch} />
+      <Input onClickInput={props.onClickInput} onSearch={props.onSearch} />
       <LoginContent>
         <Button>Log In</Button>
         <Button primary>Sign Up</Button>
