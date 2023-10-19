@@ -1,6 +1,14 @@
 import styled from "styled-components";
 import { Game } from "../types";
 import useYouTubeVideo from "../hooks/useYoutubeVideo";
+import { useLocation } from "react-router-dom";
+import Header from "../components/Header/Header";
+import { useState } from "react";
+import useInput from "../hooks/useInput";
+import SubHeader from "../components/Header/SubHeader";
+import Gallery from "../components/Gallery";
+import useAsync from "../hooks/useAsync";
+import axios from "axios";
 
 interface DetailContainerProps {
   backgroundurl?: string;
@@ -56,25 +64,49 @@ const VideoWrapper = styled.div`
   }
 `;
 
-interface Props {
-  game: Game;
+async function getGames() {
+  const response = await axios.get("http://localhost:3001/game");
+  return response.data;
 }
 
-export default function Detail({ game }: Props) {
-  useYouTubeVideo(game.name);
+export default function Detail() {
+  const state = useAsync(getGames, []);
+  const { loading, data: games, error } = state;
 
-  if (!game) return <div>게임 정보가 없습니다.</div>;
+  const location = useLocation();
+  const { game } = location.state;
+  const {
+    searchGame,
+    isClickInput,
+    handleSearch,
+    handleClickInput,
+    handleClickBackBtn,
+  } = useInput();
 
   return (
-    <DetailWrapper backgroundurl={game.backgroundImage}>
-      <DetailContainer>
-        <VideoWrapper id="video-container"></VideoWrapper>
-        <div>
-          <h2>{game.rate}</h2>
-          <h2>{game.name}</h2>
-          <p>{game.ranking}</p>
-        </div>
-      </DetailContainer>
-    </DetailWrapper>
+    <>
+      <Header
+        onClickInput={handleClickInput}
+        onClickBackBtn={handleClickBackBtn}
+        onSearch={handleSearch}
+      />
+      {isClickInput ? (
+        <>
+          <SubHeader
+            title="Search"
+            isBackBtn={true}
+            onClickBackBtn={handleClickBackBtn}
+          />
+          <Gallery
+            loading={loading}
+            error={error}
+            games={games}
+            searchGame={searchGame}
+          />
+        </>
+      ) : (
+        <div>{game.name}</div>
+      )}
+    </>
   );
 }

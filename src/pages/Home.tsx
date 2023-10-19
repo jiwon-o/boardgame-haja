@@ -8,6 +8,7 @@ import Banner from "./../components/Banner";
 import SubHeader from "../components/Header/SubHeader";
 import List from "../components/List";
 import Card from "../components/Card";
+import useInput from "../hooks/useInput";
 
 const HomeWrapper = styled.div`
   margin: 0 auto;
@@ -22,12 +23,20 @@ async function getGames() {
 export default function Home() {
   const state = useAsync(getGames, []);
   const { loading, data: games, error } = state;
-  const [searchGame, setSearchGame] = useState("");
-  const [isClickInput, setIsClickInput] = useState(false);
+  const {
+    searchGame,
+    isClickInput,
+    handleSearch,
+    handleClickInput,
+    handleClickBackBtn,
+  } = useInput();
 
-  const handleSearch = (item: string) => {
-    setSearchGame(item);
-  };
+  // const [searchGame, setSearchGame] = useState("");
+  // const [isClickInput, setIsClickInput] = useState(false);
+
+  // const handleSearch = (item: string) => {
+  //   setSearchGame(item);
+  // };
 
   const filteredGames = games
     ? [...games]
@@ -35,13 +44,13 @@ export default function Home() {
         .slice(0, 10)
     : null;
 
-  const handleClickInput = () => {
-    setIsClickInput(true);
-  };
+  // const handleClickInput = () => {
+  //   setIsClickInput(true);
+  // };
 
-  const handleClickBackBtn = () => {
-    setIsClickInput(false);
-  };
+  // const handleClickBackBtn = () => {
+  //   setIsClickInput(false);
+  // };
 
   if (loading) return <div>로딩중..</div>;
   if (error) return <div>에러가 발생했습니다</div>;
