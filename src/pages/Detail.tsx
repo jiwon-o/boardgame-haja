@@ -3,7 +3,7 @@ import { Game } from "../types";
 import useYouTubeVideo from "../hooks/useYoutubeVideo";
 import { useLocation } from "react-router-dom";
 import Header from "../components/Header/Header";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import useInput from "../hooks/useInput";
 import SubHeader from "../components/Header/SubHeader";
 import Gallery from "../components/Gallery";
@@ -13,6 +13,7 @@ import { HiMiniTrophy } from "react-icons/hi2";
 import { AiFillStar } from "react-icons/ai";
 import { AiOutlineYoutube } from "react-icons/ai";
 import { AiOutlineShoppingCart } from "react-icons/ai";
+import Modal from "../components/Modal";
 
 interface DetailWrapperProps {
   backgroundurl?: string;
@@ -153,6 +154,24 @@ const ButtonBox = styled.div`
   }
 `;
 
+const VideoWrapper = styled.div`
+  position: relative;
+  width: 800px;
+  height: 450px;
+  border-radius: 10px;
+  border: 2px solid rgb(62, 96, 245);
+
+  iframe {
+    z-index: 1;
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+  }
+`;
+
 async function getGames() {
   const response = await axios.get("http://localhost:3001/game");
   return response.data;
@@ -161,9 +180,12 @@ async function getGames() {
 export default function Detail() {
   const state = useAsync(getGames, []);
   const { loading, data: games, error } = state;
-
+  const [isModalOpen, setIsModalOpen] = useState<boolean>(false);
+  const [selectedGame, setSelectedGame] = useState<Game | null>(null);
+  const [videoLoaded, setVideoLoaded] = useState<boolean>(false);
   const location = useLocation();
   const { game } = location.state;
+
   const {
     searchGame,
     isClickInput,
@@ -171,6 +193,21 @@ export default function Detail() {
     handleClickInput,
     handleClickBackBtn,
   } = useInput();
+
+  const openModal = (game: Game) => {
+    setSelectedGame(game);
+    setIsModalOpen(true);
+  };
+
+  const closeModal = () => {
+    setIsModalOpen(false);
+  };
+
+  const onVideoLoaded = () => {
+    setVideoLoaded(true);
+  };
+
+  useYouTubeVideo(game.name);
 
   return (
     <>
@@ -213,7 +250,7 @@ export default function Detail() {
                 fuga, odio iure et, voluptates magni!
               </p>
               <ButtonBox>
-                <button>
+                <button onClick={() => openModal(game)}>
                   HOW TO PLAY
                   <AiOutlineYoutube size={30} />
                 </button>
@@ -238,6 +275,15 @@ export default function Detail() {
             searchGame={searchGame}
           />
         </>
+      )}
+      {isModalOpen && (
+        <Modal isOpen={isModalOpen} onClose={closeModal}>
+          {videoLoaded ? (
+            <VideoWrapper id="video-container"></VideoWrapper>
+          ) : (
+            <div>Loading video...</div>
+          )}
+        </Modal>
       )}
     </>
   );

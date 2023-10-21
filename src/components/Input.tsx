@@ -9,6 +9,7 @@ const InputWrapper = styled.form`
   min-width: 320px;
   background: url(${SearchIcon}) no-repeat left 1.3em center / 1.7em;
   background-color: #24244a;
+  margin: 0 20px;
 
   input {
     width: calc(100% - 2.2rem);
@@ -30,6 +31,8 @@ const InputWrapper = styled.form`
 `;
 
 interface Props {
+  onClickInput?(): void;
+  onBlurInput?(): void;
   onSearch(term: string): void;
 }
 
@@ -47,6 +50,7 @@ export default function Input(props: Props) {
       <label className="a11y">검색</label>
       <input
         value={search}
+        onFocus={props.onClickInput}
         onChange={handleChange}
         autoComplete="off"
         placeholder="검색"
