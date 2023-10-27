@@ -14,6 +14,7 @@ const ListItem = styled.li`
   img {
     width: 180px;
     height: 250px;
+    border-radius: 12px;
   }
 `;
 

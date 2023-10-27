@@ -6,11 +6,6 @@ import axios from "axios";
 import styled from "styled-components";
 import SubHeader from "../components/Header/SubHeader";
 
-const AllGamesWrapper = styled.div`
-  margin: 0 auto;
-  padding: 0 40px;
-`;
-
 async function getGames() {
   const response = await axios.get("http://localhost:3001/game");
   return response.data;
@@ -27,7 +22,7 @@ export default function AllGames() {
   };
 
   return (
-    <AllGamesWrapper>
+    <>
       <Header onSearch={handleSearch} />
       <SubHeader title="All Games" />
       <Gallery
@@ -36,6 +31,6 @@ export default function AllGames() {
         games={games}
         searchGame={searchGame}
       />
-    </AllGamesWrapper>
+    </>
   );
 }

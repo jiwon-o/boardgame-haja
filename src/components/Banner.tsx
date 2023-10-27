@@ -10,7 +10,6 @@ const BannerWrapper = styled.div<BannerWrapperProps>`
   width: 100vw;
   padding-top: 40%;
   margin: 0 -40px;
-
   position: relative;
 
   /* 배경 이미지에만 opacity를 적용하기 위한 가상 요소 설정 */
@@ -65,6 +64,13 @@ const BannerContent = styled.div`
     margin-top: 10px;
   }
 
+  h3 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-top: 10px;
+    color: #7d7b9f;
+  }
+
   button {
     width: 140px;
     padding: 12px 10px 14px 16px;
@@ -86,7 +92,7 @@ const VideoWrapper = styled.div`
   height: 315px;
   position: relative;
   border-radius: 6px;
-  box-shadow: 0 0 0 2px #14112e;
+  box-shadow: 5px 5px 10px #14112e;
 
   iframe {
     z-index: 1;
@@ -114,6 +120,7 @@ export default function Banner({ games }: Props) {
         <BannerContent>
           <h1>Today's Hot Game #1</h1>
           <h2>{topGame.name}</h2>
+          <h3>{topGame.subTitle}</h3>
           <button>
             Show More <span>&gt;</span>
           </button>

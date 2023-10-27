@@ -2,16 +2,10 @@ import React from "react";
 import { Game, GameRankProps } from "../types";
 import styled from "styled-components";
 import { IoPeopleSharp } from "react-icons/io5";
-import { MdStarRate } from "react-icons/md";
+import { AiFillStar } from "react-icons/ai";
 import { BiSolidTimeFive } from "react-icons/bi";
 import { TbRating12Plus } from "react-icons/tb";
 import { useNavigate } from "react-router-dom";
-
-const rankColors: { [key: number]: string } = {
-  1: "#d83f31",
-  2: "#ee9322",
-  3: "#ee9322",
-};
 
 const CardWrapper = styled.div`
   display: flex;
@@ -89,7 +83,8 @@ const GameTheme = styled.strong`
 
 const GameTitle = styled.h3`
   font-size: 1.8rem;
-  margin-top: 24px;
+  margin: 24px 0 0 6px;
+
   span {
     display: inline-block;
     font-size: 1.6rem;
@@ -140,6 +135,11 @@ const GameRank = styled.span<GameRankProps>`
   font-size: 1.4rem;
   color: white;
   background-color: #382f84;
+  opacity: 0;
+
+  ${CardItem}:hover & {
+    opacity: 1;
+  }
 `;
 
 interface Props {
@@ -182,7 +182,7 @@ export default function Card({ loading, error, games }: Props) {
                       <IoPeopleSharp /> {game.min_player} ~ {game.max_player}명
                     </GamePlayItem>
                     <GamePlayItem>
-                      <MdStarRate /> {game.rate}점
+                      <AiFillStar /> {game.rate}점
                     </GamePlayItem>
                     <GamePlayItem>
                       <BiSolidTimeFive /> {game.play_time}
