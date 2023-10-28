@@ -8,11 +8,10 @@ import List from "../components/commons/List";
 import Card from "../components/commons/Card";
 import useInput from "../hooks/useInput";
 import SearchPage from "./SearchPage";
+import GameList from "../components/units/sections/GameList";
+import GameCard from "../components/units/sections/GameCard";
 
-const MainContainer = styled.main`
-  margin: 0 auto;
-  width: clamp(480px, 80%, 1000px);
-`;
+const MainContainer = styled.main``;
 
 async function getGames() {
   const response = await axios.get("http://localhost:3001/game");
@@ -50,10 +49,13 @@ export default function HomePage() {
         <>
           <Banner games={games} />
           <MainContainer>
-            <SubHeader title="Currently Trending Games" btnTxt="See All" />
-            <List games={filteredGames} type="recent" />
-            <SubHeader title="All Boardgames" btnTxt="See All" />
-            <Card loading={loading} error={error} games={games} />
+            <GameList type="current" games={filteredGames} />
+            <GameCard
+              type="rank"
+              loading={loading}
+              error={error}
+              games={games}
+            />
           </MainContainer>
         </>
       ) : (

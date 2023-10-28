@@ -14,6 +14,7 @@ import VideoModal from "../components/commons/Modal/VideoModal";
 import SearchPage from "./SearchPage";
 import SubHeader from "../components/commons/Header/SubHeader";
 import List from "../components/commons/List";
+import GameList from "../components/units/sections/GameList";
 
 interface DetailWrapperProps {
   backgroundurl?: string;
@@ -244,8 +245,7 @@ export default function DetailPage() {
             </GameDetails>
           </DetailContainer>
           <GameListSection>
-            <SubHeader title="Currently Trending Games" btnTxt="See All" />
-            <List games={filteredGames} type="recent" />
+            <GameList type="theme" games={filteredGames} />
           </GameListSection>
         </DetailWrapper>
       ) : (

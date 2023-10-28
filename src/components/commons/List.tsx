@@ -20,9 +20,8 @@ const ListItem = styled.li`
 
 interface Props {
   games: Game[] | null;
-  type: string;
 }
-export default function List({ games, type }: Props) {
+export default function List({ games }: Props) {
   return (
     <ListWrapper>
       <h1 className="a11y">최근 게임 목록</h1>
