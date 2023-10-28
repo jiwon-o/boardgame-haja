@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Game, GameRankProps } from "../../types";
 import styled from "styled-components";
 import { IoPeopleSharp } from "react-icons/io5";
@@ -6,18 +6,11 @@ import { AiFillStar } from "react-icons/ai";
 import { BiSolidTimeFive } from "react-icons/bi";
 import { TbRating12Plus } from "react-icons/tb";
 import { useNavigate } from "react-router-dom";
+import AsideNav from "./Aside/AsideNav";
 
 const CardWrapper = styled.div`
   display: flex;
   justify-content: center;
-
-  aside {
-    flex: 1;
-    background-color: red;
-    max-width: 300px;
-    max-height: 300px;
-    min-width: 200px;
-  }
 `;
 
 const CardContainer = styled.div`
@@ -150,9 +143,23 @@ interface Props {
 
 export default function Card({ loading, error, games }: Props) {
   const navigate = useNavigate();
+  const [selectedTheme, setSelectedTheme] = useState("all");
+  const themes = [...new Set(games?.map((game) => game.theme))];
+
+  const filteredGames = games?.filter((game) => {
+    if (selectedTheme === "all") {
+      return true; // 모든 게임 표시
+    } else {
+      return game.theme === selectedTheme; // 선택한 카테고리와 일치하는 게임만 표시
+    }
+  });
 
   const handleCardItemClick = (game: Game) => {
     navigate(`/game/${game.id}`, { state: { game } });
+  };
+
+  const handleThemeChange = (theme: string) => {
+    setSelectedTheme(theme);
   };
 
   if (loading) return <div>로딩중..</div>;
@@ -161,7 +168,7 @@ export default function Card({ loading, error, games }: Props) {
   return (
     <CardWrapper>
       <CardContainer>
-        {games?.map((game) => {
+        {filteredGames?.map((game) => {
           return (
             <CardItems>
               <CardItem onClick={() => handleCardItemClick(game)}>
@@ -198,8 +205,23 @@ export default function Card({ loading, error, games }: Props) {
           );
         })}
       </CardContainer>
-
-      <aside>d</aside>
+      <AsideNav>
+        <h2>카테고리 별 버튼</h2>
+        <form>
+          {themes.map((theme) => (
+            <div key={theme}>
+              <input
+                type="radio"
+                id={theme}
+                name="theme"
+                value={theme}
+                onChange={() => handleThemeChange(theme)}
+              />
+              <label htmlFor={theme}>{theme}</label>
+            </div>
+          ))}
+        </form>
+      </AsideNav>
     </CardWrapper>
   );
 }
