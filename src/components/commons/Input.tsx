@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import SearchIcon from "../assets/icons/icon-search.svg";
+import SearchIcon from "../../assets/icons/icon-search.svg";
 import { useState } from "react";
 
 const InputWrapper = styled.form`

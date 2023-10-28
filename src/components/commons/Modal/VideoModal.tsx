@@ -1,7 +1,7 @@
 import React, { ReactNode } from "react";
 import "./Modal.css";
-import useYouTubeVideo from "../../hooks/useYoutubeVideo";
-import { Game } from "../../types";
+import useYouTubeVideo from "../../../hooks/useYoutubeVideo";
+import { Game } from "../../../types";
 import styled from "styled-components";
 
 const VideoModalDim = styled.div`

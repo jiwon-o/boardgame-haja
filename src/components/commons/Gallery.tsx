@@ -1,13 +1,13 @@
 import styled from "styled-components";
 import Masonry from "react-masonry-css";
-import { GameRankProps } from "../types";
-import useColumns from "../hooks/useColumns";
-import { Game } from "../types";
-import useSearch from "../hooks/useSearch";
-import useScroll from "../hooks/useScroll";
+import { GameRankProps } from "../../types";
+import useColumns from "../../hooks/useColumns";
+import { Game } from "../../types";
+import useSearch from "../../hooks/useSearch";
+import useScroll from "../../hooks/useScroll";
 import { useState } from "react";
-import Modal from "./Modal";
-import Detail from "../pages/Detail";
+import Modal from "./Modal/Modal";
+import Detail from "../../pages/DetailPage";
 
 const rankColors: { [key: number]: string } = {
   1: "#d83f31",
@@ -189,11 +189,11 @@ export default function Gallery({ loading, error, games, searchGame }: Props) {
       ) : (
         <p>보드게임을 찾지 못했습니다.</p>
       )}
-      {isModalOpen && (
+      {/* {isModalOpen && (
         <Modal isOpen={isModalOpen} onClose={closeModal}>
           {selectedGame && <Detail />}
         </Modal>
-      )}
+      )} */}
     </GamesLayout>
   );
 }

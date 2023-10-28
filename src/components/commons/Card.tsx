@@ -1,5 +1,5 @@
 import React from "react";
-import { Game, GameRankProps } from "../types";
+import { Game, GameRankProps } from "../../types";
 import styled from "styled-components";
 import { IoPeopleSharp } from "react-icons/io5";
 import { AiFillStar } from "react-icons/ai";

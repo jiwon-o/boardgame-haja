@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import { Game } from "../types";
-import useYouTubeVideo from "../hooks/useYoutubeVideo";
+import { Game } from "../../types";
+import useYouTubeVideo from "../../hooks/useYoutubeVideo";
 
 interface BannerWrapperProps {
   backgroundurl?: string;

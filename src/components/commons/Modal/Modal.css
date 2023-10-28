@@ -11,10 +11,6 @@
 }
 
 .modal {
-  width: calc(100% - 75px);
-  max-width: 1200px;
-  height: 500px;
-  border-radius: 5px;
   background-color: black;
 }
 

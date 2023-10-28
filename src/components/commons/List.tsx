@@ -1,4 +1,4 @@
-import { Game } from "../types";
+import { Game } from "../../types";
 import { styled } from "styled-components";
 
 const ListWrapper = styled.div``;

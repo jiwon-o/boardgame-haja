@@ -1,14 +1,14 @@
 import React from "react";
 import { styled } from "styled-components";
 import { IoMdArrowRoundBack } from "react-icons/io";
-import { BackBtnProps } from "../../types";
+import { BackBtnProps } from "../../../types";
 
 const SubHeaderWrapper = styled.div`
   position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 56px 10px 36px;
+  margin: 40px 0;
 `;
 
 const RightButton = styled.button`

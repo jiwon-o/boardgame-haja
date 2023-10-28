@@ -1,6 +1,6 @@
 import Input from "../Input";
 import styled from "styled-components";
-import logo from "../../assets/icons/icon-logo.svg";
+import logo from "../../../assets/icons/icon-logo.svg";
 import { Link } from "react-router-dom";
 
 const HeaderWrapper = styled.header`
