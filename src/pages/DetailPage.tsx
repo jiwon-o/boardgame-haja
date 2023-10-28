@@ -1,18 +1,19 @@
 import styled from "styled-components";
 import { Game } from "../types";
 import { useLocation } from "react-router-dom";
-import Header from "../components/Header/Header";
+import Header from "../components/commons/Header/Header";
 import { useState } from "react";
 import useInput from "../hooks/useInput";
-import SubHeader from "../components/Header/SubHeader";
-import Gallery from "../components/Gallery";
 import useAsync from "../hooks/useAsync";
 import axios from "axios";
 import { HiMiniTrophy } from "react-icons/hi2";
 import { AiFillStar } from "react-icons/ai";
 import { AiOutlineYoutube } from "react-icons/ai";
 import { AiOutlineShoppingCart } from "react-icons/ai";
-import VideoModal from "../components/Modal/VideoModal";
+import VideoModal from "../components/commons/Modal/VideoModal";
+import SearchPage from "./SearchPage";
+import SubHeader from "../components/commons/Header/SubHeader";
+import List from "../components/commons/List";
 
 interface DetailWrapperProps {
   backgroundurl?: string;
@@ -27,9 +28,6 @@ const DetailContainer = styled.div<DetailWrapperProps>`
   padding: 0 40px;
   display: flex;
   align-items: center;
-  position: absolute;
-  left: 0;
-  top: 0;
   width: 100%;
   background-image: linear-gradient(
       90deg,
@@ -153,12 +151,14 @@ const ButtonBox = styled.div`
   }
 `;
 
+const GameListSection = styled.section``;
+
 async function getGames() {
   const response = await axios.get("http://localhost:3001/game");
   return response.data;
 }
 
-export default function Detail() {
+export default function DetailPage() {
   const state = useAsync(getGames, []);
   const { loading, data: games, error } = state;
   const [isModalOpen, setIsModalOpen] = useState<boolean>(false);
@@ -182,6 +182,15 @@ export default function Detail() {
   const closeModal = () => {
     setIsModalOpen(false);
   };
+
+  const filteredGames = games
+    ? [...games]
+        .filter(
+          (filteredGame) =>
+            game.theme === filteredGame.theme && game.id !== filteredGame.id
+        )
+        .slice(0, 10)
+    : null;
 
   return (
     <>
@@ -234,21 +243,19 @@ export default function Detail() {
               </ButtonBox>
             </GameDetails>
           </DetailContainer>
+          <GameListSection>
+            <SubHeader title="Currently Trending Games" btnTxt="See All" />
+            <List games={filteredGames} type="recent" />
+          </GameListSection>
         </DetailWrapper>
       ) : (
-        <>
-          <SubHeader
-            title="Search"
-            isBackBtn={true}
-            onClickBackBtn={handleClickBackBtn}
-          />
-          <Gallery
-            loading={loading}
-            error={error}
-            games={games}
-            searchGame={searchGame}
-          />
-        </>
+        <SearchPage
+          loading={loading}
+          error={error}
+          games={games}
+          onClickBackBtn={handleClickBackBtn}
+          searchGame={searchGame}
+        />
       )}
       {isModalOpen && (
         <VideoModal isOpen={isModalOpen} onClose={closeModal} game={game} />

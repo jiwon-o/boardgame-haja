@@ -1,18 +1,17 @@
-import Header from "../components/Header/Header";
-import Gallery from "../components/Gallery";
-import { useState, useEffect } from "react";
+import Header from "../components/commons/Header/Header";
 import axios from "axios";
 import useAsync from "../hooks/useAsync";
 import styled from "styled-components";
-import Banner from "./../components/Banner";
-import SubHeader from "../components/Header/SubHeader";
-import List from "../components/List";
-import Card from "../components/Card";
+import Banner from "../components/commons/Banner";
+import SubHeader from "../components/commons/Header/SubHeader";
+import List from "../components/commons/List";
+import Card from "../components/commons/Card";
 import useInput from "../hooks/useInput";
+import SearchPage from "./SearchPage";
 
-const HomeWrapper = styled.div`
+const MainContainer = styled.main`
   margin: 0 auto;
-  padding: 0 40px;
+  width: clamp(480px, 80%, 1000px);
 `;
 
 async function getGames() {
@@ -20,7 +19,7 @@ async function getGames() {
   return response.data;
 }
 
-export default function Home() {
+export default function HomePage() {
   const state = useAsync(getGames, []);
   const { loading, data: games, error } = state;
   const {
@@ -31,62 +30,41 @@ export default function Home() {
     handleClickBackBtn,
   } = useInput();
 
-  // const [searchGame, setSearchGame] = useState("");
-  // const [isClickInput, setIsClickInput] = useState(false);
-
-  // const handleSearch = (item: string) => {
-  //   setSearchGame(item);
-  // };
-
   const filteredGames = games
     ? [...games]
         .sort((a, b) => parseInt(b.releaseYear) - parseInt(a.releaseYear))
         .slice(0, 10)
     : null;
 
-  // const handleClickInput = () => {
-  //   setIsClickInput(true);
-  // };
-
-  // const handleClickBackBtn = () => {
-  //   setIsClickInput(false);
-  // };
-
   if (loading) return <div>로딩중..</div>;
   if (error) return <div>에러가 발생했습니다</div>;
   if (!games) return null;
   return (
-    <HomeWrapper>
+    <>
       <Header
         onClickInput={handleClickInput}
         onClickBackBtn={handleClickBackBtn}
         onSearch={handleSearch}
       />
-      {isClickInput ? (
-        <>
-          <SubHeader
-            title="Search"
-            isBackBtn={true}
-            onClickBackBtn={handleClickBackBtn}
-          />
-          <Gallery
-            loading={loading}
-            error={error}
-            games={games}
-            searchGame={searchGame}
-          />
-        </>
-      ) : (
+      {!isClickInput ? (
         <>
           <Banner games={games} />
-          <main>
+          <MainContainer>
             <SubHeader title="Currently Trending Games" btnTxt="See All" />
             <List games={filteredGames} type="recent" />
             <SubHeader title="All Boardgames" btnTxt="See All" />
             <Card loading={loading} error={error} games={games} />
-          </main>
+          </MainContainer>
         </>
+      ) : (
+        <SearchPage
+          loading={loading}
+          error={error}
+          games={games}
+          onClickBackBtn={handleClickBackBtn}
+          searchGame={searchGame}
+        />
       )}
-    </HomeWrapper>
+    </>
   );
 }
