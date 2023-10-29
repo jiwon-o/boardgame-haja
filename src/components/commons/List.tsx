@@ -1,9 +1,8 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Game, SlidePxProps } from "../../types";
 import { styled } from "styled-components";
 import { AiOutlineLeft } from "react-icons/ai";
 import { AiOutlineRight } from "react-icons/ai";
-import { GameListWrapper } from "../units/sections/GameList";
 
 const ListWrapper = styled.div`
   position: relative;
@@ -16,10 +15,23 @@ const ListItems = styled.ul`
 `;
 
 const ListItem = styled.li`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &:hover {
+    cursor: pointer;
+  }
+
   img {
     width: 180px;
     height: 250px;
     border-radius: 12px;
+  }
+
+  h3 {
+    font-size: 1.4rem;
+    margin-top: 6px;
   }
 `;
 
@@ -30,7 +42,7 @@ const ArrowButtonBox = styled.div`
   opacity: 0;
   transition: opacity 0.5s, top 0.5s;
 
-  ${GameListWrapper}:hover & {
+  ${ListWrapper}:hover & {
     top: 40%;
     opacity: 1;
   }
@@ -70,7 +82,7 @@ const RightArrowBtn = styled.button<SlidePxProps>`
   border-radius: 50%;
   background-color: #24244a;
   box-shadow: 1px 1px 5px black;
-  display: ${(props) => (props.slidePx === -2400 ? "none" : "")};
+  display: ${(props) => (props.slidePx <= -3600 ? "none" : "")};
 
   svg {
     color: white;
@@ -89,19 +101,56 @@ interface Props {
 }
 export default function List({ games }: Props) {
   const [slide, setSlide] = useState(0);
+  const [innerWidth, setInnerWidth] = useState(0);
+
+  useEffect(() => {
+    const handleResize = () => {
+      const windowWidth = window.innerWidth;
+      setInnerWidth(windowWidth);
+    };
+
+    window.addEventListener("resize", handleResize);
+    handleResize();
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
+  const calculateSlideAmount = (width: number): number => {
+    if (width > 1260) {
+      return 1200;
+    } else if (width > 1060) {
+      return 1000;
+    } else if (width > 860) {
+      return 800;
+    } else if (width > 660) {
+      return 600;
+    } else if (width > 460) {
+      return 400;
+    } else {
+      return 200;
+    }
+  };
 
   const toPrev = () => {
-    if (slide < 0) setSlide(slide + 1200);
+    const slideAmount = calculateSlideAmount(innerWidth);
+
+    if (slide < 0) {
+      setSlide(slide + slideAmount < 0 ? slide + slideAmount : 0);
+    }
   };
 
   const toNext = () => {
-    if (slide > -2400) setSlide(slide - 1200);
+    const slideAmount = calculateSlideAmount(innerWidth);
+
+    setSlide(slide - slideAmount);
   };
 
   return (
     <ListWrapper>
       <h1 className="a11y">최근 게임 목록</h1>
-      <ListItems>
+      <ListItems className="list-items">
         {games?.map((game, idx) => (
           <ListItem
             key={idx}

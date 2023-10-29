@@ -145,7 +145,6 @@ export default function Card({ loading, error, games }: Props) {
   const themes = [...new Set(games?.map((game) => game.theme))];
 
   const filteredGames = games?.filter((game) => {
-    console.log(game.theme);
     if (selectedTheme === "all") {
       return true; // 모든 게임 표시
     } else {
