@@ -8,7 +8,7 @@ const SubHeaderWrapper = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 40px 0;
+  margin: 80px 0 40px;
 `;
 
 const RightButton = styled.button`
@@ -60,7 +60,7 @@ export default function SubHeader({
 }: Props) {
   const TYPES = {
     all: "모든 게임",
-    rank: "순위별 게임",
+    rank: "인기 게임",
     current: "실시간 베스트 게임",
     theme: "같은 테마 게임",
     search: "게임 검색",

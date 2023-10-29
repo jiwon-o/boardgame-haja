@@ -4,7 +4,9 @@ import styled from "styled-components";
 
 const AppWrapper = styled.div`
   margin: 0 auto;
-  padding: 0 40px;
+  max-width: 1260px;
+  padding: 0 40px; /* 좌우에 40px의 패딩 */
+  box-sizing: border-box;
 `;
 
 function App() {

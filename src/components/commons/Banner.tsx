@@ -9,8 +9,9 @@ interface BannerWrapperProps {
 const BannerWrapper = styled.div<BannerWrapperProps>`
   width: 100vw;
   padding-top: 40%;
-  margin: 0 -40px;
   position: relative;
+  left: 50%;
+  transform: translateX(-50%);
 
   /* 배경 이미지에만 opacity를 적용하기 위한 가상 요소 설정 */
   &::before {
@@ -45,7 +46,6 @@ const BannerContainer = styled.div`
     rgb(28, 23, 75, 0.7),
     rgb(20, 17, 46, 0.5)
   );
-  padding: 40px 50px;
 `;
 
 const BannerContent = styled.div`

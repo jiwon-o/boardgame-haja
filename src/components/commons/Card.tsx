@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Game, GameRankProps } from "../../types";
+import { Game } from "../../types";
 import styled from "styled-components";
 import { IoPeopleSharp } from "react-icons/io5";
 import { AiFillStar } from "react-icons/ai";
@@ -14,7 +14,6 @@ const CardWrapper = styled.div`
 `;
 
 const CardContainer = styled.div`
-  max-width: 720px;
   flex: 4;
   margin-right: 20px;
 `;
@@ -39,7 +38,7 @@ const CardItem = styled.li`
 
 const CardThumbnail = styled.div`
   flex: 1;
-  max-width: 220px;
+  max-width: 240px;
   padding: 14px;
   border: 1px solid #14112e;
 
@@ -93,14 +92,13 @@ const GameSubTitle = styled.h4`
 
 const GamePlay = styled.ul`
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
   margin-top: 10px;
-  gap: 8px;
+  gap: 12px;
 `;
 
 const GamePlayItem = styled.li`
-  padding: 8px 12px;
+  padding: 10px 12px;
   border-radius: 10px;
   background-color: #382f84;
   color: #ececf1;
@@ -113,7 +111,7 @@ const GamePlayItem = styled.li`
   }
 `;
 
-const GameRank = styled.span<GameRankProps>`
+const GameRank = styled.span`
   display: inline-block;
   position: absolute;
   top: 8px;
@@ -147,6 +145,7 @@ export default function Card({ loading, error, games }: Props) {
   const themes = [...new Set(games?.map((game) => game.theme))];
 
   const filteredGames = games?.filter((game) => {
+    console.log(game.theme);
     if (selectedTheme === "all") {
       return true; // 모든 게임 표시
     } else {
@@ -198,7 +197,7 @@ export default function Card({ loading, error, games }: Props) {
                       <TbRating12Plus /> {game.play_age}
                     </GamePlayItem>
                   </GamePlay>
-                  <GameRank ranking={game.ranking}>{game.ranking}</GameRank>
+                  <GameRank>{game.ranking}</GameRank>
                 </CardDetail>
               </CardItem>
             </CardItems>
