@@ -3,9 +3,6 @@ import axios from "axios";
 import useAsync from "../hooks/useAsync";
 import styled from "styled-components";
 import Banner from "../components/commons/Banner";
-import SubHeader from "../components/commons/Header/SubHeader";
-import List from "../components/commons/List";
-import Card from "../components/commons/Card";
 import useInput from "../hooks/useInput";
 import SearchPage from "./SearchPage";
 import GameList from "../components/units/sections/GameList";
@@ -32,7 +29,7 @@ export default function HomePage() {
   const filteredGames = games
     ? [...games]
         .sort((a, b) => parseInt(b.releaseYear) - parseInt(a.releaseYear))
-        .slice(0, 10)
+        .slice(0, 20)
     : null;
 
   if (loading) return <div>로딩중..</div>;

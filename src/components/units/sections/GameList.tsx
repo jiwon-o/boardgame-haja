@@ -1,6 +1,9 @@
+import styled from "styled-components";
 import { Game } from "../../../types";
 import SubHeader from "../../commons/Header/SubHeader";
 import List from "../../commons/List";
+
+export const GameListWrapper = styled.div``;
 
 interface Props {
   games: Game[] | null;
@@ -9,9 +12,9 @@ interface Props {
 
 export default function GameList({ games, type }: Props) {
   return (
-    <div>
+    <GameListWrapper>
       <SubHeader type={type} btnTxt="See All" />
       <List games={games} />
-    </div>
+    </GameListWrapper>
   );
 }
