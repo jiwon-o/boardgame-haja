@@ -16,7 +16,7 @@ const CardWrapper = styled.div`
 `;
 
 const CardContainer = styled.div`
-  flex: 4;
+  flex: 3;
   margin-right: 20px;
 `;
 
@@ -29,12 +29,15 @@ const CardItem = styled.li`
   position: relative;
   border-radius: 10px;
   display: flex;
+  border: 1px solid #14112e;
   box-shadow: 0 0 10px #14112e;
+  margin-bottom: 10px;
 
   &:hover {
     cursor: pointer;
     background-color: #1f1a4cd7;
     box-shadow: 3px 3px 5px black;
+    border: 1px solid transparent;
   }
 `;
 
@@ -144,6 +147,7 @@ interface Props {
 export default function Card({ loading, error, games }: Props) {
   const navigate = useNavigate();
   const [selectedTheme, setSelectedTheme] = useState("all");
+  const [selectedPlayer, setSelectedPlayer] = useState<string | number>("all");
   const themes = [...new Set(games?.map((game) => game.theme))];
   const [page, setPage] = useState<number>(1);
 
@@ -157,10 +161,15 @@ export default function Card({ loading, error, games }: Props) {
   };
 
   const filteredGames = games!.filter((game) => {
-    if (selectedTheme === "all") {
+    const minPlayer = parseInt(game.min_player, 10);
+    const maxPlayer = parseInt(game.max_player, 10);
+
+    if (selectedPlayer === "all") {
       return true; // 모든 게임 표시
-    } else {
-      return game.theme === selectedTheme; // 선택한 카테고리와 일치하는 게임만 표시
+    } else if (typeof selectedPlayer === "number") {
+      return selectedPlayer >= minPlayer && selectedPlayer <= maxPlayer;
+    } else if (selectedPlayer === "7+") {
+      return minPlayer >= 7 || maxPlayer >= 7;
     }
   });
 
@@ -172,8 +181,8 @@ export default function Card({ loading, error, games }: Props) {
     navigate(`/game/${game.id}`, { state: { game } });
   };
 
-  const handleThemeChange = (theme: string) => {
-    setSelectedTheme(theme);
+  const handleSelectedPlayer = (selected: string | number) => {
+    setSelectedPlayer(selected);
   };
 
   if (loading) return <div>로딩중..</div>;
@@ -230,9 +239,41 @@ export default function Card({ loading, error, games }: Props) {
         />
       </CardContainer>
       <AsideNav>
-        <h2>카테고리 별 버튼</h2>
+        <h2 className="a11y">카테고리 별 버튼</h2>
         <form>
-          {themes.map((theme) => (
+          <div>
+            <input
+              type="radio"
+              id="all"
+              name="theme"
+              value="all"
+              onChange={() => handleSelectedPlayer("all")}
+            />
+            <label htmlFor="all">전체</label>
+          </div>
+          {[1, 2, 3, 4, 5, 6].map((playerCount) => (
+            <div key={playerCount}>
+              <input
+                type="radio"
+                id={`player-${playerCount}`}
+                name="theme"
+                value={playerCount}
+                onChange={() => handleSelectedPlayer(playerCount)}
+              />
+              <label htmlFor={`player-${playerCount}`}>{playerCount}인</label>
+            </div>
+          ))}
+          <div>
+            <input
+              type="radio"
+              id="player-7+"
+              name="theme"
+              value="7+"
+              onChange={() => handleSelectedPlayer("7+")}
+            />
+            <label htmlFor="player-7+">7인 이상</label>
+          </div>
+          {/* {themes.map((theme) => (
             <div key={theme}>
               <input
                 type="radio"
@@ -243,7 +284,7 @@ export default function Card({ loading, error, games }: Props) {
               />
               <label htmlFor={theme}>{theme}</label>
             </div>
-          ))}
+          ))} */}
         </form>
       </AsideNav>
     </CardWrapper>

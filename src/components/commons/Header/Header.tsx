@@ -52,6 +52,7 @@ const LinkWrapper = styled.div`
 
   a {
     padding: 4px 6px;
+    white-space: nowrap;
   }
 `;
 
@@ -62,8 +63,9 @@ const LoginContent = styled.div`
 `;
 
 const Button = styled.button<{ primary?: boolean }>`
-  padding: 10px 16px 12px;
+  padding: 10px 16px;
   border-radius: 10px;
+  white-space: nowrap;
   background-color: ${(props) => (props.primary ? "#1D40DA" : "#383D61")};
   color: #fff;
   font-size: 1.2rem;
@@ -84,14 +86,14 @@ export default function Header(props: Props) {
           <img src={logo} alt="로고" />
         </LogoImage>
         <LinkWrapper>
-          <Link to="/boardgames">View All</Link>
-          <a href="/">Categories</a>
+          <Link to="/boardgames">모든 게임</Link>
+          <a href="/">카테고리</a>
         </LinkWrapper>
       </HeaderContent>
       <Input onClickInput={props.onClickInput} onSearch={props.onSearch} />
       <LoginContent>
-        <Button>Log In</Button>
-        <Button primary>Sign Up</Button>
+        <Button>로그인</Button>
+        <Button primary>회원가입</Button>
       </LoginContent>
     </HeaderWrapper>
   );

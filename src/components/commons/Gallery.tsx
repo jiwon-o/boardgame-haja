@@ -8,6 +8,7 @@ import useScroll from "../../hooks/useScroll";
 import { useState } from "react";
 import Modal from "./Modal/Modal";
 import Detail from "../../pages/DetailPage";
+import { useNavigate } from "react-router-dom";
 
 const rankColors: { [key: number]: string } = {
   1: "#d83f31",
@@ -122,17 +123,7 @@ export default function Gallery({ loading, error, games, searchGame }: Props) {
   const columns = useColumns();
   const searchGames = useSearch();
   const dataCount = useScroll(50);
-  const [isModalOpen, setIsModalOpen] = useState<boolean>(false);
-  const [selectedGame, setSelectedGame] = useState<Game | null>(null);
-
-  const openModal = (game: Game) => {
-    setSelectedGame(game);
-    setIsModalOpen(true);
-  };
-
-  const closeModal = () => {
-    setIsModalOpen(false);
-  };
+  const navigate = useNavigate();
 
   const filteredGames = games?.filter((game) => {
     return (
@@ -140,6 +131,10 @@ export default function Gallery({ loading, error, games, searchGame }: Props) {
       searchGames(searchGame, game.subTitle)
     );
   });
+
+  const handleCardClick = (game: Game) => {
+    navigate(`/game/${game.id}`, { state: { game } });
+  };
 
   const pagedGames = filteredGames?.slice(0, dataCount);
 
@@ -167,8 +162,8 @@ export default function Gallery({ loading, error, games, searchGame }: Props) {
             // const imageUrl = generateImageUrl(game.image, 200);
 
             return (
-              <CardContainer key={game.id} onClick={() => openModal(game)}>
-                <Card>
+              <CardContainer key={game.id}>
+                <Card onClick={() => handleCardClick(game)}>
                   <GameRank ranking={game.ranking}>{game.ranking}</GameRank>
                   <GameImg
                     src={

@@ -7,6 +7,8 @@ import useInput from "../hooks/useInput";
 import SearchPage from "./SearchPage";
 import GameList from "../components/units/sections/GameList";
 import GameCard from "../components/units/sections/GameCard";
+import Footer from "../components/commons/Footer";
+import MainLayout from "../layouts/MainLayout";
 
 const MainContainer = styled.main``;
 
@@ -36,12 +38,11 @@ export default function HomePage() {
   if (error) return <div>에러가 발생했습니다</div>;
   if (!games) return null;
   return (
-    <>
-      <Header
-        onClickInput={handleClickInput}
-        onClickBackBtn={handleClickBackBtn}
-        onSearch={handleSearch}
-      />
+    <MainLayout
+      onClickInput={handleClickInput}
+      onClickBackBtn={handleClickBackBtn}
+      onSearch={handleSearch}
+    >
       {!isClickInput ? (
         <>
           <Banner games={games} />
@@ -64,6 +65,6 @@ export default function HomePage() {
           searchGame={searchGame}
         />
       )}
-    </>
+    </MainLayout>
   );
 }
