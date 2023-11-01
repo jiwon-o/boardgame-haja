@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { Game } from "../types";
-import { useLocation } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 import Header from "../components/commons/Header/Header";
 import { useState } from "react";
 import useInput from "../hooks/useInput";
@@ -9,27 +9,27 @@ import axios from "axios";
 import { HiMiniTrophy } from "react-icons/hi2";
 import { AiFillStar } from "react-icons/ai";
 import { AiOutlineYoutube } from "react-icons/ai";
-import { AiOutlineShoppingCart } from "react-icons/ai";
+import { SlGameController } from "react-icons/sl";
 import VideoModal from "../components/commons/Modal/VideoModal";
 import SearchPage from "./SearchPage";
 import SubHeader from "../components/commons/Header/SubHeader";
 import List from "../components/commons/List";
 import GameList from "../components/units/sections/GameList";
+import Footer from "../components/commons/Footer";
+import MainLayout from "../layouts/MainLayout";
 
 interface DetailWrapperProps {
   backgroundurl?: string;
 }
 
-const DetailWrapper = styled.div`
-  margin: 0 -40px;
-  position: relative;
-`;
+const DetailWrapper = styled.div``;
 
 const DetailContainer = styled.div<DetailWrapperProps>`
-  padding: 0 40px;
-  display: flex;
-  align-items: center;
-  width: 100%;
+  position: relative;
+  width: 100vw;
+  left: 50%;
+  transform: translateX(-50%);
+
   background-image: linear-gradient(
       90deg,
       rgb(20, 17, 46, 1),
@@ -39,14 +39,24 @@ const DetailContainer = styled.div<DetailWrapperProps>`
     ${(props) => (props.backgroundurl ? `url(${props.backgroundurl})` : "")};
   background-size: cover;
   background-position: center;
-  padding: 40px 50px;
+  padding: 40px 0;
+`;
+
+const GameBox = styled.div`
+  max-width: 1260px;
+  margin: 0 auto;
+  padding: 0 40px;
+  display: flex;
+  align-items: center;
 `;
 
 const GameThumbnail = styled.div`
   padding: 20px 40px;
+  border-radius: 6px;
 
   img {
     width: 360px;
+    border-radius: 6px;
   }
 `;
 
@@ -54,7 +64,7 @@ const GameDetails = styled.div`
   padding: 20px 40px;
 
   p {
-    margin-top: 16px;
+    margin-top: 20px;
     font-size: 1.6rem;
     line-height: 2rem;
     color: #c5c3ec;
@@ -63,7 +73,7 @@ const GameDetails = styled.div`
 
 const GameTheme = styled.div`
   width: fit-content;
-  padding: 8px 12px;
+  padding: 10px 12px;
   border-radius: 10px;
   background-color: #382f84;
   color: #ececf1;
@@ -89,7 +99,7 @@ const GameSubTitle = styled.h3`
 
 const GameAttributes = styled.ul`
   display: flex;
-  margin-top: 16px;
+  margin-top: 20px;
   margin-left: 4px;
   color: #c5c3ec;
   font-size: 1.6rem;
@@ -97,7 +107,7 @@ const GameAttributes = styled.ul`
 
   li::before {
     content: "|";
-    margin: 0 10px;
+    margin: 0 20px;
     vertical-align: text-top;
   }
 
@@ -133,17 +143,22 @@ const ButtonBox = styled.div`
   button:first-child {
     margin-right: 20px;
     background: linear-gradient(90deg, rgb(245, 62, 62), rgb(218, 29, 29));
+    background-size: 100% 100%;
+    transition: background-size 0.3s;
 
     &:hover {
-      box-shadow: 0 0 5px rgb(245, 62, 62);
+      background-size: 300% 100%;
     }
   }
 
   button:nth-child(2) {
     background: linear-gradient(90deg, rgb(62, 96, 245), rgb(29, 64, 218));
+    background-size: 100% 100%;
+    transition: background-size 0.3s;
+    margin-top: 14px;
 
     &:hover {
-      box-shadow: 0 0 5px rgb(62, 96, 245);
+      background-size: 300% 100%;
     }
   }
 
@@ -152,7 +167,9 @@ const ButtonBox = styled.div`
   }
 `;
 
-const GameListSection = styled.section``;
+const GameListSection = styled.section`
+  margin: 0 auto;
+`;
 
 async function getGames() {
   const response = await axios.get("http://localhost:3001/game");
@@ -164,6 +181,7 @@ export default function DetailPage() {
   const { loading, data: games, error } = state;
   const [isModalOpen, setIsModalOpen] = useState<boolean>(false);
   const [selectedGame, setSelectedGame] = useState<Game | null>(null);
+  const navigate = useNavigate();
   const location = useLocation();
   const { game } = location.state;
 
@@ -190,59 +208,67 @@ export default function DetailPage() {
           (filteredGame) =>
             game.theme === filteredGame.theme && game.id !== filteredGame.id
         )
-        .slice(0, 10)
+        .slice(0, 20)
     : null;
 
   return (
-    <>
-      <Header
-        onClickInput={handleClickInput}
-        onClickBackBtn={handleClickBackBtn}
-        onSearch={handleSearch}
-      />
+    <MainLayout
+      onClickInput={handleClickInput}
+      onClickBackBtn={handleClickBackBtn}
+      onSearch={handleSearch}
+    >
       {!isClickInput ? (
         <DetailWrapper>
           <DetailContainer backgroundurl={game.backgroundImage}>
-            <GameThumbnail>
-              <img src={game.image} alt="게임 이미지" />
-            </GameThumbnail>
-            <GameDetails>
-              <GameTheme>{game.theme}</GameTheme>
-              <GameTitle>
-                {game.name} <span>({game.releaseYear})</span>
-                <GameSubTitle>{game.subTitle}</GameSubTitle>
-              </GameTitle>
-              <GameAttributes>
-                <li>
-                  {game.min_player} - {game.max_player}명
-                </li>
-                <li>{game.play_time}</li>
-                <li>{game.play_age}</li>
-              </GameAttributes>
-              <GameStats>
-                <li>
-                  <AiFillStar color="#ffff00" /> {game.rate}
-                </li>
-                <li>
-                  <HiMiniTrophy color="#008000" /> {game.ranking}
-                </li>
-              </GameStats>
-              <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Tenetur incidunt temporibus repudiandae explicabo qui nostrum
-                obcaecati dolorum quos veritatis nam inventore alias ullam sed
-                fuga, odio iure et, voluptates magni!
-              </p>
-              <ButtonBox>
-                <button onClick={() => openModal(game)}>
-                  HOW TO PLAY
-                  <AiOutlineYoutube size={30} />
-                </button>
-                <button>
-                  BUY NOW <AiOutlineShoppingCart size={24} />
-                </button>
-              </ButtonBox>
-            </GameDetails>
+            <GameBox>
+              <GameThumbnail>
+                <img src={game.image} alt="게임 이미지" />
+              </GameThumbnail>
+              <GameDetails>
+                <GameTheme>{game.theme}</GameTheme>
+                <GameTitle>
+                  {game.name} <span>({game.releaseYear})</span>
+                  <GameSubTitle>{game.subTitle}</GameSubTitle>
+                </GameTitle>
+                <GameStats>
+                  <li>
+                    <HiMiniTrophy color="#008000" /> {game.ranking}
+                  </li>
+                  <li>
+                    <AiFillStar color="#ffff00" /> {game.rate}
+                  </li>
+                </GameStats>
+                <GameAttributes>
+                  <li>
+                    {game.min_player} - {game.max_player}명
+                  </li>
+                  <li>{game.play_time}</li>
+                  <li>{game.play_age}</li>
+                </GameAttributes>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Tenetur incidunt temporibus repudiandae explicabo qui nostrum
+                  obcaecati dolorum quos veritatis nam inventore alias ullam sed
+                  fuga, odio iure et, voluptates magni!
+                </p>
+                <ButtonBox>
+                  <button onClick={() => openModal(game)}>
+                    HOW TO PLAY
+                    <AiOutlineYoutube size={30} />
+                  </button>
+                  <button
+                    onClick={() =>
+                      navigate(
+                        (window.location.href =
+                          "https://ko.boardgamearena.com/gamelist")
+                      )
+                    }
+                  >
+                    PLAY NOW <SlGameController size={24} />
+                  </button>
+                </ButtonBox>
+              </GameDetails>
+            </GameBox>
           </DetailContainer>
           <GameListSection>
             <GameList type="theme" games={filteredGames} />
@@ -260,6 +286,6 @@ export default function DetailPage() {
       {isModalOpen && (
         <VideoModal isOpen={isModalOpen} onClose={closeModal} game={game} />
       )}
-    </>
+    </MainLayout>
   );
 }
