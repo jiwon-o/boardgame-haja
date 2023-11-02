@@ -3,15 +3,11 @@ import { useState, useEffect } from "react";
 function useColumns() {
   const [columns, setColumns] = useState<number>(() => {
     const width = window.innerWidth;
-    if (width >= 1600) {
-      return 6;
-    } else if (width >= 1400) {
-      return 5;
-    } else if (width >= 1200) {
+    if (width >= 1260) {
       return 4;
-    } else if (width >= 880) {
+    } else if (width >= 960) {
       return 3;
-    } else if (width >= 512) {
+    } else if (width >= 660) {
       return 2;
     } else {
       return 1;
@@ -21,15 +17,11 @@ function useColumns() {
   useEffect(() => {
     function handleResize() {
       const width = window.innerWidth;
-      if (width >= 1600) {
-        setColumns(6);
-      } else if (width >= 1400) {
-        setColumns(5);
-      } else if (width >= 1200) {
+      if (width >= 1260) {
         setColumns(4);
-      } else if (width >= 880) {
+      } else if (width >= 960) {
         setColumns(3);
-      } else if (width >= 512) {
+      } else if (width >= 660) {
         setColumns(2);
       } else {
         setColumns(1);
