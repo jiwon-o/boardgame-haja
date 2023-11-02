@@ -16,7 +16,7 @@ const CardWrapper = styled.div`
 `;
 
 const CardContainer = styled.div`
-  flex: 3;
+  flex: 4;
   margin-right: 20px;
 `;
 
@@ -27,6 +27,7 @@ const CardItems = styled.ul`
 
 const CardItem = styled.li`
   position: relative;
+  background-color: transparent;
   border-radius: 10px;
   display: flex;
   border: 1px solid #14112e;
@@ -45,7 +46,7 @@ const CardThumbnail = styled.div`
   flex: 1;
   max-width: 240px;
   padding: 14px;
-  border: 1px solid #14112e;
+  border-right: 1px solid #14112e;
 
   img {
     width: 100%;
@@ -117,7 +118,6 @@ const GamePlayItem = styled.li`
 `;
 
 const GameRank = styled.span`
-  display: inline-block;
   position: absolute;
   top: 8px;
   left: 8px;
@@ -126,8 +126,8 @@ const GameRank = styled.span`
   align-items: center;
   min-width: 24px;
   min-height: 24px;
-  padding: 0 6px 1px 5px;
   border-radius: 50%;
+  padding: 2px;
   font-size: 1.4rem;
   color: white;
   background-color: #606efc;
@@ -146,8 +146,8 @@ interface Props {
 
 export default function Card({ loading, error, games }: Props) {
   const navigate = useNavigate();
-  const [selectedTheme, setSelectedTheme] = useState("all");
   const [selectedPlayer, setSelectedPlayer] = useState<string | number>("all");
+  const [selectedRating, setSelectedRating] = useState<string | number>("all");
   const themes = [...new Set(games?.map((game) => game.theme))];
   const [page, setPage] = useState<number>(1);
 
@@ -161,16 +161,29 @@ export default function Card({ loading, error, games }: Props) {
   };
 
   const filteredGames = games!.filter((game) => {
-    const minPlayer = parseInt(game.min_player, 10);
-    const maxPlayer = parseInt(game.max_player, 10);
+    const filterByPlayer = () => {
+      const minPlayer = parseInt(game.min_player, 10);
+      const maxPlayer = parseInt(game.max_player, 10);
 
-    if (selectedPlayer === "all") {
-      return true; // 모든 게임 표시
-    } else if (typeof selectedPlayer === "number") {
-      return selectedPlayer >= minPlayer && selectedPlayer <= maxPlayer;
-    } else if (selectedPlayer === "7+") {
-      return minPlayer >= 7 || maxPlayer >= 7;
-    }
+      if (selectedPlayer === "all") {
+        return true; // 모든 게임 표시
+      } else if (typeof selectedPlayer === "number") {
+        return selectedPlayer >= minPlayer && selectedPlayer <= maxPlayer;
+      } else if (selectedPlayer === "7+") {
+        return minPlayer >= 7 || maxPlayer >= 7;
+      }
+    };
+
+    const filterByRating = () => {
+      if (selectedRating === "all") {
+        return true;
+      } else if (typeof selectedRating === "number") {
+        return selectedRating <= game.rate && selectedRating + 1 > game.rate;
+      } else if (selectedRating === "6-") {
+        return game.rate < 6;
+      }
+    };
+    return filterByPlayer() && filterByRating();
   });
 
   useEffect(() => {
@@ -183,6 +196,10 @@ export default function Card({ loading, error, games }: Props) {
 
   const handleSelectedPlayer = (selected: string | number) => {
     setSelectedPlayer(selected);
+  };
+
+  const handleSelectedRating = (selected: string | number) => {
+    setSelectedRating(selected);
   };
 
   if (loading) return <div>로딩중..</div>;
@@ -242,37 +259,76 @@ export default function Card({ loading, error, games }: Props) {
         <h2 className="a11y">카테고리 별 버튼</h2>
         <form>
           <div>
-            <input
-              type="radio"
-              id="all"
-              name="theme"
-              value="all"
-              onChange={() => handleSelectedPlayer("all")}
-            />
-            <label htmlFor="all">전체</label>
-          </div>
-          {[1, 2, 3, 4, 5, 6].map((playerCount) => (
-            <div key={playerCount}>
+            <strong>인원</strong>
+            <div>
               <input
                 type="radio"
-                id={`player-${playerCount}`}
-                name="theme"
-                value={playerCount}
-                onChange={() => handleSelectedPlayer(playerCount)}
+                id="all"
+                name="playerCount"
+                value="all"
+                onChange={() => handleSelectedPlayer("all")}
               />
-              <label htmlFor={`player-${playerCount}`}>{playerCount}인</label>
+              <label htmlFor="all">전체</label>
             </div>
-          ))}
-          <div>
-            <input
-              type="radio"
-              id="player-7+"
-              name="theme"
-              value="7+"
-              onChange={() => handleSelectedPlayer("7+")}
-            />
-            <label htmlFor="player-7+">7인 이상</label>
+            {[1, 2, 3, 4, 5, 6].map((playerCount) => (
+              <div key={playerCount}>
+                <input
+                  type="radio"
+                  id={`player-${playerCount}`}
+                  name="playerCount"
+                  value={playerCount}
+                  onChange={() => handleSelectedPlayer(playerCount)}
+                />
+                <label htmlFor={`player-${playerCount}`}>{playerCount}인</label>
+              </div>
+            ))}
+            <div>
+              <input
+                type="radio"
+                id="player-7plus"
+                name="playerCount"
+                value="7+"
+                onChange={() => handleSelectedPlayer("7+")}
+              />
+              <label htmlFor="player-7+">7인 이상</label>
+            </div>
           </div>
+          <div>
+            <strong>평점</strong>
+            <div>
+              <input
+                type="radio"
+                id="all"
+                name="rating"
+                value="all"
+                onChange={() => handleSelectedRating("all")}
+              />
+              <label htmlFor="all">전체</label>
+            </div>
+            {[10, 9, 8, 7, 6].map((gameRate) => (
+              <div key={gameRate}>
+                <input
+                  type="radio"
+                  id={`${gameRate}`}
+                  name="rating"
+                  value={gameRate}
+                  onChange={() => handleSelectedRating(gameRate)}
+                />
+                <label htmlFor={`${gameRate}`}>{gameRate}+</label>
+              </div>
+            ))}
+            <div>
+              <input
+                type="radio"
+                id="rate-6minus"
+                name="rating"
+                value="6-"
+                onChange={() => handleSelectedRating("6-")}
+              />
+              <label htmlFor="rate-6minus">6점 미만</label>
+            </div>
+          </div>
+
           {/* {themes.map((theme) => (
             <div key={theme}>
               <input
