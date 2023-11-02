@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import Header from "../components/Header/Header";
-import Gallery from "../components/Gallery";
+import Header from "../components/commons/Header/Header";
+import Gallery from "../components/commons/Gallery";
 import useAsync from "../hooks/useAsync";
 import axios from "axios";
 import styled from "styled-components";
-import SubHeader from "../components/Header/SubHeader";
+import SubHeader from "../components/commons/Header/SubHeader";
 
 async function getGames() {
   const response = await axios.get("http://localhost:3001/game");
@@ -24,7 +24,7 @@ export default function AllGames() {
   return (
     <>
       <Header onSearch={handleSearch} />
-      <SubHeader title="All Games" />
+      <SubHeader type="all" />
       <Gallery
         loading={loading}
         error={error}
