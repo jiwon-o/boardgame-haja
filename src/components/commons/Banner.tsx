@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import { Game } from "../../types";
 import useYouTubeVideo from "../../hooks/useYoutubeVideo";
+import { useNavigate } from "react-router-dom";
 
 interface BannerWrapperProps {
   backgroundurl?: string;
@@ -8,7 +9,7 @@ interface BannerWrapperProps {
 
 const BannerWrapper = styled.div<BannerWrapperProps>`
   width: 100vw;
-  padding-top: 40%;
+  height: 60vh;
   position: relative;
   left: 50%;
   transform: translateX(-50%);
@@ -78,8 +79,14 @@ const BannerContent = styled.div`
     color: #fff;
     font-size: 1.4rem;
     font-weight: 700;
-    background: linear-gradient(90deg, rgb(62, 96, 245), rgb(29, 64, 218));
     margin-top: 60px;
+    background: linear-gradient(90deg, rgb(62, 96, 245), rgb(29, 64, 218));
+    background-size: 100% 100%;
+    transition: background-size 0.3s;
+
+    &:hover {
+      background-size: 300% 100%;
+    }
 
     span {
       margin-left: 6px;
@@ -92,7 +99,7 @@ const VideoWrapper = styled.div`
   height: 315px;
   position: relative;
   border-radius: 6px;
-  box-shadow: 5px 5px 10px #14112e;
+  box-shadow: 1px 1px 10px #14112e;
 
   iframe {
     z-index: 1;
@@ -112,7 +119,12 @@ interface Props {
 export default function Banner({ games }: Props) {
   const topGame = games?.find((game) => game.ranking === 1);
   const gameTitle = topGame ? topGame.name : "";
+  const navigate = useNavigate();
   useYouTubeVideo(gameTitle);
+
+  const handleButtonClick = (game: Game) => {
+    navigate(`/game/${game.id}`, { state: { game } });
+  };
 
   return topGame ? (
     <BannerWrapper backgroundurl={topGame.backgroundImage}>
@@ -121,7 +133,7 @@ export default function Banner({ games }: Props) {
           <h1>Today's Hot Game #1</h1>
           <h2>{topGame.name}</h2>
           <h3>{topGame.subTitle}</h3>
-          <button>
+          <button onClick={() => handleButtonClick(topGame)}>
             Show More <span>&gt;</span>
           </button>
         </BannerContent>

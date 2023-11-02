@@ -1,8 +1,9 @@
 import { useEffect, useState } from "react";
 import { Game, SlidePxProps } from "../../types";
-import { styled } from "styled-components";
+import { styled, css } from "styled-components";
 import { AiOutlineLeft } from "react-icons/ai";
 import { AiOutlineRight } from "react-icons/ai";
+import { useNavigate } from "react-router-dom";
 
 const ListWrapper = styled.div`
   position: relative;
@@ -23,15 +24,55 @@ const ListItem = styled.li`
     cursor: pointer;
   }
 
-  img {
-    width: 180px;
-    height: 250px;
-    border-radius: 12px;
-  }
-
   h3 {
     font-size: 1.4rem;
     margin-top: 6px;
+    padding: 0 16px;
+    line-height: 20px;
+    text-align: center;
+  }
+`;
+
+const ImageBox = styled.div`
+  width: 180px;
+  height: 250px;
+  border-radius: 12px;
+  overflow: hidden;
+  position: relative;
+
+  img {
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    transition: transform 0.3s;
+  }
+
+  &::before {
+    content: "See Details";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6rem;
+    font-weight: 700;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    box-shadow: inset 0 0 0 3px #3e60f5;
+    border-radius: 12px;
+    opacity: 0;
+    transition: opacity 0.3ms;
+    z-index: 1;
+  }
+
+  &:hover::before {
+    opacity: 1;
+  }
+
+  &:hover img {
+    transform: scale(1.1);
   }
 `;
 
@@ -48,17 +89,14 @@ const ArrowButtonBox = styled.div`
   }
 `;
 
-const LeftArrowBtn = styled.button<SlidePxProps>`
+const commonArrowBtnStyles = css`
   position: absolute;
-  left: 0;
   top: 40%;
-  transform: translate(-60%, -40%);
   width: 40px;
   height: 40px;
   border-radius: 50%;
   background-color: #24244a;
   box-shadow: 1px 1px 5px black;
-  display: ${(props) => (props.slidePx === 0 ? "none" : "")};
 
   svg {
     color: white;
@@ -72,16 +110,17 @@ const LeftArrowBtn = styled.button<SlidePxProps>`
   }
 `;
 
+const LeftArrowBtn = styled.button<SlidePxProps>`
+  ${commonArrowBtnStyles}
+  left: 0;
+  transform: translate(-60%, -40%);
+  display: ${(props) => (props.slidePx === 0 ? "none" : "")};
+`;
+
 const RightArrowBtn = styled.button<SlidePxProps>`
-  position: absolute;
+  ${commonArrowBtnStyles}
   right: 0;
-  top: 40%;
   transform: translate(60%, -40%);
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background-color: #24244a;
-  box-shadow: 1px 1px 5px black;
   display: ${(props) => (props.slidePx <= -3600 ? "none" : "")};
 
   svg {
@@ -102,6 +141,7 @@ interface Props {
 export default function List({ games }: Props) {
   const [slide, setSlide] = useState(0);
   const [innerWidth, setInnerWidth] = useState(0);
+  const navigate = useNavigate();
 
   useEffect(() => {
     const handleResize = () => {
@@ -147,6 +187,10 @@ export default function List({ games }: Props) {
     setSlide(slide - slideAmount);
   };
 
+  const handleListItemClick = (game: Game) => {
+    navigate(`/game/${game.id}`, { state: { game } });
+  };
+
   return (
     <ListWrapper>
       <h1 className="a11y">최근 게임 목록</h1>
@@ -154,13 +198,16 @@ export default function List({ games }: Props) {
         {games?.map((game, idx) => (
           <ListItem
             key={idx}
+            onClick={() => handleListItemClick(game)}
             style={{
               transform: `translateX(${slide}px)`,
               transition: "0.5s ease",
             }}
           >
-            <img src={game.image} alt="게임 이미지" />
-            <h3>{game.releaseYear}</h3>
+            <ImageBox>
+              <img src={game.image} alt="게임 이미지" />
+            </ImageBox>
+            <h3>{game.name}</h3>
           </ListItem>
         ))}
       </ListItems>

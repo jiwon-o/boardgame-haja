@@ -24,8 +24,9 @@ const VideoModalWrapper = styled.div`
 const VideoModalBox = styled.div`
   background-color: black;
   position: absolute;
-  top: 50%;
+  top: 45%;
   left: 50%;
+  z-index: 2;
   transform: translate(-50%, -50%);
   width: clamp(600px, 80%, 1200px);
   aspect-ratio: 16/9;
@@ -35,13 +36,13 @@ const VideoModalBox = styled.div`
 
 const VideoWrapper = styled.div`
   iframe {
-    z-index: 2;
     top: 0;
     left: 0;
     position: absolute;
     width: 100%;
     height: 100%;
     border-radius: 10px;
+    opacity: 1;
   }
 `;
 

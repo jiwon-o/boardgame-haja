@@ -3,7 +3,8 @@ import styled from "styled-components";
 
 const CardAsideNav = styled.aside`
   position: sticky;
-  top: 40px;
+  overflow-y: auto;
+  top: 20px;
   z-index: 2;
   flex: 1;
   max-width: 300px;
