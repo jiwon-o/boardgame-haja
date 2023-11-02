@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Home from "./Home";
-import Detail from "./Detail";
+import Home from "./HomePage";
+import Detail from "./DetailPage";
 import AllGames from "./AllGames";
 
 export default function AppRouter() {
