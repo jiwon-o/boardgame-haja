@@ -4,12 +4,26 @@ export interface Game {
   image: string;
   rate: number;
   ranking: number;
+  theme: string;
+  min_player: string;
+  max_player: string;
+  play_time: string;
   backgroundImage: string;
   releaseYear: string;
+  subTitle: string;
+  play_age: string;
 }
 
 export interface GameRankProps {
   ranking: number;
+}
+
+export interface SlidePxProps {
+  slidePx: number;
+}
+
+export interface BackBtnProps {
+  backBtn: boolean | undefined;
 }
 
 export type State = {
@@ -24,3 +38,5 @@ export type Action =
     }
   | { type: "SUCCESS"; data: Game[] }
   | { type: "ERROR"; error: Error };
+
+export type SlideAmount = 1200 | 1000 | 800 | 600 | 400;
