@@ -6,7 +6,7 @@ import { AiFillStar } from "react-icons/ai";
 import { BiSolidTimeFive } from "react-icons/bi";
 import { TbRating12Plus } from "react-icons/tb";
 import { useNavigate } from "react-router-dom";
-import AsideNav from "./Aside/AsideNav";
+// import AsideNav from "./Aside/AsideNav";
 import Pagination from "react-js-pagination";
 import "../../styles/pagination.css";
 
@@ -138,6 +138,31 @@ const GameRank = styled.span`
   }
 `;
 
+const AsideContainer = styled.aside`
+  position: sticky;
+  overflow-y: auto;
+  top: 20px;
+  z-index: 2;
+  flex: 1;
+  max-width: 300px;
+  max-height: 300px;
+  min-width: 200px;
+  border-radius: 6px;
+  padding: 12px;
+  background-color: #1f1a4cd7;
+  box-shadow: 3px 3px 5px #14112e;
+`;
+
+const AsideLists = styled.div``;
+
+const AsideItem = styled.div`
+  display: flex;
+  align-items: center;
+
+  flex-wrap: wrap;
+`;
+const AsideRadio = styled.div``;
+
 interface Props {
   loading: boolean;
   error: Error | null;
@@ -148,6 +173,9 @@ export default function Card({ loading, error, games }: Props) {
   const navigate = useNavigate();
   const [selectedPlayer, setSelectedPlayer] = useState<string | number>("all");
   const [selectedRating, setSelectedRating] = useState<string | number>("all");
+  const [selectedPlayTime, setSelectedPlayTime] = useState<string | number>(
+    "all"
+  );
   const themes = [...new Set(games?.map((game) => game.theme))];
   const [page, setPage] = useState<number>(1);
 
@@ -183,7 +211,26 @@ export default function Card({ loading, error, games }: Props) {
         return game.rate < 6;
       }
     };
-    return filterByPlayer() && filterByRating();
+
+    const filterByPlayTime = () => {
+      const playTime = parseInt(game.play_time, 10);
+
+      if (selectedPlayTime === "all") {
+        return true;
+      } else if (selectedPlayTime === "under-30-min") {
+        return playTime < 30;
+      } else if (selectedPlayTime === "30-min-to-1-hour") {
+        return playTime >= 30 && playTime < 60;
+      } else if (selectedPlayTime === "1-hour-to-1-hour-30-min") {
+        return playTime >= 60 && playTime < 90;
+      } else if (selectedPlayTime === "1-hour-30-min-to-2-hour") {
+        return playTime >= 90 && playTime < 120;
+      } else if (selectedPlayTime === "over-2-hours") {
+        return playTime >= 120;
+      }
+    };
+
+    return filterByPlayer() && filterByRating() && filterByPlayTime();
   });
 
   useEffect(() => {
@@ -200,6 +247,10 @@ export default function Card({ loading, error, games }: Props) {
 
   const handleSelectedRating = (selected: string | number) => {
     setSelectedRating(selected);
+  };
+
+  const handleSelectedPlayTime = (selected: string | number) => {
+    setSelectedPlayTime(selected);
   };
 
   if (loading) return <div>로딩중..</div>;
@@ -255,79 +306,154 @@ export default function Card({ loading, error, games }: Props) {
           onChange={handlePageChange}
         />
       </CardContainer>
-      <AsideNav>
+      <AsideContainer>
         <h2 className="a11y">카테고리 별 버튼</h2>
         <form>
-          <div>
+          <AsideLists>
             <strong>인원</strong>
-            <div>
-              <input
-                type="radio"
-                id="all"
-                name="playerCount"
-                value="all"
-                onChange={() => handleSelectedPlayer("all")}
-              />
-              <label htmlFor="all">전체</label>
-            </div>
-            {[1, 2, 3, 4, 5, 6].map((playerCount) => (
-              <div key={playerCount}>
+            <AsideItem>
+              <AsideRadio>
                 <input
                   type="radio"
-                  id={`player-${playerCount}`}
+                  id="all"
                   name="playerCount"
-                  value={playerCount}
-                  onChange={() => handleSelectedPlayer(playerCount)}
+                  value="all"
+                  onChange={() => handleSelectedPlayer("all")}
                 />
-                <label htmlFor={`player-${playerCount}`}>{playerCount}인</label>
-              </div>
-            ))}
-            <div>
-              <input
-                type="radio"
-                id="player-7plus"
-                name="playerCount"
-                value="7+"
-                onChange={() => handleSelectedPlayer("7+")}
-              />
-              <label htmlFor="player-7+">7인 이상</label>
-            </div>
-          </div>
-          <div>
-            <strong>평점</strong>
-            <div>
-              <input
-                type="radio"
-                id="all"
-                name="rating"
-                value="all"
-                onChange={() => handleSelectedRating("all")}
-              />
-              <label htmlFor="all">전체</label>
-            </div>
-            {[10, 9, 8, 7, 6].map((gameRate) => (
-              <div key={gameRate}>
+                <label htmlFor="all">전체</label>
+              </AsideRadio>
+              {[1, 2, 3, 4, 5, 6].map((playerCount) => (
+                <AsideRadio key={playerCount}>
+                  <input
+                    type="radio"
+                    id={`player-${playerCount}`}
+                    name="playerCount"
+                    value={playerCount}
+                    onChange={() => handleSelectedPlayer(playerCount)}
+                  />
+                  <label htmlFor={`player-${playerCount}`}>
+                    {playerCount}인
+                  </label>
+                </AsideRadio>
+              ))}
+              <AsideRadio>
                 <input
                   type="radio"
-                  id={`${gameRate}`}
-                  name="rating"
-                  value={gameRate}
-                  onChange={() => handleSelectedRating(gameRate)}
+                  id="player-7plus"
+                  name="playerCount"
+                  value="7+"
+                  onChange={() => handleSelectedPlayer("7+")}
                 />
-                <label htmlFor={`${gameRate}`}>{gameRate}+</label>
-              </div>
-            ))}
-            <div>
-              <input
-                type="radio"
-                id="rate-6minus"
-                name="rating"
-                value="6-"
-                onChange={() => handleSelectedRating("6-")}
-              />
-              <label htmlFor="rate-6minus">6점 미만</label>
-            </div>
-          </div>
+                <label htmlFor="player-7+">7인 이상</label>
+              </AsideRadio>
+            </AsideItem>
+          </AsideLists>
+          <AsideLists>
+            <strong>평점</strong>
+            <AsideItem>
+              <AsideRadio>
+                <input
+                  type="radio"
+                  id="all"
+                  name="rating"
+                  value="all"
+                  onChange={() => handleSelectedRating("all")}
+                />
+                <label htmlFor="all">전체</label>
+              </AsideRadio>
+              {[10, 9, 8, 7, 6].map((gameRate) => (
+                <AsideRadio key={gameRate}>
+                  <input
+                    type="radio"
+                    id={`${gameRate}`}
+                    name="rating"
+                    value={gameRate}
+                    onChange={() => handleSelectedRating(gameRate)}
+                  />
+                  <label htmlFor={`${gameRate}`}>{gameRate}+</label>
+                </AsideRadio>
+              ))}
+              <AsideRadio>
+                <input
+                  type="radio"
+                  id="rate-6minus"
+                  name="rating"
+                  value="6-"
+                  onChange={() => handleSelectedRating("6-")}
+                />
+                <label htmlFor="rate-6minus">6점 미만</label>
+              </AsideRadio>
+            </AsideItem>
+          </AsideLists>
+          <AsideLists>
+            <strong>플레이시간</strong>
+            <AsideItem>
+              <AsideRadio>
+                <input
+                  type="radio"
+                  id="all"
+                  name="playtime"
+                  value="all"
+                  onChange={() => handleSelectedPlayTime("all")}
+                />
+                <label htmlFor="all">전체</label>
+              </AsideRadio>
+              <AsideRadio>
+                <input
+                  type="radio"
+                  id="under30Min"
+                  name="playtime"
+                  value="under-30-min"
+                  onChange={() => handleSelectedPlayTime("under-30-min")}
+                />
+                <label htmlFor="under30Min">30분 미만</label>
+              </AsideRadio>
+              <AsideRadio>
+                <input
+                  type="radio"
+                  id="30MinTo1Hour"
+                  name="playtime"
+                  value="30-min-to-1-hour"
+                  onChange={() => handleSelectedPlayTime("30-min-to-1-hour")}
+                />
+                <label htmlFor="30MinTo1Hour">30분~1시간</label>
+              </AsideRadio>
+              <AsideRadio>
+                <input
+                  type="radio"
+                  id="1HourTo1Hour30Min"
+                  name="playtime"
+                  value="1-hour-to-1-hour-30-min"
+                  onChange={() =>
+                    handleSelectedPlayTime("1-hour-to-1-hour-30-min")
+                  }
+                />
+                <label htmlFor="1HourTo1Hour30Min">1시간~1시간30분</label>
+              </AsideRadio>
+              <AsideRadio>
+                <input
+                  type="radio"
+                  id="1Hour30MinTo2Hour"
+                  name="playtime"
+                  value="1-hour-30-min-to-2-hour"
+                  onChange={() =>
+                    handleSelectedPlayTime("1-hour-30-min-to-2-hour")
+                  }
+                />
+                <label htmlFor="1Hour30MinTo2Hour">1시간30분~2시간</label>
+              </AsideRadio>
+              <AsideRadio>
+                <input
+                  type="radio"
+                  id="over2Hours"
+                  name="playtime"
+                  value="over-2-hours"
+                  onChange={() => handleSelectedPlayTime("over-2-hours")}
+                />
+                <label htmlFor="over2Hours">2시간 이상</label>
+              </AsideRadio>
+            </AsideItem>
+          </AsideLists>
 
           {/* {themes.map((theme) => (
             <div key={theme}>
@@ -342,7 +468,7 @@ export default function Card({ loading, error, games }: Props) {
             </div>
           ))} */}
         </form>
-      </AsideNav>
+      </AsideContainer>
     </CardWrapper>
   );
 }
