@@ -2,7 +2,7 @@ export interface Game {
   id: number;
   name: string;
   image: string;
-  rate: number;
+  rate: string;
   ranking: number;
   theme: string;
   min_player: string;
