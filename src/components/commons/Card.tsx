@@ -5,6 +5,7 @@ import { IoPeopleSharp } from "react-icons/io5";
 import { AiFillStar } from "react-icons/ai";
 import { BiSolidTimeFive } from "react-icons/bi";
 import { TbRating12Plus } from "react-icons/tb";
+import { BiX } from "react-icons/bi";
 import { useNavigate } from "react-router-dom";
 import Pagination from "react-js-pagination";
 import "../../styles/pagination.css";
@@ -146,53 +147,44 @@ const AsideContainer = styled.aside`
   z-index: 2;
   flex: 1;
   max-width: 300px;
-  min-width: 200px;
+  min-width: 210px;
   border-radius: 6px;
-  padding: 12px;
-  background-color: #1f1a4cd7;
-  box-shadow: 3px 3px 5px #14112e;
+  padding: 20px;
+  background-color: #18133f;
+  border: 1px solid #14112e;
+  box-shadow: 0 0 10px #14112e;
 `;
 
-const AsideLists = styled.div`
-  strong {
-    display: inline-block;
-    margin-bottom: 12px;
-  }
-`;
-
-const AsideItem = styled.div`
-  /* display: flex;
-  justify-content: center;
-  align-items: center;
+const CheckboxResultBox = styled.ul`
+  display: flex;
   flex-wrap: wrap;
-  gap: 4px;
+  gap: 6px;
+  margin-top: 12px;
 
-  input {
-    display: none;
+  li {
+    position: relative; // 부모 요소에 상대적으로 위치 설정
+    padding: 4px 2px 2px 8px;
+    background-color: #382f84c1;
+    border-radius: 6px;
+    font-size: 1.2rem;
+
+    span {
+      white-space: nowrap;
+      color: white;
+      font-weight: 300;
+    }
+
+    svg {
+      margin-left: 2px;
+      color: #ff4545;
+      font-size: 2rem;
+    }
+
+    &:hover {
+      cursor: pointer;
+    }
   }
-
-  label {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-width: 40px;
-    min-height: 24px;
-    padding: 5px 10px;
-    border: 1px solid black;
-    border-radius: 3px;
-  }
-
-  label:hover {
-    cursor: pointer;
-  }
-
-  input[type="radio"]:checked + label {
-    background: #ccc;
-    color: white;
-  } */
 `;
-
-const AsideRadio = styled.div``;
 
 interface Props {
   loading: boolean;
@@ -208,6 +200,8 @@ export default function Card({ loading, error, games }: Props) {
   );
   const [selectedRating, setSelectedRating] = useState<string[]>([]);
   const [selectedPlayTime, setSelectedPlayTime] = useState<string[]>([]);
+
+  const [selectedFilters, setSelectedFilters] = useState<string[]>([]);
 
   const [filteredGames, setFilteredGames] = useState(games!);
 
@@ -285,6 +279,45 @@ export default function Card({ loading, error, games }: Props) {
   }, [selectedPlayerCounts, selectedRating, selectedPlayTime]);
 
   useEffect(() => {
+    const updatedFilters: string[] = [];
+
+    // 게임 인원 필터
+    selectedPlayerCounts.forEach((playerCount) => {
+      if (playerCount === "over10") {
+        updatedFilters.push("10인 이상");
+      } else {
+        updatedFilters.push(`${parseInt(playerCount)}인`);
+      }
+    });
+
+    // 게임 평점 필터
+    selectedRating.forEach((ratingRange) => {
+      if (ratingRange === "under5") {
+        updatedFilters.push("5점 미만");
+      } else {
+        ratingRange === "10"
+          ? updatedFilters.push(`${ratingRange}점`)
+          : updatedFilters.push(
+              `${ratingRange}-${parseInt(ratingRange) + 1}점`
+            );
+      }
+    });
+
+    // 게임 시간 필터
+    selectedPlayTime.forEach((timeRange) => {
+      if (timeRange === "under30") {
+        updatedFilters.push("30분 미만");
+      } else if (timeRange === "over180") {
+        updatedFilters.push("180분 이상");
+      } else {
+        updatedFilters.push(`${timeRange}-${parseInt(timeRange) + 30}분`);
+      }
+    });
+
+    setSelectedFilters(updatedFilters);
+  }, [selectedPlayerCounts, selectedRating, selectedPlayTime]);
+
+  useEffect(() => {
     setCurrentGames(filteredGames!.slice(indexOfFirstCard, indexOfLastCard));
   }, [filteredGames, page, indexOfFirstCard, indexOfLastCard]);
 
@@ -302,6 +335,12 @@ export default function Card({ loading, error, games }: Props) {
 
   const handlePlayTimeChange = (selectedPlayTime: string[]) => {
     setSelectedPlayTime(selectedPlayTime);
+  };
+
+  const handleDeleteFilter = (
+    e: React.MouseEvent<HTMLLIElement, MouseEvent>
+  ) => {
+    console.log(e.currentTarget);
   };
 
   if (loading) return <div>로딩중..</div>;
@@ -363,18 +402,22 @@ export default function Card({ loading, error, games }: Props) {
         />
       </CardContainer>
       <AsideContainer>
-        <h2 className="a11y">인원수, 평점, 플레이 시간에 따른 filter table</h2>
+        <header>
+          <h2 className="a11y">
+            인원수, 평점, 플레이 시간에 따른 filter table
+          </h2>
+        </header>
         <CheckboxGroup
           label="게임 인원"
           values={selectedPlayerCounts}
           onChange={handlePlayerCountsChange}>
           {["1", "2", "3", "4", "5", "6", "7", "8", "9"].map((playerCount) => (
             <Checkbox id={`player-${playerCount}`} value={playerCount}>
-              {playerCount}명
+              {playerCount}인
             </Checkbox>
           ))}
           <Checkbox id={`player-over10`} value="over10">
-            10명 이상
+            10인 이상
           </Checkbox>
         </CheckboxGroup>
         <CheckboxGroup
@@ -408,6 +451,15 @@ export default function Card({ loading, error, games }: Props) {
             180분 이상
           </Checkbox>
         </CheckboxGroup>
+        <CheckboxResultBox>
+          {selectedFilters.map((item, index) => (
+            <li key={index} onClick={handleDeleteFilter}>
+              <span>{item}</span>
+              <BiX />
+            </li>
+          ))}
+        </CheckboxResultBox>
+        <footer></footer>
       </AsideContainer>
     </CardWrapper>
   );

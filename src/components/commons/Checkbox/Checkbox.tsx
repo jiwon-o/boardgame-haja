@@ -1,5 +1,34 @@
 import React from "react";
 import { CheckboxContext } from "../../../contexts/CheckboxContext";
+import { styled } from "styled-components";
+
+const CheckboxInput = styled.input`
+  display: none;
+
+  &[type="checkbox"]:checked + label {
+    background: #606efc;
+    border: 1px solid #606efc;
+    color: white;
+  }
+`;
+
+const CheckboxLabel = styled.label`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 40px;
+  min-height: 24px;
+  padding: 8px 14px;
+  border: 1px solid #42389e;
+  border-radius: 10px;
+  font-size: 1.3rem;
+  white-space: nowrap;
+  user-select: none;
+
+  &:hover {
+    cursor: pointer;
+  }
+`;
 
 interface Props {
   children: React.ReactNode;
@@ -40,14 +69,14 @@ export default function Checkbox({
 
   return (
     <>
-      <input
+      <CheckboxInput
         type="checkbox"
         id={id}
         checked={isChecked(value)}
         disabled={disabled}
         onChange={({ target: { checked } }) => toggleValue({ checked, value })}
       />
-      <label htmlFor={id}>{children}</label>
+      <CheckboxLabel htmlFor={id}>{children}</CheckboxLabel>
     </>
   );
 }
