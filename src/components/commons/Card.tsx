@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { Game } from "../../types";
 import styled from "styled-components";
 import { IoPeopleSharp } from "react-icons/io5";
@@ -6,9 +6,10 @@ import { AiFillStar } from "react-icons/ai";
 import { BiSolidTimeFive } from "react-icons/bi";
 import { TbRating12Plus } from "react-icons/tb";
 import { useNavigate } from "react-router-dom";
-// import AsideNav from "./Aside/AsideNav";
 import Pagination from "react-js-pagination";
 import "../../styles/pagination.css";
+import CheckboxGroup from "./Checkbox/CheckboxGroup";
+import Checkbox from "./Checkbox/Checkbox";
 
 const CardWrapper = styled.div`
   display: flex;
@@ -171,14 +172,14 @@ interface Props {
 
 export default function Card({ loading, error, games }: Props) {
   const navigate = useNavigate();
-  const [selectedPlayer, setSelectedPlayer] = useState<string | number>("all");
-  const [selectedRating, setSelectedRating] = useState<string | number>("all");
-  const [selectedPlayTime, setSelectedPlayTime] = useState<string | number>(
-    "all"
-  );
-  const themes = [...new Set(games?.map((game) => game.theme))];
-  const [page, setPage] = useState<number>(1);
 
+  const [selectedPlayerCounts, setSelectedPlayerCounts] = useState<string[]>(
+    []
+  );
+
+  const [filteredGames, setFilteredGames] = useState(games!);
+
+  const [page, setPage] = useState<number>(1);
   const CardPerPage: number = 6;
   const indexOfLastCard: number = page * CardPerPage;
   const indexOfFirstCard: number = indexOfLastCard - CardPerPage;
@@ -188,69 +189,38 @@ export default function Card({ loading, error, games }: Props) {
     setPage(page);
   };
 
-  const filteredGames = games!.filter((game) => {
-    const filterByPlayer = () => {
-      const minPlayer = parseInt(game.min_player, 10);
-      const maxPlayer = parseInt(game.max_player, 10);
+  useEffect(() => {
+    setFilteredGames(
+      games!.filter((game) => {
+        const minPlayer = parseInt(game.min_player, 10);
+        const maxPlayer = parseInt(game.max_player, 10);
 
-      if (selectedPlayer === "all") {
-        return true; // 모든 게임 표시
-      } else if (typeof selectedPlayer === "number") {
-        return selectedPlayer >= minPlayer && selectedPlayer <= maxPlayer;
-      } else if (selectedPlayer === "7+") {
-        return minPlayer >= 7 || maxPlayer >= 7;
-      }
-    };
-
-    const filterByRating = () => {
-      if (selectedRating === "all") {
-        return true;
-      } else if (typeof selectedRating === "number") {
-        return selectedRating <= game.rate && selectedRating + 1 > game.rate;
-      } else if (selectedRating === "6-") {
-        return game.rate < 6;
-      }
-    };
-
-    const filterByPlayTime = () => {
-      const playTime = parseInt(game.play_time, 10);
-
-      if (selectedPlayTime === "all") {
-        return true;
-      } else if (selectedPlayTime === "under-30-min") {
-        return playTime < 30;
-      } else if (selectedPlayTime === "30-min-to-1-hour") {
-        return playTime >= 30 && playTime < 60;
-      } else if (selectedPlayTime === "1-hour-to-1-hour-30-min") {
-        return playTime >= 60 && playTime < 90;
-      } else if (selectedPlayTime === "1-hour-30-min-to-2-hour") {
-        return playTime >= 90 && playTime < 120;
-      } else if (selectedPlayTime === "over-2-hours") {
-        return playTime >= 120;
-      }
-    };
-
-    return filterByPlayer() && filterByRating() && filterByPlayTime();
-  });
+        if (selectedPlayerCounts.length === 0) {
+          return true;
+        } else {
+          return selectedPlayerCounts.some((value) => {
+            if (value === "over10") {
+              return minPlayer >= 10 || maxPlayer >= 10;
+            } else {
+              const intValue = parseInt(value, 10);
+              return intValue >= minPlayer && intValue <= maxPlayer;
+            }
+          });
+        }
+      })
+    );
+  }, [selectedPlayerCounts]);
 
   useEffect(() => {
-    setCurrentGames(filteredGames.slice(indexOfFirstCard, indexOfLastCard));
-  }, [filteredGames, page]);
+    setCurrentGames(filteredGames!.slice(indexOfFirstCard, indexOfLastCard));
+  }, [filteredGames, page, indexOfFirstCard, indexOfLastCard]);
 
   const handleCardItemClick = (game: Game) => {
     navigate(`/game/${game.id}`, { state: { game } });
   };
 
-  const handleSelectedPlayer = (selected: string | number) => {
-    setSelectedPlayer(selected);
-  };
-
-  const handleSelectedRating = (selected: string | number) => {
-    setSelectedRating(selected);
-  };
-
-  const handleSelectedPlayTime = (selected: string | number) => {
-    setSelectedPlayTime(selected);
+  const handlePlayerCountsChange = (selectedCounts: string[]) => {
+    setSelectedPlayerCounts(selectedCounts);
   };
 
   if (loading) return <div>로딩중..</div>;
@@ -307,167 +277,21 @@ export default function Card({ loading, error, games }: Props) {
         />
       </CardContainer>
       <AsideContainer>
-        <h2 className="a11y">카테고리 별 버튼</h2>
-        <form>
-          <AsideLists>
-            <strong>인원</strong>
-            <AsideItem>
-              <AsideRadio>
-                <input
-                  type="radio"
-                  id="all"
-                  name="playerCount"
-                  value="all"
-                  onChange={() => handleSelectedPlayer("all")}
-                />
-                <label htmlFor="all">전체</label>
-              </AsideRadio>
-              {[1, 2, 3, 4, 5, 6].map((playerCount) => (
-                <AsideRadio key={playerCount}>
-                  <input
-                    type="radio"
-                    id={`player-${playerCount}`}
-                    name="playerCount"
-                    value={playerCount}
-                    onChange={() => handleSelectedPlayer(playerCount)}
-                  />
-                  <label htmlFor={`player-${playerCount}`}>
-                    {playerCount}인
-                  </label>
-                </AsideRadio>
-              ))}
-              <AsideRadio>
-                <input
-                  type="radio"
-                  id="player-7plus"
-                  name="playerCount"
-                  value="7+"
-                  onChange={() => handleSelectedPlayer("7+")}
-                />
-                <label htmlFor="player-7+">7인 이상</label>
-              </AsideRadio>
-            </AsideItem>
-          </AsideLists>
-          <AsideLists>
-            <strong>평점</strong>
-            <AsideItem>
-              <AsideRadio>
-                <input
-                  type="radio"
-                  id="all"
-                  name="rating"
-                  value="all"
-                  onChange={() => handleSelectedRating("all")}
-                />
-                <label htmlFor="all">전체</label>
-              </AsideRadio>
-              {[10, 9, 8, 7, 6].map((gameRate) => (
-                <AsideRadio key={gameRate}>
-                  <input
-                    type="radio"
-                    id={`${gameRate}`}
-                    name="rating"
-                    value={gameRate}
-                    onChange={() => handleSelectedRating(gameRate)}
-                  />
-                  <label htmlFor={`${gameRate}`}>{gameRate}+</label>
-                </AsideRadio>
-              ))}
-              <AsideRadio>
-                <input
-                  type="radio"
-                  id="rate-6minus"
-                  name="rating"
-                  value="6-"
-                  onChange={() => handleSelectedRating("6-")}
-                />
-                <label htmlFor="rate-6minus">6점 미만</label>
-              </AsideRadio>
-            </AsideItem>
-          </AsideLists>
-          <AsideLists>
-            <strong>플레이시간</strong>
-            <AsideItem>
-              <AsideRadio>
-                <input
-                  type="radio"
-                  id="all"
-                  name="playtime"
-                  value="all"
-                  onChange={() => handleSelectedPlayTime("all")}
-                />
-                <label htmlFor="all">전체</label>
-              </AsideRadio>
-              <AsideRadio>
-                <input
-                  type="radio"
-                  id="under30Min"
-                  name="playtime"
-                  value="under-30-min"
-                  onChange={() => handleSelectedPlayTime("under-30-min")}
-                />
-                <label htmlFor="under30Min">30분 미만</label>
-              </AsideRadio>
-              <AsideRadio>
-                <input
-                  type="radio"
-                  id="30MinTo1Hour"
-                  name="playtime"
-                  value="30-min-to-1-hour"
-                  onChange={() => handleSelectedPlayTime("30-min-to-1-hour")}
-                />
-                <label htmlFor="30MinTo1Hour">30분~1시간</label>
-              </AsideRadio>
-              <AsideRadio>
-                <input
-                  type="radio"
-                  id="1HourTo1Hour30Min"
-                  name="playtime"
-                  value="1-hour-to-1-hour-30-min"
-                  onChange={() =>
-                    handleSelectedPlayTime("1-hour-to-1-hour-30-min")
-                  }
-                />
-                <label htmlFor="1HourTo1Hour30Min">1시간~1시간30분</label>
-              </AsideRadio>
-              <AsideRadio>
-                <input
-                  type="radio"
-                  id="1Hour30MinTo2Hour"
-                  name="playtime"
-                  value="1-hour-30-min-to-2-hour"
-                  onChange={() =>
-                    handleSelectedPlayTime("1-hour-30-min-to-2-hour")
-                  }
-                />
-                <label htmlFor="1Hour30MinTo2Hour">1시간30분~2시간</label>
-              </AsideRadio>
-              <AsideRadio>
-                <input
-                  type="radio"
-                  id="over2Hours"
-                  name="playtime"
-                  value="over-2-hours"
-                  onChange={() => handleSelectedPlayTime("over-2-hours")}
-                />
-                <label htmlFor="over2Hours">2시간 이상</label>
-              </AsideRadio>
-            </AsideItem>
-          </AsideLists>
-
-          {/* {themes.map((theme) => (
-            <div key={theme}>
-              <input
-                type="radio"
-                id={theme}
-                name="theme"
-                value={theme}
-                onChange={() => handleThemeChange(theme)}
-              />
-              <label htmlFor={theme}>{theme}</label>
-            </div>
-          ))} */}
-        </form>
+        <h2 className="a11y">인원수, 평점, 플레이 시간에 따른 filter table</h2>
+        <CheckboxGroup
+          label="인원 수"
+          values={selectedPlayerCounts}
+          onChange={handlePlayerCountsChange}>
+          {["1", "2", "3", "4", "5", "6", "7", "8", "9"].map((playerCount) => (
+            <Checkbox id={`player-${playerCount}`} value={playerCount}>
+              {playerCount}명
+            </Checkbox>
+          ))}
+          <Checkbox id={`player-over10`} value="over10">
+            10명 이상
+          </Checkbox>
+        </CheckboxGroup>
+        <footer>[{selectedPlayerCounts.join(",")}]을 좋아하시군요!</footer>
       </AsideContainer>
     </CardWrapper>
   );
