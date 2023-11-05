@@ -17,7 +17,7 @@ const CardWrapper = styled.div`
 `;
 
 const CardContainer = styled.div`
-  flex: 4;
+  flex: 3;
   margin-right: 20px;
 `;
 
@@ -44,22 +44,22 @@ const CardItem = styled.li`
 `;
 
 const CardThumbnail = styled.div`
-  flex: 1;
-  max-width: 240px;
-  min-height: 240px;
+  max-width: 220px;
+  max-height: 220px;
+  width: 100%;
+  height: 100%;
   padding: 14px;
   border-right: 1px solid #14112e;
 
   img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    aspect-ratio: 1 / 1;
     border-radius: 12px;
   }
 `;
 
 const CardDetail = styled.div`
-  flex: 2;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -76,18 +76,18 @@ const GameTheme = styled.strong`
   border-radius: 10px;
   background-color: #24244a;
   color: #ececf1;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   font-weight: 700;
   box-shadow: 1px 1px 1px #14112e;
 `;
 
 const GameTitle = styled.h3`
-  font-size: 1.8rem;
+  font-size: 2rem;
   margin: 24px 0 0 6px;
 
   span {
     display: inline-block;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     margin-left: 6px;
   }
 `;
@@ -207,6 +207,7 @@ export default function Card({ loading, error, games }: Props) {
     []
   );
   const [selectedRating, setSelectedRating] = useState<string[]>([]);
+  const [selectedPlayTime, setSelectedPlayTime] = useState<string[]>([]);
 
   const [filteredGames, setFilteredGames] = useState(games!);
 
@@ -223,45 +224,65 @@ export default function Card({ loading, error, games }: Props) {
   useEffect(() => {
     setFilteredGames(
       games!.filter((game) => {
-        // 게임 인원 필터
         const minPlayer = parseInt(game.min_player, 10);
         const maxPlayer = parseInt(game.max_player, 10);
+        const gameRating = parseFloat(game.rate);
 
+        // 게임 인원 필터
         const playerCountMatch =
           selectedPlayerCounts.length === 0 ||
-          selectedPlayerCounts.some((value) => {
-            if (value === "over10") {
+          selectedPlayerCounts.some((playerRange) => {
+            if (playerRange === "over10") {
               return minPlayer >= 10 || maxPlayer >= 10;
             } else {
-              const selectedCount = parseInt(value, 10);
+              const selectedCount = parseInt(playerRange, 10);
               return selectedCount >= minPlayer && selectedCount <= maxPlayer;
             }
           });
 
         // 게임 평점 필터
-        const gameRating = parseFloat(game.rate);
-
         const ratingMatch =
           selectedRating.length === 0 ||
-          selectedRating.some((value) => {
-            if (value === "under5") {
+          selectedRating.some((ratingRange) => {
+            if (ratingRange === "under5") {
               return gameRating < 5;
-            } else if (value === "10") {
+            } else if (ratingRange === "10") {
               return gameRating === 10;
             } else {
-              const selectedRating = parseInt(value, 10);
+              const selectedRate = parseInt(ratingRange, 10);
               return (
-                selectedRating <= gameRating && gameRating < selectedRating + 1
+                selectedRate <= gameRating && gameRating < selectedRate + 1
+              );
+            }
+          });
+
+        // 게임 시간 필터
+        const gamePlayTime = game.play_time.split("-").map(Number);
+        const minTime = gamePlayTime[0];
+        const maxTime = gamePlayTime[1] || minTime;
+
+        const playTimeMatch =
+          selectedPlayTime.length === 0 ||
+          selectedPlayTime.some((timeRange) => {
+            const selectedTime = parseInt(timeRange, 10);
+            if (timeRange === "under30") {
+              return minTime < 30 || maxTime < 30;
+            } else if (timeRange === "over180") {
+              return minTime >= 180 || maxTime >= 180;
+            } else {
+              return (
+                (selectedTime >= minTime && selectedTime < maxTime) ||
+                (selectedTime <= minTime && selectedTime + 30 > maxTime)
               );
             }
           });
 
         // 두 필터 모두 만족하는 게임만 반환
-        return playerCountMatch && ratingMatch;
+        return playerCountMatch && ratingMatch && playTimeMatch;
       })
     );
     setPage(1);
-  }, [selectedPlayerCounts, selectedRating]);
+  }, [selectedPlayerCounts, selectedRating, selectedPlayTime]);
 
   useEffect(() => {
     setCurrentGames(filteredGames!.slice(indexOfFirstCard, indexOfLastCard));
@@ -277,6 +298,10 @@ export default function Card({ loading, error, games }: Props) {
 
   const handleRatingChange = (selectedRating: string[]) => {
     setSelectedRating(selectedRating);
+  };
+
+  const handlePlayTimeChange = (selectedPlayTime: string[]) => {
+    setSelectedPlayTime(selectedPlayTime);
   };
 
   if (loading) return <div>로딩중..</div>;
@@ -313,7 +338,7 @@ export default function Card({ loading, error, games }: Props) {
                         <AiFillStar /> {game.rate}점
                       </GamePlayItem>
                       <GamePlayItem>
-                        <BiSolidTimeFive /> {game.play_time}
+                        <BiSolidTimeFive /> {game.play_time}분
                       </GamePlayItem>
                       <GamePlayItem>
                         <TbRating12Plus /> {game.play_age}
@@ -363,8 +388,24 @@ export default function Card({ loading, error, games }: Props) {
                 : `${rating}-${parseInt(rating) + 1}점`}
             </Checkbox>
           ))}
-          <Checkbox id={`player-under5`} value="under5">
+          <Checkbox id={`rating-under5`} value="under5">
             5점 미만
+          </Checkbox>
+        </CheckboxGroup>
+        <CheckboxGroup
+          label="게임 시간"
+          values={selectedPlayTime}
+          onChange={handlePlayTimeChange}>
+          <Checkbox id={`playTime-under30`} value="under30">
+            30분 미만
+          </Checkbox>
+          {["30", "60", "90", "120", "150"].map((playTime) => (
+            <Checkbox id={`rating-${playTime}`} value={playTime}>
+              {playTime}-{parseInt(playTime) + 30}분
+            </Checkbox>
+          ))}
+          <Checkbox id={`playTime-over180`} value="over180">
+            180분 이상
           </Checkbox>
         </CheckboxGroup>
       </AsideContainer>
