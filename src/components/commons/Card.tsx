@@ -209,6 +209,7 @@ export default function Card({ loading, error, games }: Props) {
         }
       })
     );
+    setPage(1);
   }, [selectedPlayerCounts]);
 
   useEffect(() => {
