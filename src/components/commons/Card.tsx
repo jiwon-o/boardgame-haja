@@ -148,8 +148,8 @@ const AsideContainer = styled.aside`
   flex: 1;
   max-width: 300px;
   min-width: 210px;
-  border-radius: 6px;
-  padding: 20px;
+  border-radius: 12px;
+  padding: 16px;
   background-color: #18133f;
   border: 1px solid #14112e;
   box-shadow: 0 0 10px #14112e;
@@ -184,6 +184,15 @@ const CheckboxResultBox = styled.ul`
       cursor: pointer;
     }
   }
+`;
+
+const CardNotice = styled.div`
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 1.4rem;
 `;
 
 interface Props {
@@ -337,10 +346,43 @@ export default function Card({ loading, error, games }: Props) {
     setSelectedPlayTime(selectedPlayTime);
   };
 
-  const handleDeleteFilter = (
-    e: React.MouseEvent<HTMLLIElement, MouseEvent>
-  ) => {
-    console.log(e.currentTarget);
+  const handleDeleteFilter = (filter: string) => {
+    const updatedFilters = selectedFilters.filter((item) => item !== filter);
+    setSelectedPlayerCounts(
+      selectedPlayerCounts.filter((count: string) =>
+        filter === "10인 이상"
+          ? count !== "over10"
+          : count !== parseInt(filter) + ""
+      )
+    );
+    setSelectedRating(
+      selectedRating.filter((rate: string) =>
+        filter === "5점 미만"
+          ? rate !== "under5"
+          : rate !== parseInt(filter) + ""
+      )
+    );
+    setSelectedPlayTime(
+      selectedPlayTime.filter((time: string) => {
+        if (filter === "30분 미만") {
+          return time !== "under30";
+        } else if (filter === "180분 이상") {
+          return time !== "over180";
+        } else {
+          return time !== parseInt(filter) + "";
+        }
+      })
+    );
+    setSelectedFilters(updatedFilters);
+  };
+
+  const handleReset = () => {
+    setSelectedPlayerCounts([]);
+    setSelectedRating([]);
+    setSelectedPlayTime([]);
+    setSelectedFilters([]);
+    setFilteredGames(games!);
+    setPage(1);
   };
 
   if (loading) return <div>로딩중..</div>;
@@ -350,7 +392,7 @@ export default function Card({ loading, error, games }: Props) {
     <CardWrapper>
       <CardContainer>
         {currentGames?.length === 0 ? (
-          <div>해당 분류와 일치하는 보드게임이 없습니다.</div>
+          <CardNotice>해당 분류와 일치하는 보드게임이 없습니다.</CardNotice>
         ) : (
           currentGames?.map((game) => {
             return (
@@ -453,12 +495,13 @@ export default function Card({ loading, error, games }: Props) {
         </CheckboxGroup>
         <CheckboxResultBox>
           {selectedFilters.map((item, index) => (
-            <li key={index} onClick={handleDeleteFilter}>
+            <li key={index} onClick={() => handleDeleteFilter(item)}>
               <span>{item}</span>
               <BiX />
             </li>
           ))}
         </CheckboxResultBox>
+        <button onClick={handleReset}>초기화</button>
         <footer></footer>
       </AsideContainer>
     </CardWrapper>
