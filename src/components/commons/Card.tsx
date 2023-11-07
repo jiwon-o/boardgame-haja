@@ -3,9 +3,8 @@ import { Game } from "../../types";
 import styled from "styled-components";
 import { IoPeopleSharp } from "react-icons/io5";
 import { AiFillStar } from "react-icons/ai";
-import { BiSolidTimeFive } from "react-icons/bi";
+import { BiSolidTimeFive, BiX, BiRevision } from "react-icons/bi";
 import { TbRating12Plus } from "react-icons/tb";
-import { BiX } from "react-icons/bi";
 import { useNavigate } from "react-router-dom";
 import Pagination from "react-js-pagination";
 import "../../styles/pagination.css";
@@ -186,6 +185,18 @@ const CheckboxResultBox = styled.ul`
   }
 `;
 
+const CheckboxResetButton = styled.button`
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  padding: 2px;
+
+  svg {
+    font-size: 2.2rem;
+    color: white;
+  }
+`;
+
 const CardNotice = styled.div`
   height: 400px;
   display: flex;
@@ -199,6 +210,7 @@ interface Props {
   loading: boolean;
   error: Error | null;
   games: Game[] | null;
+  onSearch(term: string): void;
 }
 
 export default function Card({ loading, error, games }: Props) {
@@ -501,7 +513,9 @@ export default function Card({ loading, error, games }: Props) {
             </li>
           ))}
         </CheckboxResultBox>
-        <button onClick={handleReset}>초기화</button>
+        <CheckboxResetButton onClick={handleReset}>
+          <BiRevision />
+        </CheckboxResetButton>
         <footer></footer>
       </AsideContainer>
     </CardWrapper>
