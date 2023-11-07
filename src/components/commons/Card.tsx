@@ -10,6 +10,9 @@ import Pagination from "react-js-pagination";
 import "../../styles/pagination.css";
 import CheckboxGroup from "./Checkbox/CheckboxGroup";
 import Checkbox from "./Checkbox/Checkbox";
+import Input from "./Input";
+import useInput from "../../hooks/useInput";
+import useSearch from "../../hooks/useSearch";
 
 const CardWrapper = styled.div`
   display: flex;
@@ -145,23 +148,36 @@ const AsideContainer = styled.aside`
   top: 20px;
   z-index: 2;
   flex: 1;
+  padding: 14px;
   max-width: 300px;
   min-width: 210px;
   border-radius: 12px;
-  padding: 16px;
   background-color: #18133f;
   border: 1px solid #14112e;
   box-shadow: 0 0 10px #14112e;
+`;
+
+const AsideInputBox = styled.div`
+  margin-bottom: 14px;
+`;
+
+const ChackboxContainer = styled.div`
+  position: relative;
+  margin-bottom: 14px;
+`;
+
+const CheckboxResultContainer = styled.div`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 `;
 
 const CheckboxResultBox = styled.ul`
   display: flex;
   flex-wrap: wrap;
   gap: 6px;
-  margin-top: 12px;
 
   li {
-    position: relative; // 부모 요소에 상대적으로 위치 설정
     padding: 4px 2px 2px 8px;
     background-color: #382f84c1;
     border-radius: 6px;
@@ -186,13 +202,8 @@ const CheckboxResultBox = styled.ul`
 `;
 
 const CheckboxResetButton = styled.button`
-  position: absolute;
-  top: 12px;
-  right: 12px;
-  padding: 2px;
-
   svg {
-    font-size: 2.2rem;
+    font-size: 2.4rem;
     color: white;
   }
 `;
@@ -202,7 +213,6 @@ const CardNotice = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-
   font-size: 1.4rem;
 `;
 
@@ -210,7 +220,6 @@ interface Props {
   loading: boolean;
   error: Error | null;
   games: Game[] | null;
-  onSearch(term: string): void;
 }
 
 export default function Card({ loading, error, games }: Props) {
@@ -232,6 +241,9 @@ export default function Card({ loading, error, games }: Props) {
   const indexOfFirstCard: number = indexOfLastCard - CardPerPage;
   const [currentGames, setCurrentGames] = useState<Game[] | null>(null);
 
+  const { searchGame, handleSearch } = useInput();
+  const searchGames = useSearch();
+
   const handlePageChange = (page: number) => {
     setPage(page);
   };
@@ -242,6 +254,11 @@ export default function Card({ loading, error, games }: Props) {
         const minPlayer = parseInt(game.min_player, 10);
         const maxPlayer = parseInt(game.max_player, 10);
         const gameRating = parseFloat(game.rate);
+
+        // 검색 필터
+        const searchFilter =
+          searchGames(searchGame, game.name) ||
+          searchGames(searchGame, game.subTitle);
 
         // 게임 인원 필터
         const playerCountMatch =
@@ -293,11 +310,11 @@ export default function Card({ loading, error, games }: Props) {
           });
 
         // 두 필터 모두 만족하는 게임만 반환
-        return playerCountMatch && ratingMatch && playTimeMatch;
+        return playerCountMatch && ratingMatch && playTimeMatch && searchFilter;
       })
     );
     setPage(1);
-  }, [selectedPlayerCounts, selectedRating, selectedPlayTime]);
+  }, [selectedPlayerCounts, selectedRating, selectedPlayTime, searchGame]);
 
   useEffect(() => {
     const updatedFilters: string[] = [];
@@ -444,7 +461,6 @@ export default function Card({ loading, error, games }: Props) {
             );
           })
         )}
-
         <Pagination
           activePage={page}
           itemsCountPerPage={CardPerPage}
@@ -460,62 +476,74 @@ export default function Card({ loading, error, games }: Props) {
           <h2 className="a11y">
             인원수, 평점, 플레이 시간에 따른 filter table
           </h2>
+          <AsideInputBox>
+            <Input onSearch={handleSearch} />
+          </AsideInputBox>
         </header>
-        <CheckboxGroup
-          label="게임 인원"
-          values={selectedPlayerCounts}
-          onChange={handlePlayerCountsChange}>
-          {["1", "2", "3", "4", "5", "6", "7", "8", "9"].map((playerCount) => (
-            <Checkbox id={`player-${playerCount}`} value={playerCount}>
-              {playerCount}인
+        <ChackboxContainer>
+          <CheckboxGroup
+            label="게임 인원"
+            values={selectedPlayerCounts}
+            onChange={handlePlayerCountsChange}>
+            {["1", "2", "3", "4", "5", "6", "7", "8", "9"].map(
+              (playerCount) => (
+                <Checkbox id={`player-${playerCount}`} value={playerCount}>
+                  {playerCount}인
+                </Checkbox>
+              )
+            )}
+            <Checkbox id={`player-over10`} value="over10">
+              10인 이상
             </Checkbox>
-          ))}
-          <Checkbox id={`player-over10`} value="over10">
-            10인 이상
-          </Checkbox>
-        </CheckboxGroup>
-        <CheckboxGroup
-          label="게임 평점"
-          values={selectedRating}
-          onChange={handleRatingChange}>
-          {["10", "9", "8", "7", "6", "5"].map((rating) => (
-            <Checkbox id={`rating-${rating}`} value={rating}>
-              {parseInt(rating) === 10
-                ? `${rating}점`
-                : `${rating}-${parseInt(rating) + 1}점`}
+          </CheckboxGroup>
+          <CheckboxGroup
+            label="게임 평점"
+            values={selectedRating}
+            onChange={handleRatingChange}>
+            {["10", "9", "8", "7", "6", "5"].map((rating) => (
+              <Checkbox id={`rating-${rating}`} value={rating}>
+                {parseInt(rating) === 10
+                  ? `${rating}점`
+                  : `${rating}-${parseInt(rating) + 1}점`}
+              </Checkbox>
+            ))}
+            <Checkbox id={`rating-under5`} value="under5">
+              5점 미만
             </Checkbox>
-          ))}
-          <Checkbox id={`rating-under5`} value="under5">
-            5점 미만
-          </Checkbox>
-        </CheckboxGroup>
-        <CheckboxGroup
-          label="게임 시간"
-          values={selectedPlayTime}
-          onChange={handlePlayTimeChange}>
-          <Checkbox id={`playTime-under30`} value="under30">
-            30분 미만
-          </Checkbox>
-          {["30", "60", "90", "120", "150"].map((playTime) => (
-            <Checkbox id={`rating-${playTime}`} value={playTime}>
-              {playTime}-{parseInt(playTime) + 30}분
+          </CheckboxGroup>
+          <CheckboxGroup
+            label="게임 시간"
+            values={selectedPlayTime}
+            onChange={handlePlayTimeChange}>
+            <Checkbox id={`playTime-under30`} value="under30">
+              30분 미만
             </Checkbox>
-          ))}
-          <Checkbox id={`playTime-over180`} value="over180">
-            180분 이상
-          </Checkbox>
-        </CheckboxGroup>
-        <CheckboxResultBox>
-          {selectedFilters.map((item, index) => (
-            <li key={index} onClick={() => handleDeleteFilter(item)}>
-              <span>{item}</span>
-              <BiX />
-            </li>
-          ))}
-        </CheckboxResultBox>
-        <CheckboxResetButton onClick={handleReset}>
-          <BiRevision />
-        </CheckboxResetButton>
+            {["30", "60", "90", "120", "150"].map((playTime) => (
+              <Checkbox id={`rating-${playTime}`} value={playTime}>
+                {playTime}-{parseInt(playTime) + 30}분
+              </Checkbox>
+            ))}
+            <Checkbox id={`playTime-over180`} value="over180">
+              180분 이상
+            </Checkbox>
+          </CheckboxGroup>
+        </ChackboxContainer>
+        <CheckboxResultContainer>
+          <CheckboxResultBox>
+            {selectedFilters.map((item, index) => (
+              <li key={index} onClick={() => handleDeleteFilter(item)}>
+                <span>{item}</span>
+                <BiX />
+              </li>
+            ))}
+          </CheckboxResultBox>
+          {selectedFilters.length !== 0 && (
+            <CheckboxResetButton onClick={handleReset}>
+              <BiRevision />
+            </CheckboxResetButton>
+          )}
+        </CheckboxResultContainer>
+
         <footer></footer>
       </AsideContainer>
     </CardWrapper>

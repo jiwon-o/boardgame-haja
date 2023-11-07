@@ -17,6 +17,12 @@ const HeaderContent = styled.div`
   gap: 32px;
 `;
 
+const InputContainer = styled.div`
+  width: 580px;
+  min-width: 320px;
+  margin: 0 20px;
+`;
+
 const LogoImage = styled(Link)`
   width: 42px;
   height: 42px;
@@ -90,7 +96,10 @@ export default function Header(props: Props) {
           <a href="/">카테고리</a>
         </LinkWrapper>
       </HeaderContent>
-      <Input onClickInput={props.onClickInput} onSearch={props.onSearch} />
+      <InputContainer>
+        <Input onClickInput={props.onClickInput} onSearch={props.onSearch} />
+      </InputContainer>
+
       <LoginContent>
         <Button>로그인</Button>
         <Button primary>회원가입</Button>
