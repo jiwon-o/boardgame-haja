@@ -148,28 +148,52 @@ const AsideContainer = styled.aside`
   top: 20px;
   z-index: 2;
   flex: 1;
-  padding: 14px;
+  min-width: 260px;
   max-width: 300px;
-  min-width: 210px;
   border-radius: 12px;
-  background-color: #18133f;
+  background: linear-gradient(-45deg, #1a1646, #1a1646);
   border: 1px solid #14112e;
   box-shadow: 0 0 10px #14112e;
+
+  header {
+    width: 100%;
+    padding: 14px;
+    background-color: #382f84;
+    border-radius: 12px 12px 0 0;
+  }
+
+  h2 {
+    text-align: center;
+    font-size: 1.4rem;
+  }
 `;
 
 const AsideInputBox = styled.div`
-  margin-bottom: 14px;
+  margin-bottom: 24px;
 `;
 
 const ChackboxContainer = styled.div`
   position: relative;
   margin-bottom: 14px;
+  padding: 14px 14px 0;
+
+  p {
+    text-align: end;
+    font-size: 1.2rem;
+    margin-bottom: 12px;
+
+    span {
+      color: #606efc;
+      font-weight: 600;
+    }
+  }
 `;
 
 const CheckboxResultContainer = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0 14px 14px;
 `;
 
 const CheckboxResultBox = styled.ul`
@@ -360,7 +384,7 @@ export default function Card({ loading, error, games }: Props) {
   }, [filteredGames, page, indexOfFirstCard, indexOfLastCard]);
 
   const handleCardItemClick = (game: Game) => {
-    navigate(`/game/${game.id}`, { state: { game } });
+    navigate(`/boardgame/${game.id}`, { state: { game } });
   };
 
   const handlePlayerCountsChange = (selectedCounts: string[]) => {
@@ -473,14 +497,15 @@ export default function Card({ loading, error, games }: Props) {
       </CardContainer>
       <AsideContainer>
         <header>
-          <h2 className="a11y">
-            인원수, 평점, 플레이 시간에 따른 filter table
-          </h2>
+          <h2>보드게임 검색</h2>
+        </header>
+        <ChackboxContainer>
+          <p>
+            총 <span>{filteredGames.length}</span>개의 게임
+          </p>
           <AsideInputBox>
             <Input onSearch={handleSearch} />
           </AsideInputBox>
-        </header>
-        <ChackboxContainer>
           <CheckboxGroup
             label="게임 인원"
             values={selectedPlayerCounts}
