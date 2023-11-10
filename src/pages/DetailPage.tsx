@@ -1,7 +1,6 @@
 import styled from "styled-components";
 import { Game } from "../types";
 import { useLocation, useNavigate } from "react-router-dom";
-import Header from "../components/commons/Header/Header";
 import { useState } from "react";
 import useInput from "../hooks/useInput";
 import useAsync from "../hooks/useAsync";
@@ -12,10 +11,7 @@ import { AiOutlineYoutube } from "react-icons/ai";
 import { SlGameController } from "react-icons/sl";
 import VideoModal from "../components/commons/Modal/VideoModal";
 import SearchPage from "./SearchPage";
-import SubHeader from "../components/commons/Header/SubHeader";
-import List from "../components/commons/List";
 import GameList from "../components/units/sections/GameList";
-import Footer from "../components/commons/Footer";
 import MainLayout from "../layouts/MainLayout";
 
 interface DetailWrapperProps {
@@ -66,7 +62,7 @@ const GameDetails = styled.div`
   p {
     margin-top: 20px;
     font-size: 1.6rem;
-    line-height: 2rem;
+    line-height: 2.4rem;
     color: #c5c3ec;
   }
 `;
@@ -77,7 +73,7 @@ const GameTheme = styled.div`
   border-radius: 10px;
   background-color: #382f84;
   color: #ececf1;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   font-weight: 700;
 `;
 
@@ -193,6 +189,11 @@ export default function DetailPage() {
     handleClickBackBtn,
   } = useInput();
 
+  const handleClickPlayButton = () => {
+    const url = "https://boardgamearena.com/gamelist";
+    window.open(url);
+  };
+
   const openModal = (game: Game) => {
     setSelectedGame(game);
     setIsModalOpen(true);
@@ -215,8 +216,7 @@ export default function DetailPage() {
     <MainLayout
       onClickInput={handleClickInput}
       onClickBackBtn={handleClickBackBtn}
-      onSearch={handleSearch}
-    >
+      onSearch={handleSearch}>
       {!isClickInput ? (
         <DetailWrapper>
           <DetailContainer backgroundurl={game.backgroundImage}>
@@ -256,14 +256,7 @@ export default function DetailPage() {
                     HOW TO PLAY
                     <AiOutlineYoutube size={30} />
                   </button>
-                  <button
-                    onClick={() =>
-                      navigate(
-                        (window.location.href =
-                          "https://ko.boardgamearena.com/gamelist")
-                      )
-                    }
-                  >
+                  <button onClick={handleClickPlayButton}>
                     PLAY NOW <SlGameController size={24} />
                   </button>
                 </ButtonBox>
