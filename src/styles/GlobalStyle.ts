@@ -11,7 +11,7 @@ const GlobalStyle = createGlobalStyle`
 
 	:root {
 		font-size: 10px;
-		background: linear-gradient(90deg, #14112E, #1c174b, #14112E);
+		background: linear-gradient(90deg, #161338, #1c174b, #161338);
 	}
 
 	body {

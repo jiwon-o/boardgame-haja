@@ -29,13 +29,12 @@ const CheckboxFieldset = styled.fieldset`
 
   legend {
     font-size: 1.4rem;
-    margin-bottom: 16px;
+    margin-bottom: 14px;
+    padding: 4px;
     position: sticky;
     top: 0;
     left: 0;
-    background-color: #18133f; /* 배경색을 적절히 설정 */
     z-index: 1;
-    max-width: 200px; /* 필요에 따라 너비 설정 */
   }
 `;
 

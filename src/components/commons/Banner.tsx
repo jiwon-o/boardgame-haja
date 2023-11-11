@@ -99,7 +99,7 @@ const VideoWrapper = styled.div`
   height: 315px;
   position: relative;
   border-radius: 6px;
-  box-shadow: 1px 1px 10px #14112e;
+  border: 2px solid #606efc;
 
   iframe {
     z-index: 1;
