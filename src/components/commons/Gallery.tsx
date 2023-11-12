@@ -133,7 +133,7 @@ export default function Gallery({ loading, error, games, searchGame }: Props) {
   });
 
   const handleCardClick = (game: Game) => {
-    navigate(`/game/${game.id}`, { state: { game } });
+    navigate(`/boardgame/${game.id}`, { state: { game } });
   };
 
   const pagedGames = filteredGames?.slice(0, dataCount);
@@ -156,8 +156,7 @@ export default function Gallery({ loading, error, games, searchGame }: Props) {
         <MasonryContainer
           breakpointCols={columns}
           className="list"
-          columnClassName="column"
-        >
+          columnClassName="column">
           {pagedGames.map((game: Game) => {
             // const imageUrl = generateImageUrl(game.image, 200);
 

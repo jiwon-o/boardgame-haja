@@ -123,7 +123,7 @@ export default function Banner({ games }: Props) {
   useYouTubeVideo(gameTitle);
 
   const handleButtonClick = (game: Game) => {
-    navigate(`/game/${game.id}`, { state: { game } });
+    navigate(`/boardgame/${game.id}`, { state: { game } });
   };
 
   return topGame ? (

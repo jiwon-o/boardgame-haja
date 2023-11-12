@@ -188,7 +188,7 @@ export default function List({ games }: Props) {
   };
 
   const handleListItemClick = (game: Game) => {
-    navigate(`/game/${game.id}`, { state: { game } });
+    navigate(`/boardgame/${game.id}`, { state: { game } });
   };
 
   return (
@@ -202,8 +202,7 @@ export default function List({ games }: Props) {
             style={{
               transform: `translateX(${slide}px)`,
               transition: "0.5s ease",
-            }}
-          >
+            }}>
             <ImageBox>
               <img src={game.image} alt="게임 이미지" />
             </ImageBox>
