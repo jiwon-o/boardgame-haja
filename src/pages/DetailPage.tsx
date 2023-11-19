@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { Game } from "../types";
 import { useLocation, useNavigate } from "react-router-dom";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import useInput from "../hooks/useInput";
 import useAsync from "../hooks/useAsync";
 import axios from "axios";
@@ -20,7 +20,7 @@ interface DetailWrapperProps {
 
 const DetailWrapper = styled.div``;
 
-const DetailContainer = styled.div<DetailWrapperProps>`
+const DetailContainer = styled.main<DetailWrapperProps>`
   position: relative;
   width: 100vw;
   left: 50%;
@@ -189,6 +189,10 @@ export default function DetailPage() {
     handleClickBackBtn,
   } = useInput();
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [game.id]);
+
   const handleClickPlayButton = () => {
     const url = "https://boardgamearena.com/gamelist";
     window.open(url);
@@ -246,10 +250,9 @@ export default function DetailPage() {
                   <li>{game.play_age}</li>
                 </GameAttributes>
                 <p>
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Tenetur incidunt temporibus repudiandae explicabo qui nostrum
-                  obcaecati dolorum quos veritatis nam inventore alias ullam sed
-                  fuga, odio iure et, voluptates magni!
+                  {game.description
+                    ? game.description
+                    : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate ad quam qui consequatur doloremque corrupti unde cum quod, maxime at eveniet magnam, et fuga nesciunt quis temporibus quisquam odit iusto!"}
                 </p>
                 <ButtonBox>
                   <button onClick={() => openModal(game)}>
