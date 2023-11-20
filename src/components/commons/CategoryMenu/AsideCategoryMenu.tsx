@@ -227,45 +227,6 @@ export default function AsideCategoryMenu({
     setSelectedFilters(updatedFilters);
   }, [selectedPlayerCounts, selectedRating, selectedPlayTime]);
 
-  useEffect(() => {
-    const updatedFilters: string[] = [];
-
-    // 게임 인원 필터
-    selectedPlayerCounts.forEach((playerCount) => {
-      if (playerCount === "more10") {
-        updatedFilters.push("10인 이상");
-      } else {
-        updatedFilters.push(`${parseInt(playerCount)}인`);
-      }
-    });
-
-    // 게임 평점 필터
-    selectedRating.forEach((ratingRange) => {
-      if (ratingRange === "less5") {
-        updatedFilters.push("5점 미만");
-      } else {
-        ratingRange === "10"
-          ? updatedFilters.push(`${ratingRange}점`)
-          : updatedFilters.push(
-              `${ratingRange}-${parseInt(ratingRange) + 1}점`
-            );
-      }
-    });
-
-    // 게임 시간 필터
-    selectedPlayTime.forEach((timeRange) => {
-      if (timeRange === "less30") {
-        updatedFilters.push("30분 미만");
-      } else if (timeRange === "more180") {
-        updatedFilters.push("180분 이상");
-      } else {
-        updatedFilters.push(`${timeRange}-${parseInt(timeRange) + 30}분`);
-      }
-    });
-
-    setSelectedFilters(updatedFilters);
-  }, [selectedPlayerCounts, selectedRating, selectedPlayTime]);
-
   const handlePlayerCountsChange = (selectedCounts: string[]) => {
     setSelectedPlayerCounts(selectedCounts);
   };
