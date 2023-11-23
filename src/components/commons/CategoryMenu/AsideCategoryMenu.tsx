@@ -7,6 +7,7 @@ import useSearch from "../../../hooks/useSearch";
 import CheckboxGroup from "../Checkbox/CheckboxGroup";
 import Checkbox from "../Checkbox/Checkbox";
 import { BiX, BiRevision } from "react-icons/bi";
+import GameFilters from "../GameFilters";
 
 const AsideContainer = styled.aside`
   position: sticky;
@@ -99,9 +100,9 @@ const CheckboxResetButton = styled.button`
 
 interface Props {
   games: Game[] | null;
-  filteredGames: any;
-  setFilteredGames: any;
-  setPage: any;
+  filteredGames: Game[] | null;
+  setFilteredGames?: any;
+  setPage?: any;
 }
 
 export default function AsideCategoryMenu({
@@ -121,70 +122,68 @@ export default function AsideCategoryMenu({
   const searchGames = useSearch();
 
   useEffect(() => {
-    setFilteredGames(
-      games!.filter((game) => {
-        const minPlayer = parseInt(game.min_player, 10);
-        const maxPlayer = parseInt(game.max_player, 10);
-        const gameRating = parseFloat(game.rate);
+    const filtered = games!.filter((game) => {
+      const minPlayer = parseInt(game.min_player, 10);
+      const maxPlayer = parseInt(game.max_player, 10);
+      const gameRating = parseFloat(game.rate);
 
-        // 검색 필터
-        const searchFilter =
-          searchGames(searchGame, game.name) ||
-          searchGames(searchGame, game.subTitle);
+      // 검색 필터
+      const searchFilter =
+        searchGames(searchGame, game.name) ||
+        searchGames(searchGame, game.subTitle);
 
-        // 게임 인원 필터
-        const playerCountMatch =
-          selectedPlayerCounts.length === 0 ||
-          selectedPlayerCounts.some((playerRange) => {
-            if (playerRange === "more10") {
-              return minPlayer >= 10 || maxPlayer >= 10;
-            } else {
-              const selectedCount = parseInt(playerRange, 10);
-              return selectedCount >= minPlayer && selectedCount <= maxPlayer;
-            }
-          });
+      // 게임 인원 필터
+      const playerCountMatch =
+        selectedPlayerCounts.length === 0 ||
+        selectedPlayerCounts.some((playerRange) => {
+          if (playerRange === "more10") {
+            return minPlayer >= 10 || maxPlayer >= 10;
+          } else {
+            const selectedCount = parseInt(playerRange, 10);
+            return selectedCount >= minPlayer && selectedCount <= maxPlayer;
+          }
+        });
 
-        // 게임 평점 필터
-        const ratingMatch =
-          selectedRating.length === 0 ||
-          selectedRating.some((ratingRange) => {
-            if (ratingRange === "less5") {
-              return gameRating < 5;
-            } else if (ratingRange === "10") {
-              return gameRating === 10;
-            } else {
-              const selectedRate = parseInt(ratingRange, 10);
-              return (
-                selectedRate <= gameRating && gameRating < selectedRate + 1
-              );
-            }
-          });
+      // 게임 평점 필터
+      const ratingMatch =
+        selectedRating.length === 0 ||
+        selectedRating.some((ratingRange) => {
+          if (ratingRange === "less5") {
+            return gameRating < 5;
+          } else if (ratingRange === "10") {
+            return gameRating === 10;
+          } else {
+            const selectedRate = parseInt(ratingRange, 10);
+            return selectedRate <= gameRating && gameRating < selectedRate + 1;
+          }
+        });
 
-        // 게임 시간 필터
-        const gamePlayTime = game.play_time.split("-").map(Number);
-        const minTime = gamePlayTime[0];
-        const maxTime = gamePlayTime[1] || minTime;
+      // 게임 시간 필터
+      const gamePlayTime = game.play_time.split("-").map(Number);
+      const minTime = gamePlayTime[0];
+      const maxTime = gamePlayTime[1] || minTime;
 
-        const playTimeMatch =
-          selectedPlayTime.length === 0 ||
-          selectedPlayTime.some((timeRange) => {
-            const selectedTime = parseInt(timeRange, 10);
-            if (timeRange === "less30") {
-              return minTime < 30 || maxTime < 30;
-            } else if (timeRange === "more180") {
-              return minTime >= 180 || maxTime >= 180;
-            } else {
-              return (
-                (selectedTime >= minTime && selectedTime < maxTime) ||
-                (selectedTime <= minTime && selectedTime + 30 > maxTime)
-              );
-            }
-          });
+      const playTimeMatch =
+        selectedPlayTime.length === 0 ||
+        selectedPlayTime.some((timeRange) => {
+          const selectedTime = parseInt(timeRange, 10);
+          if (timeRange === "less30") {
+            return minTime < 30 || maxTime < 30;
+          } else if (timeRange === "more180") {
+            return minTime >= 180 || maxTime >= 180;
+          } else {
+            return (
+              (selectedTime >= minTime && selectedTime < maxTime) ||
+              (selectedTime <= minTime && selectedTime + 30 > maxTime)
+            );
+          }
+        });
 
-        // 두 필터 모두 만족하는 게임만 반환
-        return playerCountMatch && ratingMatch && playTimeMatch && searchFilter;
-      })
-    );
+      // 두 필터 모두 만족하는 게임만 반환
+      return playerCountMatch && ratingMatch && playTimeMatch && searchFilter;
+    });
+
+    setFilteredGames(filtered);
     setPage(1);
   }, [selectedPlayerCounts, selectedRating, selectedPlayTime, searchGame]);
 
@@ -300,55 +299,19 @@ export default function AsideCategoryMenu({
       </header>
       <ChackboxContainer>
         <p>
-          총 <span>{filteredGames.length}</span>개의 게임
+          총 <span>{filteredGames?.length}</span>개의 게임
         </p>
         <AsideInputBox>
           <Input onSearch={handleSearch} />
         </AsideInputBox>
-        <CheckboxGroup
-          label="게임 인원"
-          values={selectedPlayerCounts}
-          onChange={handlePlayerCountsChange}>
-          {playerCountOptions.map((playerCount) => (
-            <Checkbox
-              key={`player-${playerCount}`}
-              id={`player-${playerCount}`}
-              value={playerCount}>
-              {playerCount === "more10" ? "10인 이상" : `${playerCount}인`}
-            </Checkbox>
-          ))}
-        </CheckboxGroup>
-        <CheckboxGroup
-          label="게임 평점"
-          values={selectedRating}
-          onChange={handleRatingChange}>
-          {ratingOptions.map((rating) => (
-            <Checkbox
-              key={`rating-${rating}`}
-              id={`rating-${rating}`}
-              value={rating}>
-              {rating === "less5"
-                ? "5점 미만"
-                : parseInt(rating) === 10
-                ? `${rating}점`
-                : `${rating}-${parseInt(rating) + 1}점`}
-            </Checkbox>
-          ))}
-        </CheckboxGroup>
-        <CheckboxGroup
-          label="게임 시간"
-          values={selectedPlayTime}
-          onChange={handlePlayTimeChange}>
-          {playTimeOptions.map((playTime) => (
-            <Checkbox id={`rating-${playTime}`} value={playTime}>
-              {playTime === "less30"
-                ? "30분 미만"
-                : playTime === "more180"
-                ? "180분 이상"
-                : `${playTime}-${parseInt(playTime) + 30}분`}
-            </Checkbox>
-          ))}
-        </CheckboxGroup>
+        <GameFilters
+          selectedPlayerCounts={selectedPlayerCounts}
+          selectedRating={selectedRating}
+          selectedPlayTime={selectedPlayTime}
+          handlePlayerCountsChange={handlePlayerCountsChange}
+          handleRatingChange={handleRatingChange}
+          handlePlayTimeChange={handlePlayTimeChange}
+        />
       </ChackboxContainer>
       <CheckboxResultContainer>
         <CheckboxResultBox>
