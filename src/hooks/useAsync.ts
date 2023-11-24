@@ -1,7 +1,7 @@
 import { useEffect, useReducer } from "react";
 import { Game, State, Action } from "../types";
 
-function reducer(state: State, action: Action) {
+function reducer(state: State, action: Action): State {
   switch (action.type) {
     case "LOADING":
       return {
@@ -26,7 +26,7 @@ function reducer(state: State, action: Action) {
   }
 }
 
-function useAsync(callback: () => Promise<Game[]>, deps = []): State {
+function useAsync(callback: () => Promise<Game[]>, deps: any[] = []): State {
   const [state, dispatch] = useReducer(reducer, {
     loading: false,
     data: null,
