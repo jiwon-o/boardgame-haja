@@ -1,39 +1,28 @@
-import React from "react";
 import MainLayout from "../layouts/MainLayout";
 import useInput from "../hooks/useInput";
 import SearchPage from "./SearchPage";
 import useAsync from "../hooks/useAsync";
 import axios from "axios";
-import MainCategoryMenu from "../components/commons/CategoryMenu/MainCategoryMenu";
 import AsideNavbar from "../components/commons/Navbar/AsideNavbar";
 import { styled } from "styled-components";
 import { useState } from "react";
-import ThemeGamesList from "../components/units/sections/ThemeGamesList";
+import GameList from "../components/units/sections/GameList";
 
-const CategoriesWrapper = styled.div`
+const CategoryWrapper = styled.div`
   display: flex;
 `;
 
 const AsideNavbarBox = styled.aside`
-  width: 280px;
+  max-width: 240px;
+  min-width: 200px;
   box-shadow: 0 0 10px red;
 `;
 
-// const CategoriesContainer = styled.main`
-//   flex: 3;
-//   display: flex;
-//   flex-direction: column;
-//   box-shadow: 0 0 10px yellow;
-// `;
+const MainContainer = styled.main`
+  width: 100%;
 
-// const CategoryMenuBox = styled.div`
-//   height: 200px;
-//   box-shadow: 0 0 10px green;
-// `;
-
-// const GameCardBox = styled.div`
-//   box-shadow: 0 0 10px white;
-// `;
+  box-shadow: 0 0 10px green;
+`;
 
 async function getGames() {
   const response = await axios.get("http://localhost:3001/game");
@@ -41,14 +30,13 @@ async function getGames() {
 }
 
 export default function CategoryPage() {
+  const [selectedTheme, setSelectedTheme] = useState<string | null>(null);
   const state = useAsync(getGames, []);
   const { loading, data: games, error } = state;
 
-  const [selectedTheme, setSelectedTheme] = useState<string | null>(null);
-
-  const handleThemeClick = (theme: string | null) => {
-    setSelectedTheme(theme);
-  };
+  const themes = games
+    ? ["전체", ...new Set(games.map((game) => game.theme))]
+    : [];
 
   const {
     searchGame,
@@ -67,16 +55,14 @@ export default function CategoryPage() {
       onClickBackBtn={handleClickBackBtn}
       onSearch={handleSearch}>
       {!isClickInput ? (
-        <CategoriesWrapper>
+        <CategoryWrapper>
           <AsideNavbarBox>
-            <AsideNavbar
-              games={games}
-              selectedTheme={selectedTheme}
-              onThemeClick={handleThemeClick}
-            />
+            <AsideNavbar themes={themes} setSelectedTheme={setSelectedTheme} />
           </AsideNavbarBox>
-          <ThemeGamesList theme={selectedTheme} games={games} />
-        </CategoriesWrapper>
+          <MainContainer>
+            <GameList selectedTheme={selectedTheme} />
+          </MainContainer>
+        </CategoryWrapper>
       ) : (
         <SearchPage
           loading={loading}

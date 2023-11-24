@@ -1,6 +1,6 @@
 import React from "react";
-import { Game } from "../../../types";
 import { styled } from "styled-components";
+import { Link, useParams } from "react-router-dom";
 
 const AsideNavbarWrapper = styled.div`
   width: 100%;
@@ -24,30 +24,32 @@ const AsideNavLists = styled.ul`
 `;
 
 interface Props {
-  games: Game[] | null;
-  selectedTheme: string | null;
-  onThemeClick: (theme: string | null) => void;
+  themes: string[];
+  setSelectedTheme: (theme: string | null) => void;
 }
 
-export default function AsideNavbar({
-  games,
-  selectedTheme,
-  onThemeClick,
-}: Props) {
-  const themes = [
-    "전체",
-    ...new Set(games?.map((game) => game.theme)),
-  ] as string[];
+export default function AsideNavbar({ themes, setSelectedTheme }: Props) {
+  const { theme } = useParams<{ theme: string }>();
+
+  const handleSelectedTheme = (selectedTheme: string) => {
+    if (selectedTheme === "전체") {
+      setSelectedTheme(null);
+    } else {
+      setSelectedTheme(selectedTheme);
+    }
+  };
 
   return (
     <AsideNavbarWrapper>
-      <h2>{selectedTheme || "전체"}</h2>
+      <h2>{theme === "전체" ? "카테고리" : theme}</h2>
       <AsideNavLists>
-        {themes?.map((theme, index) => (
-          <li
-            key={index}
-            onClick={() => onThemeClick(theme === "전체" ? null : theme)}>
-            {theme}
+        {themes.map((theme, index) => (
+          <li key={index}>
+            <Link
+              to={`/categories/${encodeURIComponent(theme)}`}
+              onClick={() => handleSelectedTheme(theme)}>
+              {theme}
+            </Link>
           </li>
         ))}
       </AsideNavLists>
