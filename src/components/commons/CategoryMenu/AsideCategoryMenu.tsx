@@ -4,9 +4,6 @@ import { Game } from "../../../types";
 import Input from "../Input";
 import useInput from "../../../hooks/useInput";
 import useSearch from "../../../hooks/useSearch";
-import CheckboxGroup from "../Checkbox/CheckboxGroup";
-import Checkbox from "../Checkbox/Checkbox";
-import { BiX, BiRevision } from "react-icons/bi";
 import GameFilters from "../GameFilters";
 
 const AsideContainer = styled.aside`
@@ -52,49 +49,6 @@ const ChackboxContainer = styled.div`
       color: #606efc;
       font-weight: 600;
     }
-  }
-`;
-
-const CheckboxResultContainer = styled.div`
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 14px 14px;
-`;
-
-const CheckboxResultBox = styled.ul`
-  display: flex;
-  flex-wrap: wrap;
-  gap: 6px;
-
-  li {
-    padding: 4px 2px 2px 8px;
-    background-color: #382f84c1;
-    border-radius: 6px;
-    font-size: 1.2rem;
-
-    span {
-      white-space: nowrap;
-      color: white;
-      font-weight: 300;
-    }
-
-    svg {
-      margin-left: 2px;
-      color: #ff4545;
-      font-size: 2rem;
-    }
-
-    &:hover {
-      cursor: pointer;
-    }
-  }
-`;
-
-const CheckboxResetButton = styled.button`
-  svg {
-    font-size: 2.4rem;
-    color: white;
   }
 `;
 
@@ -226,72 +180,6 @@ export default function AsideCategoryMenu({
     setSelectedFilters(updatedFilters);
   }, [selectedPlayerCounts, selectedRating, selectedPlayTime]);
 
-  const handlePlayerCountsChange = (selectedCounts: string[]) => {
-    setSelectedPlayerCounts(selectedCounts);
-  };
-
-  const handleRatingChange = (selectedRating: string[]) => {
-    setSelectedRating(selectedRating);
-  };
-
-  const handlePlayTimeChange = (selectedPlayTime: string[]) => {
-    setSelectedPlayTime(selectedPlayTime);
-  };
-
-  const handleDeleteFilter = (filter: string) => {
-    const updatedFilters = selectedFilters.filter((item) => item !== filter);
-    setSelectedPlayerCounts(
-      selectedPlayerCounts.filter((count: string) =>
-        filter === "10인 이상"
-          ? count !== "more10"
-          : count !== parseInt(filter) + ""
-      )
-    );
-    setSelectedRating(
-      selectedRating.filter((rate: string) =>
-        filter === "5점 미만"
-          ? rate !== "less5"
-          : rate !== parseInt(filter) + ""
-      )
-    );
-    setSelectedPlayTime(
-      selectedPlayTime.filter((time: string) => {
-        if (filter === "30분 미만") {
-          return time !== "less30";
-        } else if (filter === "180분 이상") {
-          return time !== "more180";
-        } else {
-          return time !== parseInt(filter) + "";
-        }
-      })
-    );
-    setSelectedFilters(updatedFilters);
-  };
-
-  const handleReset = () => {
-    setSelectedPlayerCounts([]);
-    setSelectedRating([]);
-    setSelectedPlayTime([]);
-    setSelectedFilters([]);
-    setFilteredGames(games!);
-    setPage(1);
-  };
-
-  const playerCountOptions = [
-    "1",
-    "2",
-    "3",
-    "4",
-    "5",
-    "6",
-    "7",
-    "8",
-    "9",
-    "more10",
-  ];
-  const ratingOptions = ["10", "9", "8", "7", "6", "5", "less5"];
-  const playTimeOptions = ["less30", "30", "60", "90", "120", "150", "more180"];
-
   return (
     <AsideContainer>
       <header>
@@ -308,26 +196,16 @@ export default function AsideCategoryMenu({
           selectedPlayerCounts={selectedPlayerCounts}
           selectedRating={selectedRating}
           selectedPlayTime={selectedPlayTime}
-          handlePlayerCountsChange={handlePlayerCountsChange}
-          handleRatingChange={handleRatingChange}
-          handlePlayTimeChange={handlePlayTimeChange}
+          selectedFilters={selectedFilters}
+          setSelectedFilters={setSelectedFilters}
+          setSelectedPlayerCounts={setSelectedPlayerCounts}
+          setSelectedRating={setSelectedRating}
+          setSelectedPlayTime={setSelectedPlayTime}
+          setFilteredGames={setFilteredGames}
+          setPage={setPage}
+          games={games}
         />
       </ChackboxContainer>
-      <CheckboxResultContainer>
-        <CheckboxResultBox>
-          {selectedFilters.map((item, index) => (
-            <li key={index} onClick={() => handleDeleteFilter(item)}>
-              <span>{item}</span>
-              <BiX />
-            </li>
-          ))}
-        </CheckboxResultBox>
-        {selectedFilters.length !== 0 && (
-          <CheckboxResetButton onClick={handleReset}>
-            <BiRevision />
-          </CheckboxResetButton>
-        )}
-      </CheckboxResultContainer>
     </AsideContainer>
   );
 }
