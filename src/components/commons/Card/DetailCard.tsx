@@ -1,4 +1,4 @@
-import React from "react";
+import { useState } from "react";
 import { styled } from "styled-components";
 import { useNavigate } from "react-router-dom";
 import { Game } from "../../../types";
@@ -129,16 +129,26 @@ interface Props {
 
 export default function DetailCard({ game }: Props) {
   const navigate = useNavigate();
+  const [imageLoaded, setImageLoaded] = useState(false);
 
   const handleCardItemClick = (game: Game) => {
     navigate(`/boardgame/${game.id}`, { state: { game } });
+  };
+
+  const handleImageLoad = () => {
+    setImageLoaded(true);
   };
 
   return (
     <DetailCardWrapper>
       <CardContainer onClick={() => handleCardItemClick(game)}>
         <CardThumbnail>
-          <img src={game.image} alt="보드게임 이미지" />
+          <img
+            src={game.image}
+            alt="보드게임 이미지"
+            onLoad={handleImageLoad}
+            style={{ display: imageLoaded ? "block" : "none" }}
+          />
         </CardThumbnail>
         <CardDetail>
           <GameTitleAndTheme>
