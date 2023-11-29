@@ -1,4 +1,4 @@
-import React from "react";
+import { useEffect } from "react";
 import { styled } from "styled-components";
 import { Link, useParams } from "react-router-dom";
 
@@ -30,7 +30,11 @@ interface Props {
 }
 
 export default function AsideNavbar({ themes, setSelectedTheme }: Props) {
-  const { theme } = useParams<{ theme: string }>();
+  const { theme } = useParams<{ theme?: string }>();
+
+  useEffect(() => {
+    theme && handleSelectedTheme(theme);
+  }, [theme]);
 
   const handleSelectedTheme = (selectedTheme: string) => {
     if (selectedTheme === "전체") {
