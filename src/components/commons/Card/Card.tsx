@@ -1,5 +1,6 @@
 import { styled } from "styled-components";
 import { Game } from "../../../types";
+import { useNavigate } from "react-router-dom";
 
 const CardWrapper = styled.div`
   width: 180px;
@@ -71,8 +72,14 @@ interface Props {
 }
 
 export default function Card({ game, children }: Props) {
+  const navigate = useNavigate();
+
+  const handleGameItemClick = (game: Game) => {
+    navigate(`/boardgame/${game.id}`, { state: { game } });
+  };
+
   return (
-    <CardWrapper>
+    <CardWrapper onClick={() => handleGameItemClick(game)}>
       <ImageBox>
         <img src={game.image} alt={`${game.name} 이미지`} />
         <Overlay className="overlay">{children}</Overlay>

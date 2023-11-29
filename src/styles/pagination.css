@@ -1,7 +1,7 @@
 .pagination {
   display: flex;
   justify-content: center;
-  margin: 15px 0;
+  margin: 20px 0;
 }
 
 ul.pagination li {
@@ -37,7 +37,7 @@ ul.pagination li.active a {
 }
 
 ul.pagination li.active {
-  background-color: #606EFC;
+  background-color: #606efc;
 }
 
 ul.pagination li:hover,
@@ -48,7 +48,6 @@ ul.pagination li.active {
 ul.pagination li:hover a {
   color: #e2e2e2;
 }
-
 
 .page-selection {
   width: 48px;

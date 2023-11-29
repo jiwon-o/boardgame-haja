@@ -17,6 +17,7 @@ const GameListWrapper = styled.ul`
   place-items: center;
   align-items: start;
   margin-top: 24px;
+  padding-bottom: 24px;
 `;
 
 const CardDetail = styled.div`
@@ -144,47 +145,49 @@ export default function GamesList({ selectedTheme }: Props) {
         setFilteredGames={setFilteredGames}
         setPage={setPage}
       />
-      <GameListWrapper>
-        {currentGames?.length === 0 ? (
-          <CardNotice>해당 분류와 일치하는 보드게임이 없습니다.</CardNotice>
-        ) : (
-          currentGames?.map((game) => {
-            return (
-              <Card game={game}>
-                <CardDetail>
-                  <GameTitle>{game.name}</GameTitle>
-                  <GameReleaseYear>({game.releaseYear})</GameReleaseYear>
-                  <GameRankAndRate>
-                    <span>
-                      <HiMiniTrophy color="#008000" /> {game.ranking}위
-                    </span>
-                    <span>
-                      <AiFillStar color="#ffff00" /> {game.rate}점
-                    </span>
-                  </GameRankAndRate>
-                  <GamePlay>
-                    <li>
-                      {game.min_player} ~ {game.max_player}명
-                    </li>
-                    <li>{game.play_time}분</li>
-                    <li>{game.play_age}</li>
-                  </GamePlay>
-                  <GameTheme>{game.theme}</GameTheme>
-                </CardDetail>
-              </Card>
-            );
-          })
-        )}
-      </GameListWrapper>
-      <Pagination
-        activePage={page}
-        itemsCountPerPage={CardPerPage}
-        totalItemsCount={filteredGames.length}
-        pageRangeDisplayed={5}
-        prevPageText={"<"}
-        nextPageText={">"}
-        onChange={handlePageChange}
-      />
+      {currentGames?.length === 0 ? (
+        <CardNotice>해당 분류와 일치하는 보드게임이 없습니다.</CardNotice>
+      ) : (
+        <>
+          <GameListWrapper>
+            {currentGames?.map((game) => {
+              return (
+                <Card game={game}>
+                  <CardDetail>
+                    <GameTitle>{game.name}</GameTitle>
+                    <GameReleaseYear>({game.releaseYear})</GameReleaseYear>
+                    <GameRankAndRate>
+                      <span>
+                        <HiMiniTrophy color="#008000" /> {game.ranking}위
+                      </span>
+                      <span>
+                        <AiFillStar color="#ffff00" /> {game.rate}점
+                      </span>
+                    </GameRankAndRate>
+                    <GamePlay>
+                      <li>
+                        {game.min_player} ~ {game.max_player}명
+                      </li>
+                      <li>{game.play_time}분</li>
+                      <li>{game.play_age}</li>
+                    </GamePlay>
+                    <GameTheme>{game.theme}</GameTheme>
+                  </CardDetail>
+                </Card>
+              );
+            })}
+          </GameListWrapper>
+          <Pagination
+            activePage={page}
+            itemsCountPerPage={CardPerPage}
+            totalItemsCount={filteredGames.length}
+            pageRangeDisplayed={5}
+            prevPageText={"<"}
+            nextPageText={">"}
+            onChange={handlePageChange}
+          />
+        </>
+      )}
     </>
   );
 }
