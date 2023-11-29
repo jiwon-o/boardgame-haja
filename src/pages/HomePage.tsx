@@ -1,16 +1,21 @@
-import Header from "../components/commons/Header/Header";
 import axios from "axios";
 import useAsync from "../hooks/useAsync";
 import styled from "styled-components";
 import Banner from "../components/commons/Banner";
 import useInput from "../hooks/useInput";
 import SearchPage from "./SearchPage";
-import GameList from "../components/units/sections/GameList";
-import GameCard from "../components/units/sections/GameCard";
-import Footer from "../components/commons/Footer";
 import MainLayout from "../layouts/MainLayout";
+import GameSlide from "../components/commons/GameSlide";
+import DetailGameList from "../components/units/sections/DetailGameList";
+import { useRef } from "react";
 
-const MainContainer = styled.main``;
+const MainContainer = styled.main`
+  h2 {
+    margin: 80px 0 40px;
+    font-size: 2.4rem;
+    font-weight: 700;
+  }
+`;
 
 async function getGames() {
   const response = await axios.get("http://localhost:3001/game");
@@ -34,6 +39,8 @@ export default function HomePage() {
         .slice(0, 20)
     : null;
 
+  const containerRef = useRef<HTMLDivElement>(null);
+
   if (loading) return <div>로딩중..</div>;
   if (error) return <div>에러가 발생했습니다</div>;
   if (!games) return null;
@@ -41,18 +48,19 @@ export default function HomePage() {
     <MainLayout
       onClickInput={handleClickInput}
       onClickBackBtn={handleClickBackBtn}
-      onSearch={handleSearch}
-    >
+      onSearch={handleSearch}>
       {!isClickInput ? (
         <>
           <Banner games={games} />
           <MainContainer>
-            <GameList type="current" games={filteredGames} />
-            <GameCard
-              type="rank"
+            <h2>실시간 베스트 게임</h2>
+            <GameSlide games={filteredGames} />
+            <h2 ref={containerRef}>인기 게임</h2>
+            <DetailGameList
               loading={loading}
               error={error}
               games={games}
+              containerRef={containerRef}
             />
           </MainContainer>
         </>
