@@ -7,9 +7,8 @@ import useAsync from "../../../hooks/useAsync";
 import axios from "axios";
 import { useEffect } from "react";
 import { Game } from "../../../types";
-import AsideCategoryMenu from "../../commons/CategoryMenu/AsideCategoryMenu";
 import Pagination from "react-js-pagination";
-import MainCategoryMenu from "../../commons/CategoryMenu/MainCategoryMenu";
+import GameFilter from "../../commons/CategoryMenu/GameFilter";
 
 const GameListWrapper = styled.ul`
   display: grid;
@@ -17,6 +16,7 @@ const GameListWrapper = styled.ul`
   gap: 20px;
   place-items: center;
   align-items: start;
+  margin-top: 24px;
 `;
 
 const CardDetail = styled.div`
@@ -112,7 +112,7 @@ export default function GamesList({ selectedTheme }: Props) {
   const [filteredGames, setFilteredGames] = useState<Game[]>([]);
 
   const [page, setPage] = useState<number>(1);
-  const CardPerPage: number = 6;
+  const CardPerPage: number = 24;
   const indexOfLastCard: number = page * CardPerPage;
   const indexOfFirstCard: number = indexOfLastCard - CardPerPage;
   const [currentGames, setCurrentGames] = useState<Game[] | null>(null);
@@ -138,7 +138,7 @@ export default function GamesList({ selectedTheme }: Props) {
   if (!games) return null;
   return (
     <>
-      <MainCategoryMenu
+      <GameFilter
         games={games}
         filteredGames={filteredGames}
         setFilteredGames={setFilteredGames}

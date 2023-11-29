@@ -8,7 +8,7 @@ const AsideNavbarWrapper = styled.div`
   h2 {
     font-size: 3rem;
     font-weight: 700;
-    margin: 40px 0;
+    margin: 40px 0 56px;
   }
 `;
 
@@ -16,6 +16,7 @@ const AsideNavLists = styled.ul`
   display: flex;
   flex-direction: column;
   gap: 14px;
+  margin-left: 6px;
 
   li {
     font-size: 1.4rem;

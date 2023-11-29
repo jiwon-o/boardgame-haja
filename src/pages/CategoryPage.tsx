@@ -10,18 +10,17 @@ import GameList from "../components/units/sections/GameList";
 
 const CategoryWrapper = styled.div`
   display: flex;
+  gap: 20px;
 `;
 
 const AsideNavbarBox = styled.aside`
-  max-width: 240px;
-  min-width: 200px;
-  box-shadow: 0 0 10px red;
+  min-width: 280px;
+  padding: 16px;
 `;
 
 const MainContainer = styled.main`
   width: 100%;
-
-  box-shadow: 0 0 10px green;
+  padding: 16px;
 `;
 
 async function getGames() {
