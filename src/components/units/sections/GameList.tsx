@@ -1,9 +1,15 @@
+import { useState } from "react";
 import { styled } from "styled-components";
 import Card from "../../commons/Card/Card";
 import { HiMiniTrophy } from "react-icons/hi2";
 import { AiFillStar } from "react-icons/ai";
 import useAsync from "../../../hooks/useAsync";
 import axios from "axios";
+import { useEffect } from "react";
+import { Game } from "../../../types";
+import AsideCategoryMenu from "../../commons/CategoryMenu/AsideCategoryMenu";
+import Pagination from "react-js-pagination";
+import MainCategoryMenu from "../../commons/CategoryMenu/MainCategoryMenu";
 
 const GameListWrapper = styled.ul`
   display: grid;
@@ -11,8 +17,6 @@ const GameListWrapper = styled.ul`
   gap: 20px;
   place-items: center;
   align-items: start;
-  padding: 20px;
-  box-shadow: 0 0 10px white;
 `;
 
 const CardDetail = styled.div`
@@ -105,16 +109,46 @@ export default function GamesList({ selectedTheme }: Props) {
   const state = useAsync(() => getGames(selectedTheme), [selectedTheme]);
   const { loading, data: games, error } = state;
 
+  const [filteredGames, setFilteredGames] = useState<Game[]>([]);
+
+  const [page, setPage] = useState<number>(1);
+  const CardPerPage: number = 6;
+  const indexOfLastCard: number = page * CardPerPage;
+  const indexOfFirstCard: number = indexOfLastCard - CardPerPage;
+  const [currentGames, setCurrentGames] = useState<Game[] | null>(null);
+
+  const handlePageChange = (page: number) => {
+    setPage(page);
+  };
+
+  useEffect(() => {
+    if (games) {
+      setFilteredGames(games);
+    }
+  }, [games]);
+
+  useEffect(() => {
+    if (filteredGames) {
+      setCurrentGames(filteredGames.slice(indexOfFirstCard, indexOfLastCard));
+    }
+  }, [filteredGames, page, indexOfFirstCard, indexOfLastCard]);
+
   if (loading) return <div>로딩중..</div>;
   if (error) return <div>에러가 발생했습니다</div>;
   if (!games) return null;
   return (
     <>
+      <MainCategoryMenu
+        games={games}
+        filteredGames={filteredGames}
+        setFilteredGames={setFilteredGames}
+        setPage={setPage}
+      />
       <GameListWrapper>
-        {games?.length === 0 ? (
+        {currentGames?.length === 0 ? (
           <CardNotice>해당 분류와 일치하는 보드게임이 없습니다.</CardNotice>
         ) : (
-          games?.map((game) => {
+          currentGames?.map((game) => {
             return (
               <Card game={game}>
                 <CardDetail>
@@ -142,6 +176,15 @@ export default function GamesList({ selectedTheme }: Props) {
           })
         )}
       </GameListWrapper>
+      <Pagination
+        activePage={page}
+        itemsCountPerPage={CardPerPage}
+        totalItemsCount={filteredGames.length}
+        pageRangeDisplayed={5}
+        prevPageText={"<"}
+        nextPageText={">"}
+        onChange={handlePageChange}
+      />
     </>
   );
 }
