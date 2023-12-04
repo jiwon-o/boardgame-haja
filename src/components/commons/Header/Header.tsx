@@ -66,17 +66,23 @@ const LoginContent = styled.div`
   display: flex;
   justify-content: right;
   gap: 12px;
+
+  a {
+    padding: 10px 16px;
+    border-radius: 10px;
+    white-space: nowrap;
+    background-color: #383d61;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 700;
+  }
+
+  .primary {
+    background-color: #1d40da;
+  }
 `;
 
-const Button = styled.button<{ primary?: boolean }>`
-  padding: 10px 16px;
-  border-radius: 10px;
-  white-space: nowrap;
-  background-color: ${(props) => (props.primary ? "#1D40DA" : "#383D61")};
-  color: #fff;
-  font-size: 1.2rem;
-  font-weight: 700;
-`;
+const Button = styled.button``;
 
 interface Props {
   onClickInput?(): void;
@@ -84,25 +90,32 @@ interface Props {
   onSearch(term: string): void;
 }
 
-export default function Header(props: Props) {
+export default function Header({
+  onClickInput,
+  onClickBackBtn,
+  onSearch,
+}: Props) {
   return (
     <HeaderWrapper>
       <HeaderContent>
-        <LogoImage to="/" onClick={props.onClickBackBtn}>
+        <h1 className="a11y">보드게임</h1>
+        <LogoImage to="/" onClick={onClickBackBtn}>
           <img src={logo} alt="로고" />
         </LogoImage>
         <LinkWrapper>
-          <Link to="/boardgames">모든 게임</Link>
-          <a href="/">카테고리</a>
+          <Link to="/">Home</Link>
+          <Link to="/categories/전체">카테고리</Link>
         </LinkWrapper>
       </HeaderContent>
       <InputContainer>
-        <Input onClickInput={props.onClickInput} onSearch={props.onSearch} />
+        <Input onClickInput={onClickInput} onSearch={onSearch} />
       </InputContainer>
 
       <LoginContent>
-        <Button>로그인</Button>
-        <Button primary>회원가입</Button>
+        <Link to="/login">로그인</Link>
+        <Link to="/login" className="primary">
+          회원가입
+        </Link>
       </LoginContent>
     </HeaderWrapper>
   );

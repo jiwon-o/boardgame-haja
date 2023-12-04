@@ -5,7 +5,6 @@ import { styled } from "styled-components";
 const CheckboxContainer = styled.div`
   width: 100%;
   overflow: auto;
-  margin-bottom: 24px;
 
   &::-webkit-scrollbar {
     width: 6px;
@@ -24,12 +23,12 @@ const CheckboxContainer = styled.div`
 const CheckboxFieldset = styled.fieldset`
   display: flex;
   gap: 8px;
-  margin-bottom: 16px;
   position: relative;
+  margin-bottom: 14px;
 
   legend {
     font-size: 1.4rem;
-    margin-bottom: 14px;
+    margin-bottom: 8px;
     padding: 4px;
     position: sticky;
     top: 0;

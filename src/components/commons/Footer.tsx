@@ -3,11 +3,11 @@ import styled from "styled-components";
 const FooterWrapper = styled.footer`
   position: relative;
   margin-top: 100px;
-  padding: 20px 0 40px;
+  padding: 40px 0;
   font-size: 1.4rem;
 
   div:first-child {
-    margin-bottom: 20px;
+    margin-bottom: 32px;
   }
 
   div:nth-child(2) {

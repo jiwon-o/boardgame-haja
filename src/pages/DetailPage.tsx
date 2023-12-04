@@ -11,8 +11,8 @@ import { AiOutlineYoutube } from "react-icons/ai";
 import { SlGameController } from "react-icons/sl";
 import VideoModal from "../components/commons/Modal/VideoModal";
 import SearchPage from "./SearchPage";
-import GameList from "../components/units/sections/GameList";
 import MainLayout from "../layouts/MainLayout";
+import List from "../components/commons/GameSlide";
 
 interface DetailWrapperProps {
   backgroundurl?: string;
@@ -80,6 +80,8 @@ const GameTheme = styled.div`
 const GameTitle = styled.h2`
   font-size: 3rem;
   margin-top: 16px;
+  line-height: 3.3rem;
+
   span {
     font-size: 2.2rem;
   }
@@ -165,6 +167,12 @@ const ButtonBox = styled.div`
 
 const GameListSection = styled.section`
   margin: 0 auto;
+
+  h2 {
+    margin: 80px 0 40px;
+    font-size: 2.4rem;
+    font-weight: 700;
+  }
 `;
 
 async function getGames() {
@@ -232,8 +240,8 @@ export default function DetailPage() {
                 <GameTheme>{game.theme}</GameTheme>
                 <GameTitle>
                   {game.name} <span>({game.releaseYear})</span>
-                  <GameSubTitle>{game.subTitle}</GameSubTitle>
                 </GameTitle>
+                <GameSubTitle>{game.subTitle}</GameSubTitle>
                 <GameStats>
                   <li>
                     <HiMiniTrophy color="#008000" /> {game.ranking}
@@ -267,7 +275,8 @@ export default function DetailPage() {
             </GameBox>
           </DetailContainer>
           <GameListSection>
-            <GameList type="theme" games={filteredGames} />
+            <h2>같은 테마 게임</h2>
+            <List games={filteredGames} />
           </GameListSection>
         </DetailWrapper>
       ) : (

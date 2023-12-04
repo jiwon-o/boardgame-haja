@@ -25,6 +25,7 @@ const ImageBox = styled.div`
   border-radius: 12px;
   overflow: hidden;
   position: relative;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 
   img {
     width: 100%;
