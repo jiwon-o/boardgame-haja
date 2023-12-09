@@ -1,9 +1,10 @@
 import { useState } from "react";
 import { styled } from "styled-components";
-import { Link } from "react-router-dom";
+import logo from "../../src/assets/icons/icon-logo.svg";
+import { Link, Navigate, useNavigate } from "react-router-dom";
 
 const LoginWrapper = styled.article`
-  width: 520px;
+  width: 480px;
   margin: 100px auto;
   border: 1px solid var(--color-border);
   border-radius: 10px;
@@ -16,13 +17,25 @@ const LoginHeader = styled.header`
 
 const HeaderTitle = styled.h2`
   padding: 20px 0;
+
+  a {
+    display: inline-block;
+    width: 42px;
+    height: 42px;
+    margin-bottom: 20px;
+  }
 `;
 
 const LoginSection = styled.section`
   padding: 26px 24px;
+  text-align: center;
 
   h3 {
     margin-bottom: 20px;
+  }
+
+  form {
+    text-align: left;
   }
 `;
 
@@ -33,11 +46,12 @@ const InputLabel = styled.label`
   margin-bottom: 8px;
 `;
 
-const StyledInput = styled.input`
+const LoginInput = styled.input`
   width: 100%;
   padding: 15px 16px;
   border: 1px solid var(--color-border);
   border-radius: 5px;
+  background-color: white;
   font-size: 16px;
   font-weight: 400;
   margin-bottom: 20px;
@@ -54,16 +68,12 @@ const LoginButton = styled.button`
   border-radius: 5px;
   color: white;
   font-size: 18px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 
   &:disabled {
-    background-color: var(--color-border);
+    background-color: #666666;
     cursor: default;
   }
-`;
-
-const Signup = styled.div`
-  text-align: center;
 `;
 
 const SignupButton = styled(Link)`
@@ -84,9 +94,11 @@ export default function LoginPage() {
   const [password, setPassword] = useState("");
   const [isValidEmail, setIsValidEmail] = useState(true);
   const [isValidPassword, setIsValidPassword] = useState(true);
+  const navigate = useNavigate();
 
   const handleSignInSubmit = async (e: any) => {
     e.preventDefault();
+    navigate("/");
   };
 
   const handleEmailChange = (e: any) => {
@@ -102,12 +114,17 @@ export default function LoginPage() {
   return (
     <LoginWrapper>
       <LoginHeader>
-        <HeaderTitle>로그인</HeaderTitle>
+        <HeaderTitle>
+          <h1 className="a11y">BoardGameHaja</h1>
+          <Link to="/">
+            <img src={logo} alt="로고" />
+          </Link>
+        </HeaderTitle>
       </LoginHeader>
       <LoginSection>
         <form onSubmit={handleSignInSubmit}>
-          <InputLabel htmlFor="inpEmail">이메일 입력</InputLabel>
-          <StyledInput
+          <InputLabel htmlFor="inpEmail">이메일</InputLabel>
+          <LoginInput
             id="inpEmail"
             type="email"
             data-testid="email-input"
@@ -119,8 +136,8 @@ export default function LoginPage() {
               유효한 이메일을 입력하세요.
             </StyledText>
           )}
-          <InputLabel htmlFor="inpPw">비밀번호 입력</InputLabel>
-          <StyledInput
+          <InputLabel htmlFor="inpPw">비밀번호</InputLabel>
+          <LoginInput
             id="inpPw"
             type="password"
             data-testid="password-input"
@@ -143,10 +160,8 @@ export default function LoginPage() {
             }>
             로그인
           </LoginButton>
-          <Signup>
-            <SignupButton to="/signup">회원가입</SignupButton>
-          </Signup>
         </form>
+        <SignupButton to="/signup">회원가입</SignupButton>
       </LoginSection>
     </LoginWrapper>
   );
