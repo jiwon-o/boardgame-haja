@@ -82,8 +82,6 @@ const LoginContent = styled.div`
   }
 `;
 
-const Button = styled.button``;
-
 interface Props {
   onClickInput?(): void;
   onClickBackBtn?(): void;
@@ -103,7 +101,7 @@ export default function Header({
           <img src={logo} alt="로고" />
         </LogoImage>
         <LinkWrapper>
-          <Link to="/">Home</Link>
+          <Link to="/">BGH</Link>
           <Link to="/categories/전체">카테고리</Link>
         </LinkWrapper>
       </HeaderContent>
@@ -113,7 +111,7 @@ export default function Header({
 
       <LoginContent>
         <Link to="/login">로그인</Link>
-        <Link to="/login" className="primary">
+        <Link to="/signup" className="primary">
           회원가입
         </Link>
       </LoginContent>
