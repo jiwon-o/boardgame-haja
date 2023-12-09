@@ -1,6 +1,5 @@
 import SubHeader from "../components/commons/Header/SubHeader";
 import Gallery from "../components/commons/Gallery";
-import useInput from "../hooks/useInput";
 import { Game } from "../types";
 
 interface Props {

@@ -42,6 +42,7 @@ export default function AsideNavbar({ themes, setSelectedTheme }: Props) {
     } else {
       setSelectedTheme(selectedTheme);
     }
+    window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
   return (

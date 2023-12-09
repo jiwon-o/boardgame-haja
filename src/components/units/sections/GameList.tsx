@@ -111,15 +111,18 @@ export default function GamesList({ selectedTheme }: Props) {
   const { loading, data: games, error } = state;
 
   const [filteredGames, setFilteredGames] = useState<Game[]>([]);
-
   const [page, setPage] = useState<number>(1);
   const CardPerPage: number = 24;
   const indexOfLastCard: number = page * CardPerPage;
   const indexOfFirstCard: number = indexOfLastCard - CardPerPage;
   const [currentGames, setCurrentGames] = useState<Game[] | null>(null);
 
-  const handlePageChange = (page: number) => {
-    setPage(page);
+  const handlePageChange = async (selectedPage: number) => {
+    setCurrentGames(null);
+    const newGames = await getGames(selectedTheme);
+    setCurrentGames(newGames.slice(indexOfFirstCard, indexOfLastCard));
+    setPage(selectedPage);
+    window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
   useEffect(() => {

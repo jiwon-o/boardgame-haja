@@ -53,19 +53,19 @@ const BannerContent = styled.div`
   display: flex;
   flex-direction: column;
 
-  h1 {
+  h2 {
     color: #395bf4;
     font-size: 1.6rem;
     font-weight: 700;
   }
 
-  h2 {
+  h3 {
     font-size: 3.6rem;
     font-weight: 700;
     margin-top: 10px;
   }
 
-  h3 {
+  h4 {
     font-size: 1.8rem;
     font-weight: 700;
     margin-top: 10px;
@@ -130,9 +130,9 @@ export default function Banner({ games }: Props) {
     <BannerWrapper backgroundurl={topGame.backgroundImage}>
       <BannerContainer>
         <BannerContent>
-          <h1>Today's Hot Game #1</h1>
-          <h2>{topGame.name}</h2>
-          <h3>{topGame.subTitle}</h3>
+          <h2>Today's Hot Game #1</h2>
+          <h3>{topGame.name}</h3>
+          <h4>{topGame.subTitle}</h4>
           <button onClick={() => handleButtonClick(topGame)}>
             Show More <span>&gt;</span>
           </button>

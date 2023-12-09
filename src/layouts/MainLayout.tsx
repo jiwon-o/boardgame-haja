@@ -3,16 +3,16 @@ import Header from "../components/commons/Header/Header";
 import Footer from "../components/commons/Footer";
 import styled from "styled-components";
 
-const MainContainer = styled.main`
+const MainContainer = styled.div`
   margin: 0 auto;
   max-width: 1180px;
 `;
 
 interface MainLayoutProps {
   children: ReactNode;
-  onClickInput: () => void; // onClickInput을 추가
-  onClickBackBtn: () => void; // onClickBackBtn을 추가
-  onSearch: (item: string) => void; // onSearch를 추가
+  onClickInput: () => void;
+  onClickBackBtn: () => void;
+  onSearch: (item: string) => void;
 }
 
 const MainLayout: React.FC<MainLayoutProps> = ({

@@ -84,6 +84,7 @@ const RightArrowBtn = styled.button<SlidePxProps>`
 interface Props {
   games: Game[] | null;
 }
+
 export default function GameSlide({ games }: Props) {
   const [slide, setSlide] = useState(0);
   const [innerWidth, setInnerWidth] = useState(0);

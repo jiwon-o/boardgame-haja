@@ -12,6 +12,7 @@ export interface Game {
   releaseYear: string;
   subTitle: string;
   play_age: string;
+  description: string;
 }
 
 export interface GameRankProps {
