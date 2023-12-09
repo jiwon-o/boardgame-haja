@@ -44,6 +44,10 @@ const GameBox = styled.div`
   padding: 0 40px;
   display: flex;
   align-items: center;
+
+  @media screen and (max-width: 900px) {
+    flex-direction: column;
+  }
 `;
 
 const GameThumbnail = styled.div`

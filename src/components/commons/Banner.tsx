@@ -47,6 +47,10 @@ const BannerContainer = styled.div`
     rgb(28, 23, 75, 0.7),
     rgb(20, 17, 46, 0.5)
   );
+
+  @media screen and (max-width: 900px) {
+    flex-direction: column;
+  }
 `;
 
 const BannerContent = styled.div`
@@ -92,6 +96,18 @@ const BannerContent = styled.div`
       margin-left: 6px;
     }
   }
+
+  @media screen and (max-width: 900px) {
+    min-width: 560px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    button {
+      margin-top: 0;
+      height: fit-content;
+    }
+  }
 `;
 
 const VideoWrapper = styled.div`
@@ -130,9 +146,11 @@ export default function Banner({ games }: Props) {
     <BannerWrapper backgroundurl={topGame.backgroundImage}>
       <BannerContainer>
         <BannerContent>
-          <h2>Today's Hot Game #1</h2>
-          <h3>{topGame.name}</h3>
-          <h4>{topGame.subTitle}</h4>
+          <div>
+            <h2>Today's Hot Game #1</h2>
+            <h3>{topGame.name}</h3>
+            <h4>{topGame.subTitle}</h4>
+          </div>
           <button onClick={() => handleButtonClick(topGame)}>
             Show More <span>&gt;</span>
           </button>
