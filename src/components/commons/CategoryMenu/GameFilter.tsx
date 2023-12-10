@@ -342,7 +342,10 @@ export default function GameFilter({
           values={selectedPlayTime}
           onChange={handlePlayTimeChange}>
           {playTimeOptions.map((playTime) => (
-            <Checkbox id={`rating-${playTime}`} value={playTime}>
+            <Checkbox
+              key={`rating-${playTime}`}
+              id={`rating-${playTime}`}
+              value={playTime}>
               {playTime === "less30"
                 ? "30분 미만"
                 : playTime === "more180"

@@ -1,4 +1,4 @@
-import { useEffect, useState, useRef } from "react";
+import { useEffect, useState } from "react";
 import { Game } from "../../../types";
 import styled from "styled-components";
 import Pagination from "react-js-pagination";
@@ -82,7 +82,7 @@ export default function DetailGameList({
           <CardNotice>해당 분류와 일치하는 보드게임이 없습니다.</CardNotice>
         ) : (
           currentGames?.map((game) => {
-            return <DetailCard game={game} />;
+            return <DetailCard key={game.id} game={game} />;
           })
         )}
         <Pagination
