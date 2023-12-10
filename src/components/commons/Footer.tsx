@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 const FooterWrapper = styled.footer`
@@ -29,10 +30,10 @@ export default function Footer() {
   return (
     <FooterWrapper>
       <div>
-        <a href="#">고객센터 </a>
-        <a href="#">이용약관 </a>
-        <a href="#">개인정보처리방침 </a>
-        <a href="#">법적고지</a>
+        <Link to="#">고객센터 </Link>
+        <Link to="#">이용약관 </Link>
+        <Link to="#">개인정보처리방침 </Link>
+        <Link to="#">법적고지</Link>
       </div>
       <div>
         <p>제작 오지원</p>
