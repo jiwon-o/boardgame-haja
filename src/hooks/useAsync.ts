@@ -45,6 +45,7 @@ function useAsync(callback: () => Promise<Game[]>, deps: any[] = []): State {
 
   useEffect(() => {
     fetchData();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, deps);
 
   return state;

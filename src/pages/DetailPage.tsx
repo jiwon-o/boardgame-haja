@@ -188,6 +188,7 @@ export default function DetailPage() {
   const state = useAsync(getGames, []);
   const { loading, data: games, error } = state;
   const [isModalOpen, setIsModalOpen] = useState<boolean>(false);
+  // eslint-disable-next-line
   const [selectedGame, setSelectedGame] = useState<Game | null>(null);
   const location = useLocation();
   const { game } = location.state;

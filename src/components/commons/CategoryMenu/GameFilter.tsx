@@ -185,6 +185,7 @@ export default function GameFilter({
 
     setFilteredGames(filtered);
     setPage(1);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [selectedPlayerCounts, selectedRating, selectedPlayTime, searchGame]);
 
   useEffect(() => {

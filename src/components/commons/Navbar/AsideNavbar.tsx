@@ -34,6 +34,7 @@ export default function AsideNavbar({ themes, setSelectedTheme }: Props) {
 
   useEffect(() => {
     theme && handleSelectedTheme(theme);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [theme]);
 
   const handleSelectedTheme = (selectedTheme: string) => {
