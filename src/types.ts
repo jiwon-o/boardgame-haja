@@ -19,8 +19,8 @@ export interface GameRankProps {
   ranking: number;
 }
 
-export interface SlidePxProps {
-  slidePx: number;
+export interface SlidepxProps {
+  slidepx: number;
 }
 
 export interface BackBtnProps {

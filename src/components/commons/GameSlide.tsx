@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Game, SlidePxProps } from "../../types";
+import { Game, SlidepxProps } from "../../types";
 import { styled, css } from "styled-components";
 import { AiOutlineLeft } from "react-icons/ai";
 import { AiOutlineRight } from "react-icons/ai";
@@ -56,18 +56,18 @@ const commonArrowBtnStyles = css`
   }
 `;
 
-const LeftArrowBtn = styled.button<SlidePxProps>`
+const LeftArrowBtn = styled.button<SlidepxProps>`
   ${commonArrowBtnStyles}
   left: 0;
   transform: translate(-60%, -40%);
-  display: ${(props) => (props.slidePx === 0 ? "none" : "")};
+  display: ${(props) => (props.slidepx === 0 ? "none" : "")};
 `;
 
-const RightArrowBtn = styled.button<SlidePxProps>`
+const RightArrowBtn = styled.button<SlidepxProps>`
   ${commonArrowBtnStyles}
   right: 0;
   transform: translate(60%, -40%);
-  display: ${(props) => (props.slidePx <= -3600 ? "none" : "")};
+  display: ${(props) => (props.slidepx <= -3600 ? "none" : "")};
 
   svg {
     color: white;
@@ -156,10 +156,10 @@ export default function GameSlide({ games }: Props) {
         ))}
       </GameSlideItems>
       <ArrowButtonBox>
-        <LeftArrowBtn onClick={toPrev} slidePx={slide}>
+        <LeftArrowBtn onClick={toPrev} slidepx={slide}>
           <AiOutlineLeft />
         </LeftArrowBtn>
-        <RightArrowBtn onClick={toNext} slidePx={slide}>
+        <RightArrowBtn onClick={toNext} slidepx={slide}>
           <AiOutlineRight />
         </RightArrowBtn>
       </ArrowButtonBox>
