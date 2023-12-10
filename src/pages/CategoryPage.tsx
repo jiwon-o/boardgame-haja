@@ -24,7 +24,9 @@ const MainContainer = styled.main`
 `;
 
 async function getGames() {
-  const response = await axios.get("http://localhost:3001/game");
+  const response = await axios.get(
+    "https://boardgame-haja-a5fa098bd176.herokuapp.com/game"
+  );
   return response.data;
 }
 
