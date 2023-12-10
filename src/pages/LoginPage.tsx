@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { styled } from "styled-components";
 import logo from "../../src/assets/icons/icon-logo.svg";
-import { Link, Navigate, useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const LoginWrapper = styled.article`
   width: 480px;

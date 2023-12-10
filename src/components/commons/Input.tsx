@@ -1,7 +1,6 @@
 import styled from "styled-components";
 import SearchIcon from "../../assets/icons/icon-search.svg";
-import { useEffect, useState } from "react";
-import useDebounce from "../../hooks/useDebounce";
+import { useState } from "react";
 
 const InputWrapper = styled.form`
   padding: 6px 0 6px 40px;

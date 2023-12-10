@@ -1,4 +1,3 @@
-import React, { ReactNode } from "react";
 import "./Modal.css";
 import useYouTubeVideo from "../../../hooks/useYoutubeVideo";
 import { Game } from "../../../types";

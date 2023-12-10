@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { Game } from "../types";
-import { useLocation, useNavigate } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 import { useState, useEffect } from "react";
 import useInput from "../hooks/useInput";
 import useAsync from "../hooks/useAsync";
@@ -189,7 +189,6 @@ export default function DetailPage() {
   const { loading, data: games, error } = state;
   const [isModalOpen, setIsModalOpen] = useState<boolean>(false);
   const [selectedGame, setSelectedGame] = useState<Game | null>(null);
-  const navigate = useNavigate();
   const location = useLocation();
   const { game } = location.state;
 
