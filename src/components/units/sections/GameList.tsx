@@ -99,8 +99,10 @@ interface Props {
 
 async function getGames(theme?: string | null) {
   const url = theme
-    ? `http://localhost:3001/game?theme=${encodeURIComponent(theme)}`
-    : "http://localhost:3001/game";
+    ? `http://https://boardgame-haja-a5fa098bd176.herokuapp.com/game?theme=${encodeURIComponent(
+        theme
+      )}`
+    : "http://https://boardgame-haja-a5fa098bd176.herokuapp.com/game";
 
   const response = await axios.get(url);
   return response.data;
