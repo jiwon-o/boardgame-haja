@@ -1,18 +1,18 @@
-import styled from "styled-components";
-import { Game } from "../types";
-import { useLocation } from "react-router-dom";
-import { useState, useEffect } from "react";
-import useInput from "../hooks/useInput";
-import useAsync from "../hooks/useAsync";
-import axios from "axios";
-import { HiMiniTrophy } from "react-icons/hi2";
-import { AiFillStar } from "react-icons/ai";
-import { AiOutlineYoutube } from "react-icons/ai";
-import { SlGameController } from "react-icons/sl";
-import VideoModal from "../components/commons/Modal/VideoModal";
-import SearchPage from "./SearchPage";
-import MainLayout from "../layouts/MainLayout";
-import List from "../components/commons/GameSlide";
+import styled from 'styled-components';
+import { Game } from '../types';
+import { useLocation } from 'react-router-dom';
+import { useState, useEffect } from 'react';
+import useInput from '../hooks/useInput';
+import useAsync from '../hooks/useAsync';
+import axios from 'axios';
+import { HiMiniTrophy } from 'react-icons/hi2';
+import { AiFillStar } from 'react-icons/ai';
+import { AiOutlineYoutube } from 'react-icons/ai';
+import { SlGameController } from 'react-icons/sl';
+import VideoModal from '../components/commons/Modal/VideoModal';
+import SearchPage from './SearchPage';
+import MainLayout from '../layouts/MainLayout';
+import List from '../components/commons/GameSlide';
 
 interface DetailWrapperProps {
   backgroundurl?: string;
@@ -26,13 +26,8 @@ const DetailContainer = styled.main<DetailWrapperProps>`
   left: 50%;
   transform: translateX(-50%);
 
-  background-image: linear-gradient(
-      90deg,
-      rgb(20, 17, 46, 1),
-      rgb(28, 23, 75, 1),
-      rgb(20, 17, 46, 0.7)
-    ),
-    ${(props) => (props.backgroundurl ? `url(${props.backgroundurl})` : "")};
+  background-image: linear-gradient(90deg, rgb(20, 17, 46, 1), rgb(28, 23, 75, 1), rgb(20, 17, 46, 0.7)),
+    ${(props) => (props.backgroundurl ? `url(${props.backgroundurl})` : '')};
   background-size: cover;
   background-position: center;
   padding: 40px 0;
@@ -108,13 +103,13 @@ const GameAttributes = styled.ul`
   font-weight: 700;
 
   li::before {
-    content: "|";
+    content: '|';
     margin: 0 20px;
     vertical-align: text-top;
   }
 
   li:first-child::before {
-    content: "";
+    content: '';
     margin: 0;
   }
 `;
@@ -180,7 +175,7 @@ const GameListSection = styled.section`
 `;
 
 async function getGames() {
-  const response = await axios.get("http://localhost:3001/game");
+  const response = await axios.get('http://localhost:3001/game');
   return response.data;
 }
 
@@ -193,20 +188,14 @@ export default function DetailPage() {
   const location = useLocation();
   const { game } = location.state;
 
-  const {
-    searchGame,
-    isClickInput,
-    handleSearch,
-    handleClickInput,
-    handleClickBackBtn,
-  } = useInput();
+  const { searchGame, isClickInput, handleSearch, handleClickInput, handleClickBackBtn } = useInput();
 
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [game.id]);
 
   const handleClickPlayButton = () => {
-    const url = "https://boardgamearena.com/gamelist";
+    const url = 'https://boardgamearena.com/gamelist';
     window.open(url);
   };
 
@@ -220,25 +209,17 @@ export default function DetailPage() {
   };
 
   const filteredGames = games
-    ? [...games]
-        .filter(
-          (filteredGame) =>
-            game.theme === filteredGame.theme && game.id !== filteredGame.id
-        )
-        .slice(0, 20)
+    ? [...games].filter((filteredGame) => game.theme === filteredGame.theme && game.id !== filteredGame.id).slice(0, 20)
     : null;
 
   return (
-    <MainLayout
-      onClickInput={handleClickInput}
-      onClickBackBtn={handleClickBackBtn}
-      onSearch={handleSearch}>
+    <MainLayout onClickInput={handleClickInput} onClickBackBtn={handleClickBackBtn} onSearch={handleSearch}>
       {!isClickInput ? (
         <DetailWrapper>
           <DetailContainer backgroundurl={game.backgroundImage}>
             <GameBox>
               <GameThumbnail>
-                <img src={game.image} alt="게임 이미지" />
+                <img src={game.image} alt='게임 이미지' />
               </GameThumbnail>
               <GameDetails>
                 <GameTheme>{game.theme}</GameTheme>
@@ -248,10 +229,10 @@ export default function DetailPage() {
                 <GameSubTitle>{game.subTitle}</GameSubTitle>
                 <GameStats>
                   <li>
-                    <HiMiniTrophy color="#008000" /> {game.ranking}
+                    <HiMiniTrophy color='#008000' /> {game.ranking}
                   </li>
                   <li>
-                    <AiFillStar color="#ffff00" /> {game.rate}
+                    <AiFillStar color='#ffff00' /> {game.rate}
                   </li>
                 </GameStats>
                 <GameAttributes>
@@ -264,7 +245,7 @@ export default function DetailPage() {
                 <p>
                   {game.description
                     ? game.description
-                    : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate ad quam qui consequatur doloremque corrupti unde cum quod, maxime at eveniet magnam, et fuga nesciunt quis temporibus quisquam odit iusto!"}
+                    : 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate ad quam qui consequatur doloremque corrupti unde cum quod, maxime at eveniet magnam, et fuga nesciunt quis temporibus quisquam odit iusto!'}
                 </p>
                 <ButtonBox>
                   <button onClick={() => openModal(game)}>
@@ -292,9 +273,7 @@ export default function DetailPage() {
           searchGame={searchGame}
         />
       )}
-      {isModalOpen && (
-        <VideoModal isOpen={isModalOpen} onClose={closeModal} game={game} />
-      )}
+      {isModalOpen && <VideoModal isOpen={isModalOpen} onClose={closeModal} game={game} />}
     </MainLayout>
   );
 }

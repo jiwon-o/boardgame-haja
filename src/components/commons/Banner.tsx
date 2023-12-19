@@ -1,7 +1,7 @@
-import styled from "styled-components";
-import { Game } from "../../types";
-import useYouTubeVideo from "../../hooks/useYoutubeVideo";
-import { useNavigate } from "react-router-dom";
+import styled from 'styled-components';
+import { Game } from '../../types';
+import useYouTubeVideo from '../../hooks/useYoutubeVideo';
+import { useNavigate } from 'react-router-dom';
 
 interface BannerWrapperProps {
   backgroundurl?: string;
@@ -16,14 +16,13 @@ const BannerWrapper = styled.div<BannerWrapperProps>`
 
   /* 배경 이미지에만 opacity를 적용하기 위한 가상 요소 설정 */
   &::before {
-    content: "";
+    content: '';
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: ${(props) =>
-      props.backgroundurl ? `url(${props.backgroundurl})` : ""};
+    background-image: ${(props) => (props.backgroundurl ? `url(${props.backgroundurl})` : '')};
     background-size: cover;
     background-position: center;
     opacity: 0.5;
@@ -134,7 +133,7 @@ interface Props {
 
 export default function Banner({ games }: Props) {
   const topGame = games?.find((game) => game.ranking === 1);
-  const gameTitle = topGame ? topGame.name : "";
+  const gameTitle = topGame ? topGame.name : '';
   const navigate = useNavigate();
   useYouTubeVideo(gameTitle);
 
@@ -155,7 +154,7 @@ export default function Banner({ games }: Props) {
             Show More <span>&gt;</span>
           </button>
         </BannerContent>
-        <VideoWrapper id="video-container"></VideoWrapper>
+        <VideoWrapper id='video-container'></VideoWrapper>
       </BannerContainer>
     </BannerWrapper>
   ) : (

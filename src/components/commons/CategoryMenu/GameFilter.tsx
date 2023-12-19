@@ -1,12 +1,12 @@
-import { useState, useEffect } from "react";
-import { Game } from "../../../types";
-import useInput from "../../../hooks/useInput";
-import useSearch from "../../../hooks/useSearch";
-import { styled } from "styled-components";
-import CheckboxGroup from "../Checkbox/CheckboxGroup";
-import Checkbox from "../Checkbox/Checkbox";
-import { BiX, BiRevision } from "react-icons/bi";
-import Input from "../Input";
+import { useState, useEffect } from 'react';
+import { Game } from '../../../types';
+import useInput from '../../../hooks/useInput';
+import useSearch from '../../../hooks/useSearch';
+import { styled } from 'styled-components';
+import CheckboxGroup from '../Checkbox/CheckboxGroup';
+import Checkbox from '../Checkbox/Checkbox';
+import { BiX, BiRevision } from 'react-icons/bi';
+import Input from '../Input';
 
 const GameFilterWrapper = styled.div`
   width: 100%;
@@ -111,9 +111,7 @@ export default function GameFilter({
   setPage,
   hasInput,
 }: Props) {
-  const [selectedPlayerCounts, setSelectedPlayerCounts] = useState<string[]>(
-    []
-  );
+  const [selectedPlayerCounts, setSelectedPlayerCounts] = useState<string[]>([]);
   const [selectedRating, setSelectedRating] = useState<string[]>([]);
   const [selectedPlayTime, setSelectedPlayTime] = useState<string[]>([]);
   const [selectedFilters, setSelectedFilters] = useState<string[]>([]);
@@ -129,14 +127,13 @@ export default function GameFilter({
 
       // 검색 필터
       const searchFilter =
-        searchGames(searchGame, game.name) ||
-        searchGames(searchGame, game.subTitle);
+        searchGames(searchGame, game.name) || searchGames(searchGame, game.subTitle);
 
       // 게임 인원 필터
       const playerCountMatch =
         selectedPlayerCounts.length === 0 ||
         selectedPlayerCounts.some((playerRange) => {
-          if (playerRange === "more10") {
+          if (playerRange === 'more10') {
             return minPlayer >= 10 || maxPlayer >= 10;
           } else {
             const selectedCount = parseInt(playerRange, 10);
@@ -148,9 +145,9 @@ export default function GameFilter({
       const ratingMatch =
         selectedRating.length === 0 ||
         selectedRating.some((ratingRange) => {
-          if (ratingRange === "less5") {
+          if (ratingRange === 'less5') {
             return gameRating < 5;
-          } else if (ratingRange === "10") {
+          } else if (ratingRange === '10') {
             return gameRating === 10;
           } else {
             const selectedRate = parseInt(ratingRange, 10);
@@ -159,7 +156,7 @@ export default function GameFilter({
         });
 
       // 게임 시간 필터
-      const gamePlayTime = game.play_time.split("-").map(Number);
+      const gamePlayTime = game.play_time.split('-').map(Number);
       const minTime = gamePlayTime[0];
       const maxTime = gamePlayTime[1] || minTime;
 
@@ -167,9 +164,9 @@ export default function GameFilter({
         selectedPlayTime.length === 0 ||
         selectedPlayTime.some((timeRange) => {
           const selectedTime = parseInt(timeRange, 10);
-          if (timeRange === "less30") {
+          if (timeRange === 'less30') {
             return minTime < 30 || maxTime < 30;
-          } else if (timeRange === "more180") {
+          } else if (timeRange === 'more180') {
             return minTime >= 180 || maxTime >= 180;
           } else {
             return (
@@ -193,8 +190,8 @@ export default function GameFilter({
 
     // 게임 인원 필터
     selectedPlayerCounts.forEach((playerCount) => {
-      if (playerCount === "more10") {
-        updatedFilters.push("10인 이상");
+      if (playerCount === 'more10') {
+        updatedFilters.push('10인 이상');
       } else {
         updatedFilters.push(`${parseInt(playerCount)}인`);
       }
@@ -202,23 +199,21 @@ export default function GameFilter({
 
     // 게임 평점 필터
     selectedRating.forEach((ratingRange) => {
-      if (ratingRange === "less5") {
-        updatedFilters.push("5점 미만");
+      if (ratingRange === 'less5') {
+        updatedFilters.push('5점 미만');
       } else {
-        ratingRange === "10"
+        ratingRange === '10'
           ? updatedFilters.push(`${ratingRange}점`)
-          : updatedFilters.push(
-              `${ratingRange}-${parseInt(ratingRange) + 1}점`
-            );
+          : updatedFilters.push(`${ratingRange}-${parseInt(ratingRange) + 1}점`);
       }
     });
 
     // 게임 시간 필터
     selectedPlayTime.forEach((timeRange) => {
-      if (timeRange === "less30") {
-        updatedFilters.push("30분 미만");
-      } else if (timeRange === "more180") {
-        updatedFilters.push("180분 이상");
+      if (timeRange === 'less30') {
+        updatedFilters.push('30분 미만');
+      } else if (timeRange === 'more180') {
+        updatedFilters.push('180분 이상');
       } else {
         updatedFilters.push(`${timeRange}-${parseInt(timeRange) + 30}분`);
       }
@@ -244,28 +239,24 @@ export default function GameFilter({
 
     setSelectedPlayerCounts(
       selectedPlayerCounts.filter((count: string) =>
-        filter === "10인 이상"
-          ? count !== "more10"
-          : count !== parseInt(filter) + ""
-      )
+        filter === '10인 이상' ? count !== 'more10' : count !== parseInt(filter) + '',
+      ),
     );
     setSelectedRating(
       selectedRating.filter((rate: string) =>
-        filter === "5점 미만"
-          ? rate !== "less5"
-          : rate !== parseInt(filter) + ""
-      )
+        filter === '5점 미만' ? rate !== 'less5' : rate !== parseInt(filter) + '',
+      ),
     );
     setSelectedPlayTime(
       selectedPlayTime.filter((time: string) => {
-        if (filter === "30분 미만") {
-          return time !== "less30";
-        } else if (filter === "180분 이상") {
-          return time !== "more180";
+        if (filter === '30분 미만') {
+          return time !== 'less30';
+        } else if (filter === '180분 이상') {
+          return time !== 'more180';
         } else {
-          return time !== parseInt(filter) + "";
+          return time !== parseInt(filter) + '';
         }
-      })
+      }),
     );
     setSelectedFilters(updatedFilters);
   };
@@ -279,20 +270,9 @@ export default function GameFilter({
     setPage(1);
   };
 
-  const playerCountOptions = [
-    "1",
-    "2",
-    "3",
-    "4",
-    "5",
-    "6",
-    "7",
-    "8",
-    "9",
-    "more10",
-  ];
-  const ratingOptions = ["10", "9", "8", "7", "6", "5", "less5"];
-  const playTimeOptions = ["less30", "30", "60", "90", "120", "150", "more180"];
+  const playerCountOptions = ['1', '2', '3', '4', '5', '6', '7', '8', '9', 'more10'];
+  const ratingOptions = ['10', '9', '8', '7', '6', '5', 'less5'];
+  const playTimeOptions = ['less30', '30', '60', '90', '120', '150', 'more180'];
 
   return (
     <GameFilterWrapper>
@@ -309,49 +289,39 @@ export default function GameFilter({
           </AsideInputBox>
         )}
         <CheckboxGroup
-          label="게임 인원"
+          label='게임 인원'
           values={selectedPlayerCounts}
-          onChange={handlePlayerCountsChange}>
+          onChange={handlePlayerCountsChange}
+        >
           {playerCountOptions.map((playerCount) => (
             <Checkbox
               key={`player-${playerCount}`}
               id={`player-${playerCount}`}
-              value={playerCount}>
-              {playerCount === "more10" ? "10인 이상" : `${playerCount}인`}
+              value={playerCount}
+            >
+              {playerCount === 'more10' ? '10인 이상' : `${playerCount}인`}
             </Checkbox>
           ))}
         </CheckboxGroup>
-        <CheckboxGroup
-          label="게임 평점"
-          values={selectedRating}
-          onChange={handleRatingChange}>
+        <CheckboxGroup label='게임 평점' values={selectedRating} onChange={handleRatingChange}>
           {ratingOptions.map((rating) => (
-            <Checkbox
-              key={`rating-${rating}`}
-              id={`rating-${rating}`}
-              value={rating}>
-              {rating === "less5"
-                ? "5점 미만"
+            <Checkbox key={`rating-${rating}`} id={`rating-${rating}`} value={rating}>
+              {rating === 'less5'
+                ? '5점 미만'
                 : parseInt(rating) === 10
-                ? `${rating}점`
-                : `${rating}-${parseInt(rating) + 1}점`}
+                  ? `${rating}점`
+                  : `${rating}-${parseInt(rating) + 1}점`}
             </Checkbox>
           ))}
         </CheckboxGroup>
-        <CheckboxGroup
-          label="게임 시간"
-          values={selectedPlayTime}
-          onChange={handlePlayTimeChange}>
+        <CheckboxGroup label='게임 시간' values={selectedPlayTime} onChange={handlePlayTimeChange}>
           {playTimeOptions.map((playTime) => (
-            <Checkbox
-              key={`rating-${playTime}`}
-              id={`rating-${playTime}`}
-              value={playTime}>
-              {playTime === "less30"
-                ? "30분 미만"
-                : playTime === "more180"
-                ? "180분 이상"
-                : `${playTime}-${parseInt(playTime) + 30}분`}
+            <Checkbox key={`rating-${playTime}`} id={`rating-${playTime}`} value={playTime}>
+              {playTime === 'less30'
+                ? '30분 미만'
+                : playTime === 'more180'
+                  ? '180분 이상'
+                  : `${playTime}-${parseInt(playTime) + 30}분`}
             </Checkbox>
           ))}
         </CheckboxGroup>

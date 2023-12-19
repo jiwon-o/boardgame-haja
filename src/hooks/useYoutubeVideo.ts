@@ -1,7 +1,7 @@
-import { useEffect } from "react";
+import { useEffect } from 'react';
 
 function useYouTubeVideo(gameTitle: string | undefined) {
-  const API_KEY = "AIzaSyDsdJ7M6h_0OQXEbPEGqwL2w3ly63MDNvM";
+  const API_KEY = 'AIzaSyDsdJ7M6h_0OQXEbPEGqwL2w3ly63MDNvM';
 
   useEffect(() => {
     if (!gameTitle) return;
@@ -17,18 +17,18 @@ function useYouTubeVideo(gameTitle: string | undefined) {
         const videoId = data.items[0].id.videoId;
 
         // iframe 생성
-        const iframe = document.createElement("iframe");
+        const iframe = document.createElement('iframe');
         iframe.src = `https://www.youtube.com/embed/${videoId}`;
         iframe.allowFullscreen = true;
 
-        const videoContainer = document.getElementById("video-container");
+        const videoContainer = document.getElementById('video-container');
 
         // 컨테이너에 iframe 추가
         if (videoContainer) {
           videoContainer.appendChild(iframe);
         }
       } catch (error) {
-        console.error("YouTube API 호출 오류:", error);
+        console.error('YouTube API 호출 오류:', error);
       }
     };
 

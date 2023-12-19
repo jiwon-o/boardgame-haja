@@ -1,10 +1,10 @@
-import { useEffect, useState } from "react";
-import { Game } from "../../types";
-import styled from "styled-components";
-import Pagination from "react-js-pagination";
-import "../../../styles/pagination.css";
-import DetailCard from "./Card/DetailCard";
-import GameFilter from "./CategoryMenu/GameFilter";
+import { useEffect, useState } from 'react';
+import { Game } from '../../types';
+import styled from 'styled-components';
+import Pagination from 'react-js-pagination';
+import '../../styles/pagination.css';
+import DetailCard from './Card/DetailCard';
+import GameFilter from './CategoryMenu/GameFilter';
 
 const CardWrapper = styled.div`
   display: flex;
@@ -44,12 +44,7 @@ interface Props {
   containerRef: React.RefObject<HTMLDivElement>;
 }
 
-export default function DetailGameList({
-  loading,
-  error,
-  games,
-  containerRef,
-}: Props) {
+export default function DetailGameList({ loading, error, games, containerRef }: Props) {
   const [filteredGames, setFilteredGames] = useState(games!);
 
   const [page, setPage] = useState<number>(1);
@@ -62,8 +57,8 @@ export default function DetailGameList({
     setPage(page);
     if (containerRef.current) {
       containerRef.current.scrollIntoView({
-        behavior: "smooth",
-        block: "start",
+        behavior: 'smooth',
+        block: 'start',
       });
     }
   };
@@ -90,8 +85,8 @@ export default function DetailGameList({
           itemsCountPerPage={CardPerPage}
           totalItemsCount={filteredGames.length}
           pageRangeDisplayed={5}
-          prevPageText={"<"}
-          nextPageText={">"}
+          prevPageText={'<'}
+          nextPageText={'>'}
           onChange={handlePageChange}
         />
       </CardContainer>

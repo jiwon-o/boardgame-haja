@@ -1,13 +1,13 @@
-import axios from "axios";
-import useAsync from "../hooks/useAsync";
-import styled from "styled-components";
-import Banner from "../components/commons/Banner";
-import useInput from "../hooks/useInput";
-import SearchPage from "./SearchPage";
-import MainLayout from "../layouts/MainLayout";
-import GameSlide from "../components/commons/GameSlide";
-import DetailGameList from "../components/commons/DetailGameList";
-import { useRef } from "react";
+import axios from 'axios';
+import useAsync from '../hooks/useAsync';
+import styled from 'styled-components';
+import Banner from '../components/commons/Banner';
+import useInput from '../hooks/useInput';
+import SearchPage from './SearchPage';
+import MainLayout from '../layouts/MainLayout';
+import GameSlide from '../components/commons/GameSlide';
+import DetailGameList from '../components/commons/DetailGameList';
+import { useRef } from 'react';
 
 const MainContainer = styled.main`
   h2 {
@@ -18,25 +18,18 @@ const MainContainer = styled.main`
 `;
 
 async function getGames() {
-  const response = await axios.get("http://localhost:3001/game");
+  const response = await axios.get('http://localhost:3001/game');
   return response.data;
 }
 
 export default function HomePage() {
   const state = useAsync(getGames, []);
   const { loading, data: games, error } = state;
-  const {
-    searchGame,
-    isClickInput,
-    handleSearch,
-    handleClickInput,
-    handleClickBackBtn,
-  } = useInput();
+  const { searchGame, isClickInput, handleSearch, handleClickInput, handleClickBackBtn } =
+    useInput();
 
   const filteredGames = games
-    ? [...games]
-        .sort((a, b) => parseInt(b.releaseYear) - parseInt(a.releaseYear))
-        .slice(0, 20)
+    ? [...games].sort((a, b) => parseInt(b.releaseYear) - parseInt(a.releaseYear)).slice(0, 20)
     : null;
 
   const containerRef = useRef<HTMLDivElement>(null);
@@ -48,7 +41,8 @@ export default function HomePage() {
     <MainLayout
       onClickInput={handleClickInput}
       onClickBackBtn={handleClickBackBtn}
-      onSearch={handleSearch}>
+      onSearch={handleSearch}
+    >
       {!isClickInput ? (
         <>
           <Banner games={games} />
