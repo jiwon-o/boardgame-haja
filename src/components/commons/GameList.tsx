@@ -1,14 +1,14 @@
 import { useState } from "react";
 import { styled } from "styled-components";
-import Card from "../../commons/Card/Card";
+import Card from "./Card/Card";
 import { HiMiniTrophy } from "react-icons/hi2";
 import { AiFillStar } from "react-icons/ai";
-import useAsync from "../../../hooks/useAsync";
+import useAsync from "../../hooks/useAsync";
 import axios from "axios";
 import { useEffect } from "react";
-import { Game } from "../../../types";
+import { Game } from "../../types";
 import Pagination from "react-js-pagination";
-import GameFilter from "../../commons/CategoryMenu/GameFilter";
+import GameFilter from "./CategoryMenu/GameFilter";
 
 const GameListWrapper = styled.ul`
   display: grid;

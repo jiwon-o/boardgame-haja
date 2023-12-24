@@ -6,7 +6,7 @@ import axios from "axios";
 import AsideNavbar from "../components/commons/Navbar/AsideNavbar";
 import { styled } from "styled-components";
 import { useState } from "react";
-import GameList from "../components/units/sections/GameList";
+import GameList from "../components/commons/GameList";
 
 const CategoryWrapper = styled.div`
   display: flex;
