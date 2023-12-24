@@ -1,5 +1,5 @@
 import "./Modal.css";
-import useYouTubeVideo from "../../../hooks/useYoutubeVideo";
+import useYouTubeVideo from "../../../hooks/useVideo";
 import { Game } from "../../../types";
 import styled from "styled-components";
 

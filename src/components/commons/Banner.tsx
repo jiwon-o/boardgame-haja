@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { Game } from "../../types";
-import useYouTubeVideo from "../../hooks/useYoutubeVideo";
+import useYouTubeVideo from "../../hooks/useVideo";
 import { useNavigate } from "react-router-dom";
 
 interface BannerWrapperProps {

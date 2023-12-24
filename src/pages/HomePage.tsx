@@ -6,7 +6,7 @@ import useInput from "../hooks/useInput";
 import SearchPage from "./SearchPage";
 import MainLayout from "../layouts/MainLayout";
 import GameSlide from "../components/commons/GameSlide";
-import DetailGameList from "../components/units/sections/DetailGameList";
+import DetailGameList from "../components/commons/DetailGameList";
 import { useRef } from "react";
 
 const MainContainer = styled.main`
