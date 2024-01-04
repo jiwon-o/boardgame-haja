@@ -1,6 +1,6 @@
 import styled from 'styled-components';
-import { Game } from '../../types';
-import useYouTubeVideo from '../../hooks/useYoutubeVideo';
+import { Game } from '../types';
+import useYouTubeVideo from '../hooks/useYoutubeVideo';
 import { useNavigate } from 'react-router-dom';
 
 interface BannerWrapperProps {
@@ -40,12 +40,7 @@ const BannerContainer = styled.div`
   width: 100%;
   height: 100%;
   color: white;
-  background-image: linear-gradient(
-    90deg,
-    rgb(20, 17, 46, 1),
-    rgb(28, 23, 75, 0.7),
-    rgb(20, 17, 46, 0.5)
-  );
+  background-image: linear-gradient(90deg, rgb(20, 17, 46, 1), rgb(28, 23, 75, 0.7), rgb(20, 17, 46, 0.5));
 
   @media screen and (max-width: 900px) {
     flex-direction: column;

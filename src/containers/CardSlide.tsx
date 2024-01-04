@@ -1,10 +1,10 @@
-import { useEffect, useState } from "react";
-import { Game, SlidepxProps } from "../../types";
-import { styled, css } from "styled-components";
-import { AiOutlineLeft } from "react-icons/ai";
-import { AiOutlineRight } from "react-icons/ai";
-import { useNavigate } from "react-router-dom";
-import Card from "./Card/Card";
+import { useEffect, useState } from 'react';
+import { Game, SlidepxProps } from '../types';
+import { styled, css } from 'styled-components';
+import { AiOutlineLeft } from 'react-icons/ai';
+import { AiOutlineRight } from 'react-icons/ai';
+import { useNavigate } from 'react-router-dom';
+import Card from '../components/Card/Card';
 
 const GameSlideWrapper = styled.div`
   position: relative;
@@ -60,14 +60,14 @@ const LeftArrowBtn = styled.button<SlidepxProps>`
   ${commonArrowBtnStyles}
   left: 0;
   transform: translate(-60%, -40%);
-  display: ${(props) => (props.slidepx === 0 ? "none" : "")};
+  display: ${(props) => (props.slidepx === 0 ? 'none' : '')};
 `;
 
 const RightArrowBtn = styled.button<SlidepxProps>`
   ${commonArrowBtnStyles}
   right: 0;
   transform: translate(60%, -40%);
-  display: ${(props) => (props.slidepx <= -3600 ? "none" : "")};
+  display: ${(props) => (props.slidepx <= -3600 ? 'none' : '')};
 
   svg {
     color: white;
@@ -96,11 +96,11 @@ export default function GameSlide({ games }: Props) {
       setInnerWidth(windowWidth);
     };
 
-    window.addEventListener("resize", handleResize);
+    window.addEventListener('resize', handleResize);
     handleResize();
 
     return () => {
-      window.removeEventListener("resize", handleResize);
+      window.removeEventListener('resize', handleResize);
     };
   }, []);
 
@@ -140,15 +140,16 @@ export default function GameSlide({ games }: Props) {
 
   return (
     <GameSlideWrapper>
-      <GameSlideItems className="list-items">
+      <GameSlideItems className='list-items'>
         {games?.map((game, idx) => (
           <GameSlideItem
             key={idx}
             onClick={() => handleGameSlideItemClick(game)}
             style={{
               transform: `translateX(${slide}px)`,
-              transition: "0.5s ease",
-            }}>
+              transition: '0.5s ease',
+            }}
+          >
             <Card game={game}>
               <span>See Details</span>
             </Card>

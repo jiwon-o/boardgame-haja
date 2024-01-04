@@ -1,12 +1,12 @@
-import MainLayout from "../layouts/MainLayout";
-import useInput from "../hooks/useInput";
-import SearchPage from "./SearchPage";
-import useAsync from "../hooks/useAsync";
-import axios from "axios";
-import AsideNavbar from "../components/commons/Navbar/AsideNavbar";
-import { styled } from "styled-components";
-import { useState } from "react";
-import GameList from "../components/commons/GameList";
+import MainLayout from '../layouts/MainLayout';
+import useInput from '../hooks/useInput';
+import SearchPage from './SearchPage';
+import useAsync from '../hooks/useAsync';
+import axios from 'axios';
+import AsideNavbar from '../components/Navbar/AsideNavbar';
+import { styled } from 'styled-components';
+import { useState } from 'react';
+import GameList from '../containers/CardList';
 
 const CategoryWrapper = styled.div`
   display: flex;
@@ -24,7 +24,7 @@ const MainContainer = styled.main`
 `;
 
 async function getGames() {
-  const response = await axios.get("http://localhost:3001/game");
+  const response = await axios.get('http://localhost:3001/game');
   return response.data;
 }
 
@@ -33,26 +33,15 @@ export default function CategoryPage() {
   const state = useAsync(getGames, []);
   const { loading, data: games, error } = state;
 
-  const themes = games
-    ? ["전체", ...new Set(games.map((game) => game.theme))]
-    : [];
+  const themes = games ? ['전체', ...new Set(games.map((game) => game.theme))] : [];
 
-  const {
-    searchGame,
-    isClickInput,
-    handleSearch,
-    handleClickInput,
-    handleClickBackBtn,
-  } = useInput();
+  const { searchGame, isClickInput, handleSearch, handleClickInput, handleClickBackBtn } = useInput();
 
   if (loading) return <div>로딩중..</div>;
   if (error) return <div>에러가 발생했습니다</div>;
   if (!games) return null;
   return (
-    <MainLayout
-      onClickInput={handleClickInput}
-      onClickBackBtn={handleClickBackBtn}
-      onSearch={handleSearch}>
+    <MainLayout onClickInput={handleClickInput} onClickBackBtn={handleClickBackBtn} onSearch={handleSearch}>
       {!isClickInput ? (
         <CategoryWrapper>
           <AsideNavbarBox>

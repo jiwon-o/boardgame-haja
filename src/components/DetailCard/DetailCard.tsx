@@ -1,11 +1,11 @@
-import { useState } from "react";
-import { styled } from "styled-components";
-import { useNavigate } from "react-router-dom";
-import { Game } from "../../../types";
-import { IoPeopleSharp } from "react-icons/io5";
-import { AiFillStar } from "react-icons/ai";
-import { BiSolidTimeFive } from "react-icons/bi";
-import { TbRating12Plus } from "react-icons/tb";
+import { useState } from 'react';
+import { styled } from 'styled-components';
+import { useNavigate } from 'react-router-dom';
+import { Game } from '../../types';
+import { IoPeopleSharp } from 'react-icons/io5';
+import { AiFillStar } from 'react-icons/ai';
+import { BiSolidTimeFive } from 'react-icons/bi';
+import { TbRating12Plus } from 'react-icons/tb';
 
 const DetailCardWrapper = styled.div``;
 
@@ -145,9 +145,9 @@ export default function DetailCard({ game }: Props) {
         <CardThumbnail>
           <img
             src={game.image}
-            alt="보드게임 이미지"
+            alt='보드게임 이미지'
             onLoad={handleImageLoad}
-            style={{ display: imageLoaded ? "block" : "none" }}
+            style={{ display: imageLoaded ? 'block' : 'none' }}
           />
         </CardThumbnail>
         <CardDetail>

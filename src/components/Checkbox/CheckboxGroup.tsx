@@ -1,6 +1,6 @@
-import React from "react";
-import { CheckboxContext } from "../../../contexts/CheckboxContext";
-import { styled } from "styled-components";
+import React from 'react';
+import { CheckboxContext } from '../../contexts/CheckboxContext';
+import { styled } from 'styled-components';
 
 const CheckboxContainer = styled.div`
   width: 100%;
@@ -56,13 +56,7 @@ export default function CheckboxGroup({
 
   const isChecked = (value: string) => values.includes(value);
 
-  const toggleValue = ({
-    checked,
-    value,
-  }: {
-    checked: boolean;
-    value: string;
-  }) => {
+  const toggleValue = ({ checked, value }: { checked: boolean; value: string }) => {
     if (checked) {
       onChange([...values, value]);
     } else {
@@ -74,10 +68,7 @@ export default function CheckboxGroup({
     <CheckboxContainer>
       <CheckboxFieldset>
         <legend>{label}</legend>
-        <CheckboxContext.Provider
-          value={{ isDisabled, isChecked, toggleValue }}>
-          {children}
-        </CheckboxContext.Provider>
+        <CheckboxContext.Provider value={{ isDisabled, isChecked, toggleValue }}>{children}</CheckboxContext.Provider>
       </CheckboxFieldset>
     </CheckboxContainer>
   );

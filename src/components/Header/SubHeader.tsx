@@ -1,7 +1,7 @@
-import React from "react";
-import { styled } from "styled-components";
-import { IoMdArrowRoundBack } from "react-icons/io";
-import { BackBtnProps } from "../../../types";
+import React from 'react';
+import { styled } from 'styled-components';
+import { IoMdArrowRoundBack } from 'react-icons/io';
+import { BackBtnProps } from '../../types';
 
 const SubHeaderWrapper = styled.div`
   position: relative;
@@ -24,7 +24,7 @@ const SubHeaderTitle = styled.h2<BackBtnProps>`
   font-size: 2.4rem;
   font-weight: 700;
 
-  margin-left: ${(props) => (props.backBtn ? "55px" : 0)};
+  margin-left: ${(props) => (props.backBtn ? '55px' : 0)};
 `;
 
 const BackBtn = styled.button`
@@ -46,24 +46,19 @@ const BackBtn = styled.button`
 `;
 
 interface Props {
-  type: "all" | "rank" | "current" | "theme" | "search";
+  type: 'all' | 'rank' | 'current' | 'theme' | 'search';
   btnTxt?: string;
   isBackBtn?: boolean;
   onClickBackBtn?(): void;
 }
 
-export default function SubHeader({
-  type,
-  btnTxt,
-  isBackBtn,
-  onClickBackBtn,
-}: Props) {
+export default function SubHeader({ type, btnTxt, isBackBtn, onClickBackBtn }: Props) {
   const TYPES = {
-    all: "모든 게임",
-    rank: "인기 게임",
-    current: "실시간 베스트 게임",
-    theme: "같은 테마 게임",
-    search: "게임 검색",
+    all: '모든 게임',
+    rank: '인기 게임',
+    current: '실시간 베스트 게임',
+    theme: '같은 테마 게임',
+    search: '게임 검색',
   };
 
   return (

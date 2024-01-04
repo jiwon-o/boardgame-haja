@@ -1,12 +1,12 @@
 import { useState, useEffect } from 'react';
-import { Game } from '../../../types';
-import useInput from '../../../hooks/useInput';
-import useSearch from '../../../hooks/useSearch';
+import { Game } from '../../types';
+import useInput from '../../hooks/useInput';
+import useSearch from '../../hooks/useSearch';
 import { styled } from 'styled-components';
-import CheckboxGroup from '../Checkbox/CheckboxGroup';
-import Checkbox from '../Checkbox/Checkbox';
+import CheckboxGroup from '../../components/Checkbox/CheckboxGroup';
+import Checkbox from '../../components/Checkbox/Checkbox';
 import { BiX, BiRevision } from 'react-icons/bi';
-import Input from '../Input';
+import Input from '../../components/Input';
 
 const GameFilterWrapper = styled.div`
   width: 100%;
@@ -104,13 +104,7 @@ interface Props {
   hasInput?: boolean;
 }
 
-export default function GameFilter({
-  games,
-  filteredGames,
-  setFilteredGames,
-  setPage,
-  hasInput,
-}: Props) {
+export default function GameFilter({ games, filteredGames, setFilteredGames, setPage, hasInput }: Props) {
   const [selectedPlayerCounts, setSelectedPlayerCounts] = useState<string[]>([]);
   const [selectedRating, setSelectedRating] = useState<string[]>([]);
   const [selectedPlayTime, setSelectedPlayTime] = useState<string[]>([]);
@@ -126,8 +120,7 @@ export default function GameFilter({
       const gameRating = parseFloat(game.rate);
 
       // 검색 필터
-      const searchFilter =
-        searchGames(searchGame, game.name) || searchGames(searchGame, game.subTitle);
+      const searchFilter = searchGames(searchGame, game.name) || searchGames(searchGame, game.subTitle);
 
       // 게임 인원 필터
       const playerCountMatch =
@@ -288,17 +281,9 @@ export default function GameFilter({
             <Input onSearch={handleSearch} />
           </AsideInputBox>
         )}
-        <CheckboxGroup
-          label='게임 인원'
-          values={selectedPlayerCounts}
-          onChange={handlePlayerCountsChange}
-        >
+        <CheckboxGroup label='게임 인원' values={selectedPlayerCounts} onChange={handlePlayerCountsChange}>
           {playerCountOptions.map((playerCount) => (
-            <Checkbox
-              key={`player-${playerCount}`}
-              id={`player-${playerCount}`}
-              value={playerCount}
-            >
+            <Checkbox key={`player-${playerCount}`} id={`player-${playerCount}`} value={playerCount}>
               {playerCount === 'more10' ? '10인 이상' : `${playerCount}인`}
             </Checkbox>
           ))}
@@ -309,8 +294,8 @@ export default function GameFilter({
               {rating === 'less5'
                 ? '5점 미만'
                 : parseInt(rating) === 10
-                  ? `${rating}점`
-                  : `${rating}-${parseInt(rating) + 1}점`}
+                ? `${rating}점`
+                : `${rating}-${parseInt(rating) + 1}점`}
             </Checkbox>
           ))}
         </CheckboxGroup>
@@ -320,8 +305,8 @@ export default function GameFilter({
               {playTime === 'less30'
                 ? '30분 미만'
                 : playTime === 'more180'
-                  ? '180분 이상'
-                  : `${playTime}-${parseInt(playTime) + 30}분`}
+                ? '180분 이상'
+                : `${playTime}-${parseInt(playTime) + 30}분`}
             </Checkbox>
           ))}
         </CheckboxGroup>

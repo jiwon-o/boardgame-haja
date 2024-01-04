@@ -1,14 +1,14 @@
-import { useState } from "react";
-import { styled } from "styled-components";
-import Card from "./Card/Card";
-import { HiMiniTrophy } from "react-icons/hi2";
-import { AiFillStar } from "react-icons/ai";
-import useAsync from "../../hooks/useAsync";
-import axios from "axios";
-import { useEffect } from "react";
-import { Game } from "../../types";
-import Pagination from "react-js-pagination";
-import GameFilter from "./CategoryMenu/GameFilter";
+import { useState } from 'react';
+import { styled } from 'styled-components';
+import Card from '../components/Card/Card';
+import { HiMiniTrophy } from 'react-icons/hi2';
+import { AiFillStar } from 'react-icons/ai';
+import useAsync from '../hooks/useAsync';
+import axios from 'axios';
+import { useEffect } from 'react';
+import { Game } from '../types';
+import Pagination from 'react-js-pagination';
+import GameFilter from './GameFilter/GameFilter';
 
 const GameListWrapper = styled.ul`
   display: grid;
@@ -65,7 +65,7 @@ const GamePlay = styled.ul`
 
     &:not(:last-child) {
       &::after {
-        content: "|";
+        content: '|';
         margin-left: 4px;
       }
     }
@@ -98,9 +98,7 @@ interface Props {
 }
 
 async function getGames(theme?: string | null) {
-  const url = theme
-    ? `http://localhost:3001/game?theme=${encodeURIComponent(theme)}`
-    : "http://localhost:3001/game";
+  const url = theme ? `http://localhost:3001/game?theme=${encodeURIComponent(theme)}` : 'http://localhost:3001/game';
 
   const response = await axios.get(url);
   return response.data;
@@ -122,7 +120,7 @@ export default function GamesList({ selectedTheme }: Props) {
     const newGames = await getGames(selectedTheme);
     setCurrentGames(newGames.slice(indexOfFirstCard, indexOfLastCard));
     setPage(selectedPage);
-    window.scrollTo({ top: 0, behavior: "smooth" });
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
   useEffect(() => {
@@ -142,12 +140,7 @@ export default function GamesList({ selectedTheme }: Props) {
   if (!games) return null;
   return (
     <>
-      <GameFilter
-        games={games}
-        filteredGames={filteredGames}
-        setFilteredGames={setFilteredGames}
-        setPage={setPage}
-      />
+      <GameFilter games={games} filteredGames={filteredGames} setFilteredGames={setFilteredGames} setPage={setPage} />
       {currentGames?.length === 0 ? (
         <CardNotice>해당 분류와 일치하는 보드게임이 없습니다.</CardNotice>
       ) : (
@@ -161,10 +154,10 @@ export default function GamesList({ selectedTheme }: Props) {
                     <GameReleaseYear>({game.releaseYear})</GameReleaseYear>
                     <GameRankAndRate>
                       <span>
-                        <HiMiniTrophy color="#008000" /> {game.ranking}위
+                        <HiMiniTrophy color='#008000' /> {game.ranking}위
                       </span>
                       <span>
-                        <AiFillStar color="#ffff00" /> {game.rate}점
+                        <AiFillStar color='#ffff00' /> {game.rate}점
                       </span>
                     </GameRankAndRate>
                     <GamePlay>
@@ -185,8 +178,8 @@ export default function GamesList({ selectedTheme }: Props) {
             itemsCountPerPage={CardPerPage}
             totalItemsCount={filteredGames.length}
             pageRangeDisplayed={5}
-            prevPageText={"<"}
-            nextPageText={">"}
+            prevPageText={'<'}
+            nextPageText={'>'}
             onChange={handlePageChange}
           />
         </>

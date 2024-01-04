@@ -1,6 +1,6 @@
-import styled from "styled-components";
-import SearchIcon from "../../assets/icons/icon-search.svg";
-import { useState } from "react";
+import styled from 'styled-components';
+import SearchIcon from '../assets/icons/icon-search.svg';
+import { useState } from 'react';
 
 const InputWrapper = styled.form`
   padding: 6px 0 6px 40px;
@@ -36,7 +36,7 @@ interface Props {
 }
 
 export default function Input({ onClickInput, onSearch }: Props) {
-  const [search, setSearch] = useState("");
+  const [search, setSearch] = useState('');
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const newSearch = e.target.value;
@@ -46,14 +46,8 @@ export default function Input({ onClickInput, onSearch }: Props) {
 
   return (
     <InputWrapper>
-      <label className="a11y">검색</label>
-      <input
-        value={search}
-        onFocus={onClickInput}
-        onChange={handleChange}
-        autoComplete="off"
-        placeholder="검색"
-      />
+      <label className='a11y'>검색</label>
+      <input value={search} onFocus={onClickInput} onChange={handleChange} autoComplete='off' placeholder='검색' />
     </InputWrapper>
   );
 }

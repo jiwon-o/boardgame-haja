@@ -1,11 +1,11 @@
-import React from "react";
-import { CheckboxContext } from "../../../contexts/CheckboxContext";
-import { styled } from "styled-components";
+import React from 'react';
+import { CheckboxContext } from '../../contexts/CheckboxContext';
+import { styled } from 'styled-components';
 
 const CheckboxInput = styled.input`
   display: none;
 
-  &[type="checkbox"]:checked + label {
+  &[type='checkbox']:checked + label {
     background: #606efc;
     border: 1px solid #606efc;
     color: white;
@@ -39,27 +39,14 @@ interface Props {
   onChange?: (event: React.ChangeEvent<HTMLInputElement>) => void;
 }
 
-export default function Checkbox({
-  children,
-  id,
-  value,
-  checked,
-  disabled,
-  onChange,
-}: Props) {
+export default function Checkbox({ children, id, value, checked, disabled, onChange }: Props) {
   const context = React.useContext(CheckboxContext);
 
   // context의 값이 항상 null이 아님을 확인하고 구조 분해 할당을 수행하기 위해
   if (!context) {
     return (
       <label>
-        <input
-          type="checkbox"
-          id={id}
-          checked={checked}
-          disabled={disabled}
-          onChange={onChange}
-        />
+        <input type='checkbox' id={id} checked={checked} disabled={disabled} onChange={onChange} />
         {children}
       </label>
     );
@@ -70,7 +57,7 @@ export default function Checkbox({
   return (
     <>
       <CheckboxInput
-        type="checkbox"
+        type='checkbox'
         id={id}
         checked={isChecked(value)}
         disabled={disabled}

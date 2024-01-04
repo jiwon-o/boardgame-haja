@@ -9,10 +9,10 @@ import { HiMiniTrophy } from 'react-icons/hi2';
 import { AiFillStar } from 'react-icons/ai';
 import { AiOutlineYoutube } from 'react-icons/ai';
 import { SlGameController } from 'react-icons/sl';
-import VideoModal from '../components/commons/Modal/VideoModal';
+import VideoModal from '../components/Modal/VideoModal';
 import SearchPage from './SearchPage';
 import MainLayout from '../layouts/MainLayout';
-import List from '../components/commons/GameSlide';
+import List from '../containers/CardSlide';
 
 interface DetailWrapperProps {
   backgroundurl?: string;

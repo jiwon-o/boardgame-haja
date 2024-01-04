@@ -1,10 +1,10 @@
 import { useEffect, useState } from 'react';
-import { Game } from '../../types';
+import { Game } from '../types';
 import styled from 'styled-components';
 import Pagination from 'react-js-pagination';
-import '../../styles/pagination.css';
-import DetailCard from './Card/DetailCard';
-import GameFilter from './CategoryMenu/GameFilter';
+import '../styles/pagination.css';
+import DetailCard from '../components/DetailCard/DetailCard';
+import GameFilter from './GameFilter/GameFilter';
 
 const CardWrapper = styled.div`
   display: flex;

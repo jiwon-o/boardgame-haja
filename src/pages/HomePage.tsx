@@ -1,12 +1,12 @@
 import axios from 'axios';
 import useAsync from '../hooks/useAsync';
 import styled from 'styled-components';
-import Banner from '../components/commons/Banner';
+import Banner from '../components/Banner';
 import useInput from '../hooks/useInput';
 import SearchPage from './SearchPage';
 import MainLayout from '../layouts/MainLayout';
-import GameSlide from '../components/commons/GameSlide';
-import DetailGameList from '../components/commons/DetailGameList';
+import GameSlide from '../containers/CardSlide';
+import DetailGameList from '../containers/DetailCardList';
 import { useRef } from 'react';
 
 const MainContainer = styled.main`
@@ -25,8 +25,7 @@ async function getGames() {
 export default function HomePage() {
   const state = useAsync(getGames, []);
   const { loading, data: games, error } = state;
-  const { searchGame, isClickInput, handleSearch, handleClickInput, handleClickBackBtn } =
-    useInput();
+  const { searchGame, isClickInput, handleSearch, handleClickInput, handleClickBackBtn } = useInput();
 
   const filteredGames = games
     ? [...games].sort((a, b) => parseInt(b.releaseYear) - parseInt(a.releaseYear)).slice(0, 20)
@@ -38,11 +37,7 @@ export default function HomePage() {
   if (error) return <div>에러가 발생했습니다</div>;
   if (!games) return null;
   return (
-    <MainLayout
-      onClickInput={handleClickInput}
-      onClickBackBtn={handleClickBackBtn}
-      onSearch={handleSearch}
-    >
+    <MainLayout onClickInput={handleClickInput} onClickBackBtn={handleClickBackBtn} onSearch={handleSearch}>
       {!isClickInput ? (
         <>
           <Banner games={games} />
@@ -50,12 +45,7 @@ export default function HomePage() {
             <h2>실시간 베스트 게임</h2>
             <GameSlide games={filteredGames} />
             <h2 ref={containerRef}>인기 게임</h2>
-            <DetailGameList
-              loading={loading}
-              error={error}
-              games={games}
-              containerRef={containerRef}
-            />
+            <DetailGameList loading={loading} error={error} games={games} containerRef={containerRef} />
           </MainContainer>
         </>
       ) : (

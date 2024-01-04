@@ -1,7 +1,6 @@
-import "./Modal.css";
-import useYouTubeVideo from "../../../hooks/useYoutubeVideo";
-import { Game } from "../../../types";
-import styled from "styled-components";
+import useYouTubeVideo from '../../hooks/useYoutubeVideo';
+import { Game } from '../../types';
+import styled from 'styled-components';
 
 const VideoModalDim = styled.div`
   position: fixed;
@@ -64,7 +63,7 @@ export default function VideoModal({ isOpen, onClose, game }: Props) {
         <>
           <VideoModalWrapper>
             <VideoModalBox>
-              <VideoWrapper id="video-container"></VideoWrapper>
+              <VideoWrapper id='video-container'></VideoWrapper>
             </VideoModalBox>
             <VideoModalDim onClick={onClose} />
           </VideoModalWrapper>

@@ -1,17 +1,17 @@
-import styled from "styled-components";
-import Masonry from "react-masonry-css";
-import { GameRankProps } from "../../types";
-import useColumns from "../../hooks/useColumns";
-import { Game } from "../../types";
-import useSearch from "../../hooks/useSearch";
-import useScroll from "../../hooks/useScroll";
-import { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import styled from 'styled-components';
+import Masonry from 'react-masonry-css';
+import { GameRankProps } from '../types';
+import useColumns from '../hooks/useColumns';
+import { Game } from '../types';
+import useSearch from '../hooks/useSearch';
+import useScroll from '../hooks/useScroll';
+import { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 const rankColors: { [key: number]: string } = {
-  1: "#d83f31",
-  2: "#ee9322",
-  3: "#ee9322",
+  1: '#d83f31',
+  2: '#ee9322',
+  3: '#ee9322',
 };
 
 const GamesLayout = styled.div`
@@ -53,7 +53,7 @@ const GameCard = styled.div`
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
 
   &::before {
-    content: "";
+    content: '';
     position: absolute;
     background-color: #353a75;
     opacity: 0;
@@ -85,7 +85,7 @@ const GameRank = styled.span<GameRankProps>`
   font-size: 1.4rem;
   color: white;
   opacity: 0;
-  background-color: ${(props) => rankColors[props.ranking] || "#e9b824"};
+  background-color: ${(props) => rankColors[props.ranking] || '#e9b824'};
 
   ${GameCardContainer}:hover & {
     opacity: 1;
@@ -130,10 +130,7 @@ export default function Gallery({ loading, error, games, searchGame }: Props) {
   };
 
   const filteredGames = games?.filter((game) => {
-    return (
-      searchGames(searchGame, game.name) ||
-      searchGames(searchGame, game.subTitle)
-    );
+    return searchGames(searchGame, game.name) || searchGames(searchGame, game.subTitle);
   });
 
   const handleCardClick = (game: Game) => {
@@ -148,10 +145,7 @@ export default function Gallery({ loading, error, games, searchGame }: Props) {
   return (
     <GamesLayout>
       {pagedGames && pagedGames.length > 0 ? (
-        <MasonryContainer
-          breakpointCols={columns}
-          className="list"
-          columnClassName="column">
+        <MasonryContainer breakpointCols={columns} className='list' columnClassName='column'>
           {pagedGames.map((game: Game) => {
             return (
               <GameCardContainer key={game.id}>
@@ -161,11 +155,11 @@ export default function Gallery({ loading, error, games, searchGame }: Props) {
                     src={game.image}
                     alt={game.name}
                     onLoad={handleImageLoad}
-                    style={{ display: imageLoaded ? "block" : "none" }}
+                    style={{ display: imageLoaded ? 'block' : 'none' }}
                   />
                 </GameCard>
                 <GameTitle>{game.name}</GameTitle>
-                <h4 className="a11y">{game.subTitle}</h4>
+                <h4 className='a11y'>{game.subTitle}</h4>
               </GameCardContainer>
             );
           })}

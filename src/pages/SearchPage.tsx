@@ -1,6 +1,6 @@
-import SubHeader from "../components/commons/Header/SubHeader";
-import Gallery from "../components/commons/Gallery";
-import { Game } from "../types";
+import SubHeader from '../components/Header/SubHeader';
+import Gallery from '../containers/Gallery';
+import { Game } from '../types';
 
 interface Props {
   loading: boolean;
@@ -10,26 +10,11 @@ interface Props {
   onClickBackBtn?(): void;
 }
 
-export default function SearchPage({
-  loading,
-  error,
-  games,
-  onClickBackBtn,
-  searchGame,
-}: Props) {
+export default function SearchPage({ loading, error, games, onClickBackBtn, searchGame }: Props) {
   return (
     <>
-      <SubHeader
-        type="search"
-        isBackBtn={true}
-        onClickBackBtn={onClickBackBtn}
-      />
-      <Gallery
-        loading={loading}
-        error={error}
-        games={games}
-        searchGame={searchGame}
-      />
+      <SubHeader type='search' isBackBtn={true} onClickBackBtn={onClickBackBtn} />
+      <Gallery loading={loading} error={error} games={games} searchGame={searchGame} />
     </>
   );
 }

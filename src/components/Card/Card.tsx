@@ -1,7 +1,7 @@
-import { styled } from "styled-components";
-import { Game } from "../../../types";
-import { useNavigate } from "react-router-dom";
-import { useState } from "react";
+import { styled } from 'styled-components';
+import { Game } from '../../types';
+import { useNavigate } from 'react-router-dom';
+import { useState } from 'react';
 
 const CardWrapper = styled.div`
   width: 180px;
@@ -48,7 +48,7 @@ const ImageBox = styled.div`
 `;
 
 const Overlay = styled.div`
-  content: "";
+  content: '';
   position: absolute;
   width: 100%;
   top: 0;
@@ -92,9 +92,9 @@ export default function Card({ game, children }: Props) {
           src={game.image}
           alt={`${game.name} 이미지`}
           onLoad={handleImageLoad}
-          style={{ display: imageLoaded ? "block" : "none" }}
+          style={{ display: imageLoaded ? 'block' : 'none' }}
         />
-        <Overlay className="overlay">{children}</Overlay>
+        <Overlay className='overlay'>{children}</Overlay>
       </ImageBox>
       <GameTitle>{game.name}</GameTitle>
     </CardWrapper>
