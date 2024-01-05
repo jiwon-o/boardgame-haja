@@ -33,7 +33,7 @@ const GameFilterWrapper = styled.div`
 
     span {
       color: #606efc;
-      font-weight: 600;
+      font-weight: 700;
     }
   }
 `;
@@ -64,7 +64,7 @@ const CheckboxResultBox = styled.ul`
 
   li {
     padding: 4px 2px 2px 8px;
-    background-color: #382f84c1;
+    background-color: #382f84;
     border-radius: 6px;
     font-size: 1.2rem;
 
@@ -267,6 +267,18 @@ export default function GameFilter({ games, filteredGames, setFilteredGames, set
   const ratingOptions = ['10', '9', '8', '7', '6', '5', 'less5'];
   const playTimeOptions = ['less30', '30', '60', '90', '120', '150', 'more180'];
 
+  const getRatingLabel = (rating: string) => {
+    if (rating === 'less5') return '5점 미만';
+    if (parseInt(rating) === 10) return `${rating}점`;
+    return `${rating}-${parseInt(rating) + 1}점`;
+  };
+
+  const getPlayTimeLabel = (playTime: string) => {
+    if (playTime === 'less30') return '30분 미만';
+    if (playTime === 'more180') return '180분 이상';
+    return `${playTime}-${parseInt(playTime) + 30}분`;
+  };
+
   return (
     <GameFilterWrapper>
       <header>
@@ -291,22 +303,14 @@ export default function GameFilter({ games, filteredGames, setFilteredGames, set
         <CheckboxGroup label='게임 평점' values={selectedRating} onChange={handleRatingChange}>
           {ratingOptions.map((rating) => (
             <Checkbox key={`rating-${rating}`} id={`rating-${rating}`} value={rating}>
-              {rating === 'less5'
-                ? '5점 미만'
-                : parseInt(rating) === 10
-                ? `${rating}점`
-                : `${rating}-${parseInt(rating) + 1}점`}
+              {getRatingLabel(rating)}
             </Checkbox>
           ))}
         </CheckboxGroup>
         <CheckboxGroup label='게임 시간' values={selectedPlayTime} onChange={handlePlayTimeChange}>
           {playTimeOptions.map((playTime) => (
             <Checkbox key={`rating-${playTime}`} id={`rating-${playTime}`} value={playTime}>
-              {playTime === 'less30'
-                ? '30분 미만'
-                : playTime === 'more180'
-                ? '180분 이상'
-                : `${playTime}-${parseInt(playTime) + 30}분`}
+              {getPlayTimeLabel(playTime)}
             </Checkbox>
           ))}
         </CheckboxGroup>
