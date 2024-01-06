@@ -35,7 +35,6 @@ const LogoImage = styled(Link)`
   &::before {
     content: '';
     position: absolute;
-    background-color: #666666;
     width: 1px;
     height: 32px;
     top: 50%;
@@ -71,14 +70,14 @@ const LoginContent = styled.div`
     padding: 10px 16px;
     border-radius: 10px;
     white-space: nowrap;
-    background-color: #383d61;
+    background-color: ${({ theme }) => theme.colors.grayColor};
     color: #fff;
     font-size: 1.2rem;
     font-weight: 700;
   }
 
   .primary {
-    background-color: #1d40da;
+    background-color: ${({ theme }) => theme.colors.blueColor};
   }
 `;
 

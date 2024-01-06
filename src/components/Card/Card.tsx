@@ -61,7 +61,7 @@ const Overlay = styled.div`
   font-size: 1.6rem;
   font-weight: 700;
   background: rgba(0, 0, 0, 0.8);
-  box-shadow: inset 0 0 0 3px #3e60f5;
+  box-shadow: inset 0 0 0 3px ${({ theme }) => theme.colors.bdBlueColor};
   border-radius: 12px;
   opacity: 0;
   transition: opacity 0.3ms;

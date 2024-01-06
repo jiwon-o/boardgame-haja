@@ -7,26 +7,26 @@ const InputWrapper = styled.form`
   border-radius: 16px;
   width: 100%;
   background: url(${SearchIcon}) no-repeat left 12px center / 16px;
-  background-color: #24244a;
+  background-color: ${({ theme }) => theme.colors.darkGrayColor};
   border: 1px solid transparent;
 
   input {
     width: calc(100% - 2.2rem);
     font-size: 1.6rem;
-    color: #ececf1;
+    color: ${({ theme }) => theme.colors.whiteColor};
     line-height: 160%;
 
     outline: none;
 
     &::placeholder {
       font-weight: 700;
-      color: #7a7e8c;
+      color: ${({ theme }) => theme.colors.txtSubColor};
     }
   }
 
   &:focus-within {
-    background-color: #1b1d23;
-    border: 1px solid #528bff;
+    background-color: ${({ theme }) => theme.colors.blackColor};
+    border: 1px solid ${({ theme }) => theme.colors.bdBlueColor};
   }
 `;
 

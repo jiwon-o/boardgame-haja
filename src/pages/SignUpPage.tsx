@@ -51,7 +51,7 @@ const SignUpInput = styled.input`
   padding: 15px 16px;
   border: 1px solid var(--color-border);
   border-radius: 5px;
-  background-color: white;
+  background-color: ${({ theme }) => theme.colors.whiteColor};
   font-size: 16px;
   font-weight: 400;
   margin-bottom: 20px;
@@ -66,12 +66,12 @@ const SignUpButton = styled.button`
   height: 50px;
   background-color: #2f80ed;
   border-radius: 5px;
-  color: white;
+  color: ${({ theme }) => theme.colors.whiteColor};
   font-size: 18px;
   margin-bottom: 40px;
 
   &:disabled {
-    background-color: #666666;
+    background-color: ${({ theme }) => theme.colors.lightGrayColor};
     cursor: default;
   }
 `;

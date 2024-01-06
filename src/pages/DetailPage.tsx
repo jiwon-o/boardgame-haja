@@ -62,7 +62,7 @@ const GameDetails = styled.div`
     margin-top: 20px;
     font-size: 1.6rem;
     line-height: 2.4rem;
-    color: #c5c3ec;
+    color: ${({ theme }) => theme.colors.txtParaColor};
   }
 `;
 
@@ -70,8 +70,8 @@ const GameTheme = styled.div`
   width: fit-content;
   padding: 10px 12px;
   border-radius: 10px;
-  background-color: #382f84;
-  color: #ececf1;
+  background-color: ${({ theme }) => theme.colors.navyColor};
+  color: ${({ theme }) => theme.colors.whiteColor};
   font-size: 1.4rem;
   font-weight: 700;
 `;
@@ -88,7 +88,7 @@ const GameTitle = styled.h2`
 
 const GameSubTitle = styled.h3`
   font-size: 1.8rem;
-  color: #7d7b9f;
+  color: ${({ theme }) => theme.colors.txtSubColor};
   font-weight: 700;
   margin-top: 8px;
   margin-left: 4px;
@@ -98,7 +98,7 @@ const GameAttributes = styled.ul`
   display: flex;
   margin-top: 20px;
   margin-left: 4px;
-  color: #c5c3ec;
+  color: ${({ theme }) => theme.colors.txtParaColor};
   font-size: 1.6rem;
   font-weight: 700;
 

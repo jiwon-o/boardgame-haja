@@ -20,7 +20,7 @@ const VideoModalWrapper = styled.div`
 `;
 
 const VideoModalBox = styled.div`
-  background-color: black;
+  background-color: ${({ theme }) => theme.colors.blackColor};
   position: absolute;
   top: 45%;
   left: 50%;

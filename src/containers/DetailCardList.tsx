@@ -25,8 +25,8 @@ const AsideCategoryContainer = styled.aside`
   max-width: 300px;
   border-radius: 12px;
   background: linear-gradient(-45deg, #1a1646, #1a1646);
-  border: 1px solid #14112e;
-  box-shadow: 0 0 10px #14112e;
+  border: 1px solid ${({ theme }) => theme.colors.lightBlackColor};
+  box-shadow: 0 0 10px ${({ theme }) => theme.colors.lightBlackColor};
 `;
 
 const CardNotice = styled.div`

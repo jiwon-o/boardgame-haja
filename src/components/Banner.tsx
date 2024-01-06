@@ -39,7 +39,7 @@ const BannerContainer = styled.div`
   top: 0;
   width: 100%;
   height: 100%;
-  color: white;
+  color: ${({ theme }) => theme.colors.whiteColor};
   background-image: linear-gradient(90deg, rgb(20, 17, 46, 1), rgb(28, 23, 75, 0.7), rgb(20, 17, 46, 0.5));
 
   @media screen and (max-width: 900px) {
@@ -67,7 +67,7 @@ const BannerContent = styled.div`
     font-size: 1.8rem;
     font-weight: 700;
     margin-top: 10px;
-    color: #7d7b9f;
+    color: ${({ theme }) => theme.colors.txtSubColor};
   }
 
   button {
@@ -109,7 +109,7 @@ const VideoWrapper = styled.div`
   height: 315px;
   position: relative;
   border-radius: 6px;
-  border: 2px solid #606efc;
+  border: 2px solid ${({ theme }) => theme.colors.mainColor};
 
   iframe {
     z-index: 1;

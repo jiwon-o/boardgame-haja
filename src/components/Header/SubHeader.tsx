@@ -14,8 +14,8 @@ const SubHeaderWrapper = styled.div`
 const RightButton = styled.button`
   padding: 10px 16px 12px;
   border-radius: 10px;
-  background-color: #383d61;
-  color: #fff;
+  background-color: ${({ theme }) => theme.colors.grayColor};
+  color: ${({ theme }) => theme.colors.whiteColor};
   font-size: 1.4rem;
   font-weight: 700;
 `;
@@ -38,10 +38,10 @@ const BackBtn = styled.button`
   height: 50px;
   border-radius: 50%;
   font-size: 3rem;
-  color: #ececf1;
+  color: ${({ theme }) => theme.colors.whiteColor};
 
   &:hover {
-    background-color: #1c174b;
+    background-color: ${({ theme }) => theme.colors.bgGradientColor2};
   }
 `;
 

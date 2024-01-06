@@ -41,11 +41,11 @@ const commonArrowBtnStyles = css`
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background-color: #24244a;
-  box-shadow: 1px 1px 5px black;
+  background-color: ${({ theme }) => theme.colors.darkGrayColor};
+  box-shadow: 1px 1px 5px ${({ theme }) => theme.colors.blackColor};
 
   svg {
-    color: white;
+    color: ${({ theme }) => theme.colors.whiteColor};
     font-size: 20px;
     font-weight: 700;
   }
@@ -70,7 +70,7 @@ const RightArrowBtn = styled.button<SlidepxProps>`
   display: ${(props) => (props.slidepx <= -3600 ? 'none' : '')};
 
   svg {
-    color: white;
+    color: ${({ theme }) => theme.colors.whiteColor};
     font-size: 20px;
     font-weight: 700;
   }

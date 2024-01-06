@@ -11,13 +11,13 @@ import Input from '../../components/Input';
 const GameFilterWrapper = styled.div`
   width: 100%;
   background: linear-gradient(-45deg, #1a1646, #1a1646);
-  border: 1px solid #14112e;
+  border: 1px solid ${({ theme }) => theme.colors.lightBlackColor};
   border-radius: 12px;
 
   header {
     width: 100%;
     padding: 14px;
-    background-color: #382f84;
+    background-color: ${({ theme }) => theme.colors.navyColor};
     border-radius: 12px 12px 0 0;
   }
 
@@ -32,7 +32,7 @@ const GameFilterWrapper = styled.div`
     margin-bottom: 12px;
 
     span {
-      color: #606efc;
+      color: ${({ theme }) => theme.colors.mainColor};
       font-weight: 700;
     }
   }
@@ -64,19 +64,19 @@ const CheckboxResultBox = styled.ul`
 
   li {
     padding: 4px 2px 2px 8px;
-    background-color: #382f84;
+    background-color: ${({ theme }) => theme.colors.navyColor};
     border-radius: 6px;
     font-size: 1.2rem;
 
     span {
       white-space: nowrap;
-      color: white;
+      color: ${({ theme }) => theme.colors.whiteColor};
       font-weight: 300;
     }
 
     svg {
       margin-left: 2px;
-      color: #ff4545;
+      color: ${({ theme }) => theme.colors.redColor};
       font-size: 2rem;
     }
 
@@ -89,7 +89,7 @@ const CheckboxResultBox = styled.ul`
 const CheckboxResetButton = styled.button`
   svg {
     font-size: 2.4rem;
-    color: white;
+    color: ${({ theme }) => theme.colors.whiteColor};
   }
 `;
 

@@ -6,9 +6,9 @@ const CheckboxInput = styled.input`
   display: none;
 
   &[type='checkbox']:checked + label {
-    background: #606efc;
-    border: 1px solid #606efc;
-    color: white;
+    background: ${({ theme }) => theme.colors.mainColor};
+    border: 1px solid ${({ theme }) => theme.colors.mainColor};
+    color: ${({ theme }) => theme.colors.whiteColor};
   }
 `;
 
@@ -19,7 +19,7 @@ const CheckboxLabel = styled.label`
   min-width: 40px;
   min-height: 24px;
   padding: 8px 14px;
-  border: 1px solid #42389e;
+  border: 1px solid ${({ theme }) => theme.colors.bdNavyColor};
   border-radius: 10px;
   font-size: 1.3rem;
   white-space: nowrap;

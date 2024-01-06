@@ -40,7 +40,7 @@ const GameCardContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: #ececf1;
+  color: ${({ theme }) => theme.colors.whiteColor};
   cursor: pointer;
   & + & {
     margin-top: 20px;
@@ -55,7 +55,7 @@ const GameCard = styled.div`
   &::before {
     content: '';
     position: absolute;
-    background-color: #353a75;
+    background-color: ${({ theme }) => theme.colors.navyColor};
     opacity: 0;
     top: 0;
     left: 0;
@@ -83,7 +83,7 @@ const GameRank = styled.span<GameRankProps>`
   border-radius: 50%;
   padding: 2px;
   font-size: 1.4rem;
-  color: white;
+  color: ${({ theme }) => theme.colors.whiteColor};
   opacity: 0;
   background-color: ${(props) => rankColors[props.ranking] || '#e9b824'};
 

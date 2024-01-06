@@ -14,14 +14,14 @@ const CardContainer = styled.div`
   background-color: transparent;
   border-radius: 10px;
   display: flex;
-  border: 1px solid #14112e;
-  box-shadow: 0 0 10px #14112e;
+  border: 1px solid ${({ theme }) => theme.colors.lightBlackColor};
+  box-shadow: 0 0 10px ${({ theme }) => theme.colors.lightBlackColor};
   margin-bottom: 10px;
 
   &:hover {
     cursor: pointer;
-    background-color: #1f1a4cd7;
-    box-shadow: 3px 3px 5px black;
+    background-color: ${({ theme }) => theme.colors.bgHoverColor};
+    box-shadow: 3px 3px 5px ${({ theme }) => theme.colors.blackColor};
     border: 1px solid transparent;
   }
 `;
@@ -32,8 +32,7 @@ const CardThumbnail = styled.div`
   width: 100%;
   height: 100%;
   padding: 14px;
-  border-right: 1px solid #14112e;
-
+  border-right: 1px solid ${({ theme }) => theme.colors.lightBlackColor};
   img {
     width: 100%;
     height: 100%;
@@ -57,11 +56,11 @@ const GameTheme = styled.strong`
   width: fit-content;
   padding: 8px 12px;
   border-radius: 10px;
-  background-color: #24244a;
-  color: #ececf1;
+  background-color: ${({ theme }) => theme.colors.darkGrayColor};
+  color: ${({ theme }) => theme.colors.whiteColor};
   font-size: 1.4rem;
   font-weight: 700;
-  box-shadow: 1px 1px 1px #14112e;
+  box-shadow: 1px 1px 1px ${({ theme }) => theme.colors.lightBlackColor};
 `;
 
 const GameTitle = styled.h3`
@@ -77,7 +76,7 @@ const GameTitle = styled.h3`
 
 const GameSubTitle = styled.h4`
   font-size: 1.6rem;
-  color: #7d7b9f;
+  color: ${({ theme }) => theme.colors.txtSubColor};
   margin: 10px 0 0 6px;
 `;
 
@@ -91,11 +90,11 @@ const GamePlay = styled.ul`
 const GamePlayItem = styled.li`
   padding: 8px 12px;
   border-radius: 10px;
-  background-color: #382f84;
-  color: #ececf1;
+  background-color: ${({ theme }) => theme.colors.navyColor};
+  color: ${({ theme }) => theme.colors.whiteColor};
   line-height: 20px;
   font-size: 1.4rem;
-  box-shadow: 1px 1px 1px #14112e;
+  box-shadow: 1px 1px 1px ${({ theme }) => theme.colors.lightBlackColor};
   svg {
     font-size: 18px;
     margin-top: -2px;
@@ -114,8 +113,8 @@ const GameRank = styled.span`
   border-radius: 50%;
   padding: 2px;
   font-size: 1.4rem;
-  color: white;
-  background-color: #606efc;
+  color: ${({ theme }) => theme.colors.whiteColor};
+  background-color: ${({ theme }) => theme.colors.mainColor};
   opacity: 0;
 
   ${CardContainer}:hover & {

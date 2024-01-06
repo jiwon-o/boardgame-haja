@@ -51,7 +51,7 @@ const LoginInput = styled.input`
   padding: 15px 16px;
   border: 1px solid var(--color-border);
   border-radius: 5px;
-  background-color: white;
+  background-color: ${({ theme }) => theme.colors.whiteColor};
   font-size: 16px;
   font-weight: 400;
   margin-bottom: 20px;
@@ -66,12 +66,12 @@ const LoginButton = styled.button`
   height: 50px;
   background-color: #2f80ed;
   border-radius: 5px;
-  color: white;
+  color: ${({ theme }) => theme.colors.whiteColor};
   font-size: 18px;
   margin-bottom: 40px;
 
   &:disabled {
-    background-color: #666666;
+    background-color: ${({ theme }) => theme.colors.lightGrayColor};
     cursor: default;
   }
 `;
@@ -124,13 +124,7 @@ export default function LoginPage() {
       <LoginSection>
         <form onSubmit={handleSignInSubmit}>
           <InputLabel htmlFor='inpEmail'>이메일</InputLabel>
-          <LoginInput
-            id='inpEmail'
-            type='email'
-            data-testid='email-input'
-            value={email}
-            onChange={handleEmailChange}
-          />
+          <LoginInput id='inpEmail' type='email' data-testid='email-input' value={email} onChange={handleEmailChange} />
           {!isValidEmail && email !== '' && (
             <StyledText className='error-message'>유효한 이메일을 입력하세요.</StyledText>
           )}

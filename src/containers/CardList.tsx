@@ -79,8 +79,8 @@ const GameTheme = styled.strong`
   width: fit-content;
   padding: 8px 12px;
   border-radius: 10px;
-  background-color: #24244a;
-  color: white;
+  background-color: ${({ theme }) => theme.colors.darkGrayColor};
+  color: ${({ theme }) => theme.colors.whiteColor};
   font-size: 1.4rem;
   font-weight: 500;
 `;

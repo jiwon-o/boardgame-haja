@@ -10,11 +10,11 @@ const CheckboxContainer = styled.div`
     width: 6px;
     height: 6px;
     border-radius: 6px;
-    background: #14112e;
+    background: ${({ theme }) => theme.colors.lightBlackColor};
   }
 
   &::-webkit-scrollbar-thumb {
-    background: #606efc;
+    background: ${({ theme }) => theme.colors.mainColor};
     border-radius: 6px;
     margin: 2px;
   }
