@@ -23,12 +23,12 @@ const GameFilterWrapper = styled.div`
 
   h3 {
     text-align: center;
-    font-size: 1.4rem;
+    font-size: ${({ theme }) => theme.fontSize.sm};
   }
 
   p {
     text-align: end;
-    font-size: 1.4rem;
+    font-size: ${({ theme }) => theme.fontSize.sm};
     margin-bottom: 12px;
 
     span {
@@ -66,7 +66,7 @@ const CheckboxResultBox = styled.ul`
     padding: 4px 2px 2px 8px;
     background-color: ${({ theme }) => theme.colors.navyColor};
     border-radius: 6px;
-    font-size: 1.2rem;
+    font-size: ${({ theme }) => theme.fontSize.xs};
 
     span {
       white-space: nowrap;
@@ -77,7 +77,7 @@ const CheckboxResultBox = styled.ul`
     svg {
       margin-left: 2px;
       color: ${({ theme }) => theme.colors.redColor};
-      font-size: 2rem;
+      font-size: ${({ theme }) => theme.fontSize.xl};
     }
 
     &:hover {
@@ -88,7 +88,7 @@ const CheckboxResultBox = styled.ul`
 
 const CheckboxResetButton = styled.button`
   svg {
-    font-size: 2.4rem;
+    font-size: ${({ theme }) => theme.fontSize.sub};
     color: ${({ theme }) => theme.colors.whiteColor};
   }
 `;

@@ -12,7 +12,7 @@ const CardWrapper = styled.div`
 `;
 
 const GameTitle = styled.h3`
-  font-size: 1.4rem;
+  font-size: ${({ theme }) => theme.fontSize.sm};
   margin-top: 6px;
   padding: 0 16px;
   line-height: 20px;
@@ -58,7 +58,7 @@ const Overlay = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.6rem;
+  font-size: ${({ theme }) => theme.fontSize.md};
   font-weight: 700;
   background: rgba(0, 0, 0, 0.8);
   box-shadow: inset 0 0 0 3px ${({ theme }) => theme.colors.bdBlueColor};

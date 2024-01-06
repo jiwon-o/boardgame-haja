@@ -21,7 +21,7 @@ const CheckboxLabel = styled.label`
   padding: 8px 14px;
   border: 1px solid ${({ theme }) => theme.colors.bdNavyColor};
   border-radius: 10px;
-  font-size: 1.3rem;
+  font-size: ${({ theme }) => theme.fontSize.sm};
   white-space: nowrap;
   user-select: none;
 

@@ -58,24 +58,24 @@ const GameTheme = styled.strong`
   border-radius: 10px;
   background-color: ${({ theme }) => theme.colors.darkGrayColor};
   color: ${({ theme }) => theme.colors.whiteColor};
-  font-size: 1.4rem;
+  font-size: ${({ theme }) => theme.fontSize.sm};
   font-weight: 700;
   box-shadow: 1px 1px 1px ${({ theme }) => theme.colors.lightBlackColor};
 `;
 
 const GameTitle = styled.h3`
-  font-size: 2rem;
+  font-size: ${({ theme }) => theme.fontSize.xl};
   margin: 24px 0 0 6px;
 
   span {
     display: inline-block;
-    font-size: 1.8rem;
+    font-size: ${({ theme }) => theme.fontSize.lg};
     margin-left: 6px;
   }
 `;
 
 const GameSubTitle = styled.h4`
-  font-size: 1.6rem;
+  font-size: ${({ theme }) => theme.fontSize.md};
   color: ${({ theme }) => theme.colors.txtSubColor};
   margin: 10px 0 0 6px;
 `;
@@ -93,7 +93,7 @@ const GamePlayItem = styled.li`
   background-color: ${({ theme }) => theme.colors.navyColor};
   color: ${({ theme }) => theme.colors.whiteColor};
   line-height: 20px;
-  font-size: 1.4rem;
+  font-size: ${({ theme }) => theme.fontSize.sm};
   box-shadow: 1px 1px 1px ${({ theme }) => theme.colors.lightBlackColor};
   svg {
     font-size: 18px;
@@ -112,7 +112,7 @@ const GameRank = styled.span`
   min-height: 24px;
   border-radius: 50%;
   padding: 2px;
-  font-size: 1.4rem;
+  font-size: ${({ theme }) => theme.fontSize.sm};
   color: ${({ theme }) => theme.colors.whiteColor};
   background-color: ${({ theme }) => theme.colors.mainColor};
   opacity: 0;

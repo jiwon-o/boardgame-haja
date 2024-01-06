@@ -1,12 +1,12 @@
-import { useEffect } from "react";
-import { styled } from "styled-components";
-import { Link, useParams } from "react-router-dom";
+import { useEffect } from 'react';
+import { styled } from 'styled-components';
+import { Link, useParams } from 'react-router-dom';
 
 const AsideNavbarWrapper = styled.div`
   width: 100%;
 
   h2 {
-    font-size: 3rem;
+    font-size: ${({ theme }) => theme.fontSize.ttl};
     font-weight: 700;
     margin: 40px 0 56px;
   }
@@ -19,7 +19,7 @@ const AsideNavLists = styled.ul`
   margin-left: 6px;
 
   li {
-    font-size: 1.4rem;
+    font-size: ${({ theme }) => theme.fontSize.sm};
     font-weight: 300;
   }
 `;
@@ -38,23 +38,21 @@ export default function AsideNavbar({ themes, setSelectedTheme }: Props) {
   }, [theme]);
 
   const handleSelectedTheme = (selectedTheme: string) => {
-    if (selectedTheme === "전체") {
+    if (selectedTheme === '전체') {
       setSelectedTheme(null);
     } else {
       setSelectedTheme(selectedTheme);
     }
-    window.scrollTo({ top: 0, behavior: "smooth" });
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
   return (
     <AsideNavbarWrapper>
-      <h2>{theme === "전체" ? "카테고리" : theme}</h2>
+      <h2>{theme === '전체' ? '카테고리' : theme}</h2>
       <AsideNavLists>
         {themes.map((theme, index) => (
           <li key={index}>
-            <Link
-              to={`/categories/${encodeURIComponent(theme)}`}
-              onClick={() => handleSelectedTheme(theme)}>
+            <Link to={`/categories/${encodeURIComponent(theme)}`} onClick={() => handleSelectedTheme(theme)}>
               {theme}
             </Link>
           </li>

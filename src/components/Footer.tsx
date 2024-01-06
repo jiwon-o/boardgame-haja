@@ -6,7 +6,7 @@ const FooterWrapper = styled.footer`
   position: relative;
   margin-top: 100px;
   padding: 40px 0;
-  font-size: 1.4rem;
+  font-size: ${({ theme }) => theme.fontSize.sm};
 
   div:first-child {
     margin-bottom: 32px;

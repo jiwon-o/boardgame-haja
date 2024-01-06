@@ -12,7 +12,7 @@ import { useRef } from 'react';
 const MainContainer = styled.main`
   h2 {
     margin: 80px 0 40px;
-    font-size: 2.4rem;
+    font-size: ${({ theme }) => theme.fontSize.sub};
     font-weight: 700;
   }
 `;

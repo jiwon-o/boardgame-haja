@@ -82,7 +82,7 @@ const GameRank = styled.span<GameRankProps>`
   min-height: 28px;
   border-radius: 50%;
   padding: 2px;
-  font-size: 1.4rem;
+  font-size: ${({ theme }) => theme.fontSize.sm};
   color: ${({ theme }) => theme.colors.whiteColor};
   opacity: 0;
   background-color: ${(props) => rankColors[props.ranking] || '#e9b824'};
@@ -105,7 +105,7 @@ const GameTitle = styled.h3`
   justify-content: space-between;
   gap: 6px;
   padding: 16px 20px;
-  font-size: 1.5rem;
+  font-size: ${({ theme }) => theme.fontSize.md};
   font-weight: 500;
   line-height: 1.2em;
 `;

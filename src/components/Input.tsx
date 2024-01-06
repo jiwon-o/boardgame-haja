@@ -12,7 +12,7 @@ const InputWrapper = styled.form`
 
   input {
     width: calc(100% - 2.2rem);
-    font-size: 1.6rem;
+    font-size: ${({ theme }) => theme.fontSize.md};
     color: ${({ theme }) => theme.colors.whiteColor};
     line-height: 160%;
 

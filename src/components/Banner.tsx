@@ -53,7 +53,7 @@ const BannerContent = styled.div`
 
   h2 {
     color: #395bf4;
-    font-size: 1.6rem;
+    font-size: ${({ theme }) => theme.fontSize.md};
     font-weight: 700;
   }
 
@@ -64,7 +64,7 @@ const BannerContent = styled.div`
   }
 
   h4 {
-    font-size: 1.8rem;
+    font-size: ${({ theme }) => theme.fontSize.lg};
     font-weight: 700;
     margin-top: 10px;
     color: ${({ theme }) => theme.colors.txtSubColor};
@@ -75,7 +75,7 @@ const BannerContent = styled.div`
     padding: 12px 10px 14px 16px;
     border-radius: 10px;
     color: #fff;
-    font-size: 1.4rem;
+    font-size: ${({ theme }) => theme.fontSize.sm};
     font-weight: 700;
     margin-top: 60px;
     background: linear-gradient(90deg, rgb(62, 96, 245), rgb(29, 64, 218));

@@ -60,7 +60,7 @@ const GameDetails = styled.div`
 
   p {
     margin-top: 20px;
-    font-size: 1.6rem;
+    font-size: ${({ theme }) => theme.fontSize.md};
     line-height: 2.4rem;
     color: ${({ theme }) => theme.colors.txtParaColor};
   }
@@ -72,22 +72,22 @@ const GameTheme = styled.div`
   border-radius: 10px;
   background-color: ${({ theme }) => theme.colors.navyColor};
   color: ${({ theme }) => theme.colors.whiteColor};
-  font-size: 1.4rem;
+  font-size: ${({ theme }) => theme.fontSize.sm};
   font-weight: 700;
 `;
 
 const GameTitle = styled.h2`
-  font-size: 3rem;
+  font-size: ${({ theme }) => theme.fontSize.ttl};
   margin-top: 16px;
   line-height: 3.3rem;
 
   span {
-    font-size: 2.2rem;
+    font-size: ${({ theme }) => theme.fontSize.sub};
   }
 `;
 
 const GameSubTitle = styled.h3`
-  font-size: 1.8rem;
+  font-size: ${({ theme }) => theme.fontSize.lg};
   color: ${({ theme }) => theme.colors.txtSubColor};
   font-weight: 700;
   margin-top: 8px;
@@ -99,7 +99,7 @@ const GameAttributes = styled.ul`
   margin-top: 20px;
   margin-left: 4px;
   color: ${({ theme }) => theme.colors.txtParaColor};
-  font-size: 1.6rem;
+  font-size: ${({ theme }) => theme.fontSize.md};
   font-weight: 700;
 
   li::before {
@@ -117,7 +117,7 @@ const GameAttributes = styled.ul`
 const GameStats = styled.ul`
   display: flex;
   margin-top: 16px;
-  font-size: 2.4rem;
+  font-size: ${({ theme }) => theme.fontSize.sub};
   gap: 20px;
 
   svg {
@@ -133,7 +133,7 @@ const ButtonBox = styled.div`
     height: 44px;
     border-radius: 20px;
     color: #fff;
-    font-size: 1.4rem;
+    font-size: ${({ theme }) => theme.fontSize.sm};
     font-weight: 600;
   }
 
@@ -169,7 +169,7 @@ const GameListSection = styled.section`
 
   h2 {
     margin: 80px 0 40px;
-    font-size: 2.4rem;
+    font-size: ${({ theme }) => theme.fontSize.sub};
     font-weight: 700;
   }
 `;

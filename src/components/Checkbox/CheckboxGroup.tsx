@@ -27,7 +27,7 @@ const CheckboxFieldset = styled.fieldset`
   margin-bottom: 14px;
 
   legend {
-    font-size: 1.4rem;
+    font-size: ${({ theme }) => theme.fontSize.sm};
     margin-bottom: 8px;
     padding: 4px;
     position: sticky;

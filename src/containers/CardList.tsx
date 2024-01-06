@@ -31,7 +31,7 @@ const CardDetail = styled.div`
 const GameTitle = styled.h3`
   max-width: 100%;
   text-align: center;
-  font-size: 1.8rem;
+  font-size: ${({ theme }) => theme.fontSize.lg};
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
@@ -43,7 +43,7 @@ const GameTitle = styled.h3`
 
 const GameReleaseYear = styled.span`
   display: block;
-  font-size: 1.4rem;
+  font-size: ${({ theme }) => theme.fontSize.sm};
   margin-bottom: 16px;
 `;
 
@@ -51,13 +51,13 @@ const GameRankAndRate = styled.div`
   display: flex;
   justify-content: center;
   gap: 12px;
-  font-size: 1.6rem;
+  font-size: ${({ theme }) => theme.fontSize.md};
   margin-bottom: 16px;
 `;
 
 const GamePlay = styled.ul`
   display: flex;
-  font-size: 1.2rem;
+  font-size: ${({ theme }) => theme.fontSize.xs};
   white-space: nowrap;
 
   li {
@@ -81,7 +81,7 @@ const GameTheme = styled.strong`
   border-radius: 10px;
   background-color: ${({ theme }) => theme.colors.darkGrayColor};
   color: ${({ theme }) => theme.colors.whiteColor};
-  font-size: 1.4rem;
+  font-size: ${({ theme }) => theme.fontSize.sm};
   font-weight: 500;
 `;
 
@@ -90,7 +90,7 @@ const CardNotice = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.4rem;
+  font-size: ${({ theme }) => theme.fontSize.sm};
 `;
 
 interface Props {

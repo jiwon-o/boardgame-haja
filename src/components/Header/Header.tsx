@@ -53,7 +53,7 @@ const LinkWrapper = styled.div`
   display: flex;
   justify-content: space-around;
   gap: 20px;
-  font-size: 1.4rem;
+  font-size: ${({ theme }) => theme.fontSize.sm};
 
   a {
     padding: 4px 6px;
@@ -72,7 +72,7 @@ const LoginContent = styled.div`
     white-space: nowrap;
     background-color: ${({ theme }) => theme.colors.grayColor};
     color: #fff;
-    font-size: 1.2rem;
+    font-size: ${({ theme }) => theme.fontSize.xs};
     font-weight: 700;
   }
 

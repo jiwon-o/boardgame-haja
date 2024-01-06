@@ -16,12 +16,12 @@ const RightButton = styled.button`
   border-radius: 10px;
   background-color: ${({ theme }) => theme.colors.grayColor};
   color: ${({ theme }) => theme.colors.whiteColor};
-  font-size: 1.4rem;
+  font-size: ${({ theme }) => theme.fontSize.sm};
   font-weight: 700;
 `;
 
 const SubHeaderTitle = styled.h2<BackBtnProps>`
-  font-size: 2.4rem;
+  font-size: ${({ theme }) => theme.fontSize.sub};
   font-weight: 700;
 
   margin-left: ${(props) => (props.backBtn ? '55px' : 0)};
@@ -37,7 +37,7 @@ const BackBtn = styled.button`
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  font-size: 3rem;
+  font-size: ${({ theme }) => theme.fontSize.ttl};
   color: ${({ theme }) => theme.colors.whiteColor};
 
   &:hover {
