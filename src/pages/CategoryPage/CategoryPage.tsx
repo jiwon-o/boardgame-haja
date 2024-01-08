@@ -1,27 +1,12 @@
-import MainLayout from '../layouts/MainLayout';
-import useInput from '../hooks/useInput';
-import SearchPage from './SearchPage';
-import useAsync from '../hooks/useAsync';
+import MainLayout from '../../layouts/MainLayout';
+import useInput from '../../hooks/useInput';
+import SearchPage from '../SearchPage/SearchPage';
+import useAsync from '../../hooks/useAsync';
 import axios from 'axios';
-import AsideNavbar from '../components/Navbar/AsideNavbar';
-import { styled } from 'styled-components';
+import AsideNavbar from '../../components/Navbar/AsideNavbar';
 import { useState } from 'react';
-import GameList from '../containers/CardList';
-
-const CategoryWrapper = styled.div`
-  display: flex;
-  gap: 20px;
-`;
-
-const AsideNavbarBox = styled.aside`
-  min-width: 280px;
-  padding: 16px;
-`;
-
-const MainContainer = styled.main`
-  width: 100%;
-  padding: 16px;
-`;
+import GameList from '../../containers/CardList/CardList';
+import { AsideNavbarBox, CategoryWrapper, MainContainer } from './CategoryPageStyle';
 
 async function getGames() {
   const response = await axios.get('http://localhost:3001/game');

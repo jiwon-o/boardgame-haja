@@ -1,13 +1,10 @@
 import styled from 'styled-components';
-import { Game } from '../types';
-import useYouTubeVideo from '../hooks/useYoutubeVideo';
-import { useNavigate } from 'react-router-dom';
 
 interface BannerWrapperProps {
   backgroundurl?: string;
 }
 
-const BannerWrapper = styled.div<BannerWrapperProps>`
+export const BannerWrapper = styled.div<BannerWrapperProps>`
   width: 100vw;
   height: 60vh;
   position: relative;
@@ -29,7 +26,7 @@ const BannerWrapper = styled.div<BannerWrapperProps>`
   }
 `;
 
-const BannerContainer = styled.div`
+export const BannerContainer = styled.div`
   position: absolute;
   display: flex;
   justify-content: space-evenly;
@@ -47,7 +44,7 @@ const BannerContainer = styled.div`
   }
 `;
 
-const BannerContent = styled.div`
+export const BannerContent = styled.div`
   display: flex;
   flex-direction: column;
 
@@ -104,7 +101,7 @@ const BannerContent = styled.div`
   }
 `;
 
-const VideoWrapper = styled.div`
+export const VideoWrapper = styled.div`
   width: 560px;
   height: 315px;
   position: relative;
@@ -121,40 +118,3 @@ const VideoWrapper = styled.div`
     border-radius: 6px;
   }
 `;
-
-interface Props {
-  games: Game[] | null;
-}
-
-export default function Banner({ games }: Props) {
-  const topGame = games?.find((game) => game.ranking === 1);
-  const gameTitle = topGame ? topGame.name : '';
-  const navigate = useNavigate();
-  useYouTubeVideo(gameTitle);
-
-  const handleButtonClick = (game: Game) => {
-    navigate(`/boardgame/${game.id}`, { state: { game } });
-  };
-
-  return topGame ? (
-    <BannerWrapper backgroundurl={topGame.backgroundImage}>
-      <BannerContainer>
-        <BannerContent>
-          <div>
-            <h2>Today's Hot Game #1</h2>
-            <h3>{topGame.name}</h3>
-            <h4>{topGame.subTitle}</h4>
-          </div>
-          <button onClick={() => handleButtonClick(topGame)}>
-            Show More <span>&gt;</span>
-          </button>
-        </BannerContent>
-        <VideoWrapper id='video-container'></VideoWrapper>
-      </BannerContainer>
-    </BannerWrapper>
-  ) : (
-    <BannerWrapper>
-      <div>No game information available.</div>
-    </BannerWrapper>
-  );
-}

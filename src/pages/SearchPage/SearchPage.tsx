@@ -1,6 +1,6 @@
-import SubHeader from '../components/Header/SubHeader';
-import Gallery from '../containers/Gallery';
-import { Game } from '../types';
+import SubHeader from '../../components/Header/SubHeader';
+import Gallery from '../../containers/Gallery/Gallery';
+import { Game } from '../../types';
 
 interface Props {
   loading: boolean;

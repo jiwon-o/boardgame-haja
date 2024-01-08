@@ -1,34 +1,6 @@
 import React from 'react';
 import { CheckboxContext } from '../../contexts/CheckboxContext';
-import { styled } from 'styled-components';
-
-const CheckboxInput = styled.input`
-  display: none;
-
-  &[type='checkbox']:checked + label {
-    background: ${({ theme }) => theme.colors.mainColor};
-    border: 1px solid ${({ theme }) => theme.colors.mainColor};
-    color: ${({ theme }) => theme.colors.whiteColor};
-  }
-`;
-
-const CheckboxLabel = styled.label`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-width: 40px;
-  min-height: 24px;
-  padding: 8px 14px;
-  border: 1px solid ${({ theme }) => theme.colors.bdNavyColor};
-  border-radius: 10px;
-  font-size: ${({ theme }) => theme.fontSize.sm};
-  white-space: nowrap;
-  user-select: none;
-
-  &:hover {
-    cursor: pointer;
-  }
-`;
+import { CheckboxInput, CheckboxLabel } from './CheckboxStyle';
 
 interface Props {
   children: React.ReactNode;

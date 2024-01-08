@@ -1,6 +1,6 @@
 import React, { ReactNode } from 'react';
 import Header from '../components/Header/Header';
-import Footer from '../components/Footer';
+import Footer from '../components/Footer/Footer';
 import styled from 'styled-components';
 
 const MainContainer = styled.div`

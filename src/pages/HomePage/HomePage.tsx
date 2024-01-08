@@ -1,21 +1,13 @@
 import axios from 'axios';
-import useAsync from '../hooks/useAsync';
-import styled from 'styled-components';
-import Banner from '../components/Banner';
-import useInput from '../hooks/useInput';
-import SearchPage from './SearchPage';
-import MainLayout from '../layouts/MainLayout';
-import GameSlide from '../containers/CardSlide';
-import DetailGameList from '../containers/DetailCardList';
+import useAsync from '../../hooks/useAsync';
+import Banner from '../../components/Banner/Banner';
+import useInput from '../../hooks/useInput';
+import SearchPage from '../SearchPage/SearchPage';
+import MainLayout from '../../layouts/MainLayout';
+import GameSlide from '../../containers/CardSlide/CardSlide';
+import DetailGameList from '../../containers/DetailCardList/DetailCardList';
 import { useRef } from 'react';
-
-const MainContainer = styled.main`
-  h2 {
-    margin: 80px 0 40px;
-    font-size: ${({ theme }) => theme.fontSize.sub};
-    font-weight: 700;
-  }
-`;
+import { MainContainer } from './HomePageStyle';
 
 async function getGames() {
   const response = await axios.get('http://localhost:3001/game');

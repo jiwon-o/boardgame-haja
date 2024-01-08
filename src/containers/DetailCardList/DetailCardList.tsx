@@ -1,41 +1,10 @@
 import { useEffect, useState } from 'react';
-import { Game } from '../types';
-import styled from 'styled-components';
+import { Game } from '../../types';
 import Pagination from 'react-js-pagination';
-import '../styles/pagination.css';
-import DetailCard from '../components/DetailCard/DetailCard';
-import GameFilter from './GameFilter/GameFilter';
-
-const CardWrapper = styled.div`
-  display: flex;
-  align-items: flex-start;
-`;
-
-const CardContainer = styled.div`
-  flex: 3;
-  margin-right: 20px;
-`;
-
-const AsideCategoryContainer = styled.aside`
-  position: sticky;
-  top: 20px;
-  z-index: 2;
-  flex: 1;
-  min-width: 260px;
-  max-width: 300px;
-  border-radius: 12px;
-  background: linear-gradient(-45deg, #1a1646, #1a1646);
-  border: 1px solid ${({ theme }) => theme.colors.lightBlackColor};
-  box-shadow: 0 0 10px ${({ theme }) => theme.colors.lightBlackColor};
-`;
-
-const CardNotice = styled.div`
-  height: 400px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: ${({ theme }) => theme.fontSize.sm};
-`;
+import '../../styles/pagination.css';
+import DetailCard from '../../components/DetailCard/DetailCard';
+import GameFilter from '../GameFilter/GameFilter';
+import { AsideCategoryContainer, CardContainer, CardNotice, CardWrapper } from './DetailCardListStyle';
 
 interface Props {
   loading: boolean;
